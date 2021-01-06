@@ -1,0 +1,19 @@
+{
+  "general":{
+    "siteName":"Catherine la psy",
+    "siteUrl":"https://catherine-la-psy.com",
+    "siteDescription":"Catherine la psy vous fait découvrir la psychologie comme vous ne l'avez jamais vue !",
+    "siteTitle":"Catherine la psy",
+    "siteSubtitle":"La psy comme vous ne l'avez jamais vue !",
+    "socialsNetworks":{
+      "instagram":{
+        "order":0,
+        "url":""
+      },
+      "youtube":{
+        "order":1,
+        "url":""
+      }
+    }
+  }
+}
