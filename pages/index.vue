@@ -1,9 +1,20 @@
 <template>
   <div>
-    <Header />
-    <div class="bg-grey">
-      <h2>Formations</h2>
-    </div>
+    <section>
+      <Header />
+    </section>
+
+    <section>
+      <Newsletter />
+    </section>
+
+    <section>
+      <SocialNetworks :socialNetworks="socialNetworks" />
+    </section>
+
+    <section>
+      <Product :product="product" />
+    </section>
   </div>
 </template>
 
@@ -25,6 +36,12 @@ export default {
     },
     siteSubTitle() {
       return this.general.general.siteSubtitle;
+    },
+    socialNetworks() {
+      return this.general.general.socialNetworks;
+    },
+    product() {
+      return this.general.general.product;
     },
   },
 };

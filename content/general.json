@@ -5,14 +5,30 @@
     "siteDescription":"Catherine la psy vous fait découvrir la psychologie comme vous ne l'avez jamais vue !",
     "siteTitle":"Catherine la psy",
     "siteSubtitle":"La psy comme vous ne l'avez jamais vue !",
-    "socialsNetworks":{
+    "product":{
+      "titleSection":"Atelier en ligne",
+      "title":"Faire la paix avec son héritage familial",
+      "description":"Un programme en ligne à destination des patients et professionnels de la psychologie pour vous permettre d'explorer la part de vos difficultés issue de votre famille.",
+      "urlProduct":"/",
+      "urlAllProducts":"/",
+      "image":"genogramme.jpg"
+    },
+    "socialNetworks":{
       "instagram":{
+        "title":"Mon compte Instagram",
+        "description":"Tous les jours de l'actualité pour mieux comprendre le monde psy",
+        "image":"insta_small.jpg",
+        "logo":"instagram.svg",
         "order":0,
-        "url":""
+        "url":"https://www.instagram.com/catherine_la_psy/"
       },
       "youtube":{
+        "title":"Ma chaîne Youtube",
+        "image":"youtube_cate.jpg",
+        "logo":"youtube.svg",
+        "description":"Des sujets de psychologie pointus vulgarisés de façon décomplexé",
         "order":1,
-        "url":""
+        "url":"https://www.youtube.com/channel/UCuocS66l-pMtFcaP3L01z5Q"
       }
     }
   }
