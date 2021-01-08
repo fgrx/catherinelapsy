@@ -26,6 +26,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     "@nuxtjs/tailwindcss",
+    "@aceforth/nuxt-optimized-images",
     [
       "@nuxtjs/google-fonts",
       {
@@ -55,5 +56,9 @@ export default {
   content: {},
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {}
+  build: {},
+
+  purgeCSS: {
+    whitelist: ["bg-rose-600"]
+  }
 };

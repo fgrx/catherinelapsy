@@ -15,8 +15,8 @@
         </h3>
         <p class="mt-5 text-lg md:text-2xl">{{ product.description }}</p>
         <div class="flex mt-5 justify-center">
-          <Button color="rose">En savoir plus</Button>
-          <Button class="ml-5" color="rose">Tous les ateliers</Button>
+          <Button color="rose-600">En savoir plus</Button>
+          <Button class="ml-5" color="rose-600">Tous les ateliers</Button>
         </div>
       </div>
     </div>
