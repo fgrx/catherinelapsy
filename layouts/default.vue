@@ -3,6 +3,7 @@
     <NavBar />
     <Nuxt />
     <Footer />
+    <CookieControl locale="fr" />
   </div>
 </template>
 

@@ -61,6 +61,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     "@nuxt/content",
+    "nuxt-cookie-control",
     [
       "nuxt-compress",
       {
@@ -79,6 +80,10 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
+
+  googleAnalytics: {
+    id: "G-JFDNW9JFSX"
+  },
 
   purgeCSS: {
     whitelist: ["bg-rose-600"]
