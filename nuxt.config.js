@@ -40,6 +40,7 @@ export default {
     [
       "@nuxtjs/google-fonts",
       {
+        display: "swap",
         families: {
           Quicksand: true,
           Philosopher: true,
