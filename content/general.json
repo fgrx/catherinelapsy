@@ -11,20 +11,20 @@
       "description":"Un programme en ligne à destination des patients et professionnels de la psychologie pour vous permettre d'explorer la part de vos difficultés issue de votre famille.",
       "urlProduct":"/",
       "urlAllProducts":"/",
-      "image":"genogramme.jpg"
+      "image":"genogramme.webp"
     },
     "socialNetworks":{
       "instagram":{
         "title":"Mon compte Instagram",
         "description":"Tous les jours de l'actualité pour mieux comprendre le monde psy",
-        "image":"insta_small.jpg",
+        "image":"insta_small.webp",
         "logo":"instagram.svg",
         "order":0,
         "url":"https://www.instagram.com/catherine_la_psy/"
       },
       "youtube":{
         "title":"Ma chaîne Youtube",
-        "image":"youtube_cate.jpg",
+        "image":"youtube_cate.webp",
         "logo":"youtube.svg",
         "description":"Des sujets de psychologie pointus vulgarisés de façon décomplexé",
         "order":1,
