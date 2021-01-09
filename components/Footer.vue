@@ -1,16 +1,20 @@
 <template>
-  <div class="bg-gray-300 text-gray-800">
+  <div class="bg-gray-900 text-gray-200">
     <div class="container text-center text-sm">
       <div class="text-center py-10 text-sm">
         <p>
-          <nuxt-link to="/mentions-legales" class="hover:text-red-500"
-            >Mentions légales</nuxt-link
+          © 2021
+          <a
+            href="https://developpeurfullstack.fr"
+            class="hover:text-red-500 underline"
+            >Fabien Grignoux</a
           >
+          - Tous droits réservés
         </p>
 
-        <p>
-          <a href="https://developpeurfullstack.fr" class="hover:text-red-500"
-            >Site internet et photos par Fabien Grignoux</a
+        <p class="mt-3">
+          <nuxt-link to="/mentions-legales" class="hover:text-red-500 underline"
+            >Mentions légales</nuxt-link
           >
         </p>
       </div>

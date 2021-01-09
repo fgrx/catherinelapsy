@@ -9,11 +9,11 @@
     </section>
 
     <section>
-      <SocialNetworks :socialNetworks="socialNetworks" />
+      <Product :product="product" />
     </section>
 
     <section>
-      <Product :product="product" />
+      <SocialNetworks :socialNetworks="socialNetworks" />
     </section>
   </div>
 </template>

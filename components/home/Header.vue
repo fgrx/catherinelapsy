@@ -9,7 +9,7 @@
         <div>
           <img
             class=" mt-10"
-            src="~/assets/catedetour.png"
+            src="~/assets/catedetour.webp"
             alt="Portrait de Catherine la psy"
           />
         </div>
