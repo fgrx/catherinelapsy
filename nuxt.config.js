@@ -34,6 +34,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     "@nuxtjs/tailwindcss",
+    "@aceforth/nuxt-netlify",
     "@aceforth/nuxt-optimized-images",
     [
       "@nuxtjs/google-fonts",
