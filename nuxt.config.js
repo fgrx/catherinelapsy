@@ -36,6 +36,7 @@ export default {
     "@nuxtjs/tailwindcss",
     "@aceforth/nuxt-netlify",
     "@aceforth/nuxt-optimized-images",
+    "nuxt-compress",
     [
       "@nuxtjs/google-fonts",
       {
@@ -58,7 +59,18 @@ export default {
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/content
-    "@nuxt/content"
+    "@nuxt/content",
+    [
+      "nuxt-compress",
+      {
+        gzip: {
+          cache: true
+        },
+        brotli: {
+          threshold: 10240
+        }
+      }
+    ]
   ],
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
