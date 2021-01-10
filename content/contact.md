@@ -1,5 +1,5 @@
 ---
-title: Contacte
+title: Contact
 description: Contactez-moi par email en utilisant le formulaire.
 ---
 

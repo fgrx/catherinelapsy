@@ -86,7 +86,7 @@ export default {
   },
 
   purgeCSS: {
-    whitelist: ["bg-rose-600"]
+    whitelist: ["bg-rose-600", "bg-gray-400"]
   },
 
   cookies: {

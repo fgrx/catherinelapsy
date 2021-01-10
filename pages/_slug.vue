@@ -12,6 +12,18 @@ export default {
     const doc = await $content(params.slug || "index").fetch();
     return { doc };
   },
+  head() {
+    return {
+      title: this.doc.title,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: this.doc.description,
+        },
+      ],
+    };
+  },
 };
 </script>
 
