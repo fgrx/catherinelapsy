@@ -39,10 +39,10 @@
                   >
                 </li>
                 <li>
-                  <a
+                  <nuxt-link
                     class="inline-block no-underline hover:text-red-500 font-medium text-lg py-2 px-4 lg:-ml-2"
-                    href="#"
-                    >Contact</a
+                    to="/contact"
+                    >Contact</nuxt-link
                   >
                 </li>
               </ul>
@@ -118,7 +118,7 @@
           <nuxt-link to="/" @click="isOpen = false">Vidéos</nuxt-link>
         </li>
         <li class="font-medium text-lg py-2 hover:text-red-500">
-          <nuxt-link to="/" @click="isOpen = false">Contact</nuxt-link>
+          <nuxt-link to="/contact" @click="isOpen = false">Contact</nuxt-link>
         </li>
       </ul>
 
