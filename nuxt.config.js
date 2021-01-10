@@ -51,7 +51,14 @@ export default {
           Literata: true,
           "Tenor+Sans": true,
           "Julius+Sans+One": true,
-          Spartan: true
+          Spartan: true,
+          "Rock+Salt": true,
+          Damion: true,
+          "Reenie+Beanie": true,
+          Yesteryear: true,
+          Comfortaa: true,
+          "Cabin+Sketch": true,
+          "Cinzel+Decorative": true
         }
       }
     ]

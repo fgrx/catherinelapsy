@@ -1,5 +1,11 @@
 <template>
   <div class="bg-gray-200">
+    <div class="header">
+      <div class="container mx-auto py-5 px-5 md:px-20 lg:px-40">
+        <h1>{{ doc.title }}</h1>
+        <p v-if="doc.description">{{ doc.description }}</p>
+      </div>
+    </div>
     <div class="container mx-auto py-5 px-5 md:px-20 lg:px-40">
       <nuxt-content :document="doc"></nuxt-content>
     </div>

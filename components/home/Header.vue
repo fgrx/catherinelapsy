@@ -1,14 +1,16 @@
 <template>
-  <div class="overflow-hidden bg-gradient-to-r from-emerald-700 to-emerald-500  ">
+  <div class="overflow-hidden bg-gradient-to-r from-emerald-700 to-emerald-500">
     <div class="container md:mx-auto mt-16 md:mt-0 px-5">
-      <div class="md:flex  items-center">
-        <div class=" text-center">
+      <div class="md:flex items-center">
+        <div class="text-center">
           <h1 class="text-white">
-            <span class='title_site_1'>Catherine</span></br><span class='title_site_2'>la Psy</span></h1>
+            <div class="title_site_1">Catherine</div>
+            <div class="title_site_2">la psy</div>
+          </h1>
         </div>
         <div>
           <img
-            class=" mt-10"
+            class="mt-10"
             width="800"
             height="482"
             src="~/assets/catedetour.webp"
@@ -31,14 +33,15 @@ img {
 }
 
 .title_site_1 {
-  font-size: 4em;
+  font-size: 5.3em;
   line-height: 0em;
-  font-family: "Spartan", sans-serif;
+  font-family: "Thasadith", sans-serif;
 }
 .title_site_2 {
-  font-size: 7em;
-  line-height: 1em;
-  font-family: "Lexend Deca", sans-serif;
+  font-size: 7.5em;
+  line-height: 1.4em;
+  font-family: "Fredericka the Great", sans-serif;
+  transform: rotate(-8deg);
 }
 
 @media screen and (max-width: 640px) {
