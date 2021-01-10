@@ -9,6 +9,8 @@
         <div>
           <img
             class=" mt-10"
+            width="800"
+            height="482"
             src="~/assets/catedetour.webp"
             alt="Portrait de Catherine la psy"
           />
