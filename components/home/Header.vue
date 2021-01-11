@@ -5,7 +5,10 @@
         <div class="text-center">
           <h1 class="text-white">
             <div class="title_site_1">Catherine</div>
-            <div class="title_site_2">la psy</div>
+            <div class="space-x-2">
+              <div class="title_site_1 inline-block">la</div>
+              <div class="title_site_2 inline-block">psy</div>
+            </div>
           </h1>
         </div>
         <div>
@@ -38,10 +41,10 @@ img {
   font-family: "Thasadith", sans-serif;
 }
 .title_site_2 {
-  font-size: 7.5em;
+  font-size: 8.5em;
   line-height: 1.4em;
   font-family: "Fredericka the Great", sans-serif;
-  transform: rotate(-8deg);
+  transform: rotate(-9deg);
 }
 
 @media screen and (max-width: 640px) {

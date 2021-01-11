@@ -34,5 +34,8 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
+h3 {
+  font-family: "Lexend Deca", sans-serif;
+}
 </style>

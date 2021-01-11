@@ -1,63 +1,71 @@
 <template>
   <div class="mt-5">
-    <Alert v-if="isSent" type="success" title="Message envoyé"
-      >Merci pour votre message, nous nous efforcerons de vous répondre le plus
-      rapidement possible.</Alert
-    >
+    <transition name="slide">
+      <Alert v-if="isSent" type="success" title="Message envoyé"
+        >Merci pour votre message, nous nous efforcerons de vous répondre le
+        plus rapidement possible.</Alert
+      >
 
-    <Alert v-if="error" type="error" title="Erreur : Message non envoyé">{{
-      error
-    }}</Alert>
+      <Alert v-if="error" type="error" title="Erreur : Message non envoyé">{{
+        error
+      }}</Alert>
+    </transition>
 
-    <form v-if="!isSent" name="contact" method="POST" data-netlify="true">
-      <p>
-        <label class="block"
-          >Votre nom :
-          <input
-            v-model="name"
-            type="text"
-            name="name"
-            :class="`${cssFormLayout}`"
-            required
-        /></label>
-      </p>
-      <p class="mt-5">
-        <label class="block"
-          >Votre adresse email :
-          <input
-            v-model="email"
-            type="email"
-            name="email"
-            :class="`${cssFormLayout}`"
-        /></label>
-      </p>
-      <p class="mt-5">
-        <label class="block"
-          >Votre message :
-          <textarea
-            v-model="message"
-            rows="8"
-            name="message"
-            :class="`${cssFormLayout}`"
-          ></textarea>
-        </label>
-      </p>
-      <p>
-        <Btn
-          @click="sendMessage"
-          typeButton="button"
-          class="mt-5"
-          :color="color"
-          :disabled="!isFormCompleted"
-          >Envoyer</Btn
-        >
-      </p>
-    </form>
+    <transition name="slide">
+      <form v-if="!isSent" name="contact" method="POST" data-netlify="true">
+        <p>
+          <label class="block"
+            >Votre nom :
+            <input
+              v-model="name"
+              type="text"
+              name="name"
+              :class="`${cssFormLayout}`"
+              required
+          /></label>
+        </p>
+        <p class="mt-5">
+          <label class="block"
+            >Votre adresse email :
+            <input
+              v-model="email"
+              type="email"
+              name="email"
+              :class="`${cssFormLayout}`"
+          /></label>
+        </p>
+        <p class="mt-5">
+          <label class="block"
+            >Votre message :
+            <textarea
+              v-model="message"
+              rows="8"
+              name="message"
+              :class="`${cssFormLayout}`"
+            ></textarea>
+          </label>
+        </p>
+        <p>
+          <Btn
+            @click="sendMessage"
+            typeButton="button"
+            class="mt-5"
+            :color="color"
+            :disabled="!isFormCompleted"
+            >Envoyer</Btn
+          >
+        </p>
+      </form>
+    </transition>
   </div>
 </template>
 
 <script>
 export default {
+  transition: {
+    name: "slide",
+    mode: "out-in",
+  },
   data() {
     return {
       color: "rose-600",
@@ -88,13 +96,20 @@ export default {
           email: this.email,
           message: this.message,
         };
-        await fetch("/", {
-          method: "POST",
-          headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          formData,
-          body: new URLSearchParams(formData).toString(),
-        });
-        this.isSent = true;
+
+        try {
+          await fetch("/", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            formData,
+            body: new URLSearchParams(formData).toString(),
+          });
+          this.isSent = true;
+        } catch (error) {
+          console.log(error);
+          this.error =
+            "Une erreur s'est produite... N'hésitez pas à me contacter par Instagram ! Merci pour votre patience :) .";
+        }
       } else {
         this.error = "Veuillez remplir tous les champs s'il vous plait.";
       }
