@@ -13,7 +13,35 @@ h2 {
   font-family: "Spartan", sans-serif;
 }
 
-h3 {
+h1 {
   font-family: "Lexend Deca", sans-serif;
+}
+
+.slide-enter {
+  opacity: 0;
+  transform: translateX(-100px);
+}
+
+.slide-leave-to {
+  opacity: 0;
+  transform: translateX(100px);
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: all 0.5s ease-out;
+}
+
+.nuxt-content h2 {
+  margin-top: 1em;
+}
+
+.nuxt-content p {
+  margin-bottom: 1em;
+}
+
+.nuxt-content a {
+  font-weight: bold;
+  text-decoration: underline;
 }
 </style>

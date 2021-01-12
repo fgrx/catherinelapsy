@@ -1,5 +1,4 @@
 {
-  "general":{
     "siteName":"Catherine la psy",
     "siteUrl":"https://catherine-la-psy.com",
     "siteDescription":"Catherine la psy vous fait découvrir la psychologie comme vous ne l'avez jamais vue !",
@@ -9,7 +8,7 @@
       "titleSection":"Atelier en ligne",
       "title":"Faire la paix avec son héritage familial",
       "description":"Un programme en ligne à destination des patients et professionnels de la psychologie pour vous permettre d'explorer la part de vos difficultés issue de votre famille.",
-      "urlProduct":"/",
+      "url":"/ateliers/faire-la-paix-avec-son-heritage-familial",
       "urlAllProducts":"/",
       "image":"genogramme.webp"
     },
@@ -31,5 +30,4 @@
         "url":"https://www.youtube.com/channel/UCuocS66l-pMtFcaP3L01z5Q"
       }
     }
-  }
 }

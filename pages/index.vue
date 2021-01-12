@@ -9,11 +9,11 @@
     </section>
 
     <section>
-      <Product :product="product" />
+      <Product :product="general.product" />
     </section>
 
     <section>
-      <SocialNetworks :socialNetworks="socialNetworks" />
+      <SocialNetworks :socialNetworks="general.socialNetworks" />
     </section>
   </div>
 </template>
@@ -26,23 +26,6 @@ export default {
     return {
       general,
     };
-  },
-  computed: {
-    generalData() {
-      return this.general.general;
-    },
-    siteTitle() {
-      return this.general.general.siteTitle;
-    },
-    siteSubTitle() {
-      return this.general.general.siteSubtitle;
-    },
-    socialNetworks() {
-      return this.general.general.socialNetworks;
-    },
-    product() {
-      return this.general.general.product;
-    },
   },
 };
 </script>

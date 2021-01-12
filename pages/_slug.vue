@@ -1,9 +1,15 @@
 <template>
-  <div class="bg-gray-200">
-    <div class="container mx-auto py-5 px-5 md:px-20 lg:px-40">
-      <nuxt-content :document="doc"></nuxt-content>
+  <article>
+    <div class="bg-gray-100">
+      <HeaderPage :doc="doc" />
+
+      <div
+        class="container mx-auto py-5 px-5 md:w-10/12 lg:w-9/12 xl:w-7/12 content"
+      >
+        <nuxt-content :document="doc"></nuxt-content>
+      </div>
     </div>
-  </div>
+  </article>
 </template>
 
 <script>
@@ -12,8 +18,20 @@ export default {
     const doc = await $content(params.slug || "index").fetch();
     return { doc };
   },
+  head() {
+    return {
+      title: this.doc.title,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: this.doc.description,
+        },
+      ],
+    };
+  },
 };
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 </style>

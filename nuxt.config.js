@@ -51,7 +51,14 @@ export default {
           Literata: true,
           "Tenor+Sans": true,
           "Julius+Sans+One": true,
-          Spartan: true
+          Spartan: true,
+          "Rock+Salt": true,
+          Damion: true,
+          "Reenie+Beanie": true,
+          Yesteryear: true,
+          Comfortaa: true,
+          "Cabin+Sketch": true,
+          "Cinzel+Decorative": true
         }
       }
     ]
@@ -86,7 +93,7 @@ export default {
   },
 
   purgeCSS: {
-    whitelist: ["bg-rose-600"]
+    whitelist: ["bg-rose-600", "bg-gray-400"]
   },
 
   cookies: {
