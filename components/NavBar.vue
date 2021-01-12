@@ -25,16 +25,16 @@
                 class="md:flex items-center justify-between text-base text-white pt-4 md:pt-0"
               >
                 <li>
-                  <a
+                  <nuxt-link
+                    to="/ateliers"
                     class="inline-block no-underline hover:text-red-500 font-medium text-lg py-2 px-4 lg:-ml-2"
-                    href="#"
-                    >Ateliers</a
+                    >Ateliers</nuxt-link
                   >
                 </li>
                 <li>
                   <a
                     class="inline-block no-underline hover:text-red-500 font-medium text-lg py-2 px-4 lg:-ml-2"
-                    href="#"
+                    href="https://www.youtube.com/channel/UCuocS66l-pMtFcaP3L01z5Q"
                     >Vidéos</a
                   >
                 </li>
@@ -112,10 +112,12 @@
           <nuxt-link to="/" @click="isOpen = false">Accueil</nuxt-link>
         </li>
         <li class="font-medium text-lg py-2 hover:text-red-500">
-          <nuxt-link to="/" @click="isOpen = false">Ateliers</nuxt-link>
+          <nuxt-link to="/ateliers" @click="isOpen = false">Ateliers</nuxt-link>
         </li>
         <li class="font-medium text-lg py-2 hover:text-red-500">
-          <nuxt-link to="/" @click="isOpen = false">Vidéos</nuxt-link>
+          <a href="https://www.youtube.com/channel/UCuocS66l-pMtFcaP3L01z5Q"
+            >Vidéos</a
+          >
         </li>
         <li class="font-medium text-lg py-2 hover:text-red-500">
           <nuxt-link to="/contact" @click="isOpen = false">Contact</nuxt-link>
