@@ -92,18 +92,20 @@ export default {
     async sendMessage() {
       if (this.isFormCompleted) {
         const formData = {
+          "form-name": "contact",
           name: this.name,
           email: this.email,
           message: this.message,
         };
 
         try {
-          await fetch("/", {
+          const res = await fetch("/", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             formData,
             body: new URLSearchParams(formData).toString(),
           });
+          console.log("result :", res);
           this.isSent = true;
         } catch (error) {
           console.log(error);

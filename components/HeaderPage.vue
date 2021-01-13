@@ -43,8 +43,8 @@
 export default {
   props: {
     doc: {
-      type: String,
-      default: null,
+      type: Object,
+      default: {},
     },
   },
 };
