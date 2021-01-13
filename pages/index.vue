@@ -1,7 +1,7 @@
 <template>
   <div>
     <section>
-      <Header />
+      <TopHome />
     </section>
 
     <section>

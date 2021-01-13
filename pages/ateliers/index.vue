@@ -30,9 +30,11 @@
           </div>
 
           <div class="flex-1">
-            <h3 class="text-2xl mb-2">{{ atelier.title }}</h3>
+            <h3 class="text-2xl mb-2 pt-2 md:pt-0">{{ atelier.title }}</h3>
             <p class="text-md">{{ atelier.description }}</p>
-            <Btn class="mt-5">En Savoir plus</Btn>
+            <nuxt-link :to="`ateliers/${atelier.slug}`">
+              <Btn class="mt-3">En Savoir plus</Btn>
+            </nuxt-link>
           </div>
         </div>
       </div>

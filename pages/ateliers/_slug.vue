@@ -1,44 +1,29 @@
 <template>
   <article>
-    <div class="bg-gray-100">
+    <div class="bg-gray-200">
+      <HeaderPage :doc="doc" />
+
       <div
-        :class="`header
-      py-14
-      mb-5
-      bg-gradient-to-r
-      from-${doc.colorBg1}
-      to-${doc.colorBg2}`"
+        class="container mx-auto bg-gray-100 -m-14 py-12 pb-24 px-5 md:px-12 md:w-10/12 lg:w-9/12 xl:w-7/12 content"
       >
-        <div class="container mx-auto py-5 px-5 md:w-10/12 lg:w-9/12 xl:w-7/12">
-          <div class="flex items-center">
-            <div class="hidden md:block flex-initial mr-10" v-if="doc.logo">
-              <img
-                :src="require(`@/static/logos/${doc.logo}`)"
-                alt=""
-                class="logo-header"
-              />
-            </div>
-            <div class="flex-initial">
-              <h1
-                data-v-a2b46a4c=""
-                :class="`text-left text-7xl md:text-5xl lg:text-7xl mb-5 text-${doc.colorText}`"
-              >
-                {{ doc.title }}
-              </h1>
-              <p
-                :class="`text-left text-xl text-${doc.colorText}`"
-                v-if="doc.description"
-              >
-                {{ doc.description }}
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="container mx-auto py-5 px-5 md:w-10/12 lg:w-9/12 xl:w-7/12 content"
-      >
+        <img
+          class="mb-7"
+          v-if="doc.image"
+          :src="require(`@/static/images/${doc.image}`)"
+          :alt="doc.imageAlt"
+          height="700"
+        />
         <nuxt-content :document="doc"></nuxt-content>
+        <div class="text-center">
+          <a :href="doc.buyUrl">
+            <Btn class="mt-8"
+              >Acheter <span>pour {{ doc.price }}€</span>
+              <template slot="subText"
+                ><div>Vous serez redirigé sur podia.com</div></template
+              >
+            </Btn>
+          </a>
+        </div>
       </div>
     </div>
   </article>
@@ -47,7 +32,7 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const doc = await $content(params.slug || "index").fetch();
+    const doc = await $content("ateliers", params.slug || "index").fetch();
     return { doc };
   },
   head() {
