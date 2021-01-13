@@ -92,20 +92,6 @@ export default {
     id: "G-JFDNW9JFSX"
   },
 
-  purgeCSS: {
-    whitelist: [
-      // "bg-rose-600",
-      // "bg-gray-100",
-      // "bg-gray-200",
-      // "bg-gray-400",
-      // "bg-yellow-500",
-      // "bg-red-500",
-      // "bg-indigo-700",
-      // "bg-red-700"
-    ],
-    whitelistPatternsChildren: [/rose$/, /gray$/, /yellow$/, /indigo$/, /teal$/]
-  },
-
   cookies: {
     necessary: [],
     optional: [

@@ -4,10 +4,11 @@
       <div class="items-center px-5 py-2 mt-0">
         <div class="text-white font-medium text-lg hover:text-red-500">
           <nuxt-link to="/">
-            <span class="title_site_1">Catherine</span><br /><span
-              class="title_site_2"
-              >la Psy</span
-            >
+            <div class="title_site_1">Catherine</div>
+            <div class="space-x-2">
+              <div class="title_site_1 inline-block">la</div>
+              <div class="title_site_2 inline-block">psy</div>
+            </div>
           </nuxt-link>
         </div>
       </div>
@@ -98,28 +99,31 @@
       class="transform text-white top-0 left-0 w-64 bg-emerald-800 fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30"
       :class="isOpen ? 'translate-x-0' : '-translate-x-full'"
     >
-      <div class="p-5 text-white font-medium text-lg hover:text-red-500">
+      <div class="p-5 text-white font-medium text-lg hover:text-red-200">
         <nuxt-link to="/">
-          <span class="title_site_1">Catherine</span><br /><span
-            class="title_site_2"
-            >la Psy</span
-          >
+          <div class="title_site_1">Catherine</div>
+          <div class="space-x-2">
+            <div class="title_site_1 inline-block">la</div>
+            <div class="title_site_2 inline-block">psy</div>
+          </div>
         </nuxt-link>
       </div>
 
-      <ul class="ml-5">
-        <li class="font-medium text-lg py-2 hover:text-red-500">
+      <hr class="text-white mx-5" />
+
+      <ul class="ml-5 mt-3">
+        <li class="font-medium text-lg py-2hover:text-red-200">
           <nuxt-link to="/" @click="isOpen = false">Accueil</nuxt-link>
         </li>
-        <li class="font-medium text-lg py-2 hover:text-red-500">
+        <li class="font-medium text-lg py-2 hover:text-red-200">
           <nuxt-link to="/ateliers" @click="isOpen = false">Ateliers</nuxt-link>
         </li>
-        <li class="font-medium text-lg py-2 hover:text-red-500">
+        <li class="font-medium text-lg py-2 hover:text-red-200">
           <a href="https://www.youtube.com/channel/UCuocS66l-pMtFcaP3L01z5Q"
             >Vidéos</a
           >
         </li>
-        <li class="font-medium text-lg py-2 hover:text-red-500">
+        <li class="font-medium text-lg py-2 hover:text-red-200">
           <nuxt-link to="/contact" @click="isOpen = false">Contact</nuxt-link>
         </li>
       </ul>
@@ -162,13 +166,14 @@ export default {
 
 <style  scoped>
 .title_site_1 {
-  font-size: 0.7em;
-  line-height: 0em;
-  font-family: "Spartan", sans-serif;
+  font-size: 1em;
+  line-height: 1em;
+  font-family: "Thasadith", sans-serif;
 }
 .title_site_2 {
   font-size: 1.3em;
   line-height: 1em;
-  font-family: "Lexend Deca", sans-serif;
+  font-family: "Fredericka the Great", sans-serif;
+  transform: rotate(-9deg);
 }
 </style>

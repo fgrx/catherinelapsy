@@ -49,12 +49,12 @@ img {
 
 @media screen and (max-width: 640px) {
   .title_site_1 {
-    font-size: 2.2em;
+    font-size: 3.5em;
     line-height: 0em;
   }
 
   .title_site_2 {
-    font-size: 4em;
+    font-size: 6.5em;
     line-height: 1em;
   }
 }

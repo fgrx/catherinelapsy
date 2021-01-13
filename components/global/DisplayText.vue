@@ -9,7 +9,7 @@
 
     <div
       v-if="display === 'frame'"
-      :class="`my-5 py-5 px-5 text-gray-900 text-xl important font-semibold border-gray-300 border rounded-md`"
+      :class="`my-5 py-5 px-5 text-gray-800 text-xl important font-semibold border-gray-300 border rounded-md`"
     >
       <slot></slot>
     </div>
