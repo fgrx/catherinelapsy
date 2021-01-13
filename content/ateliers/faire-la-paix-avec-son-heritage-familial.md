@@ -8,8 +8,8 @@ price: 149
 promo: 
 promoText:
 colorText: white
-colorBg1: indigo-500
-colorBg2: indigo-700
+colorBg1: emerald-700
+colorBg2: teal-600
 order: 1
 ---
 
