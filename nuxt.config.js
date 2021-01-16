@@ -42,23 +42,23 @@ export default {
       {
         display: "swap",
         families: {
-          Quicksand: true,
-          Philosopher: true,
           "Fredericka+the+Great": true,
-          "Lexend+Deca": true,
-          "Just+Another+Hand": true,
           Thasadith: true,
-          Literata: true,
-          "Tenor+Sans": true,
-          "Julius+Sans+One": true,
-          Spartan: true,
-          "Rock+Salt": true,
-          Damion: true,
-          "Reenie+Beanie": true,
-          Yesteryear: true,
-          Comfortaa: true,
-          "Cabin+Sketch": true,
-          "Cinzel+Decorative": true
+          "Lexend+Deca": true,
+          Spartan: true
+          // Quicksand: true,
+          // Philosopher: true,
+          // "Just+Another+Hand": true,
+          // Literata: true,
+          // "Tenor+Sans": true,
+          // "Julius+Sans+One": true,
+          // "Rock+Salt": true,
+          // Damion: true,
+          // "Reenie+Beanie": true,
+          // Yesteryear: true,
+          // Comfortaa: true,
+          // "Cabin+Sketch": true,
+          // "Cinzel+Decorative": true
         }
       }
     ]
