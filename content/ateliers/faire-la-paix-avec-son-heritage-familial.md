@@ -6,7 +6,6 @@ imageAlt: Catherine la Psy en train de créer son génogramme.
 buyUrl: https://ctpsy.podia.com/heritage-familial
 price: 149
 promo: 
-promoText:
 colorText: white
 colorBg1: emerald-700
 colorBg2: teal-600
