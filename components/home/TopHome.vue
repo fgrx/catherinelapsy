@@ -43,7 +43,8 @@ img {
 .title_site_2 {
   font-size: 8.5em;
   line-height: 1.4em;
-  font-family: "Fredericka the Great", sans-serif;
+  /*font-family: "Fredericka the Great", sans-serif;*/
+  font-family: "Lexend Deca", sans-serif;
   transform: rotate(-9deg);
 }
 
