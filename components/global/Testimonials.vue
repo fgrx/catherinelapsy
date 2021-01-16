@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-2 gap-14 my-8">
+  <div class="grid md:grid-cols-2 gap-14 my-8">
     <slot></slot>
   </div>
 </template>
