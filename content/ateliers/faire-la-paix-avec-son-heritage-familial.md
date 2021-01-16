@@ -52,3 +52,5 @@ Une indication néanmoins : cet atelier est destiné à des personnes adultes, m
 **Alors, si vous souhaitez travailler sur votre héritage familial ou celui des personnes qui vous consultent, vous êtes au bon endroit !**
 
 **A tout de suite !**
+
+<embed-code><iframe width="560" height="315" src="https://www.youtube.com/embed/5V_kes52H-M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></embed-code>
