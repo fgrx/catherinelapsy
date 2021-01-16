@@ -6,7 +6,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate --modern=server"
+    "start:modern": "nuxt start --modern",
+    "generate": "nuxt generate --modern"
   },
   "dependencies": {
     "@nuxt/content": "^1.9.0",
