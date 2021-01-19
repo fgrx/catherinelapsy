@@ -6,8 +6,8 @@
       md:py-10
       mb-5
       bg-gradient-to-r
-      from-${doc.colorBg1 || 'teal-500'}
-      to-${doc.colorBg2 || 'teal-700'}`"
+      from-${doc.colorBg1 || 'teal-700'}
+      to-${doc.colorBg2 || 'teal-500'}`"
   >
     <div class="container mx-auto py-5 px-5 md:w-10/12 lg:w-9/12 xl:w-7/12">
       <div class="flex items-center">

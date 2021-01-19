@@ -4,7 +4,7 @@
       @click="clickAction"
       :type="typeButton"
       :disabled="disabled"
-      :class="`inline-block  px-6 py-3 text-md font-medium leading-6 text-center text-white  transition bg-${bgColor}  hover:border-white hover:border-1 rounded shadow ripple hover:shadow-lg focus:outline-none `"
+      :class="`inline-block pulse px-6 py-3 text-md font-medium leading-6 text-center text-white  transition bg-${bgColor}  hover:border-white hover:border-1 rounded shadow ripple hover:shadow-lg focus:outline-none `"
     >
       <span class="uppercase">
         <slot></slot>
@@ -48,5 +48,42 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+button {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: darken(#10b981, 15%);
+
+    transition: all 0.3s;
+    z-index: -1;
+  }
+  &:hover {
+    color: #fff;
+    &:before {
+      width: 100%;
+    }
+  }
+}
 </style>

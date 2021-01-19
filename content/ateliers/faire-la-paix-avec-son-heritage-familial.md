@@ -52,7 +52,7 @@ Une indication néanmoins : cet atelier est destiné à des personnes adultes, m
 
 **A tout de suite !**
 
-<embed-code><iframe width="560" height="315" src="https://www.youtube.com/embed/5V_kes52H-M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></embed-code>
+<embed-youtube>5V_kes52H-M</embed-youtube>
 
 <testimonials>
 <testimonial author="Sonia" image="woman1">

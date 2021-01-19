@@ -7,7 +7,7 @@
             <div class="title_site_1">Catherine</div>
             <div class="space-x-2">
               <div class="title_site_1 inline-block">la</div>
-              <div class="title_site_2 inline-block">psy</div>
+              <div class="title_site_2 inline-block">Psy</div>
             </div>
           </nuxt-link>
         </div>
@@ -33,10 +33,10 @@
                   >
                 </li>
                 <li>
-                  <a
+                  <nuxt-link
                     class="inline-block no-underline hover:text-red-500 font-medium text-lg py-2 px-4 lg:-ml-2"
-                    href="https://www.youtube.com/channel/UCuocS66l-pMtFcaP3L01z5Q"
-                    >Vidéos</a
+                    to="/videos"
+                    >Vidéos</nuxt-link
                   >
                 </li>
                 <li>
@@ -102,16 +102,14 @@
       <div class="p-5 text-white font-medium text-lg hover:text-red-200">
         <nuxt-link to="/">
           <div class="title_site_1">Catherine</div>
-          <div class="space-x-2">
+          <div class="space-x-2 mt-3">
             <div class="title_site_1 inline-block">la</div>
-            <div class="title_site_2 inline-block">psy</div>
+            <div class="title_site_2 inline-block">Psy</div>
           </div>
         </nuxt-link>
       </div>
 
-      <hr class="text-white mx-5" />
-
-      <ul class="ml-5 mt-3">
+      <ul class="ml-5 mt-12">
         <li class="font-medium text-lg py-2hover:text-red-200">
           <nuxt-link to="/" @click="isOpen = false">Accueil</nuxt-link>
         </li>
@@ -119,9 +117,7 @@
           <nuxt-link to="/ateliers" @click="isOpen = false">Ateliers</nuxt-link>
         </li>
         <li class="font-medium text-lg py-2 hover:text-red-200">
-          <a href="https://www.youtube.com/channel/UCuocS66l-pMtFcaP3L01z5Q"
-            >Vidéos</a
-          >
+          <nuxt-link to="/videos" @click="isOpen = false"> >Vidéos</nuxt-link>
         </li>
         <li class="font-medium text-lg py-2 hover:text-red-200">
           <nuxt-link to="/contact" @click="isOpen = false">Contact</nuxt-link>
@@ -174,7 +170,7 @@ export default {
   transform: rotate(-11deg);
 }
 .title_site_2 {
-  font-size: 1.5em;
+  font-size: 1.3em;
   line-height: 1.1em;
   font-family: "Playfair Display", sans-serif;
   font-style: italic;
