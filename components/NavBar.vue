@@ -166,15 +166,22 @@ export default {
 
 <style  scoped>
 .title_site_1 {
-  font-size: 1em;
-  line-height: 1em;
-  font-family: "Thasadith", sans-serif;
+  padding-top: 0.5em;
+  font-size: 0.8em;
+  line-height: 0.5em;
+  font-family: "Playfair Display", sans-serif;
+  font-style: italic;
+  transform: rotate(-11deg);
 }
 .title_site_2 {
-  font-size: 1.3em;
-  line-height: 1em;
-  /*font-family: "Fredericka the Great", sans-serif;*/
-  font-family: "Lexend Deca", sans-serif;
-  transform: rotate(-9deg);
+  font-size: 1.5em;
+  line-height: 1.1em;
+  font-family: "Playfair Display", sans-serif;
+  font-style: italic;
+  transform: rotate(-15deg);
+}
+
+li {
+  font-family: "Lexend Deca";
 }
 </style>

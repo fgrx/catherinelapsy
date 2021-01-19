@@ -60,9 +60,4 @@ export default {
 </script>
 
 <style scoped>
-.logo-header {
-  height: 120px;
-  width: auto;
-  transform: rotate(-10deg);
-}
 </style>

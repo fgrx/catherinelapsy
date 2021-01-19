@@ -5,9 +5,9 @@
         <div class="text-center">
           <h1 class="text-white">
             <div class="title_site_1">Catherine</div>
-            <div class="space-x-2">
+            <div class="space-x-1">
               <div class="title_site_1 inline-block">la</div>
-              <div class="title_site_2 inline-block">psy</div>
+              <div class="title_site_2 inline-block">Psy</div>
             </div>
           </h1>
         </div>
@@ -36,27 +36,27 @@ img {
 }
 
 .title_site_1 {
-  font-size: 5.3em;
+  font-size: 4.5em;
   line-height: 0em;
-  font-family: "Thasadith", sans-serif;
+  font-family: "Playfair Display", sans-serif;
+  font-style: italic;
+  transform: rotate(-11deg);
 }
 .title_site_2 {
-  font-size: 8.5em;
-  line-height: 1.4em;
-  /*font-family: "Fredericka the Great", sans-serif;*/
-  font-family: "Lexend Deca", sans-serif;
-  transform: rotate(-9deg);
+  font-size: 10em;
+  line-height: 1.1em;
+  font-family: "Playfair Display", sans-serif;
+  font-style: italic;
+  transform: rotate(-15deg);
 }
 
 @media screen and (max-width: 640px) {
   .title_site_1 {
-    font-size: 3.5em;
-    line-height: 0em;
+    font-size: 3em;
   }
 
   .title_site_2 {
     font-size: 6.5em;
-    line-height: 1em;
   }
 }
 </style>

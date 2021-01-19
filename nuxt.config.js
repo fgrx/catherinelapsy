@@ -42,11 +42,11 @@ export default {
       {
         display: "swap",
         families: {
-          "Fredericka+the+Great": true,
-          Thasadith: true,
           "Lexend+Deca": true,
-          Spartan: true
+          Spartan: true,
+          "Playfair+Display:ital,wght@0,700;1,700": true
           // Quicksand: true,
+          //Thasadith: true,
           // Philosopher: true,
           // "Just+Another+Hand": true,
           // Literata: true,
@@ -58,7 +58,7 @@ export default {
           // Yesteryear: true,
           // Comfortaa: true,
           // "Cabin+Sketch": true,
-          // "Cinzel+Decorative": true
+          // "Cinzel+Decorative": true,
         }
       }
     ]
