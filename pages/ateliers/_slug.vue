@@ -16,7 +16,7 @@
         <nuxt-content :document="doc"></nuxt-content>
         <div class="text-center">
           <a :href="doc.buyUrl">
-            <Btn class="mt-8">
+            <Btn class="mt-20">
               <div class="text-xl" v-if="doc.promo">Promotion ! <br /></div>
               Acheter
               <span v-if="!doc.promo && doc.price"> {{ doc.price }}€</span>

@@ -1,6 +1,5 @@
 <template>
   <div class="embed my-6 text-center">
-    <span>Voici un texte</span>
     <slot></slot>
   </div>
 </template>
