@@ -16,11 +16,11 @@
       >
         <EmbedYoutube v-if="item.video">{{ item.video }}</EmbedYoutube>
 
-        <nuxt-link :to="`/${item.dir}/${item.slug}`">
+        <nuxt-link :to="`${item.dir}/${item.slug}`">
           <img
             v-if="item.image"
             :src="require(`@/static/images/${item.image}`)"
-            :alt="`image de l'atelier ${item.title}`"
+            :alt="`image d'illustration de ${item.title}`"
             class="rounded"
           />
         </nuxt-link>
@@ -57,4 +57,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+img {
+  transition: transform 0.2s;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
 </style>
