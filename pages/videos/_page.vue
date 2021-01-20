@@ -7,6 +7,15 @@
           class="container mx-auto py-5 px-5 md:w-10/12 lg:w-10/12 xl:w-10/12 content"
         >
           <h2>Mes vidéos psy</h2>
+          <p>
+            Vous pouvez retrouver toutes mes vidéos ci-dessous. Vous pouvez
+            aussi vous abonner à ma chaîne en allant sur
+            <a
+              class="underline text-rose-700 font-semibold"
+              href="https://www.youtube.com/channel/UCuocS66l-pMtFcaP3L01z5Q"
+              >ma page Youtube</a
+            >.
+          </p>
           <ListAlternate :items="items"> </ListAlternate>
         </div>
       </article>
@@ -62,7 +71,8 @@ export default {
       doc: {
         title: "Mes vidéos",
         logo: "video.svg",
-        description: "Je publie régulièrement des vidéos sur ma chaine Youtube",
+        description:
+          "Je propose des vidéos de vulgarisation psy destinées aux non spécialistes. Je m'efforce de vous expliquer le plus simplement possible des concepts de psychologie pour mieux coprendre ce univers qui me passionne.",
         colorBg1: "red-700",
         colorBg2: "gray-700",
       },

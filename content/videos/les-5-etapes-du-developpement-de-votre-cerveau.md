@@ -3,6 +3,6 @@ title: Les 5 étapes du développement de votre cerveau
 video: oh6vaht-sVY
 order: 5
 ---
-Je vous décris ce qu'il se passe dans votre cerveau au fur et à mesure de sa construction en 5 étapes, d'avant la naissance jusqu'à la fin de l'aventure et ce que ça implique en psychothérapie.
+Notre cerveau évolue comme notre corps tout au long de notre vie. On distingue 5 étapes clefs de son développement.
 
-Attendez-vous à être étonné(e)s parce-que, le cerveau, c'est un sacré badass !
+Dans quelle étape êtes-vous ? Comment ça se traduit sur le plan physiologique ? Préparez-vous à être surpris par les étonnantes capacités votre cerveau !

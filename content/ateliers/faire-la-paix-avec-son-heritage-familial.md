@@ -7,13 +7,13 @@ buyUrl: https://ctpsy.podia.com/heritage-familial
 price: 149
 promo: 
 colorText: white
-colorBg1: emerald-700
+colorBg1: indigo-700
 colorBg2: teal-600
 order: 1
 ---
 
 <display-text display="frame">
-Vous avez repéré que vous répétez certains schémas et vous ne vous en sortez pas ?  
+Vous vous êtes rendu compte que vous répétez certains schémas et vous n'arrivez pas à les éviter ?  
 Vous avez le sentiment de porter des problèmes qui ne sont pas les votres mais qui vous gênent au quotidien ?
 </display-text>
 
@@ -53,6 +53,8 @@ Une indication néanmoins : cet atelier est destiné à des personnes adultes, m
 **A tout de suite !**
 
 <embed-youtube>5V_kes52H-M</embed-youtube>
+
+## Témoignages
 
 <testimonials>
 <testimonial author="Sonia" image="woman1">

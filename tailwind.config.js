@@ -27,6 +27,8 @@ module.exports = {
         "text-gray-800",
         "from-yellow-500",
         "to-yellow-500",
+        "from-gray-700",
+        "to-gray-700",
         "from-red-500",
         "to-red-500",
         "from-indigo-700",

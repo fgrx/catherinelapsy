@@ -3,4 +3,4 @@ title: Top des 7 idées cadeaux psys pour les fêtes
 video: y3ujt_DNBV4
 order: 6
 ---
-Envie de trouver un cadeau psy ? Voici une liste des mes meilleurs trouvailles psys à offrir !
+A l'occasion des fêtes de fin d'années je vous ais préparé un top 7 de mes coups de coeur psy à offrir : Livres, jeux de société, carnets, ateliers... Il y en a pour tous les goûts !

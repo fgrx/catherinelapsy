@@ -3,6 +3,6 @@ title: Exprimer sa colère sans agressivité !
 order: 3
 video: DQrNE7rihbo
 ---
-Qu'est ce que la colère et à quoi sert elle ? Parce-que, oui, elle est très utile !
+Les émotions ont toutes leur utilité biologique. Elle font partie d'une stratégie d'évolution et de survie de pointe !
 
-Mais y a t-il un moyen de la communiquer de façon entendable par les autres ? 
+La colère en fait partie. A quoi sert-elle et que faire pour communiquer quand elle commence à nous envahir ?

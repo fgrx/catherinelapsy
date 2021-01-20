@@ -117,7 +117,7 @@
           <nuxt-link to="/ateliers" @click="isOpen = false">Ateliers</nuxt-link>
         </li>
         <li class="font-medium text-lg py-2 hover:text-red-200">
-          <nuxt-link to="/videos" @click="isOpen = false"> >Vidéos</nuxt-link>
+          <nuxt-link to="/videos" @click="isOpen = false">Vidéos</nuxt-link>
         </li>
         <li class="font-medium text-lg py-2 hover:text-red-200">
           <nuxt-link to="/contact" @click="isOpen = false">Contact</nuxt-link>
@@ -160,7 +160,7 @@ export default {
 };
 </script>
 
-<style  scoped>
+<style scoped>
 .title_site_1 {
   padding-top: 0.5em;
   font-size: 0.8em;
@@ -179,5 +179,9 @@ export default {
 
 li {
   font-family: "Lexend Deca";
+}
+
+li .nuxt-link-active {
+  color: #f87171;
 }
 </style>

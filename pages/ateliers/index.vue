@@ -24,7 +24,7 @@ export default {
         title: "Tous les ateliers",
         logo: "computer.svg",
         description:
-          "Catherine la Psy propose des ateliers de psychologie en ligne à destination des particuliers et des professionnels.",
+          "Je vous propose des ateliers de psychologie en ligne à destination des particuliers et des professionnels.",
       },
     };
   },

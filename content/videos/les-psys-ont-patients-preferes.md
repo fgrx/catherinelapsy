@@ -3,8 +3,8 @@ title: Les psys ont-ils des patients préférés ?
 video: 7Qup7e-TJG0
 order: 2
 ---
-Est ce que savoir si les psys ont un patient préféré est THE question ?
+Avant d'être psychologue je me demandais souvent si je faisais partie des patients préférés de mes psys.
 
-Je n'en suis pas sûre ! 😉
+Maintenant, je suis de l'autre côté de la barrière et je connais la réponse ! 
 
-Je vous explique pourquoi dans cette vidéo et je réponds à la question cachée qui à mon avis, est the real one 😁
+Mais est-ce finalement une si bonne question que ça à se poser ?
