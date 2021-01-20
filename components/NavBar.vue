@@ -119,7 +119,7 @@ export default {
       links: [
         {
           text: "Ateliers en ligne",
-          to: "/ateliers-en-ligne",
+          to: "/ateliers",
         },
         {
           text: "Emails privés",
