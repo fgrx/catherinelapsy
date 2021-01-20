@@ -72,7 +72,7 @@ export default {
         title: "Mes vidéos",
         logo: "video.svg",
         description:
-          "Je propose des vidéos de vulgarisation psy destinées aux non spécialistes. Je m'efforce de vous expliquer le plus simplement possible des concepts de psychologie pour mieux coprendre ce univers qui me passionne.",
+          "Je réalise des vidéos de vulgarisation psy destinées essentiellement aux non spécialistes. Je vous explique simplement des concepts de psychologie parfois complexes afin de mieux comprendre cet univers qui me passionne.",
         colorBg1: "red-700",
         colorBg2: "gray-700",
       },

@@ -11,7 +11,7 @@
           v-if="doc.image"
           :src="require(`@/static/images/${doc.image}`)"
           :alt="doc.imageAlt"
-          height="700"
+          height="500"
         />
         <nuxt-content :document="doc"></nuxt-content>
         <div class="text-center">

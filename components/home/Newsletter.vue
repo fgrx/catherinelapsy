@@ -11,8 +11,8 @@
           <div class="">
             <h2>Emails privés</h2>
             <p>
-              Recevez tous les dimanches des emails pour comprendre la
-              psychologie et mieux se connaitre
+              Recevez tous les dimanches un email pour comprendre la psychologie
+              et mieux se connaitre
             </p>
           </div>
         </div>

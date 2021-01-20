@@ -1,8 +1,8 @@
 ---
 title: Faire la paix avec son héritage familial
-description: Vos problèmes ne viennent pas que de vous ! Tout le monde hérite des troubles psychologique de sa famille. Ensemble, nous allons trouver ce qui ne vous appartient pas et débloquer votre situation.
+description: Vos problèmes ne viennent pas que de vous ! Nous avons tous un héritage psychologique de notre famille et il est parfois encombrant. Ensemble, nous découvrirons ce qui ne vous appartient pas pour débloquer votre situation.
 image: heritage.webp
-imageAlt: Catherine la Psy en train de créer son génogramme.
+imageAlt: Catherine la Psy présente l'atelier.
 buyUrl: https://ctpsy.podia.com/heritage-familial
 price: 149
 promo: 
@@ -13,29 +13,28 @@ order: 1
 ---
 
 <display-text display="frame">
-Vous vous êtes rendu compte que vous répétez certains schémas et vous n'arrivez pas à les éviter ?  
-Vous avez le sentiment de porter des problèmes qui ne sont pas les votres mais qui vous gênent au quotidien ?
+Vous avez l'impression que vous répétez des schémas et vous n'arrivez pas à les éviter ?   
+Vous avez le sentiment de porter des problèmes qui ne sont pas les vôtres et qui vous gênent au quotidien ?
 </display-text>
 
 <display-text>C'est fréquent et c'est normal !</display-text>
 
-C'est peut-être simplement que dans votre démarche, **vous avez oublié d'explorer l'histoire de vos parents**, grands-parents et ancêtres !
+C'est peut-être simplement que dans votre démarche, **vous n'avez pas encore exploré l'histoire de vos parents**, grands-parents et ancêtres !
 
-Figurez-vous que les épreuves qu'ils ont vécues vous affectent plus que vous ne l'imaginez, et cela, de manière souvent indirecte et invisible. L'**INSERM** décrit que leur vécu affecte directement l'épigénétique et que cela se transmet de génération en génération. 
+Figurez-vous que les épreuves qu'ils ont vécues vous affectent plus que vous ne l'imaginez, et cela, de manière souvent indirecte et invisible. L'**INSERM** décrit que leur vécu affecte directement sur nos gènes et que cela se transmet de génération en génération. 
 
 <display-text>
-Les traumatismes de votre famille se retrouvent donc... Dans votre ADN !
+Des traumatismes de votre famille se retrouvent donc... Dans votre ADN !
 </display-text>
 
-Mais alors, comment correctement repérer ce qui ne vous appartient pas et vous affecte pourtant au quotidien ?
-Et que faire de ce qu'on a découvert ?
+Mais alors, comment correctement repérer ce qui ne vous appartient pas et s'en défaire ?
 
-Avec mes patients j'utilise un outil extrêmement intéressant en psychogénéalogie (ou psychologie transgérénationnelle) : **le génogramme**. Grâce à lui, je les aide à décrypter leur arbre généalogique et à comprendre l'impact qu'il a sur leur vie actuelle.
+Avec mes patients j'utilise un outil puissant en psychogénéalogie : **le génogramme**. Grâce à lui, je les aide à décrypter leur arbre généalogique et à comprendre l'impact qu'il a sur leur vie actuelle.
 
-C'est aussi ce que je vous propose dans cet atelier en ligne : Partir dans le voyage de l'histoire de votre famille, analyser les relations, les tempéramments, les faits marquants et les traumatismes. **A partir de cette analyse je vous donnerai les clefs pour faire la paix avec votre héritage familial**.
+C'est aussi ce que je vous propose dans cet atelier en ligne : partir pour le voyage de l'histoire de votre héritage familial, analyser les relations, les tempéraments, les faits marquants et les traumatismes. **A partir de cette analyse je vous donnerai les clefs pour faire la paix avec votre héritage familial**.
 
-J'ai voulu cet atelier **très concret**. En 7 étapes vous serez en mesure de dessiner vous même votre génogramme, puis de l'analyser et de savoir quoi faire de ces résultats. Et tout cela en complète autonomie !
-Vous experimenterez aussi un exercice de visualisation permettant de débloquer des informations émotionnelles
+J'ai voulu cet atelier **très concret**. En 5 étapes, vous serez en mesure de dessiner vous même votre génogramme, puis de l'analyser et de savoir quoi faire de ces résultats. Et tout cela en complète autonomie !
+Vous expérimenterez aussi un exercice de visualisation permettant de débloquer des informations émotionnelles
 
 **De nombreux professionnels de la psychologie m'ont déjà fait confiance et ont participé à cet atelier pour améliorer leur pratique.**  
 De nombreux patients l'ont également expérimenté et en ont tiré de grands bénéfices dans leur vie quotidienne.

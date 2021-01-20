@@ -22,6 +22,7 @@
             :src="require(`@/static/images/${item.image}`)"
             :alt="`image d'illustration de ${item.title}`"
             class="rounded"
+            height="300"
           />
         </nuxt-link>
       </div>
