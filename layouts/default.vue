@@ -9,10 +9,10 @@
 
 <script>
 export default {
-  transition: {
-    name: "page",
-    mode: "out-in",
-  },
+  // transition: {
+  //   name: "page",
+  //   mode: "out-in",
+  // },
 };
 </script>
 
@@ -54,14 +54,11 @@ h1 {
   text-decoration: underline;
 }
 
-.page-enter-active,
+/* .page-enter-active,
 .page-leave-active {
   transition: all 0.3s;
 }
-/* .page-enter,
-.page-leave-to {
-  opacity: 0;
-} */
+
 
 .page-enter {
   transform: translateX(-100px);
@@ -71,5 +68,5 @@ h1 {
 .page-leave-to {
   transform: translateX(100px);
   opacity: 0;
-}
+} */
 </style>
