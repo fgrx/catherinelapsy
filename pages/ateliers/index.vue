@@ -6,37 +6,7 @@
         class="container mx-auto py-5 px-5 md:w-10/12 lg:w-9/12 xl:w-7/12 content"
       >
         <h2>Tous les ateliers de psychologie</h2>
-        <div
-          v-for="(atelier, index) in ateliers"
-          :key="atelier.order"
-          :class="[
-            Number.isInteger(index / 2)
-              ? 'flex-row-reverse mt-10 md:flex mb-20'
-              : 'mt-10 md:flex mb-20',
-          ]"
-        >
-          <div
-            :class="[
-              Number.isInteger(index / 2) ? 'md:ml-5 flex-1' : 'md:pr-5 flex-1',
-            ]"
-          >
-            <nuxt-link :to="`/ateliers/${atelier.slug}`">
-              <img
-                :src="require(`@/static/images/${atelier.image}`)"
-                :alt="`image de l'atelier ${atelier.title}`"
-                class="rounded"
-              />
-            </nuxt-link>
-          </div>
-
-          <div class="flex-1">
-            <h3 class="text-2xl mb-2 pt-2 md:pt-0">{{ atelier.title }}</h3>
-            <p class="text-md">{{ atelier.description }}</p>
-            <nuxt-link :to="`ateliers/${atelier.slug}`">
-              <Btn class="mt-3">En Savoir plus</Btn>
-            </nuxt-link>
-          </div>
-        </div>
+        <ListAlternate :items="ateliers"> </ListAlternate>
       </div>
     </div>
   </article>

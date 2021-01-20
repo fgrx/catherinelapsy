@@ -6,32 +6,7 @@
         class="container mx-auto py-5 px-5 md:w-10/12 lg:w-10/12 xl:w-10/12 content"
       >
         <h2>Mes vidéos psy</h2>
-        <div
-          v-for="(video, index) in videos"
-          :key="video.order"
-          :class="[
-            Number.isInteger(index / 2)
-              ? 'flex-row-reverse mt-10 md:flex mb-20'
-              : 'mt-10 md:flex mb-20',
-          ]"
-        >
-          <div
-            :class="[
-              Number.isInteger(index / 2) ? 'md:ml-5 flex-1' : 'md:pr-5 flex-1',
-            ]"
-          >
-            <EmbedYoutube>{{ video.video }}</EmbedYoutube>
-          </div>
-
-          <div class="flex-1">
-            <h3 class="text-2xl mb-2 pt-2 md:pt-0 md:mt-5">
-              {{ video.title }}
-            </h3>
-            <p class="text-md">
-              <nuxt-content :document="video"></nuxt-content>
-            </p>
-          </div>
-        </div>
+        <ListAlternate :items="videos"> </ListAlternate>
       </div>
     </div>
   </article>
