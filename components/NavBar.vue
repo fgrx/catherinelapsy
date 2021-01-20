@@ -25,25 +25,11 @@
               <ul
                 class="md:flex items-center justify-between text-base text-white pt-4 md:pt-0"
               >
-                <li>
+                <li v-for="(link, index) in links" :key="index">
                   <nuxt-link
-                    to="/ateliers"
+                    :to="link.to"
                     class="inline-block no-underline hover:text-red-500 font-medium text-lg py-2 px-4 lg:-ml-2"
-                    >Ateliers</nuxt-link
-                  >
-                </li>
-                <li>
-                  <nuxt-link
-                    class="inline-block no-underline hover:text-red-500 font-medium text-lg py-2 px-4 lg:-ml-2"
-                    to="/videos"
-                    >Vidéos</nuxt-link
-                  >
-                </li>
-                <li>
-                  <nuxt-link
-                    class="inline-block no-underline hover:text-red-500 font-medium text-lg py-2 px-4 lg:-ml-2"
-                    to="/contact"
-                    >Contact</nuxt-link
+                    >{{ link.text }}</nuxt-link
                   >
                 </li>
               </ul>
@@ -110,17 +96,13 @@
       </div>
 
       <ul class="ml-5 mt-12">
-        <li class="font-medium text-lg py-2hover:text-red-200">
-          <nuxt-link to="/" @click="isOpen = false">Accueil</nuxt-link>
-        </li>
-        <li class="font-medium text-lg py-2 hover:text-red-200">
-          <nuxt-link to="/ateliers" @click="isOpen = false">Ateliers</nuxt-link>
-        </li>
-        <li class="font-medium text-lg py-2 hover:text-red-200">
-          <nuxt-link to="/videos" @click="isOpen = false">Vidéos</nuxt-link>
-        </li>
-        <li class="font-medium text-lg py-2 hover:text-red-200">
-          <nuxt-link to="/contact" @click="isOpen = false">Contact</nuxt-link>
+        <li
+          v-for="(link, index) in links"
+          :key="index"
+          class="font-medium text-lg py-2 hover:text-red-200"
+          @click="isOpen = false"
+        >
+          <nuxt-link :to="link.to">{{ link.text }}</nuxt-link>
         </li>
       </ul>
 
@@ -134,6 +116,20 @@ export default {
   data() {
     return {
       isOpen: false,
+      links: [
+        {
+          text: "Ateliers",
+          to: "/ateliers",
+        },
+        {
+          text: "Vidéos",
+          to: "/videos",
+        },
+        {
+          text: "Contact",
+          to: "/contact",
+        },
+      ],
     };
   },
   methods: {

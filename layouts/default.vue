@@ -7,6 +7,15 @@
   </div>
 </template>
 
+<script>
+export default {
+  transition: {
+    name: "page",
+    mode: "out-in",
+  },
+};
+</script>
+
 <style>
 h2 {
   font-size: 2em;
@@ -43,5 +52,24 @@ h1 {
 .nuxt-content a {
   font-weight: bold;
   text-decoration: underline;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.3s;
+}
+/* .page-enter,
+.page-leave-to {
+  opacity: 0;
+} */
+
+.page-enter {
+  transform: translateX(-100px);
+  opacity: 0;
+}
+
+.page-leave-to {
+  transform: translateX(100px);
+  opacity: 0;
 }
 </style>
