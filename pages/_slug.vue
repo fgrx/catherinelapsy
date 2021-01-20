@@ -1,6 +1,6 @@
 <template>
   <article>
-    <div class="bg-gray-100">
+    <div class="bg-gray-100 pb-14">
       <HeaderPage :doc="doc" />
 
       <div

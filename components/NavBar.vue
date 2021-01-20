@@ -118,8 +118,12 @@ export default {
       isOpen: false,
       links: [
         {
-          text: "Ateliers",
-          to: "/ateliers",
+          text: "Ateliers en ligne",
+          to: "/ateliers-en-ligne",
+        },
+        {
+          text: "Emails privés",
+          to: "/emails-prives",
         },
         {
           text: "Vidéos",
