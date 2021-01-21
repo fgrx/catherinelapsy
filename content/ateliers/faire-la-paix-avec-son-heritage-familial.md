@@ -1,17 +1,19 @@
 ---
 title: Faire la paix avec son héritage familial
-description: Vos problèmes ne viennent pas que de vous ! Nous avons tous un héritage psychologique de notre famille et il est parfois encombrant. Ensemble, nous découvrirons ce qui ne vous appartient pas pour débloquer votre situation.
-image: heritage.webp
+description: Vos problèmes ne viennent pas que de vous ! Nous avons tous un
+  héritage psychologique de notre famille et il est parfois encombrant.
+  Ensemble, nous découvrirons ce qui ne vous appartient pas pour débloquer votre
+  situation.
+image: /images/test.jpg
 imageAlt: Catherine la Psy présente l'atelier.
 buyUrl: https://ctpsy.podia.com/heritage-familial
 price: 149
-promo: 
+promo: 0
 colorText: white
 colorBg1: indigo-700
 colorBg2: teal-600
 order: 1
 ---
-
 <display-text display="frame">
 Vous avez l'impression que vous répétez des schémas et vous n'arrivez pas à les éviter ?   
 Vous avez le sentiment de porter des problèmes qui ne sont pas les vôtres et qui vous gênent au quotidien ?
@@ -34,9 +36,9 @@ Avec mes patients j'utilise un outil puissant en psychogénéalogie : **le géno
 C'est aussi ce que je vous propose dans cet atelier en ligne : partir pour le voyage de l'histoire de votre héritage familial, analyser les relations, les tempéraments, les faits marquants et les traumatismes. **A partir de cette analyse je vous donnerai les clefs pour faire la paix avec votre héritage familial**.
 
 J'ai voulu cet atelier **très concret**. En 5 étapes, vous serez en mesure de dessiner vous même votre génogramme, puis de l'analyser et de savoir quoi faire de ces résultats. Et tout cela en complète autonomie !
-Vous expérimenterez aussi un exercice de visualisation permettant de débloquer des informations émotionnelles
+Vous expérimenterez aussi un exercice de visualisation permettant de débloquer des informations émotionnelles.
 
-**De nombreux professionnels de la psychologie m'ont déjà fait confiance et ont participé à cet atelier pour améliorer leur pratique.**  
+**De nombreux professionnels de la psychologie m'ont déjà fait confiance et ont participé à cet atelier pour améliorer leur pratique.**\
 De nombreux patients l'ont également expérimenté et en ont tiré de grands bénéfices dans leur vie quotidienne.
 
 <display-text>L'atelier contient 8 vidéos que vous pourrez consulter à votre rythme, quand vous voulez, d'où vous voulez.</display-text>
@@ -75,3 +77,4 @@ La visualisation c’est top, je ne savais pas trop à quoi m’attendre voir un
 
 
 
+<display-text>Cet atelier correspond à 6 séances en présentiel à mon cabinet</display-text>
