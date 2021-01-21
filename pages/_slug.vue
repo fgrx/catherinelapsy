@@ -1,6 +1,6 @@
 <template>
   <article>
-    <div class="bg-gray-100 pb-14">
+    <div class="bg-gray-100 pb-14 content-page">
       <HeaderPage :doc="doc" />
 
       <div
@@ -34,4 +34,7 @@ export default {
 </script>
 
 <style scoped>
+.content-page {
+  min-height: 90vh;
+}
 </style>
