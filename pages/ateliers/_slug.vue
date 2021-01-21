@@ -9,7 +9,8 @@
         <nuxt-image
           :src="`/images/${doc.image}`"
           format="webp"
-          sizes="300,300:600,600:900"
+          fit="inside"
+          sizes="300,300:600,600:900,900:1500"
           class="mb-7"
           v-if="doc.image"
           :alt="doc.imageAlt"
