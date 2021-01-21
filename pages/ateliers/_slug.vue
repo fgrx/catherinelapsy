@@ -7,7 +7,7 @@
         class="container mx-auto bg-gray-100 -m-14 py-12 pb-24 px-5 md:px-12 md:w-10/12 lg:w-9/12 xl:w-7/12 content"
       >
         <nuxt-image
-          :src="`/images/${doc.image}`"
+          :src="doc.image"
           format="webp"
           fit="inside"
           sizes="300,300:600,600:900,900:1500"

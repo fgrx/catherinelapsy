@@ -18,7 +18,7 @@
 
         <nuxt-link :to="`${item.dir}/${item.slug}`">
           <nuxt-image
-            :src="`/images/${item.image}`"
+            :src="item.image"
             sizes="500"
             format="webp"
             height="300"
