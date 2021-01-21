@@ -6,16 +6,63 @@ media_folder: static/images
 public_folder: /images
 
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content/blog'
+  - name: 'video'
+    label: 'Vidéos'
+    folder: 'content/videos'
     format: 'frontmatter'
     create: true
     slug: '{{slug}}'
     editor:
       preview: false
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Titre', name: 'title', widget: 'string' }
+      - { label: 'Ordre (le plus élevé en premier)', name: 'order', widget: 'number' }
+      - { label: "Vidéo (seulement l'id)", name: 'video', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'atelier'
+    label: "Ateliers"
+    folder: "content/ateliers"
+    format: "frontmatter"
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Titre', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image'}
+      - { label: "Texte alternatif de l'image", name: 'imageAlt', widget: 'string'}
+      - { label: "URL d'achat (podia)", name: 'buyUrl', widget: 'string' }
+      - { label: "Prix", name: 'price', widget: 'number' }
+      - { label: "Promotion", name: 'promo', widget: 'number' }
+      - { label: "Couleur du texte de l'entête", name: 'colorText', widget: 'string',default: "white" }
+      - { label: "Couleur fond 1", name: 'colorBg1', widget: 'string' }
+      - { label: "Couleur fond 2", name: 'colorBg2', widget: 'string' }
+      - { label: 'Ordre (le plus élevé en premier)', name: 'order', widget: 'number' }
+      - { label: 'Contenu', name: 'body', widget: 'markdown' }
+
+  - name: 'page'
+    label: "Pages"
+    folder: "content/"
+    format: "frontmatter"
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Titre', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Logo', name: 'logo', widget: 'image', media_folder: "static/logos"}
+      - { label: "Couleur du texte de l'entête", name: 'colorText', widget: 'string',default: "white" }
+      - { label: "Couleur fond 1", name: 'colorBg1', widget: 'string' }
+      - { label: "Couleur fond 2", name: 'colorBg2', widget: 'string' }
+      - { label: 'Contenu', name: 'body', widget: 'markdown' }
+
+  - name: "config"
+    label: "Configuration"
+    folder: "content/general.json"
+    format: "json"
+    create: false
+    fields:
+      - { label : "Nom du site", name: "SiteName",widget: "string" }

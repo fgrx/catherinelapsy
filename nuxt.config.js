@@ -15,8 +15,9 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "Catherine la psy vous fait découvrir la psychologie comme vous ne l'avez jamais vue."
-      }
+          "Catherine la psy vous fait découvrir le monde de la psychologie."
+      },
+      { name: "theme-color", content: "#07835f" }
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
@@ -34,8 +35,6 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     "@nuxtjs/tailwindcss",
-    "@aceforth/nuxt-netlify",
-    "@aceforth/nuxt-optimized-images",
     "nuxt-compress",
     [
       "@nuxtjs/google-fonts",
@@ -45,20 +44,6 @@ export default {
           "Lexend+Deca": true,
           Spartan: true,
           "Playfair+Display:ital,wght@0,700;1,700": true
-          // Quicksand: true,
-          //Thasadith: true,
-          // Philosopher: true,
-          // "Just+Another+Hand": true,
-          // Literata: true,
-          // "Tenor+Sans": true,
-          // "Julius+Sans+One": true,
-          // "Rock+Salt": true,
-          // Damion: true,
-          // "Reenie+Beanie": true,
-          // Yesteryear: true,
-          // Comfortaa: true,
-          // "Cabin+Sketch": true,
-          // "Cinzel+Decorative": true,
         }
       }
     ]
@@ -66,8 +51,8 @@ export default {
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
-    // https://go.nuxtjs.dev/content
     "@nuxt/content",
+    "@nuxt/image",
     "nuxt-cookie-control",
     [
       "nuxt-compress",
@@ -90,6 +75,31 @@ export default {
 
   googleAnalytics: {
     id: "G-JFDNW9JFSX"
+  },
+
+  image: {
+    ipx: {
+      /**
+       * Input directory for images
+       **/
+      dir: "~/static",
+      /**
+       * Cache directory for optimized images
+       **/
+      cacheDir: "~~/node_modules/.cache/nuxt-image",
+      /**
+       * Enable/Disable cache cleaning cron job
+       **/
+      clearCache: false,
+      format: "webp",
+      /**
+       * Modify default behavior of image optimizer
+       **/
+      sharp: {
+        // Here is complete list of available options: https://github.com/lovell/sharp/blob/master/lib/constructor.js#L132
+      }
+    },
+    sizes: [320, 420, 768, 1024, 1200]
   },
 
   cookies: {
