@@ -34,7 +34,8 @@
             class="flex h-12 font-medium rounded-full bg-gray-200 justify-center items-center"
           >
             <nuxt-link
-              v-for="pageNumber in pagination.nbPages"
+              v-for="(pageNumber, index) in pagination.nbPages"
+              :key="`page${index}`"
               :to="{
                 name: `${pagination.url}-page`,
                 params: { page: pageNumber },

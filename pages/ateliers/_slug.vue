@@ -6,13 +6,15 @@
       <div
         class="container mx-auto bg-gray-100 -m-14 py-12 pb-24 px-5 md:px-12 md:w-10/12 lg:w-9/12 xl:w-7/12 content"
       >
-        <img
+        <nuxt-image
+          :src="`/images/${doc.image}`"
+          format="webp"
+          sizes="300,300:600,600:900"
           class="mb-7"
           v-if="doc.image"
-          :src="require(`@/static/images/${doc.image}`)"
           :alt="doc.imageAlt"
-          height="500"
-        />
+        ></nuxt-image>
+
         <nuxt-content :document="doc"></nuxt-content>
         <div class="text-center">
           <a :href="doc.buyUrl">
