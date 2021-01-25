@@ -104,12 +104,10 @@ export default {
   },
 
   sitemap: {
-    hostname: 'https://catherinelapsy.com',
+    hostname: "https://catherinelapsy.com",
     gzip: true,
-    exclude: [
-      '/admin/**'
-    ],
-  }
+    exclude: ["/admin/**"]
+  },
 
   cookies: {
     necessary: [],
