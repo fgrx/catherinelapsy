@@ -24,6 +24,7 @@
             :src="require('@/static/home/catedetour.webp')"
             class="mt-10"
             alt="Portrait de Catherine La Psy"
+            height="482"
           />
         </div>
       </div>
@@ -58,11 +59,11 @@ img {
 
 @media screen and (max-width: 640px) {
   .title_site_1 {
-    font-size: 3em;
+    font-size: 4em;
   }
 
   .title_site_2 {
-    font-size: 6.5em;
+    font-size: 8.5em;
   }
 }
 </style>
