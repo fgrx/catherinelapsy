@@ -103,6 +103,14 @@ export default {
     sizes: [320, 420, 768, 1024, 1200]
   },
 
+  sitemap: {
+    hostname: 'https://catherinelapsy.com',
+    gzip: true,
+    exclude: [
+      '/admin/**'
+    ],
+  }
+
   cookies: {
     necessary: [],
     optional: [
