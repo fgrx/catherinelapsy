@@ -12,10 +12,13 @@
     <div class="container mx-auto py-5 px-5 md:w-10/12 lg:w-9/12 xl:w-7/12">
       <div class="flex items-center">
         <div class="hidden md:block flex-initial mr-10" v-if="doc.logo">
-          <img
+          <nuxt-image
             :src="require(`@/static/logos/${doc.logo}`)"
             alt=""
             class="logo-header"
+            format="webp"
+            fit="inside"
+            sizes="300,300:600,600:800"
           />
         </div>
         <div class="flex-initial">
