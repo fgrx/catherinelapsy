@@ -13,11 +13,13 @@
         </div>
         <div class="flex-1">
           <nuxt-picture
-            src="home/catedetour.webp"
+            src="home/catedetour.png"
             sizes="300,300:500,600:800"
             format="webp"
             class="mt-10"
             alt="Portrait de Catherine La Psy"
+            width="800"
+            heigh="482"
           ></nuxt-picture>
         </div>
       </div>
