@@ -106,7 +106,14 @@ export default {
   sitemap: {
     hostname: "https://catherinelapsy.com",
     gzip: true,
-    exclude: ["/admin/**"]
+    exclude: ["/admin/**"],
+    routes: [
+      "/videos",
+      "/emails-prives",
+      "/contact",
+      "/mentions-legales",
+      "/ateliers/faire-la-paix-avec-son-heritage-familial"
+    ]
   },
 
   cookies: {
