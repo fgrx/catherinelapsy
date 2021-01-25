@@ -2,7 +2,7 @@
   <div
     class="bg-cover bg-center"
     :style="
-      'background-image: url(' + require(`@/assets/${product.image}`) + ')'
+      'background-image: url(' + require(`@/static/${product.image}`) + ')'
     "
   >
     <div class="bg-opacity-50 bg-black">
