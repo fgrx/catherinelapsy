@@ -54,6 +54,7 @@ export default {
     "@nuxt/content",
     "@nuxt/image",
     "nuxt-cookie-control",
+    "@nuxtjs/sitemap",
     [
       "nuxt-compress",
       {
