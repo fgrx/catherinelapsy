@@ -10,7 +10,7 @@
           :src="doc.image"
           format="webp"
           fit="inside"
-          sizes="300,300:600,600:900,900:1500"
+          sizes="300,300:600,600:900,900:1200"
           class="mb-7"
           v-if="doc.image"
           :alt="doc.imageAlt"

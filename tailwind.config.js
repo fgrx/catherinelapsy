@@ -44,6 +44,8 @@ module.exports = {
         "to-teal-500",
         "to-teal-600",
         "text-rose-600",
+        "from-emerald-500",
+        "to-emerald-500",
         "py-24"
       ]
     }
