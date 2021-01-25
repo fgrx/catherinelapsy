@@ -25,6 +25,7 @@
             class="mt-10"
             alt="Portrait de Catherine La Psy"
             height="482"
+            width="800"
           />
         </div>
       </div>
