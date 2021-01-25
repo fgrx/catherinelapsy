@@ -12,12 +12,12 @@
           </h1>
         </div>
         <div>
-          <img
+          <nuxt-img
             class="mt-10"
-            width="800"
-            height="482"
             src="~/assets/catedetour.webp"
             alt="Portrait de Catherine la psy"
+            format="webp"
+            sizes="300 (webp),400:400 (webp),800:800 (webp)"
           />
         </div>
       </div>
