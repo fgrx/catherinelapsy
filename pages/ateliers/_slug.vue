@@ -6,7 +6,7 @@
       <div
         class="container mx-auto bg-gray-100 -m-14 py-12 pb-24 px-5 md:px-12 md:w-10/12 lg:w-9/12 xl:w-7/12 content"
       >
-        <nuxt-image
+        <nuxt-img
           :src="doc.image"
           format="webp"
           fit="inside"
@@ -14,7 +14,7 @@
           class="mb-7"
           v-if="doc.image"
           :alt="doc.imageAlt"
-        ></nuxt-image>
+        ></nuxt-img>
 
         <nuxt-content :document="doc"></nuxt-content>
         <div class="text-center">

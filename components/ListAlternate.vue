@@ -17,7 +17,7 @@
         <EmbedYoutube v-if="item.video">{{ item.video }}</EmbedYoutube>
 
         <nuxt-link :to="`${item.dir}/${item.slug}`">
-          <nuxt-image
+          <nuxt-img
             :src="item.image"
             sizes="500"
             format="webp"
@@ -25,7 +25,7 @@
             class="mb-7"
             v-if="item.image"
             :alt="item.imageAlt"
-          ></nuxt-image>
+          ></nuxt-img>
         </nuxt-link>
       </div>
 
