@@ -35,6 +35,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     "@nuxtjs/tailwindcss",
+    "@nuxtjs/pwa",
     "nuxt-compress",
     [
       "@nuxtjs/google-fonts",
