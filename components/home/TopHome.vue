@@ -12,7 +12,7 @@
           </h1>
         </div>
         <div class="flex-1">
-          <nuxt-img
+          <!-- <nuxt-img
             src="home/catedetour.webp"
             sizes="250,300:500,600:800"
             format="webp"
@@ -21,14 +21,15 @@
             alt="Portrait de Catherine La Psy"
             height="482"
             width="800"
-          ></nuxt-img>
-          <!-- <img
+          ></nuxt-img> -->
+          <img
+            :srcset="require('@/static/home/catedetour.webp') + ' 480w'"
             :src="require('@/static/home/catedetour.webp')"
             class="mt-10"
             alt="Portrait de Catherine La Psy"
             height="482"
             width="800"
-          /> -->
+          />
         </div>
       </div>
     </div>
