@@ -25,11 +25,11 @@
           <img
             :srcset="
               require('@/static/home/catedetour-small.webp') +
-              ' 480w, ' +
+              ' 600w, ' +
               require('@/static/home/catedetour.webp') +
               ' 800w'
             "
-            sizes="(max-width: 480px) 440px, 800px"
+            sizes="(max-width: 600px) 560px, 800px"
             :src="require('@/static/home/catedetour.webp')"
             class="mt-10"
             alt="Portrait de Catherine La Psy"
