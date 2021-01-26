@@ -15,9 +15,11 @@
                 <img
                   :src="require(`@/assets/${sn.logo}`)"
                   :alt="'Retrouvez moi sur' + sn.title"
-                  class="w-20 l-20 flex mr-3"
+                  class="w-20 l-20 flex-initial mr-3"
+                  widh="40"
+                  height="40"
                 />
-                <div>
+                <div class="flex-1">
                   <h3 class="text-2xl">{{ sn.title }}</h3>
                   <p class="font-medium">{{ sn.description }}</p>
                 </div>
