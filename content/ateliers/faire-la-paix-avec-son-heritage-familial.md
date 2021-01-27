@@ -61,7 +61,7 @@ Vous êtes nombreux à avoir participé sur le groupe Facebook. De vos questions
 
 Au programme : 
 
-* Une vidéo d'aide supplémentaire à l'interprétation du génogramme
+* Une vidéo d'aide supplémentaire à l'interprétation de votre dessin
 * Une vidéo de réponses à vos questions
 * Un PDF pour faciliter la recherche de vos ressources et devises familiales
 
