@@ -16,7 +16,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 h2 {
   font-size: 2em;
   font-family: "Spartan", sans-serif;
@@ -52,6 +52,13 @@ h1 {
 .nuxt-content a {
   font-weight: bold;
   text-decoration: underline;
+}
+
+article {
+  li {
+    list-style-type: disc;
+    margin-left: 2em;
+  }
 }
 
 /* .page-enter-active,
