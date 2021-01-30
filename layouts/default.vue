@@ -19,7 +19,7 @@ export default {
 <style lang="scss">
 h2 {
   font-size: 2em;
-  font-family: "Spartan", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 h1 {

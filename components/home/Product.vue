@@ -1,11 +1,6 @@
 <template>
-  <div
-    class="bg-cover bg-center"
-    :style="
-      'background-image: url(' + require(`@/static/${product.image}`) + ')'
-    "
-  >
-    <div class="bg-opacity-50 bg-black">
+  <div class="bg-opacity-50 bg-black">
+    <TextOverImage :image="product.image">
       <div
         class="md:h-2/3 md:w-2/3 px-5 md:px-0 container mx-auto py-24 items-center text-white"
       >
@@ -23,7 +18,7 @@
           </nuxt-link>
         </div>
       </div>
-    </div>
+    </TextOverImage>
   </div>
 </template>
 
@@ -38,7 +33,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 h3 {
   font-family: "Lexend Deca", sans-serif;
 }

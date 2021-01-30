@@ -1,0 +1,49 @@
+<template>
+  <div class="container-block">
+    <div class="container-block-text">
+      <slot></slot>
+    </div>
+
+    <nuxt-picture
+      :src="image"
+      format="webp"
+      quality="70"
+      class="w-full container-block-image"
+      sizes="300:500,600:800,800:1200"
+      fit="cover"
+    />
+  </div>
+</template>
+
+<script>
+export default {
+  props: {
+    image: {
+      type: String,
+      default: "",
+    },
+  },
+};
+</script>
+
+<style lang="scss" scoped>
+h3 {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.container-block {
+  position: relative;
+}
+
+.container-block-text {
+  top: 0;
+}
+
+.container-block-image {
+  z-index: -1;
+  top: 0;
+  position: absolute !important;
+  height: 100%;
+  width: 100%;
+}
+</style>

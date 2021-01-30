@@ -42,7 +42,6 @@ export default {
         display: "swap",
         families: {
           "Lexend+Deca": true,
-          Spartan: true,
           "Playfair+Display:ital,wght@0,700;1,700": true
         }
       }
