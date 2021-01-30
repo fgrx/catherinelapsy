@@ -12,17 +12,17 @@
           </h1>
         </div>
         <div class="flex-1">
-          <!-- <nuxt-img
+          <nuxt-img
             src="home/catedetour.webp"
             sizes="250,300:500,600:800"
             format="webp"
-            class="mt-10"
+            class="mt-10 portrait-cate"
             layout="responsive"
             alt="Portrait de Catherine La Psy"
             height="482"
             width="800"
-          ></nuxt-img> -->
-          <img
+          ></nuxt-img>
+          <!-- <img
             :srcset="
               require('@/static/home/catedetour-small.webp') +
               ' 600w, ' +
@@ -36,7 +36,7 @@
             alt="Portrait de Catherine La Psy"
             height="482"
             width="800"
-          />
+          /> -->
         </div>
       </div>
     </div>
@@ -70,11 +70,16 @@ img {
 
 @media screen and (max-width: 640px) {
   .title_site_1 {
-    font-size: 4em;
+    font-size: 2.5em;
   }
 
   .title_site_2 {
-    font-size: 8.5em;
+    font-size: 5.5em;
+  }
+
+  .portrait-cate {
+    height: 200px;
+    width: auto;
   }
 }
 </style>

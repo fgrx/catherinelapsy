@@ -7,7 +7,7 @@ export default {
     htmlAttrs: {
       lang: "fr"
     },
-    title: "catherinelapsy",
+    title: "catherine La Psy",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -15,7 +15,7 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "Catherine la psy vous fait découvrir le monde de la psychologie."
+          "Catherine la psy vulgarise la psychologie et propose des ateliers en ligne pour les professionnels et particuliers."
       },
       { name: "theme-color", content: "#07835f" }
     ],

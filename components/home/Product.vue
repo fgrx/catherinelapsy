@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-opacity-50 bg-black">
+  <div class="bg-opacity-60 bg-black">
     <TextOverImage :image="product.image">
       <div
         class="md:h-2/3 md:w-2/3 px-5 md:px-0 container mx-auto py-24 items-center text-white"

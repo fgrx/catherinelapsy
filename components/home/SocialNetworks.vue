@@ -5,7 +5,7 @@
       <div
         v-for="sn in socialNetworks"
         key="sn.order"
-        class="text-white bg-black bg-opacity-50"
+        class="text-white bg-black bg-opacity-60"
       >
         <a :href="sn.url">
           <TextOverImage :image="`/home/${sn.image}`">
