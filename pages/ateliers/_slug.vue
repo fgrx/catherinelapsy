@@ -20,16 +20,7 @@
         <div class="text-center">
           <a :href="doc.buyUrl">
             <Btn class="mt-20">
-              <div class="text-xl" v-if="doc.promo">Promotion ! <br /></div>
               Acheter
-              <span v-if="!doc.promo && doc.price"> {{ doc.price }}€</span>
-              <div v-else>
-                <span class="line-through" v-if="doc.price"
-                  >{{ doc.price }}€</span
-                >
-                <span class="text-xl">{{ doc.promo }}€</span>
-              </div>
-
               <template slot="subText"
                 ><div>Vous serez redirigé sur podia.com</div></template
               >
