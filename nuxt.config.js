@@ -19,7 +19,14 @@ export default {
       },
       { name: "theme-color", content: "#07835f" }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    link: [
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      {
+        rel: "preload",
+        as: "image",
+        href: "./home/catedetour-small.webp"
+      }
+    ]
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
