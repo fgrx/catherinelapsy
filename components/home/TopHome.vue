@@ -12,15 +12,16 @@
           </h1>
         </div>
         <div class="flex-1">
-          <nuxt-img
+          <nuxt-picture
             src="home/catedetour.png"
             format="webp"
+            loading="eager"
+            placeholder
             class="mt-10 portrait-cate"
-            layout="responsive"
             alt="Portrait de Catherine La Psy"
-            height="80vh"
+            height="482"
             quality="60"
-          ></nuxt-img>
+          ></nuxt-picture>
           <!-- <img
             :srcset="
               require('@/static/home/catedetour-small.webp') +
