@@ -18,14 +18,6 @@ export default {
           "Catherine la psy vulgarise la psychologie et propose des ateliers en ligne pour les professionnels et particuliers."
       },
       { name: "theme-color", content: "#07835f" }
-    ],
-    link: [
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-      {
-        rel: "preload",
-        as: "image",
-        href: "./home/catedetour-small.webp"
-      }
     ]
   },
 

@@ -30,7 +30,7 @@
               ' 800w'
             "
             sizes="(max-width: 600px) 560px, 800px"
-            :src="require('@/static/home/catedetour.webp')"
+            :src="require('@/static/home/catedetour-small.webp')"
             class="mt-10"
             quality="50"
             alt="Portrait de Catherine La Psy"
