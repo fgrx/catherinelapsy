@@ -26,10 +26,12 @@
             :srcset="
               require('@/static/home/catedetour-400.webp') +
               ' 400w, ' +
+              require('@/static/home/catedetour-600.webp') +
+              ' 600w, ' +
               require('@/static/home/catedetour.webp') +
               ' 800w'
             "
-            sizes="(max-width: 600px) 400px, 800px"
+            sizes="(max-width: 400px) 400px,(max-width: 600px) 600px, 800px"
             :src="require('@/static/home/catedetour-400.webp')"
             class="mt-10"
             quality="50"
