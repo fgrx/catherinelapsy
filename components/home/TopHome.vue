@@ -12,31 +12,30 @@
           </h1>
         </div>
         <div class="flex-1">
-          <!-- <nuxt-img
-            src="home/catedetour.webp"
-            sizes="250,300:500,600:800"
+          <nuxt-img
+            src="home/catedetour.png"
             format="webp"
             class="mt-10 portrait-cate"
             layout="responsive"
             alt="Portrait de Catherine La Psy"
-            height="482"
-            width="800"
-          ></nuxt-img> -->
-          <img
+            height="80vh"
+            quality="60"
+          ></nuxt-img>
+          <!-- <img
             :srcset="
               require('@/static/home/catedetour-small.webp') +
-              ' 600w, ' +
+              ' 400w, ' +
               require('@/static/home/catedetour.webp') +
               ' 800w'
             "
-            sizes="(max-width: 600px) 560px, 800px"
+            sizes="(max-width: 600px) 360px, 800px"
             :src="require('@/static/home/catedetour-small.webp')"
             class="mt-10"
             quality="50"
             alt="Portrait de Catherine La Psy"
             height="482"
             width="800"
-          />
+          /> -->
         </div>
       </div>
     </div>
