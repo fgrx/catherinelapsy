@@ -17,7 +17,7 @@
         ></nuxt-img>
 
         <nuxt-content :document="doc"></nuxt-content>
-        <div class="text-center">
+        <div class="text-center" v-if="doc.buyUrl">
           <a :href="doc.buyUrl">
             <Btn class="mt-20">
               Acheter

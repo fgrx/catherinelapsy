@@ -30,17 +30,17 @@ collections:
       preview: false
     fields:
       - { label: 'Titre', name: 'title', widget: 'string' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Image', name: 'image', widget: 'image'}
-      - { label: "Texte alternatif de l'image", name: 'imageAlt', widget: 'string'}
-      - { label: "URL d'achat (podia)", name: 'buyUrl', widget: 'string' }
-      - { label: "Prix", name: 'price', widget: 'number' }
-      - { label: "Promotion", name: 'promo', widget: 'number' }
-      - { label: "Couleur du texte de l'entête", name: 'colorText', widget: 'string',default: "white" }
-      - { label: "Couleur fond 1", name: 'colorBg1', widget: 'string' }
-      - { label: "Couleur fond 2", name: 'colorBg2', widget: 'string' }
-      - { label: 'Ordre (le plus élevé en premier)', name: 'order', widget: 'number' }
-      - { label: 'Contenu', name: 'body', widget: 'markdown' }
+      - { label: 'Description', name: 'description', widget: 'string',required: false }
+      - { label: 'Image', name: 'image', widget: 'image',required: false}
+      - { label: "Texte alternatif de l'image", name: 'imageAlt', widget: 'string',required: false}
+      - { label: "URL d'achat (podia)", name: 'buyUrl', widget: 'string',required: false }
+      - { label: "Prix", name: 'price', widget: 'number',required: false }
+      - { label: "Promotion", name: 'promo', widget: 'number',required: false }
+      - { label: "Couleur du texte de l'entête", name: 'colorText', widget: 'string',default: "white",required: false }
+      - { label: "Couleur fond 1", name: 'colorBg1', widget: 'string',required: false }
+      - { label: "Couleur fond 2", name: 'colorBg2', widget: 'string',required: false }
+      - { label: 'Ordre (le plus élevé en premier)', name: 'order', widget: 'number',required: false }
+      - { label: 'Contenu', name: 'body', widget: 'markdown',required: false }
 
   - name: 'page'
     label: "Pages"
@@ -52,11 +52,11 @@ collections:
       preview: false
     fields:
       - { label: 'Titre', name: 'title', widget: 'string' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Logo', name: 'logo', widget: 'image', media_folder: "static/logos"}
-      - { label: "Couleur du texte de l'entête", name: 'colorText', widget: 'string',default: "white" }
-      - { label: "Couleur fond 1", name: 'colorBg1', widget: 'string' }
-      - { label: "Couleur fond 2", name: 'colorBg2', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string',required: false }
+      - { label: 'Logo', name: 'logo', widget: 'image', media_folder: "static/logos",required: false}
+      - { label: "Couleur du texte de l'entête", name: 'colorText', widget: 'string',default: "white",required: false }
+      - { label: "Couleur fond 1", name: 'colorBg1', widget: 'string',required: false }
+      - { label: "Couleur fond 2", name: 'colorBg2', widget: 'string',required: false }
       - { label: 'Contenu', name: 'body', widget: 'markdown' }
 
   - name: "config"
