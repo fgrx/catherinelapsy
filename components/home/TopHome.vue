@@ -13,11 +13,11 @@
         </div>
         <div class="flex-1">
           <img
-            :src="require('@/static/home/catedetour-400.webp')"
+            :src="require('@/static/home/catedetour-600.webp')"
             class="mt-10"
             quality="50"
             alt="Portrait de Catherine La Psy"
-            height="240"
+            height="300"
           />
           <!-- <img
             :srcset="
