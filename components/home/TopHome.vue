@@ -11,8 +11,15 @@
             </div>
           </h1>
         </div>
-        <div class="flex-1 mx-12 md:mx-0">
+        <div class="flex-1">
           <img
+            :src="require('@/static/home/catedetour-400.webp')"
+            class="mt-10"
+            quality="50"
+            alt="Portrait de Catherine La Psy"
+            height="240"
+          />
+          <!-- <img
             :srcset="
               require('@/static/home/catedetour-400.webp') +
               ' 400w, ' +
@@ -28,7 +35,7 @@
             alt="Portrait de Catherine La Psy"
             height="482"
             width="800"
-          />
+          /> -->
         </div>
       </div>
     </div>
