@@ -15,10 +15,10 @@ colorBg2: teal-600
 order: 1
 ---
 <display-text display="frame">
-Vous avez l'impression que vous répétez des **schémas** que vous n'arrivez pas à éviter ?   
-Vous avez le sentiment de **porter** des problèmes qui ne sont pas les vôtres et qui vous gênent au quotidien ?\
-Vous êtes curieux(se) de mieux comprendre le **fonctionnement** de votre famille ?\
-Vous êtes psy ou coach et vous souhaitez utiliser la psychogénéalogie dans vos **consultations** ?
+Vous avez l'impression que vous répétez des schémas que vous n'arrivez pas à éviter ?   
+Vous avez le sentiment de porter des problèmes qui ne sont pas les vôtres et qui vous gênent au quotidien ?
+Vous êtes curieux(se) de mieux comprendre le fonctionnement de votre famille ?
+Vous êtes psy ou coach et vous souhaitez utiliser la psychogénéalogie dans vos consultations ?
 </display-text>
 
 <display-text>Si c'est votre cas cet atelier est fait pour vous !</display-text>
@@ -26,12 +26,12 @@ Vous êtes psy ou coach et vous souhaitez utiliser la psychogénéalogie dans vo
 Figurez-vous que les épreuves que les membres de votre famille ont vécues vous affectent plus que vous ne l'imaginez, et cela, de manière souvent indirecte et invisible. L'**INSERM** décrit que leur vécu affecte directement sur nos gènes et que cela se transmet de génération en génération. 
 
 <display-text>
-Des traumatismes de votre famille se retrouvent donc... Dans votre **ADN** !
+Des traumatismes de votre famille se retrouvent donc... Dans votre ADN !
 </display-text>
 
-J'ai eu appris ça il y a quelques années, à un moment de ma reconversion professionnelle. J'avais choisi de m’inscrire à un séminaire de **psychogénéalogie**, une discipline dont j'avais entendu parler. Mais je ne savais pas exactement de quoi il retournait.
+J'ai appris ça il y a quelques années, à un moment de ma reconversion professionnelle. J'avais choisi de m’inscrire à un séminaire de **psychogénéalogie**, une discipline dont j'avais entendu parler. Mais je ne savais pas exactement de quoi il retournait.
 
-C’était un séminaire **expérientiel** de plusieurs jours. Expérientiel signifie qu’on pratique sur soi même, en groupe, la théorie que l’on apprend. Et ça a été une expérience assez **extraordinaire**.
+C’était un séminaire **expérientiel** de plusieurs jours. Expérientiel signifie qu’on pratique sur soi-même, en groupe, la théorie que l’on apprend. Ca a été une expérience assez **extraordinaire**.
 
 Alors que je ne pensais pas être affectée par les **traumatismes** de ma famille et que j’étais là plus par **curiosité** que par besoin personnel, j’ai découvert combien ma reconversion professionnelle n’était pas seulement un choix de ma part mais aussi, une orientation logique du fait de mes **héritages** familiaux.
 
@@ -39,13 +39,13 @@ J’ai voulu en savoir plus et finalement travaillé sur d’autres thèmes que 
 
 Le but était de me défaire de la partie de cet héritage qui m’encombrait finalement et me **limitait**.
 
-Depuis que je suis devenue psychologue, j’utilise la psychogénéalogie avec mes patients. C’est un travail qui les aide à prendre conscience de l'impact de leur famille dans les problèmes qu'ils rencontrent.
+Depuis que je suis devenue psychologue, j’utilise la psychogénéalogie avec mes patients. C’est un travail qui les aide à prendre conscience de l'impact de leur famille dans les problèmes qu'ils rencontrent et à s'en défaire.
 
 <display-text>Je vous présente dans cet atelier ce travail familial auquel j’ai ajouté des éléments de mon **expérience** personnelle et professionnelle auprès de mes patients.</display-text>
 
 J'ai voulu cet atelier **très concret**. 
 
-En 5 étapes, vous serez en mesure de dessiner vous même votre génogramme, puis de l'analyser et de savoir quoi faire de ces résultats. Et tout cela en complète autonomie !
+En 5 étapes, vous serez en mesure de dessiner vous même votre arbre familial, puis de l'analyser et de savoir quoi faire de ces résultats. Et tout cela en complète autonomie !
 Vous expérimenterez aussi un exercice de visualisation permettant de débloquer des informations émotionnelles.
 
 **De nombreux professionnels de la psychologie m'ont déjà fait confiance et ont participé à cet atelier pour améliorer leur pratique.**\
