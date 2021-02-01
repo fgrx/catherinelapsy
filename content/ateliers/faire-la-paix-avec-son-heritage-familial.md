@@ -14,10 +14,12 @@ colorBg1: indigo-700
 colorBg2: teal-600
 order: 1
 ---
-**Vous avez l'impression que vous répétez des schémas que vous n'arrivez pas à éviter ?   
+<display-text display="frame">\
+Vous avez l'impression que vous répétez des schémas que vous n'arrivez pas à éviter ?   
 Vous avez le sentiment de porter des problèmes qui ne sont pas les vôtres et qui vous gênent au quotidien ?
 Vous êtes curieux(se) de mieux comprendre le fonctionnement de votre famille ?
-Vous êtes psy ou coach et vous souhaitez utiliser la psychogénéalogie dans vos consultations ?**
+Vous êtes psy ou coach et vous souhaitez utiliser la psychogénéalogie dans vos consultations ?\
+</display-text>
 
 <display-text>Si c'est votre cas cet atelier est fait pour vous !</display-text>
 
@@ -39,7 +41,7 @@ Le but était de me défaire de la partie de cet héritage qui m’encombrait fi
 
 Depuis que je suis devenue psychologue, j’utilise la psychogénéalogie avec mes patients. C’est un travail qui les aide à prendre conscience de l'impact de leur famille dans les problèmes qu'ils rencontrent et à s'en défaire.
 
-<display-text>Je vous présente dans cet atelier ce travail familial auquel j’ai ajouté des éléments de mon **expérience** personnelle et professionnelle auprès de mes patients.</display-text>
+<display-text>Je vous présente dans cet atelier ce travail familial auquel j’ai ajouté des éléments de mon expérience personnelle et professionnelle auprès de mes patients.</display-text>
 
 J'ai voulu cet atelier **très concret**. 
 
