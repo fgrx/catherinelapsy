@@ -11,7 +11,7 @@
             </div>
           </h1>
         </div>
-        <div class="flex-1 sm:mx-10">
+        <div class="flex-1 mx-12 md:mx-0">
           <img
             :srcset="
               require('@/static/home/catedetour-400.webp') +
