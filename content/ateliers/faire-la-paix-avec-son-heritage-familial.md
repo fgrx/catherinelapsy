@@ -43,9 +43,7 @@ Depuis que je suis devenue psychologue, j’utilise la psychogénéalogie avec m
 
 <display-text>Je vous présente dans cet atelier ce travail familial auquel j’ai ajouté des éléments de mon expérience personnelle et professionnelle auprès de mes patients.</display-text>
 
-J'ai voulu cet atelier **très concret**. 
-
-En 5 étapes, vous serez en mesure de dessiner vous même votre arbre familial, puis de l'analyser et de savoir quoi faire de ces résultats. Et tout cela en complète autonomie !
+J'ai voulu cet atelier **très concret**.  En 5 étapes, vous serez en mesure de dessiner vous même votre arbre familial, puis de l'analyser et de savoir quoi faire de ces résultats. Et tout cela en complète autonomie !
 Vous expérimenterez aussi un exercice de visualisation permettant de débloquer des informations émotionnelles.
 
 **De nombreux professionnels de la psychologie m'ont déjà fait confiance et ont participé à cet atelier pour améliorer leur pratique.**\
