@@ -13,29 +13,20 @@
         </div>
         <div class="flex-1">
           <img
-            :src="require('@/static/home/catedetour-600.webp')"
-            class="mt-10"
-            quality="50"
-            alt="Portrait de Catherine La Psy"
-            height="300"
-          />
-          <!-- <img
             :srcset="
               require('@/static/home/catedetour-400.webp') +
               ' 400w, ' +
               require('@/static/home/catedetour-600.webp') +
-              ' 600w, ' +
-              require('@/static/home/catedetour.webp') +
-              ' 800w'
+              ' 600w, '
             "
             sizes="(max-width: 400px) 400px,(max-width: 600px) 600px, 800px"
             :src="require('@/static/home/catedetour.webp')"
             class="mt-10"
-            quality="50"
+            quality="40"
             alt="Portrait de Catherine La Psy"
             height="482"
             width="800"
-          /> -->
+          />
         </div>
       </div>
     </div>
