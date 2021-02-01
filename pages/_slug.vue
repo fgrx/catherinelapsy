@@ -27,6 +27,13 @@ export default {
           name: "description",
           content: this.doc.description,
         },
+        { name: "og:title", content: this.doc.title },
+        { name: "og:type", content: "article" },
+        { name: "og:site_name", content: "catherine La Psy" },
+        {
+          name: "og:description",
+          content: this.doc.description,
+        },
       ],
     };
   },
