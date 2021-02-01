@@ -15,9 +15,9 @@ colorBg2: teal-600
 order: 1
 ---
 <display-text display="frame">\
-Vous avez l'impression que vous répétez des schémas que vous n'arrivez pas à éviter ?   
-Vous avez le sentiment de porter des problèmes qui ne sont pas les vôtres et qui vous gênent au quotidien ?
-Vous êtes curieux(se) de mieux comprendre le fonctionnement de votre famille ?
+Vous avez l'impression que vous répétez des schémas que vous n'arrivez pas à éviter ?  
+Vous avez le sentiment de porter des problèmes qui ne sont pas les vôtres et qui vous gênent au quotidien ?  
+Vous êtes curieux(se) de mieux comprendre le fonctionnement de votre famille ?  
 Vous êtes psy ou coach et vous souhaitez utiliser la psychogénéalogie dans vos consultations ?\
 </display-text>
 
