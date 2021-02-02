@@ -14,22 +14,18 @@ colorBg1: indigo-700
 colorBg2: teal-600
 order: 1
 ---
-<display-text display="frame">Vous avez l'impression que vous répétez des schémas que vous n'arrivez pas à éviter ?\
-Vous avez le sentiment de porter des problèmes qui ne sont pas les vôtres et qui vous gênent au quotidien ?\
-Vous êtes curieux(se) de mieux comprendre le fonctionnement de votre famille ?\
-Vous êtes psy ou coach et vous souhaitez utiliser la psychogénéalogie dans vos consultations ?</display-text>
 
-<display-text>Si c'est votre cas cet atelier est fait pour vous !</display-text>
 
-Figurez-vous que les épreuves qu'ont vécues les membres de votre famille vous affectent plus que vous ne l'imaginez, et cela, de manière souvent indirecte et invisible. L'**INSERM** décrit que leur vécu affecte directement sur nos gènes et que cela se transmet de génération en génération. 
+
+Figurez-vous que les épreuves qu'ont vécues les membres de votre famille vous affectent plus que vous ne l'imaginez, et cela, de manière souvent indirecte et invisible. L'**INSERM** décrit d'ailleurs que leur vécu affecte directement nos gènes et que cela se transmet de génération en génération. 
 
 <display-text>
 Des traumatismes de votre famille se retrouvent donc... Dans votre ADN !
 </display-text>
 
-J'ai appris ça il y a quelques années, à un moment de ma reconversion professionnelle. J'avais choisi de m’inscrire à un séminaire de **psychogénéalogie**, une discipline dont j'avais entendu parler. Mais je ne savais pas exactement de quoi il retournait.
+J'ai appris ça il y a quelques années, à un moment de ma reconversion professionnelle. J'avais choisi de me former en **psychogénéalogie**, une discipline dont j'avais entendu parler sans savoir de quoi il retournait précisémment.
 
-C’était un séminaire **expérientiel** de plusieurs jours. Expérientiel signifie qu’on pratique sur soi-même, en groupe, la théorie que l’on apprend. Ca a été une expérience assez **extraordinaire**.
+C’était une formation **expérientiel**. Expérientiel signifie qu’on pratique sur soi-même, en groupe, la théorie que l’on apprend. Ca a été une expérience assez **extraordinaire**.
 
 Alors que je ne pensais pas être affectée par les **traumatismes** de ma famille et que j’étais là plus par **curiosité** que par besoin personnel, j’ai découvert combien ma reconversion professionnelle n’était pas seulement un choix de ma part mais aussi, une orientation logique du fait de mes **héritages** familiaux.
 
@@ -70,6 +66,8 @@ Au programme :
 * Une vidéo d'aide supplémentaire à l'interprétation de votre dessin
 * Une vidéo de réponses à vos questions
 * Un PDF pour faciliter la recherche de vos ressources et devises familiales
+
+<speaker></speaker>
 
 ## Témoignages
 
