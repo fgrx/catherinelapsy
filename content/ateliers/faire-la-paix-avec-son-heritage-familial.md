@@ -25,7 +25,7 @@ Des traumatismes de votre famille se retrouvent donc... Dans votre ADN !
 
 J'ai appris ça il y a quelques années, à un moment de ma reconversion professionnelle. J'avais choisi de me former en **psychogénéalogie**, une discipline dont j'avais entendu parler sans savoir de quoi il retournait précisémment.
 
-C’était une formation **expérientiel**. Expérientiel signifie qu’on pratique sur soi-même, en groupe, la théorie que l’on apprend. Ca a été une expérience assez **extraordinaire**.
+C’était une formation **expérientielle**. Expérientielle signifie qu’on pratique sur soi-même, en groupe, la théorie que l’on apprend. Ca a été une expérience assez **extraordinaire**.
 
 Alors que je ne pensais pas être affectée par les **traumatismes** de ma famille et que j’étais là plus par **curiosité** que par besoin personnel, j’ai découvert combien ma reconversion professionnelle n’était pas seulement un choix de ma part mais aussi, une orientation logique du fait de mes **héritages** familiaux.
 

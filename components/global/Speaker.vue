@@ -18,7 +18,7 @@
           Analyse Transactionnelle, j'exerce en cabinet libéral et j'ai
           co-dirigé l'ouvrage "L'Analyse Transactionnelle, 13 études de cas"
           sorti chez In Press en aout 2020. J'ai à coeur de favoriser l'accès du
-          travail de psychothérapie, ce que je fais à travers des proposition
+          travail de psychothérapie, ce que je fais à travers des propositions
           d'ateliers en ligne ainsi que par la vulgarisation de connaissances
           psys sur mon compte Instagram suivi par 13 000 personnes, et à travers
           une newsletter hebdomadaire, la Lettre psy.
