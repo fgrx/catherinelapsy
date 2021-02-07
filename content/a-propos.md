@@ -18,10 +18,10 @@ Pour elle, la psychologie est une véritable passion : pas un jour ne passe sans
 
 Elle est aussi animatrice du [compte Instagram " Catherine La Psy](https://www.instagram.com/catherine_la_psy/)", un des compte populaire et actif du réseau social. Elle y partage quotidiennement ses connaissances en vulgarisant des concepts de psychologie.  
 
-Elle crée aussi des ateliers de psychothérapie en ligne pour permettre à chacun de travailler sur soi en autonomie.
+Catherine crée également des ateliers de psychothérapie en ligne pour permettre à chacun de travailler sur soi en autonomie.
 
 ## Fabien
- Est chargé du développement numérique de Catherine La Psy.  
+ Fabien est chargé du développement numérique de Catherine La Psy.  
  Développeur web de métier, il se charge évidement de la création du site que vous êtes en train de lire mais aussi du tournage et du montage des vidéos [Youtube](https://www.youtube.com/channel/UCuocS66l-pMtFcaP3L01z5Q) et des ateliers en ligne. Il est aussi le cobaye préférentiel de ces ateliers.
 
 Dès qu'un ordinateur est nécessaire, il n'est jamais bien loin. En effet, Catherine n'y comprend  rien et préfère se plonger dans des livres que d'apprendre à utiliser les outils numériques.
