@@ -67,7 +67,7 @@ Au programme :
 * Une vidéo de réponses à vos questions
 * Un PDF pour faciliter la recherche de vos ressources et devises familiales
 
-<speaker></speaker>
+<presentation></presentation>
 
 ## Témoignages
 

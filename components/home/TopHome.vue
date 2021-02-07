@@ -22,7 +22,7 @@
             sizes="(max-width: 400px) 400px,(max-width: 600px) 600px, 800px"
             :src="require('@/static/home/catedetour.webp')"
             class="mt-10"
-            quality="40"
+            quality="70"
             alt="Portrait de Catherine La Psy"
             height="482"
             width="800"

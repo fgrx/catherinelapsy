@@ -130,6 +130,10 @@ export default {
           to: "/videos",
         },
         {
+          text: "A propos",
+          to: "/a-propos",
+        },
+        {
           text: "Contact",
           to: "/contact",
         },

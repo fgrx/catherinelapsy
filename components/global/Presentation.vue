@@ -1,7 +1,7 @@
 <template>
   <div class="border-2 border-rose-500 py-5 px-5 my-10">
-    <div class="md:flex items-center">
-      <div class="flex-1 px-5">
+    <div class="md:flex md-flex-wrap items-center">
+      <div class="md:w-1/3 px-5">
         <nuxt-img
           src="/home/cate500.png"
           format="webp"
@@ -11,7 +11,7 @@
         ></nuxt-img>
       </div>
 
-      <div class="flex-1">
+      <div class="md:w-2/3">
         <h3 class="text-2xl text-rose-600 mt-5">Qui-suis je ?</h3>
         <p>
           Psychologue clinicienne, spécialisée en psychotraumatologie et en

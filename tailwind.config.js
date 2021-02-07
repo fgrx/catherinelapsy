@@ -48,6 +48,8 @@ module.exports = {
         "text-rose-600",
         "from-emerald-500",
         "to-emerald-500",
+        "from-emerald-400",
+        "to-emerald-400",
         "py-24"
       ]
     }
