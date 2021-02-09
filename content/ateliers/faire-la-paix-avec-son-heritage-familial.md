@@ -15,10 +15,12 @@ colorBg2: teal-600
 order: 1
 ---
 <display-text display='frame'>
-\* Découvrez quels problèmes psychologiques votre famille vous a légués  
-\* Avancez plus rapidement dans votre thérapie  
-\* Débloquez vous des situations dont vous ne savez pas vous extraire  
-\* Sortez des schémas répétitifs  
+
+* Découvrez quels problèmes psychologiques votre famille vous a légués
+* Avancez plus rapidement dans votre thérapie
+* Débloquez vous des situations dont vous ne savez pas vous extraire
+* Sortez des schémas répétitifs
+
 </display-text>
 
 ## A qui s'adresse cet atelier ?
