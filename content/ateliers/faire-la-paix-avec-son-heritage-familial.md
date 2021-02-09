@@ -15,13 +15,13 @@ colorBg2: teal-600
 order: 1
 ---
 <display-text display='frame'>
-\* Découvrez quels problèmes psychologiques votre famille vous a légués
-\* Avancez plus rapidement dans votre thérapie
-\* Débloquez vous des situations dont vous ne savez pas vous extraire
-\* Sortez des schémas répétitifs
+* Découvrez quels problèmes psychologiques votre famille vous a légués  
+* Avancez plus rapidement dans votre thérapie  
+* Débloquez vous des situations dont vous ne savez pas vous extraire  
+* Sortez des schémas répétitifs  
 </display-text>
 
-**Cet atelier s'adresse :**
+**Cet atelier s'adresse :**  
 Aux personnes qui souhaitent découvrir comment leur héritage familial affecte leurs relations et les empêche d'avancer dans leur vie personnelle et professionnelle.
 
 Aux professionnels de la psychologie et aux coachs qui souhaitent découvrir de nouveaux outils pour faire progresser leur patientèle ou clientèle.
@@ -40,7 +40,7 @@ Vos problèmes sont donc ancrés en vous se répètent inlassablement et il est 
 
 Je vous aide à prendre conscience de vos disfonctionnement venant de votre famille et de la manière dont ils vous impactent. Je vous donne des clefs à la fois théoriques et pratiques pour vous libérer de votre héritage familial.
 
-<display-text>Je vous présente dans cet atelier les théories et les techniques que j'ai apprises auprès de spécialistes internationaux et je partage avec vous le fruit de nombreuses heures de pratique dans mes consultations.</display-text>
+Je vous présente dans cet atelier les théories et les techniques que j'ai apprises auprès de spécialistes internationaux et je partage avec vous le fruit de nombreuses heures de pratique dans mes consultations.
 
 ## Comment se déroule cet atelier ?
 
@@ -52,13 +52,13 @@ Vous expérimenterez aussi un exercice de visualisation permettant de débloquer
 **De nombreux professionnels de la psychologie ont déjà participé à cet atelier pour améliorer leur pratique.**\
 **De nombreux patients l'ont également expérimenté dans leur vie quotidienne.**
 
-<display-text>Cet atelier correspond à environ 6 séances en présentiel à mon cabinet</display-text>
-
 Vous aurez également accès à un **groupe Facebook** qui regroupe les participants à tous mes ateliers en ligne, afin d'échanger ensemble sur votre progression et de me poser toutes vos questions.
 
 Si vous êtes psy ou coach, cet atelier que vous pouvez déduire de vos charges professionnelles, vous permettra aussi d'utiliser le génogramme, la visualisation et un exercice avec vos patients et clients.
 
 Une indication néanmoins : cet atelier est destiné à des personnes adultes, majeures et ne présentant pas de pathologies psychiatriques ou dissociatives, notamment en raison de la visualisation qu'il contient et qu'il est préférable de faire en présentiel dans ces situations.
+
+<display-text>Cet atelier correspond à environ 6 séances en présentiel à mon cabinet</display-text>
 
 <presentation></presentation>
 
