@@ -15,13 +15,14 @@ colorBg2: teal-600
 order: 1
 ---
 <display-text display='frame'>
-* Découvrez quels problèmes psychologiques votre famille vous a légués  
-* Avancez plus rapidement dans votre thérapie  
-* Débloquez vous des situations dont vous ne savez pas vous extraire  
-* Sortez des schémas répétitifs  
+\* Découvrez quels problèmes psychologiques votre famille vous a légués  
+\* Avancez plus rapidement dans votre thérapie  
+\* Débloquez vous des situations dont vous ne savez pas vous extraire  
+\* Sortez des schémas répétitifs  
 </display-text>
 
-**Cet atelier s'adresse :**  
+## A qui s'adresse cet atelier ?
+
 Aux personnes qui souhaitent découvrir comment leur héritage familial affecte leurs relations et les empêche d'avancer dans leur vie personnelle et professionnelle.
 
 Aux professionnels de la psychologie et aux coachs qui souhaitent découvrir de nouveaux outils pour faire progresser leur patientèle ou clientèle.
@@ -44,7 +45,7 @@ Je vous présente dans cet atelier les théories et les techniques que j'ai appr
 
 ## Comment se déroule cet atelier ?
 
-J'ai voulu cet atelier **très concret**.  En 5 étapes, vous serez en mesure de dessiner vous-même votre arbre familial, puis de l'analyser et de savoir quoi faire de ces résultats. Et tout cela en complète autonomie.  
+J'ai voulu cet atelier **très concret**.  En 5 étapes, vous serez en mesure de dessiner vous-même votre arbre familial, puis de l'analyser et de savoir quoi faire de ces résultats. Et tout cela en complète autonomie.\
 Vous expérimenterez aussi un exercice de visualisation permettant de débloquer des informations émotionnelles.
 
 <display-text>L'atelier contient 10 vidéos que vous pourrez consulter à votre rythme, quand vous voulez, d'où vous voulez.</display-text>
