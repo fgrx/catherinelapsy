@@ -38,9 +38,6 @@
           {{ item.description }}
         </p>
 
-        <p v-if="item.menuDescription" class="text-md">
-          {{ item.menuDescription }}
-        </p>
         <nuxt-link
           v-if="item.dir !== '/videos'"
           :to="`${item.dir}/${item.slug}`"
