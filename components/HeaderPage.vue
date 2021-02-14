@@ -21,7 +21,7 @@
         <div class="flex-initial">
           <h1
             data-v-a2b46a4c=""
-            :class="`text-left text-4xl md:text-5xl lg:text-7xl mb-5 text-${
+            :class="`text-left text-4xl md:text-5xl lg:text-6xl mb-5 text-${
               doc.colorText || 'white'
             }`"
           >
