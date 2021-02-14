@@ -33,10 +33,14 @@
         <h3 class="text-2xl mb-2 pt-2 md:pt-0 md:mt-5">
           {{ item.title }}
         </h3>
-        <p v-if="!item.description" class="text-md">
-          <nuxt-content :document="item"></nuxt-content>
+
+        <p v-if="item.description && !item.menuDescription" class="text-md">
+          {{ item.description }}
         </p>
-        <p v-if="item.description" class="text-md">{{ item.description }}</p>
+
+        <p v-if="item.menuDescription" class="text-md">
+          {{ item.menuDescription }}
+        </p>
         <nuxt-link
           v-if="item.dir !== '/videos'"
           :to="`${item.dir}/${item.slug}`"

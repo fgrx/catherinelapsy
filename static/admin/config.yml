@@ -30,6 +30,7 @@ collections:
       preview: false
     fields:
       - { label: 'Titre', name: 'title', widget: 'string' }
+      - { label: 'Description de menu', name: 'menuDescription', widget: 'markdown',required: false }
       - { label: 'Description', name: 'description', widget: 'string',required: false }
       - { label: 'Image', name: 'image', widget: 'image',required: false}
       - { label: "Texte alternatif de l'image", name: 'imageAlt', widget: 'string',required: false}
