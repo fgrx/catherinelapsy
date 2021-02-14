@@ -1,5 +1,10 @@
 ---
 title: Faire la paix avec son héritage familial
+menuDescription: |-
+  * Découvrez quels problèmes psychologiques votre famille vous a légués
+  * Avancez plus rapidement dans votre thérapie
+  * Débloquez vous des situations dont vous ne savez pas vous extraire
+  * Sortez des schémas répétitifs
 description: Vos problèmes ne viennent pas que de vous ! Nous avons tous un
   héritage psychologique de notre famille et il est parfois encombrant.
   Ensemble, nous découvrirons ce qui ne vous appartient pas pour débloquer votre
@@ -14,15 +19,6 @@ colorBg1: indigo-700
 colorBg2: teal-600
 order: 1
 ---
-<display-text display='frame'>
-
-* Découvrez quels problèmes psychologiques votre famille vous a légués
-* Avancez plus rapidement dans votre thérapie
-* Débloquez vous des situations dont vous ne savez pas vous extraire
-* Sortez des schémas répétitifs
-
-</display-text>
-
 ## A qui s'adresse cet atelier ?
 
 Aux personnes qui souhaitent découvrir comment leur héritage familial affecte leurs relations et les empêche d'avancer dans leur vie personnelle et professionnelle.
