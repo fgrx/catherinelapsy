@@ -130,8 +130,8 @@ export default {
           to: "/videos",
         },
         {
-          text: "A propos",
-          to: "/a-propos",
+          text: "Qui sommes-nous ?",
+          to: "/qui-sommes-nous",
         },
         {
           text: "Contact",

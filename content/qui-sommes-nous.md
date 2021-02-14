@@ -1,5 +1,5 @@
 ---
-title: A propos
+title: Qui sommes-nous ?
 description: Découvrez les coulisses de Catherine La Psy 
 logo: about.svg
 colorText: white

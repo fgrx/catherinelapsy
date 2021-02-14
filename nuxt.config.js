@@ -7,7 +7,7 @@ export default {
     htmlAttrs: {
       lang: "fr"
     },
-    title: "catherine La Psy",
+    title: "Catherine La Psy",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },

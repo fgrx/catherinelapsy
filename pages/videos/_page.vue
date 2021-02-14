@@ -36,7 +36,7 @@ export default {
       .fetch();
 
     const nbItems = allItems.length;
-    const nbPages = Math.ceil(nbItems % itemsPerPage);
+    const nbPages = Math.ceil(nbItems / itemsPerPage);
 
     const startAt = () => {
       return (currentPage - 1) * itemsPerPage;
