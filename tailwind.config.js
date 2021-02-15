@@ -13,7 +13,10 @@ module.exports = {
       yellow: colors.amber,
       rose: colors.rose,
       teal: colors.teal,
-      emerald: colors.emerald
+      emerald: colors.emerald,
+      custom: {
+        default: "#5F7D84"
+      }
     }
   },
   purge: {

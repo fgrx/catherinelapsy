@@ -63,7 +63,75 @@ Une indication néanmoins : cet atelier est destiné à des personnes adultes, m
 
 <display-text>Cet atelier correspond à environ 6 séances en présentiel à mon cabinet</display-text>
 
+<pictos-atelier></pictos-atelier>
+
 <presentation></presentation>
+
+## Programme
+
+<expandable title="Module 1 : partie théorique ">
+
+* qu'est-ce qu'un patient symptôme ?
+* que sont les codes familiaux ?
+* que sont les loyautés familiales ?
+* comment se transmettent les secrets de famille ?
+</expandable>
+
+<expandable title="Module 2 : dessiner son arbre familial">
+
+* dessin accompagné
+* explication des différentes situations familiales
+* illustration par une famille fictive dessinée sous vos yeux
+</expandable>
+
+<expandable title="Module 3 : éléments sociologiques">
+
+* ajouts de différents éléments de vie de la famille
+* ajout des liens entre les membres
+* illustration 
+</expandable>
+
+<expandable title="Module 4 : travail émotionnel">
+
+* visualisation hypnotique "la maison familiale" 
+* découverte des devises familiales
+* identification des ressources familales 
+* finalisation de l'arbre
+</expandable>
+
+<expandable title="Module 5 : interprétation de l'arbre familial">
+
+* comment comprendre votre dessin
+* prendre conscience de votre place dans cette famille
+* mettre en lumière les rôles de chacun
+</expandable>
+
+<expandable title="Module 7 : exercice de libération émotionnelle">
+
+* comment rendre aux membres de notre famille ce qui ne nous appartient pas
+* illustration commentée de l'exercice
+* observation des sensations
+</expandable>
+
+<expandable title="Module supplémentaire (ajouté en janvier 2021)">
+
+* réponse à vos questions fréquentes durant votre travail
+* aide supplémentaire à l'interprétation de votre génogramme
+</expandable>
+
+<expandable title="Module en cours de construction (à paraitre courant 2021)">
+
+* le rôle des prénoms des membres de la famille
+* les différents types de génogrammes en psychogénéalogie
+</expandable>
+
+<expandable title="Documents supports">
+
+* récapitulatif des modalités de dessin de l'arbre familial
+* récapitulatif des éléments sociologiques à faire figurer
+* récapitulatif des éléments d'interprétation de l'arbre familial
+* exemples de devises et de ressources fréquentes 
+</expandable>
 
 ## Témoignages
 
