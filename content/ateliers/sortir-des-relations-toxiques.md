@@ -6,6 +6,7 @@ imageAlt: Catherine la Psy devant les campéras.
 buyUrl: 
 price: 
 promo: 
+isOpen: false
 colorText: white
 colorBg1: yellow-600
 colorBg2: red-700
@@ -41,6 +42,7 @@ Si vous êtes psy ou coach, cet atelier que vous pouvez déduire de vos charges 
 
 Cet atelier n’est pas recommandé aux personnes présentant des troubles dissociatifs ou des problèmes psychiatriques en raison des visualisations qu’il contient et qui nécessitent, dans ces situations, de les faire accompagnées par un thérapeute en présentiel.
 
+<pictos-atelier></pictos-atelier>
+
 <presentation></presentation>
 
-<display-text>Cet atelier sera disponible prochainement. [Abonnez-vous à la Lettre psy](/emails-prives) pour bénéficier de la promotion de lancement</display-text>

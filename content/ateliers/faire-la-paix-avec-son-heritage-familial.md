@@ -13,6 +13,7 @@ colorText: white
 colorBg1: indigo-700
 colorBg2: teal-600
 order: 1
+isOpen: true
 ---
 <display-text display='frame'>
 

@@ -17,7 +17,7 @@
         ></nuxt-img>
 
         <nuxt-content :document="doc"></nuxt-content>
-        <div class="text-center" v-if="doc.buyUrl">
+        <div class="text-center" v-if="doc.buyUrl && doc.isOpen">
           <a :href="doc.buyUrl">
             <Btn class="mt-20">
               Acheter
@@ -26,6 +26,32 @@
               >
             </Btn>
           </a>
+        </div>
+
+        <div v-if="!doc.isOpen" class="bg-rose-600 text-white py-8 px-5">
+          <div class="container mx-auto">
+            <h2 class="mb-5">
+              Les inscriptions à cet atelier sont actuellement fermées
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-5 items-center">
+              <div class="flex md:col-span-7 lg:col-span-7 items-center">
+                <div>
+                  <p>
+                    <span class="font-semibold text-lg"
+                      >Pas de panique, l'atelier ouvrira prochainement !
+                    </span>
+                    <br />Pour être sûr de ne pas le rater, inscrivez vous à la
+                    Lettre Psy. Vous recevrez toutes les semaines des articles
+                    sur psychologie et toutes nos offres de lancement.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex-1 md:col-span-5 lg:col-span-5">
+                <NewsletterForm />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
