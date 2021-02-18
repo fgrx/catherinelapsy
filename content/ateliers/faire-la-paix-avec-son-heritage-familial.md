@@ -62,10 +62,6 @@ Une indication néanmoins : cet atelier est destiné à des personnes adultes, m
 
 <display-text>Cet atelier correspond à environ 6 séances en présentiel à mon cabinet</display-text>
 
-<pictos-atelier></pictos-atelier>
-
-<presentation></presentation>
-
 ## Programme
 
 <expandable title="Module 1 : partie théorique ">
@@ -131,6 +127,10 @@ Une indication néanmoins : cet atelier est destiné à des personnes adultes, m
 * récapitulatif des éléments d'interprétation de l'arbre familial
 * exemples de devises et de ressources fréquentes 
 </expandable>
+
+<pictos-atelier></pictos-atelier>
+
+<presentation></presentation>
 
 ## Témoignages
 
