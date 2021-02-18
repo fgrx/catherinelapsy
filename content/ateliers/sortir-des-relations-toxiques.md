@@ -1,17 +1,43 @@
 ---
 title: Se libérer des relations toxiques
 description: Comment décrypter ses relations douloureuses et en sortir durablement avec l’Analyse Transactionnelle
-image: /images/relations-toxiques.jpg
-imageAlt: Catherine la Psy devant les campéras.
-buyUrl: 
-price: 
-promo: 
+image: /images/relations-toxiques.png
+imageAlt: Catherine la Psy devant les caméras.
+buyUrl: https://ctpsy.podia.com/sortir-des-relations-toxiques
 isOpen: false
 colorText: white
-colorBg1: yellow-600
-colorBg2: red-700
-order: 0
+colorBg1: teal-700
+colorBg2: yellow-500
+order: 1
 ---
+
+<display-text display='frame'>
+
+* Détectez quand une relation est toxique
+* Désamorcez les conflits
+* Améliorez vos relations aux autres
+* Sortez des prises de têtes récurrentes, jalousies, dépendances affective...
+
+</display-text>
+
+Votre boss vous prend de haut et vous avez l'impression que vous ne pouvez que le subir ?  
+Vous avez l'impression d'aider les autres et de n'avoir aucune reconnaissance en retour  ?  
+Vous vous dites que sans être un peu agressif on ne vous considère pas ?
+
+L'adage dit "L'enfer c'est les autres !" et pourtant c'est souvent un peu nous aussi.
+
+Mais pas de panique ! En fait c'est finalement une bonne nouvelle : si vous adaptez certains de vos compotements il est possible de changer ça !
+
+Nous avons tous connu, à un moment donné, des relations toxiques : au travail, en amitié, en famille ou en amour et parfois, ça peut faire très mal.
+
+C'est pourquoi c'est important de savoir les décoder pour apprendre à ne pas entrer dedans. L'Analyse Transactionnelle nous donne de nombreux leviers d'interventions pour ça et c'est ce que je vous propose de découvrir dans cet atelier.
+
+Du fond de leurs fauteuils des psychologues examinent à la loupe nos échanges depuis des dizaines d'années. Ils ont analysé des disputes de couples, des cas de harcelement, des problèmes au travail etc...  
+Ils ont trouvé des schémas et des profils qui se répètent; Cela signifie qu'il existe des stratégies pour éviter les jeux psychologiques et les relations toxiques qui nous empoisonent notre quotidien.
+A partir de là ils ont élaboré une approche de psychothérapie pour aider leurs patients : l'Analyse Transactionnelle.
+
+J'ai testé cette méthode il y a plus de 20 ans en tant que patiente et j'ai été impressionnée par la clarté des explications et son efficacité. C'est à la fois simple, concrèt et compréhensible et ça permet d'analyser une infinité de situations pourtant complexes.  
+En tant que psychologue, j'ai décidé de me spécialiser dans cette approche et je vous y livre quelques uns de ses secrets.
 
 **Dans cet atelier, vous allez découvrir :**
 
@@ -43,6 +69,7 @@ Si vous êtes psy ou coach, cet atelier que vous pouvez déduire de vos charges 
 Cet atelier n’est pas recommandé aux personnes présentant des troubles dissociatifs ou des problèmes psychiatriques en raison des visualisations qu’il contient et qui nécessitent, dans ces situations, de les faire accompagnées par un thérapeute en présentiel.
 
 <pictos-atelier></pictos-atelier>
+## Programme de l'atelier
 
 <presentation></presentation>
 

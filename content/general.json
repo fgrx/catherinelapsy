@@ -5,12 +5,15 @@
     "siteTitle":"Catherine la psy",
     "siteSubtitle":"La psy comme vous ne l'avez jamais vue !",
     "product":{
-      "titleSection":"Atelier en ligne",
-      "title":"Faire la paix avec son héritage familial",
-      "description":"Un programme en ligne à destination des patients et professionnels de la psychologie pour vous permettre d'explorer la part de vos difficultés issue de votre famille.",
-      "url":"/ateliers/faire-la-paix-avec-son-heritage-familial",
+      "titleSection":"Nouvel atelier en ligne :",
+      "title":"Sortir des relation toxiques",
+      "description":"Les détecter, les éviter et améliorer nos relations en examinant les jeux psychologiques.",
+      "url":"/ateliers/sortir-des-relations-toxiques",
       "urlAllProducts":"/",
-      "image":"home/genogramme.webp"
+      "image":"images/relations-toxiques.png",
+      "displayPrice": false,
+      "price": 149,
+      "promo": 99
     },
     "socialNetworks":{
       "instagram":{

@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-900 text-gray-200">
-    <div class="container max-auto text-center text-sm">
+    <div class="container mx-auto text-center text-sm">
       <div class="text-center py-20 text-sm">
         <p>
           © 2021
