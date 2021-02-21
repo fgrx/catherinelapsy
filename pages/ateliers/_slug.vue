@@ -28,7 +28,7 @@
           </a>
         </div>
 
-        <div v-if="!doc.isOpen" class="bg-rose-600 text-white py-8 px-5">
+        <div v-if="!doc.isOpen" class="bg-rose-600 text-white py-8 px-5 mt-10">
           <div class="container mx-auto">
             <h2 class="mb-5">
               Les inscriptions à cet atelier sont actuellement fermées
@@ -40,15 +40,19 @@
                     <span class="font-semibold text-lg"
                       >Pas de panique, l'atelier ouvrira prochainement !
                     </span>
-                    <br />Pour être sûr de ne pas le rater, inscrivez vous à la
-                    Lettre Psy. Vous recevrez toutes les semaines des articles
-                    sur psychologie et toutes nos offres de lancement.
+                    <br />Pour être tenu au courant de l'actualité de cet
+                    atelier, saisissez ici votre adresse email. Vous ne recevrez
+                    que les informations concernant cet atelier et vous ne serez
+                    pas abonné automatiquement à
+                    <nuxt-link class="underline" to="/emails-prives"
+                      >la Lettre Psy</nuxt-link
+                    >.
                   </p>
                 </div>
               </div>
 
               <div class="flex-1 md:col-span-5 lg:col-span-5">
-                <NewsletterForm />
+                <NewsletterForm :codeList="doc.codeMailingList" />
               </div>
             </div>
           </div>

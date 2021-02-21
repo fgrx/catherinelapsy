@@ -14,7 +14,7 @@
         v-if="!isExpanded"
       />
       <img
-        src="@/assets/arrow-up.svg"
+        src="@/assets/arrow-down.svg"
         alt="flèche qui descend"
         height="30"
         width="30"

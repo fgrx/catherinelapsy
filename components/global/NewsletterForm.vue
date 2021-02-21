@@ -22,7 +22,7 @@
           id="mc-embedded-subscribe"
           class="flex font-bold text-gray-700 bg-gray-300 hover:bg-gray-400 px-5 py-3 text-black text-bold"
         />
-        <input type="hidden" name="campaign_token" value="qD1uT" />
+        <input type="hidden" name="campaign_token" :value="codeList" />
         <input type="hidden" name="start_day" value="0" />
       </div>
     </div>
@@ -30,7 +30,14 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    codeList: {
+      type: String,
+      default: "qD1uT",
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>
