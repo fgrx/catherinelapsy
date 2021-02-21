@@ -40,10 +40,10 @@
                     <span class="font-semibold text-lg"
                       >Pas de panique, l'atelier ouvrira prochainement !
                     </span>
-                    <br />Pour être tenu au courant de l'actualité de cet
-                    atelier, saisissez ici votre adresse email. Vous ne recevrez
-                    que les informations concernant cet atelier et vous ne serez
-                    pas abonné automatiquement à
+                    <br />Pour être tenu au courant de l'actualité de l' atelier
+                    "{{ doc.title }}", saisissez ici votre adresse email. Vous
+                    ne recevrez que les informations concernant cet atelier et
+                    vous ne serez pas abonné automatiquement à
                     <nuxt-link class="underline" to="/emails-prives"
                       >la Lettre Psy</nuxt-link
                     >.
