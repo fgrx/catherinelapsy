@@ -9,7 +9,7 @@
             alt=""
           />
           <div class="">
-            <h2>Emails privés</h2>
+            <h2>S'abonner à la Lettre Psy</h2>
             <p>
               Recevez tous les dimanches un email pour comprendre la psychologie
               et mieux se connaitre

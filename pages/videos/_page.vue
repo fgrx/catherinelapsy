@@ -13,7 +13,7 @@
             <a
               class="underline text-rose-700 font-semibold"
               href="https://www.youtube.com/channel/UCuocS66l-pMtFcaP3L01z5Q"
-              >ma page Youtube</a
+              >ma chaîne Youtube</a
             >.
           </p>
           <ListAlternate :items="items"> </ListAlternate>

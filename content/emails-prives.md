@@ -1,5 +1,5 @@
 ---
-title: Emails privés
+title: S'abonner à la lettre psy
 description: Recevez tous les dimanches un email pour comprendre la psychologie et mieux se connaitre.
 logo: mail.svg
 colorText: white

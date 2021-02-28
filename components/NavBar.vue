@@ -122,7 +122,7 @@ export default {
           to: "/ateliers",
         },
         {
-          text: "Emails privés",
+          text: "Lettre Psy",
           to: "/emails-prives",
         },
         {

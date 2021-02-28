@@ -1,5 +1,5 @@
 ---
-title: Sortir des relations toxiques
+title: Sortir les relations toxiques (ou les éviter)
 description: Comment décrypter ses relations douloureuses et en sortir
   durablement avec l’Analyse Transactionnelle
 image: /images/relations-toxiques.png
@@ -26,17 +26,21 @@ Vous avez l'impression d'aider les autres et de n'avoir aucune reconnaissance en
 Vous vous dites qu'on est obligé de crier pour se faire entendre ?  
 Vous vous sentez coincé(e) dans une relation pro ou perso qui vous blesse ? 
 
-Nous avons tous connu, à un moment donné, des relations toxiques : au travail, en amitié, en famille ou en amour et parfois, ça peut faire très mal.
+Nous avons tous connu, à un moment donné, des relations toxiques : **au travail, en amitié, en famille ou en amour** et parfois, ça peut faire très mal.
 
-C'est pourquoi, il est important de savoir les décoder pour apprendre à ne pas entrer dedans. L'Analyse Transactionnelle, une approche de psychothérapie, nous donne de nombreux leviers d'interventions pour ça et c'est ce que je vous propose de voir ensemble dans cet atelier.
+Souvent, c'est en interrogeant notre ressenti qu'on s'en rend compte. On est en lien avec quelqu'un face à qui on se **dévalorise**, qu'on trouve mieux que nous, quelqu'un aussi qui ne nous laisse pas tellement de place pour nous exprimer ou encore quelqu'un contre qui on est souvent **en colère** par exemple.
 
-**Dans cet atelier, vous allez découvrir :**
+C'est pourquoi, il est important de savoir les décoder pour apprendre à ne pas entrer dedans. **L'Analyse Transactionnelle**, une approche de psychothérapie, nous donne de nombreux leviers d'interventions pour ça et c'est ce que je vous propose de voir ensemble dans cet atelier.
 
+**Dans cet atelier, vous allez découvrir :**  
 * La différence entre une personne toxique et une relation toxique
 * Comment se comporter quand une relation nous fait mal (dépendance affective, liens professionnels douloureux, amitiés toxiques, relations familiales qui blessent etc...)
 * Ce sur quoi vous pouvez agir pour modifier une relation toxique
 * Comment trouver ce qui vous conviendrait dans cette relation
 * Comment mettre en œuvre des actions efficaces pour modifier la relation ou en sortir
+<p></p>
+
+L'atelier a donc surtout pour objectif de vous permettre de **mieux comprendre vos relations** en général. De prendre conscience de la façon dont vous vous mettez en relation avec les autres, ce que cela vous apporte et ce que cela vous apprend sur vous.
 
 <display-text>Un travail personnel pour devenir expert(e) sur le sujet de VOS relations, les analyser et les modifier afin qu’elles vous permettent d’être épanoui(e) et de vivre votre meilleure vie.</display-text>
 
