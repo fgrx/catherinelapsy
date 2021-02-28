@@ -106,3 +106,29 @@ Si je l'apprécie autant, c'est que l’Analyse Transactionnelle permet de **dé
 Grâce à elle, j’accompagne mes patients vers **des relations plus sereines**, harmonieuses et surtout des relations dans lesquelles ils se font confiance pour savoir repérer et stopper les situations qui ne leur conviennent pas ou plus.
 
 <presentation></presentation>
+
+## Témoignages
+
+<testimonials>
+<testimonial author="Marie" image="woman1">
+Cet atelier a été vraiment une belle découverte. Dynamique et pédagogique, il m’a permis de mieux comprendre la nature des jeux et enjeux relationnels que je mettais en place et de me réapproprier ma posture dans le lien à l’autre. Au delà de ça j’ai pu approfondir mon travail sur moi et relancer mes réflexions introspectives. Un outil indispensable pour mieux se situer dans le lien à l’autre et se dégager des liens toxiques. La bienveillance de Cathy tout au long de ce cheminement permet de questionner nos jeux psychologiques en toute sécurité et sans culpabilité.
+</testimonial>
+
+<testimonial author="Léo" image="man1">
+J'ai apprécié analyser mes relations de façon méthodique, presque scientifique. La méthode est carrée et permet de prendre du recul sur le fonctionnement des autres et de moi-même. J'ai bien vu ma part dans les échecs de mes relations et je pense que je vais pouvoir m'améliorer !
+</testimonial>
+
+
+
+<testimonial author="Livia" image="woman2">
+Cet atelier m'a permis de bien différencier les 3 rôles de Persécuteur, Sauveur et Victime.
+J'ai ainsi pu mieux analyser ce qui se joue dans mes relations et mes besoins sous-jacents.
+</testimonial>
+
+<testimonial author="Jean Michel" image="man2">
+Atelier très intéressant. Il permet de mettre des noms sur des comportements du quotidien souvent sources de problèmes. Permet de prendre du recul sur ces situations et de se poser les bonnes questions. 
+</testimonial>
+
+
+
+</testimonials>

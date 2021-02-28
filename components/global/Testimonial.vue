@@ -13,7 +13,7 @@
       <p class="italic">
         <slot></slot>
       </p>
-      <cite>{{ author }}</cite>
+      <cite class="not-italic">{{ author }}</cite>
     </blockquote>
   </div>
 </template>
