@@ -1,5 +1,5 @@
 ---
-title: Sortir les relations toxiques (ou les éviter)
+title: Sortir des relations toxiques (ou les éviter)
 description: Comment décrypter ses relations douloureuses et en sortir
   durablement avec l’Analyse Transactionnelle
 image: /images/relations-toxiques.png
@@ -12,7 +12,6 @@ order: 1
 isOpen: true
 codeMailingList: M5klg
 ---
-
 <display-text display='frame'>
 
 * Détectez quand une relation est toxique
@@ -33,12 +32,12 @@ Souvent, c'est en interrogeant notre ressenti qu'on s'en rend compte. On est en 
 C'est pourquoi, il est important de savoir les décoder pour apprendre à ne pas entrer dedans. **L'Analyse Transactionnelle**, une approche de psychothérapie, nous donne de nombreux leviers d'interventions pour ça et c'est ce que je vous propose de voir ensemble dans cet atelier.
 
 **Dans cet atelier, vous allez découvrir :**  
+
 * La différence entre une personne toxique et une relation toxique
 * Comment se comporter quand une relation nous fait mal (dépendance affective, liens professionnels douloureux, amitiés toxiques, relations familiales qui blessent etc...)
 * Ce sur quoi vous pouvez agir pour modifier une relation toxique
 * Comment trouver ce qui vous conviendrait dans cette relation
 * Comment mettre en œuvre des actions efficaces pour modifier la relation ou en sortir
-<p></p>
 
 L'atelier a donc surtout pour objectif de vous permettre de **mieux comprendre vos relations** en général. De prendre conscience de la façon dont vous vous mettez en relation avec les autres, ce que cela vous apporte et ce que cela vous apprend sur vous.
 
@@ -123,8 +122,6 @@ Cet atelier a été vraiment une belle découverte. Dynamique et pédagogique, i
 J'ai apprécié analyser mes relations de façon méthodique, presque scientifique. La méthode est carrée et permet de prendre du recul sur le fonctionnement des autres et de moi-même. J'ai bien vu ma part dans les échecs de mes relations et je pense que je vais pouvoir m'améliorer !
 </testimonial>
 
-
-
 <testimonial author="Livia" image="woman2">
 Cet atelier m'a permis de bien différencier les 3 rôles de Persécuteur, Sauveur et Victime.
 J'ai ainsi pu mieux analyser ce qui se joue dans mes relations et mes besoins sous-jacents.
@@ -133,7 +130,5 @@ J'ai ainsi pu mieux analyser ce qui se joue dans mes relations et mes besoins so
 <testimonial author="Jean Michel" image="man2">
 Atelier très intéressant. Il permet de mettre des noms sur des comportements du quotidien souvent sources de problèmes. Permet de prendre du recul sur ces situations et de se poser les bonnes questions. 
 </testimonial>
-
-
 
 </testimonials>
