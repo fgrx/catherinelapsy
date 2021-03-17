@@ -38,6 +38,7 @@
           {{ item.description }}
         </p>
 
+
         <nuxt-link
           v-if="item.dir !== '/videos'"
           :to="`${item.dir}/${item.slug}`"
