@@ -13,7 +13,7 @@
           type="text"
           name="email"
           id="email"
-          class="flex-1 required email input w-full px-3 py-2 pb-2"
+          class="flex-1 required email input w-full px-3 py-2 pb-2 text-black"
           placeholder="martin.dubois@gmail.com"
         />
         <input
