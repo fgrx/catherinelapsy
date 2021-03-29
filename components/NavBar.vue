@@ -134,6 +134,10 @@ export default {
           to: "/qui-sommes-nous",
         },
         {
+          text: "Liens",
+          to: "/liens",
+        },
+        {
           text: "Contact",
           to: "/contact",
         },

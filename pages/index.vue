@@ -62,4 +62,10 @@ export default {
 </script>
 
 <style>
+h3 {
+  font-family: "Lexend Deca", sans-serif;
+  margin-top: 1rem;
+  margin-bottom: 0.5em;
+  font-size: 1.2rem;
+}
 </style>
