@@ -12,20 +12,14 @@
           </h1>
         </div>
         <div class="flex-1">
-          <img
-            :srcset="
-              require('@/static/home/catedetour-400.webp') +
-              ' 400w, ' +
-              require('@/static/home/catedetour-600.webp') +
-              ' 600w, '
-            "
-            sizes="(max-width: 400px) 400px,(max-width: 600px) 600px, 800px"
-            :src="require('@/static/home/catedetour.webp')"
+          <nuxt-picture
+            src="home/catedetour.webp"
+            height="482"
+            format="webp"
+            width="800"
             class="mt-10"
             quality="70"
             alt="Portrait de Catherine La Psy"
-            height="482"
-            width="800"
           />
         </div>
       </div>
