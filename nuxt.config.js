@@ -1,3 +1,5 @@
+import getRoutes from "./utils/getRoutes";
+
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: "static",
@@ -130,13 +132,9 @@ export default {
     hostname: "https://catherinelapsy.com",
     gzip: true,
     exclude: ["/admin/**"],
-    routes: [
-      "/videos",
-      "/emails-prives",
-      "/contact",
-      "/mentions-legales",
-      "/ateliers/faire-la-paix-avec-son-heritage-familial"
-    ]
+    routes(){
+      return getRoutes()
+    } 
   },
 
   googleAnalytics: {
