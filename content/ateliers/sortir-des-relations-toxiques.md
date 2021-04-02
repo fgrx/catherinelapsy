@@ -1,5 +1,5 @@
 ---
-title: Sortir des relations toxiques (ou les éviter)
+title: Comment sortir des relations toxiques (ou les éviter)
 description: Comment décrypter ses relations douloureuses et en sortir
   durablement avec l’Analyse Transactionnelle
 image: /images/relations-toxiques.png
@@ -12,18 +12,19 @@ order: 1
 isOpen: true
 codeMailingList: M5klg
 ---
+
 <display-text display='frame'>
 
-* Détectez quand une relation est toxique
-* Désamorcez les conflits
-* Améliorez vos relations aux autres
-* Sortez des prises de têtes récurrentes, jalousies, attentes et comparaisons 
+- Détectez quand une relation est toxique
+- Désamorcez les conflits
+- Améliorez vos relations aux autres
+- Sortez des prises de têtes récurrentes, jalousies, attentes et comparaisons
 
 </display-text>
  
 Vous avez l'impression d'aider les autres et de n'avoir aucune reconnaissance en retour  ?  
 Vous vous dites qu'on est obligé de crier pour se faire entendre ?  
-Vous vous sentez coincé(e) dans une relation pro ou perso qui vous blesse ? 
+Vous vous sentez coincé(e) dans une relation pro ou perso qui vous blesse ?
 
 Nous avons tous connu, à un moment donné, des relations toxiques : **au travail, en amitié, en famille ou en amour** et parfois, ça peut faire très mal.
 
@@ -31,13 +32,13 @@ Souvent, c'est en interrogeant notre ressenti qu'on s'en rend compte. On est en 
 
 C'est pourquoi, il est important de savoir les décoder pour apprendre à ne pas entrer dedans. **L'Analyse Transactionnelle**, une approche de psychothérapie, nous donne de nombreux leviers d'interventions pour ça et c'est ce que je vous propose de voir ensemble dans cet atelier.
 
-**Dans cet atelier, vous allez découvrir :**  
+**Dans cet atelier, vous allez découvrir :**
 
-* La différence entre une personne toxique et une relation toxique
-* Comment se comporter quand une relation nous fait mal (dépendance affective, liens professionnels douloureux, amitiés toxiques, relations familiales qui blessent etc...)
-* Ce sur quoi vous pouvez agir pour modifier une relation toxique
-* Comment trouver ce qui vous conviendrait dans cette relation
-* Comment mettre en œuvre des actions efficaces pour modifier la relation ou en sortir
+- La différence entre une personne toxique et une relation toxique
+- Comment se comporter quand une relation nous fait mal (dépendance affective, liens professionnels douloureux, amitiés toxiques, relations familiales qui blessent etc...)
+- Ce sur quoi vous pouvez agir pour modifier une relation toxique
+- Comment trouver ce qui vous conviendrait dans cette relation
+- Comment mettre en œuvre des actions efficaces pour modifier la relation ou en sortir
 
 L'atelier a donc surtout pour objectif de vous permettre de **mieux comprendre vos relations** en général. De prendre conscience de la façon dont vous vous mettez en relation avec les autres, ce que cela vous apporte et ce que cela vous apprend sur vous.
 
@@ -57,46 +58,46 @@ Cet atelier n’est pas recommandé aux personnes présentant des troubles disso
 
 <expandable title="Module 1 : partie théorique ">
 
-* faire la différence personne toxique / relation toxique
-* différencier les jeux de pouvoir / jeux psychologiques
-* Violentomètre des relations toxiques
+- faire la différence personne toxique / relation toxique
+- différencier les jeux de pouvoir / jeux psychologiques
+- Violentomètre des relations toxiques
 
 </expandable>
 
 <expandable title="Module 2 : Chronologie des jeux toxiques">
 
-* découverte du modèle n°1 des jeux psychologiques
-* exercices de repérage
-* expérimentez ce modèle sur vos relations
+- découverte du modèle n°1 des jeux psychologiques
+- exercices de repérage
+- expérimentez ce modèle sur vos relations
 
 </expandable>
 
 <expandable title="Module 3 : le modèle de Karpman">
 
-* découverte du modèle n°2 des jeux psychologiques 
-* exercices pratiques
-* analyse d'une relation toxique
-* expérimentation sur vos relations
+- découverte du modèle n°2 des jeux psychologiques
+- exercices pratiques
+- analyse d'une relation toxique
+- expérimentation sur vos relations
 
 </expandable>
 
 <expandable title="Module 4 : visualisations">
 
-* deux visualisations pour approfondir la compréhension de vos relations
-* exercices pratiques de renoncement aux relations toxiques
+- deux visualisations pour approfondir la compréhension de vos relations
+- exercices pratiques de renoncement aux relations toxiques
 
 </expandable>
 
 <expandable title="Module 5 : la boite à outils">
 
-* élaboration des diverses options de changement 
-* la relation parfois vouée à l'échec, comment faire ?
+- élaboration des diverses options de changement
+- la relation parfois vouée à l'échec, comment faire ?
 
 </expandable>
 
 <expandable title="Module 6 : étude de cas">
 
-* séance de psychothérapie filmée et commentée
+- séance de psychothérapie filmée et commentée
 
 </expandable>
 
