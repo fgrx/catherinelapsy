@@ -11,8 +11,8 @@
           <div class="">
             <h2>S'abonner à la Lettre Psy</h2>
             <p>
-              Recevez tous les lundis un email pour comprendre la psychologie
-              et mieux se connaitre
+              Chaque semaine un email pour comprendre sa psychologie et mieux se
+              connaitre
             </p>
           </div>
         </div>

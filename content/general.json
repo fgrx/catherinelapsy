@@ -1,36 +1,36 @@
 {
-    "siteName":"Catherine la psy",
-    "siteUrl":"https://catherine-la-psy.com",
-    "siteDescription":"Catherine la psy vous fait découvrir la psychologie comme vous ne l'avez jamais vue !",
-    "siteTitle":"Catherine la psy",
-    "siteSubtitle":"La psy comme vous ne l'avez jamais vue !",
-    "product":{
-      "titleSection":"Nouvel atelier en ligne :",
-      "title":"Sortir des relations toxiques (ou les éviter)",
-      "description":"Les détecter, les décrypter et améliorer nos relations en examinant les jeux psychologiques",
-      "url":"/ateliers/sortir-des-relations-toxiques",
-      "urlAllProducts":"/",
-      "image":"images/relations-toxiques.png",
-      "displayPrice": false,
-      "price": 149,
-      "promo": 99
+  "siteName": "Catherine la psy",
+  "siteUrl": "https://catherine-la-psy.com",
+  "siteDescription": "Catherine la psy vous fait découvrir la psychologie comme vous ne l'avez jamais vue !",
+  "siteTitle": "Catherine la psy",
+  "siteSubtitle": "La psy comme vous ne l'avez jamais vue !",
+  "product": {
+    "titleSection": "Nouvel atelier en ligne :",
+    "title": "Comment sortir des relations toxiques (ou les éviter)",
+    "description": "Les détecter, les décrypter et améliorer nos relations en examinant les jeux psychologiques",
+    "url": "/ateliers/sortir-des-relations-toxiques",
+    "urlAllProducts": "/",
+    "image": "images/relations-toxiques.png",
+    "displayPrice": false,
+    "price": 149,
+    "promo": 99
+  },
+  "socialNetworks": {
+    "instagram": {
+      "title": "Mon compte Instagram",
+      "description": "Tous les jours de l'actualité pour mieux comprendre le monde psy",
+      "image": "insta_small.webp",
+      "logo": "instagram.svg",
+      "order": 0,
+      "url": "https://www.instagram.com/catherine_la_psy/"
     },
-    "socialNetworks":{
-      "instagram":{
-        "title":"Mon compte Instagram",
-        "description":"Tous les jours de l'actualité pour mieux comprendre le monde psy",
-        "image":"insta_small.webp",
-        "logo":"instagram.svg",
-        "order":0,
-        "url":"https://www.instagram.com/catherine_la_psy/"
-      },
-      "youtube":{
-        "title":"Ma chaîne Youtube",
-        "image":"youtube_cate.webp",
-        "logo":"youtube.svg",
-        "description":"Des sujets de psychologie pointus vulgarisés de façon décomplexé",
-        "order":1,
-        "url":"https://www.youtube.com/channel/UCuocS66l-pMtFcaP3L01z5Q"
-      }
+    "youtube": {
+      "title": "Ma chaîne Youtube",
+      "image": "youtube_cate.webp",
+      "logo": "youtube.svg",
+      "description": "Des sujets de psychologie pointus vulgarisés de façon décomplexé",
+      "order": 1,
+      "url": "https://www.youtube.com/channel/UCuocS66l-pMtFcaP3L01z5Q"
     }
+  }
 }

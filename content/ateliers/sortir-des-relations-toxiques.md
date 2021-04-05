@@ -14,43 +14,40 @@ codeMailingList: M5klg
 ---
 
 <display-text display='frame'>
+Dans cet atelier vous allez apprendre à :
 
-- Détectez quand une relation est toxique
-- Désamorcez les conflits
-- Améliorez vos relations aux autres
+- Détecter quand vos relations sont toxiques
+- Désamorcer vos conflits avec les autres
+- Améliorer vos relations
 - Sortez des prises de têtes récurrentes, jalousies, attentes et comparaisons
 
 </display-text>
- 
-Vous avez l'impression d'aider les autres et de n'avoir aucune reconnaissance en retour  ?  
-Vous vous dites qu'on est obligé de crier pour se faire entendre ?  
-Vous vous sentez coincé(e) dans une relation pro ou perso qui vous blesse ?
 
 Nous avons tous connu, à un moment donné, des relations toxiques : **au travail, en amitié, en famille ou en amour** et parfois, ça peut faire très mal.
 
 Souvent, c'est en interrogeant notre ressenti qu'on s'en rend compte. On est en lien avec quelqu'un face à qui on se **dévalorise**, qu'on trouve mieux que nous, quelqu'un aussi qui ne nous laisse pas tellement de place pour nous exprimer ou encore quelqu'un contre qui on est souvent **en colère** par exemple.
 
-C'est pourquoi, il est important de savoir les décoder pour apprendre à ne pas entrer dedans. **L'Analyse Transactionnelle**, une approche de psychothérapie, nous donne de nombreux leviers d'interventions pour ça et c'est ce que je vous propose de voir ensemble dans cet atelier.
+C'est pourquoi, c'est important de savoir les décoder ces types de relations pour apprendre à ne pas entrer dedans. **L'Analyse Transactionnelle**, une de mes deux approches de psychothérapie préférées, donne de nombreux leviers d'interventions pour ça.  
+C'est ce que je vous propose de voir ensemble dans cet atelier.
 
 **Dans cet atelier, vous allez découvrir :**
 
-- La différence entre une personne toxique et une relation toxique
-- Comment se comporter quand une relation nous fait mal (dépendance affective, liens professionnels douloureux, amitiés toxiques, relations familiales qui blessent etc...)
-- Ce sur quoi vous pouvez agir pour modifier une relation toxique
-- Comment trouver ce qui vous conviendrait dans cette relation
-- Comment mettre en œuvre des actions efficaces pour modifier la relation ou en sortir
+- La différence entre une **personne toxique** et une **relation toxique**
+- Comment **agir** quand une relation nous fait mal (dépendance affective, liens professionnels douloureux, amitiés toxiques, relations familiales qui blessent etc...)
+- Comment **modifier** une relation toxique
+- Comment mettre en œuvre des **actions efficaces** pour modifier la relation ou en sortir
 
-L'atelier a donc surtout pour objectif de vous permettre de **mieux comprendre vos relations** en général. De prendre conscience de la façon dont vous vous mettez en relation avec les autres, ce que cela vous apporte et ce que cela vous apprend sur vous.
+L'atelier a donc pour **objectif** de vous permettre de mieux comprendre vos relations en général. De prendre conscience de la façon dont vous vous mettez en relation avec les autres, ce que cela vous apporte et ce que cela vous apprend sur vous.
 
-<display-text>Un travail personnel pour devenir expert(e) sur le sujet de VOS relations, les analyser et les modifier afin qu’elles vous permettent d’être épanoui(e) et de vivre votre meilleure vie.</display-text>
+<display-text>Un travail personnel pour devenir expert(e) sur le sujet de vos relations, les analyser et les modifier afin qu’elles vous permettent d’être épanoui(e) et de vivre votre meilleure vie.</display-text>
 
-C’est un atelier très **concrêt**, basé sur des exercices pratiques, qui vous permet d’appliquer directement sur vous-même les concepts de l’Analyse Transactionnelle afin de mettre le doigt sur ce qui ne fonctionne pas dans certaines de vos relations et vous en défaire.
+C’est un atelier très **concrêt**, basé sur des exercices pratiques, qui vous permet d’appliquer directement sur vous-même les concepts de l’Analyse Transactionnelle. Ceci afin de mettre le doigt sur ce qui ne fonctionne pas dans vos relations et de vous en **défaire**.
 
-L'atelier contient des vidéos et des documents que vous pourrez consulter à votre rythme, quand vous voulez, d'où vous voulez.
+L'atelier contient des vidéos et des documents que vous consultez **à votre rythme**, quand vous voulez, d'où vous voulez.
 
-Vous aurez également accès à un **groupe Facebook** qui regroupe les participants à tous mes ateliers en ligne, afin d'échanger ensemble sur votre progression et de me poser toutes vos questions.
+Vous aurez également accès à un **groupe Facebook** qui regroupe les participants de tous mes ateliers en ligne, pour échanger ensemble sur votre progression et de me poser toutes vos questions.
 
-Si vous êtes psy ou coach, cet atelier que vous pouvez déduire de vos charges professionnelles, vous permettra d'utiliser les jeux psychologiques de façon très concrête et résolutoire avec vos patients et clients.
+Si vous êtes **psy ou coach**, cet atelier que vous pouvez déduire de vos charges professionnelles, vous permettra d'utiliser les jeux psychologiques de façon très concrête et résolutoire avec vos patients et clients.
 
 Cet atelier n’est pas recommandé aux personnes présentant des troubles dissociatifs ou des problèmes psychiatriques en raison des visualisations qu’il contient et qui nécessitent, dans ces situations, de les faire accompagnées par un thérapeute en présentiel.
 
@@ -64,7 +61,7 @@ Cet atelier n’est pas recommandé aux personnes présentant des troubles disso
 
 </expandable>
 
-<expandable title="Module 2 : Chronologie des jeux toxiques">
+<expandable title="Module 2 : chronologie des jeux toxiques">
 
 - découverte du modèle n°1 des jeux psychologiques
 - exercices de repérage

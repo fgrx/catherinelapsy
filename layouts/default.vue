@@ -61,6 +61,10 @@ article {
   }
 }
 
+.content ul {
+  margin-bottom: 0.6em;
+}
+
 /* .page-enter-active,
 .page-leave-active {
   transition: all 0.3s;

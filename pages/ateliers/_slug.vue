@@ -16,7 +16,7 @@
           :alt="doc.imageAlt"
         ></nuxt-img>
 
-        <nuxt-content :document="doc"></nuxt-content>
+        <nuxt-content class="content" :document="doc"></nuxt-content>
         <div class="text-center" v-if="doc.buyUrl && doc.isOpen">
           <a :href="doc.buyUrl">
             <Btn class="mt-20">
@@ -75,24 +75,23 @@ export default {
         {
           hid: "description",
           name: "description",
-          content: this.doc.description,
+          content: this.doc.description
         },
         { name: "og:title", content: this.doc.title },
         { name: "og:type", content: "article" },
         { name: "og:site_name", content: "catherine La Psy" },
         {
           name: "og:image",
-          content: `https://catherinelapsy.com${this.doc.image}`,
+          content: `https://catherinelapsy.com${this.doc.image}`
         },
         {
           name: "og:description",
-          content: this.doc.description,
-        },
-      ],
+          content: this.doc.description
+        }
+      ]
     };
-  },
+  }
 };
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
