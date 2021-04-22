@@ -12,14 +12,15 @@ colorText: white
 colorBg1: indigo-700
 colorBg2: teal-600
 order: 0
-isOpen: false
+isOpen: true
 ---
+
 <display-text display='frame'>
 
-* Découvrez quels problèmes psychologiques votre famille vous a légués
-* Avancez plus rapidement dans votre thérapie
-* Débloquez vous des situations dont vous ne savez pas vous extraire
-* Sortez des schémas répétitifs
+- Découvrez quels problèmes psychologiques votre famille vous a légués
+- Avancez plus rapidement dans votre thérapie
+- Débloquez vous des situations dont vous ne savez pas vous extraire
+- Sortez des schémas répétitifs
 
 </display-text>
 
@@ -31,7 +32,7 @@ Aux professionnels de la psychologie et aux coachs qui souhaitent découvrir de 
 
 ## Pourquoi vous sentez-vous bloqué ?
 
-Figurez-vous que les épreuves qu'ont vécues les membres de votre famille vous affectent plus que vous ne l'imaginez, et cela, de manière souvent indirecte et invisible. L'**INSERM** décrit d'ailleurs que leur vécu affecte directement nos gènes et que cela se transmet de génération en génération. 
+Figurez-vous que les épreuves qu'ont vécues les membres de votre famille vous affectent plus que vous ne l'imaginez, et cela, de manière souvent indirecte et invisible. L'**INSERM** décrit d'ailleurs que leur vécu affecte directement nos gènes et que cela se transmet de génération en génération.
 
 <display-text>
 Des traumatismes de votre famille se retrouvent donc... Dans votre ADN !
@@ -47,7 +48,7 @@ Je vous présente dans cet atelier les théories et les techniques que j'ai appr
 
 ## Comment se déroule cet atelier ?
 
-J'ai voulu cet atelier **très concret**.  En 5 étapes, vous serez en mesure de dessiner vous-même votre arbre familial, puis de l'analyser et de savoir quoi faire de ces résultats. Et tout cela en complète autonomie.\
+J'ai voulu cet atelier **très concret**. En 5 étapes, vous serez en mesure de dessiner vous-même votre arbre familial, puis de l'analyser et de savoir quoi faire de ces résultats. Et tout cela en complète autonomie.\
 Vous expérimenterez aussi un exercice de visualisation permettant de débloquer des informations émotionnelles.
 
 <display-text>L'atelier contient 10 vidéos que vous pourrez consulter à votre rythme, quand vous voulez, d'où vous voulez.</display-text>
@@ -67,67 +68,67 @@ Une indication néanmoins : cet atelier est destiné à des personnes adultes, m
 
 <expandable title="Module 1 : partie théorique ">
 
-* qu'est-ce qu'un patient symptôme ?
-* que sont les codes familiaux ?
-* que sont les loyautés familiales ?
-* comment se transmettent les secrets de famille ?
-</expandable>
+- qu'est-ce qu'un patient symptôme ?
+- que sont les codes familiaux ?
+- que sont les loyautés familiales ?
+- comment se transmettent les secrets de famille ?
+  </expandable>
 
 <expandable title="Module 2 : dessiner son arbre familial">
 
-* dessin accompagné
-* explication des différentes situations familiales
-* illustration par une famille fictive dessinée sous vos yeux
-</expandable>
+- dessin accompagné
+- explication des différentes situations familiales
+- illustration par une famille fictive dessinée sous vos yeux
+  </expandable>
 
 <expandable title="Module 3 : éléments sociologiques">
 
-* ajouts de différents éléments de vie de la famille
-* ajout des liens entre les membres
-* illustration 
-</expandable>
+- ajouts de différents éléments de vie de la famille
+- ajout des liens entre les membres
+- illustration
+  </expandable>
 
 <expandable title="Module 4 : travail émotionnel">
 
-* visualisation hypnotique "la maison familiale" 
-* découverte des devises familiales
-* identification des ressources familales 
-* finalisation de l'arbre
-</expandable>
+- visualisation hypnotique "la maison familiale"
+- découverte des devises familiales
+- identification des ressources familales
+- finalisation de l'arbre
+  </expandable>
 
 <expandable title="Module 5 : interprétation de l'arbre familial">
 
-* comment comprendre votre dessin
-* prendre conscience de votre place dans cette famille
-* mettre en lumière les rôles de chacun
-</expandable>
+- comment comprendre votre dessin
+- prendre conscience de votre place dans cette famille
+- mettre en lumière les rôles de chacun
+  </expandable>
 
 <expandable title="Module 7 : exercice de libération émotionnelle">
 
-* comment rendre aux membres de notre famille ce qui ne nous appartient pas
-* illustration commentée de l'exercice
-* observation des sensations
-</expandable>
+- comment rendre aux membres de notre famille ce qui ne nous appartient pas
+- illustration commentée de l'exercice
+- observation des sensations
+  </expandable>
 
 <expandable title="Module supplémentaire (ajouté en janvier 2021)">
 
-* réponse à vos questions fréquentes durant votre travail
-* aide supplémentaire à l'interprétation de votre génogramme
-</expandable>
+- réponse à vos questions fréquentes durant votre travail
+- aide supplémentaire à l'interprétation de votre génogramme
+  </expandable>
 
 <expandable title="Module en cours de construction (à paraitre courant 2021)">
 
-* le rôle des prénoms des membres de la famille
-* les différents types de génogrammes en psychogénéalogie
-</expandable>
+- le rôle des prénoms des membres de la famille
+- les différents types de génogrammes en psychogénéalogie
+  </expandable>
 
 <expandable title="Documents supports">
 
-* récapitulatif des modalités de dessin de l'arbre familial
-* récapitulatif des éléments sociologiques à faire figurer
-* récapitulatif des éléments d'interprétation de l'arbre familial
-* exemples de devises et de ressources fréquentes 
-</expandable>
+- récapitulatif des modalités de dessin de l'arbre familial
+- récapitulatif des éléments sociologiques à faire figurer
+- récapitulatif des éléments d'interprétation de l'arbre familial
+- exemples de devises et de ressources fréquentes
+  </expandable>
 
 <pictos-atelier></pictos-atelier>
 
@@ -159,8 +160,8 @@ La visualisation c’est top, je ne savais pas trop à quoi m’attendre voir un
 
 Vous êtes nombreux à avoir participé sur le groupe Facebook. De vos questions est né un nouveau module disponible pour toutes les personnes ayant acheté l'atelier.
 
-Au programme : 
+Au programme :
 
-* Une vidéo d'aide supplémentaire à l'interprétation de votre dessin
-* Une vidéo de réponses à vos questions
-* Un PDF pour faciliter la recherche de vos ressources et devises familiales
+- Une vidéo d'aide supplémentaire à l'interprétation de votre dessin
+- Une vidéo de réponses à vos questions
+- Un PDF pour faciliter la recherche de vos ressources et devises familiales
