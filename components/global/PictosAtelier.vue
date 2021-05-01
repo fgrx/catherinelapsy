@@ -1,5 +1,5 @@
 <template>
-  <div class="md:flex flex-wrap md:justify-arround">
+  <div class="md:flex flex-wrap md:justify-arround mb-8">
     <div class="md:w-1/3 mt-10 md:mt-5 px-5 text-center">
       <img
         class="mx-auto"
@@ -14,7 +14,7 @@
         >
         <br />
         L'atelier est mis à jour gratuitement en fonction de vos questions et
-        retours.
+        retours
       </p>
     </div>
 
@@ -36,7 +36,7 @@
         <span class="text-lg font-semibold text-teal-700">Accès illimité</span>
         <br />
         Prenez votre temps, vous avez accès à l'atelier autant de temps que vous
-        le souhaitez.
+        le souhaitez
       </p>
     </div>
 
@@ -55,7 +55,7 @@
         </span>
         <br />
         Ne restez pas bloqué(e)s et posez vos questions sur un groupe Facebook
-        dédié.
+        dédié
       </p>
     </div>
   </div>
@@ -65,5 +65,4 @@
 export default {};
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

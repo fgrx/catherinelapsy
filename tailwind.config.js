@@ -12,6 +12,7 @@ module.exports = {
       red: colors.rose,
       yellow: colors.amber,
       rose: colors.rose,
+      purple: colors.purple,
       teal: colors.teal,
       emerald: colors.emerald,
       custom: {
@@ -53,6 +54,10 @@ module.exports = {
         "to-emerald-500",
         "from-emerald-400",
         "to-emerald-400",
+        "from-purple-900",
+        "to-purple-900",
+        "from-purple-800",
+        "to-purple-800",
         "py-24"
       ]
     }

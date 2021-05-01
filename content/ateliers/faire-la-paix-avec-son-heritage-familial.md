@@ -1,5 +1,5 @@
 ---
-title: Faire la paix avec son héritage familial
+title: Faites la paix avec votre héritage familial
 description: Vos problèmes ne viennent pas que de vous ! Nous avons tous un
   héritage psychologique de notre famille et il est parfois encombrant.
   Ensemble, nous découvrirons ce qui ne vous appartient pas pour débloquer votre
@@ -63,6 +63,8 @@ Si vous êtes psy ou coach, cet atelier que vous pouvez déduire de vos charges 
 Une indication néanmoins : cet atelier est destiné à des personnes adultes, majeures et ne présentant pas de pathologies psychiatriques ou dissociatives, notamment en raison de la visualisation qu'il contient et qu'il est préférable de faire en présentiel dans ces situations.
 
 <display-text>Cet atelier correspond à environ 6 séances en présentiel à mon cabinet</display-text>
+
+<buy-btn url="https://ctpsy.podia.com/heritage-familial"></buy-btn>
 
 ## Programme
 
@@ -133,6 +135,8 @@ Une indication néanmoins : cet atelier est destiné à des personnes adultes, m
 <pictos-atelier></pictos-atelier>
 
 <presentation></presentation>
+
+<buy-btn url="https://ctpsy.podia.com/heritage-familial"></buy-btn>
 
 ## Témoignages
 

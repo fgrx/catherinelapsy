@@ -15,17 +15,13 @@
           v-if="doc.image"
           :alt="doc.imageAlt"
         ></nuxt-img>
+        <div class="text-center" v-if="doc.buyUrl && doc.isOpen">
+          <BuyBtn :url="doc.buyUrl" :isClosed="!doc.isOpen"></BuyBtn>
+        </div>
 
         <nuxt-content class="content" :document="doc"></nuxt-content>
         <div class="text-center" v-if="doc.buyUrl && doc.isOpen">
-          <a :href="doc.buyUrl">
-            <Btn class="mt-20">
-              Acheter
-              <template slot="subText"
-                ><div>Vous serez redirigé sur podia.com</div></template
-              >
-            </Btn>
-          </a>
+          <BuyBtn :url="doc.buyUrl" :isClosed="!doc.isOpen"></BuyBtn>
         </div>
 
         <div v-if="!doc.isOpen" class="bg-rose-600 text-white py-8 px-5 mt-10">

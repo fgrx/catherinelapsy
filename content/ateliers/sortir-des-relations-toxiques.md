@@ -1,5 +1,5 @@
 ---
-title: Comment sortir des relations toxiques (ou les éviter)
+title: Comment sortir de vos relations toxiques (ou les éviter)
 description: Comment décrypter ses relations douloureuses et en sortir
   durablement avec l’Analyse Transactionnelle
 image: /images/relations-toxiques.png
@@ -51,6 +51,8 @@ Si vous êtes **psy ou coach**, cet atelier que vous pouvez déduire de vos char
 
 Cet atelier n’est pas recommandé aux personnes présentant des troubles dissociatifs ou des problèmes psychiatriques en raison des visualisations qu’il contient et qui nécessitent, dans ces situations, de les faire accompagnées par un thérapeute en présentiel.
 
+<buy-btn url="https://ctpsy.podia.com/sortir-des-relations-toxiques"></buy-btn>
+
 ## Programme de l'atelier
 
 <expandable title="Module 1 : partie théorique ">
@@ -98,16 +100,33 @@ Cet atelier n’est pas recommandé aux personnes présentant des troubles disso
 
 </expandable>
 
+<expandable title="Documents supports">
+
+- Violentomètre des relations toxiques
+- Les 5 étapes du jeu psychologique
+- Etude de cas d'un jeu psychologique au travail
+- Remplir le chronologie de vos jeux psychologiques
+- Exemples de croyances et de salaires
+- Exemples de besoins
+- Le triangle dramatique
+- Vos rôles dans vos jeux psychologiques
+- Exemples de jeux psychologiques fréquents
+- la règles des 10%
+
+</expandable>
+
+<expandable title= "Modules supplémentaires (à paraitre courant 2021)" >
+
+- comment construire une option réalisable
+- aide supplémentaire pour sortir de son rôle toxique
+
+</expandable>
+
 <pictos-atelier></pictos-atelier>
 
-**Depuis 20 ans, je travaille avec l’Analyse Transactionnelle**.\
- D’abord pour moi-même en tant que patiente, puis pour la proposer à mes équipes en tant que manager dans une première vie professionnelle et aujourd'hui, en tant que psychologue clinicienne en cabinet libéral.
-
-Si je l'apprécie autant, c'est que l’Analyse Transactionnelle permet de **décrypter finement les relations qu’on entretient les uns et les unes avec les autres**, elle nous donne des éléments de compréhensions pertinents et bien entendu, des solutions pour modifier les relations qui ne nous conviennent pas.
-
-Grâce à elle, j’accompagne mes patients vers **des relations plus sereines**, harmonieuses et surtout des relations dans lesquelles ils se font confiance pour savoir repérer et stopper les situations qui ne leur conviennent pas ou plus.
-
 <presentation></presentation>
+
+<buy-btn url="https://ctpsy.podia.com/sortir-des-relations-toxiques"></buy-btn>
 
 ## Témoignages
 
