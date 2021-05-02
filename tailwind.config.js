@@ -48,6 +48,7 @@ module.exports = {
         "to-teal-700",
         "from-teal-500",
         "to-teal-500",
+        "from-teal-600",
         "to-teal-600",
         "text-rose-600",
         "from-emerald-500",
