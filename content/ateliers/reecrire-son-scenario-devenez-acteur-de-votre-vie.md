@@ -14,7 +14,7 @@ isOpen: true
 
 Il vous est peut-être déjà arrivé de **tout essayer** pour résoudre un problème que vous aviez. Et pourtant, il est toujours là.
 
-Et vous vous voyez agir exactement **comme vous ne voudriez pas le faire ** :
+Et vous vous voyez agir exactement **comme vous ne voudriez pas le faire** :
 
 - envoyer ce sms de trop
 - manger ce carré de chocolat sans avoir faim
