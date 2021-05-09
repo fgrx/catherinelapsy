@@ -120,7 +120,8 @@ Or ça, malheureusement, on ne nous apprend pas souvent à le faire.
 - exemples de croyances
 - exemples de besoins
 - de nombreux exemples pour bien comprendre tous les concepts
-  </expandable>
+
+</expandable>
 
 <pictos-atelier></pictos-atelier>
 
