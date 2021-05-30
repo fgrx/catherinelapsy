@@ -74,21 +74,24 @@ Une indication néanmoins : cet atelier est destiné à des personnes adultes, m
 - que sont les codes familiaux ?
 - que sont les loyautés familiales ?
 - comment se transmettent les secrets de famille ?
-  </expandable>
+
+</expandable>
 
 <expandable title="Module 2 : dessiner son arbre familial">
 
 - dessin accompagné
 - explication des différentes situations familiales
 - illustration par une famille fictive dessinée sous vos yeux
-  </expandable>
+
+</expandable>
 
 <expandable title="Module 3 : éléments sociologiques">
 
 - ajouts de différents éléments de vie de la famille
 - ajout des liens entre les membres
 - illustration
-  </expandable>
+
+</expandable>
 
 <expandable title="Module 4 : travail émotionnel">
 
@@ -96,21 +99,24 @@ Une indication néanmoins : cet atelier est destiné à des personnes adultes, m
 - découverte des devises familiales
 - identification des ressources familales
 - finalisation de l'arbre
-  </expandable>
+
+</expandable>
 
 <expandable title="Module 5 : interprétation de l'arbre familial">
 
 - comment comprendre votre dessin
 - prendre conscience de votre place dans cette famille
 - mettre en lumière les rôles de chacun
-  </expandable>
+
+</expandable>
 
 <expandable title="Module 7 : exercice de libération émotionnelle">
 
 - comment rendre aux membres de notre famille ce qui ne nous appartient pas
 - illustration commentée de l'exercice
 - observation des sensations
-  </expandable>
+
+</expandable>
 
 <expandable title="Module supplémentaire (ajouté en janvier 2021)">
 
@@ -122,7 +128,8 @@ Une indication néanmoins : cet atelier est destiné à des personnes adultes, m
 
 - le rôle des prénoms des membres de la famille
 - les différents types de génogrammes en psychogénéalogie
-  </expandable>
+
+</expandable>
 
 <expandable title="Documents supports">
 
