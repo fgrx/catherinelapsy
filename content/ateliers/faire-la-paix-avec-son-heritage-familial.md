@@ -18,7 +18,7 @@ isOpen: true
 <display-text display='frame'>
 
 - Découvrez quels problèmes psychologiques votre famille vous a légués
-- Avancez plus rapidement dans votre thérapie
+- Avancez plus rapidement dans votre thérapie en décryptant les fonctionnements de votre famille
 - Débloquez vous des situations dont vous ne savez pas vous extraire
 - Sortez des schémas répétitifs
 
@@ -32,26 +32,28 @@ Aux professionnels de la psychologie et aux coachs qui souhaitent découvrir de 
 
 ## Pourquoi vous sentez-vous bloqué ?
 
-Figurez-vous que les épreuves qu'ont vécues les membres de votre famille vous affectent plus que vous ne l'imaginez, et cela, de manière souvent indirecte et invisible. L'**INSERM** décrit d'ailleurs que leur vécu affecte directement nos gènes et que cela se transmet de génération en génération.
+Figurez-vous que les épreuves qu'ont vécues les membres de votre famille vous affectent plus que vous ne l'imaginez, et cela, de manière souvent indirecte et invisible. L'**INSERM** décrit d'ailleurs que leur vécu affecte même nos gènes et que cela pourrait se transmettre de génération en génération.
 
 <display-text>
-Des traumatismes de votre famille se retrouvent donc... Dans votre ADN !
+Des traumatismes de votre famille se retrouvent donc potentiellement... Dans votre ADN !
 </display-text>
 
-Vos problèmes sont donc ancrés en vous se répètent inlassablement et il est très difficile de s'en sortir sans aide extérieure.
+Ces traumatismes se répercutent également sur la descendance d'une famille par le biais des liens d'attachement que créent ceux qui les ont vécus avec leurs enfants. Créant de nouveaux traumatismes pour les générations futures. Qui eux-mêmes, s'inscrivent sur nos gênes.
+
+Vos problèmes sont donc ancrés en vous, se répètent inlassablement et il est difficile de s'en sortir sans aide extérieure.
 
 ## Comment je peux vous aider ?
 
-Je vous aide à prendre conscience de vos disfonctionnement venant de votre famille et de la manière dont ils vous impactent. Je vous donne des clefs à la fois théoriques et pratiques pour vous libérer de votre héritage familial.
+Je vous aide à prendre conscience des dysfonctionnements venant de votre famille et de la manière dont ils vous impactent aujourd'hui. Je vous donne des clefs à la fois théoriques et pratiques pour vous libérer de votre héritage familial quand il vous pèse.
 
-Je vous présente dans cet atelier les théories et les techniques que j'ai apprises auprès de spécialistes internationaux et je partage avec vous le fruit de nombreuses heures de pratique dans mes consultations.
+Je vous présente dans cet atelier les théories et les techniques que j'ai apprises auprès de spécialistes et je partage avec vous le fruit de nombreuses heures de pratique dans mes consultations.
 
 ## Comment se déroule cet atelier ?
 
 J'ai voulu cet atelier **très concret**. En 5 étapes, vous serez en mesure de dessiner vous-même votre arbre familial, puis de l'analyser et de savoir quoi faire de ces résultats. Et tout cela en complète autonomie.\
 Vous expérimenterez aussi un exercice de visualisation permettant de débloquer des informations émotionnelles.
 
-<display-text>L'atelier contient 10 vidéos que vous pourrez consulter à votre rythme, quand vous voulez, d'où vous voulez.</display-text>
+<display-text>L'atelier contient des vidéos que vous pourrez consulter à votre rythme, quand vous voulez, d'où vous voulez.</display-text>
 
 **De nombreux professionnels de la psychologie ont déjà participé à cet atelier pour améliorer leur pratique.**\
 **De nombreux patients l'ont également expérimenté dans leur vie quotidienne.**
@@ -61,6 +63,12 @@ Vous aurez également accès à un **groupe Facebook** qui regroupe les particip
 Si vous êtes psy ou coach, cet atelier que vous pouvez déduire de vos charges professionnelles, vous permettra aussi d'utiliser le génogramme, la visualisation et un exercice avec vos patients et clients.
 
 Une indication néanmoins : cet atelier est destiné à des personnes adultes, majeures et ne présentant pas de pathologies psychiatriques ou dissociatives, notamment en raison de la visualisation qu'il contient et qu'il est préférable de faire en présentiel dans ces situations.
+
+Autre précision : il ne s'agit **pas d'un atelier de psychogénéalogie mais de psychologie transgénérationnelle**.\
+Il est donc basé sur la **systémie  familiale** et non pas sur la psychanalyse : 
+- l'arbre familial ne comprends pas plus de 4 générations
+- c'est votre perception de votre famille qui compte et pas nécessairement la réalité des faits et il n'y a donc pas de recherches généalogiques à faire
+- enfin, on ne considère pas que les traumatismes se transmettent à l'identique mais à travers les liens d'attachement
 
 <display-text>Cet atelier correspond à environ 6 séances en présentiel à mon cabinet</display-text>
 
