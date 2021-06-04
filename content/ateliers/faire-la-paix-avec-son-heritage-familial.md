@@ -65,7 +65,8 @@ Si vous êtes psy ou coach, cet atelier que vous pouvez déduire de vos charges 
 Une indication néanmoins : cet atelier est destiné à des personnes adultes, majeures et ne présentant pas de pathologies psychiatriques ou dissociatives, notamment en raison de la visualisation qu'il contient et qu'il est préférable de faire en présentiel dans ces situations.
 
 Autre précision : il ne s'agit **pas d'un atelier de psychogénéalogie mais de psychologie transgénérationnelle**.\
-Il est donc basé sur la **systémie  familiale** et non pas sur la psychanalyse : 
+Il est donc basé sur la **systémie familiale** et non pas sur la psychanalyse :
+
 - l'arbre familial ne comprends pas plus de 4 générations
 - c'est votre perception de votre famille qui compte et pas nécessairement la réalité des faits et il n'y a donc pas de recherches généalogiques à faire
 - enfin, on ne considère pas que les traumatismes se transmettent à l'identique mais à travers les liens d'attachement
@@ -118,7 +119,21 @@ Il est donc basé sur la **systémie  familiale** et non pas sur la psychanalyse
 
 </expandable>
 
-<expandable title="Module 7 : exercice de libération émotionnelle">
+<expandable title="Module 6 : la place des prénoms dans la famille (ajouté en juin 2021)">
+
+- l'impact des prénoms
+- prénom et génogramme
+
+</expandable>
+
+<expandable title="Module 7 : les rôles familiaux (ajouté en juin 2021)">
+
+- les rôles dans la famille
+- rôle et génogramme
+
+</expandable>
+
+<expandable title="Module 8 : exercice de libération émotionnelle">
 
 - comment rendre aux membres de notre famille ce qui ne nous appartient pas
 - illustration commentée de l'exercice
@@ -130,12 +145,6 @@ Il est donc basé sur la **systémie  familiale** et non pas sur la psychanalyse
 
 - réponse à vos questions fréquentes durant votre travail
 - aide supplémentaire à l'interprétation de votre génogramme
-  </expandable>
-
-<expandable title="Module en cours de construction (à paraitre courant 2021)">
-
-- le rôle des prénoms des membres de la famille
-- les différents types de génogrammes en psychogénéalogie
 
 </expandable>
 
@@ -145,7 +154,9 @@ Il est donc basé sur la **systémie  familiale** et non pas sur la psychanalyse
 - récapitulatif des éléments sociologiques à faire figurer
 - récapitulatif des éléments d'interprétation de l'arbre familial
 - exemples de devises et de ressources fréquentes
-  </expandable>
+- exemples de rôles familaux
+
+</expandable>
 
 <pictos-atelier></pictos-atelier>
 
