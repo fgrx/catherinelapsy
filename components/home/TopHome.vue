@@ -17,6 +17,7 @@
             height="482"
             format="webp"
             width="800"
+            size=""
             class="mt-10"
             quality="70"
             alt="Portrait de Catherine La Psy"

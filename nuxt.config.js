@@ -132,9 +132,9 @@ export default {
     hostname: "https://catherinelapsy.com",
     gzip: true,
     exclude: ["/admin/**"],
-    routes(){
-      return getRoutes()
-    } 
+    routes() {
+      return getRoutes();
+    }
   },
 
   googleAnalytics: {

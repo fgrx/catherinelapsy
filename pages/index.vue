@@ -38,7 +38,7 @@ export default {
     const general = await $content("general").fetch();
 
     return {
-      general,
+      general
     };
   },
 
@@ -46,6 +46,8 @@ export default {
     LazyHydrate,
     Product,
     SocialNetworks,
+    Newsletter,
+    TopHome
   },
 
   head() {
@@ -53,11 +55,11 @@ export default {
       script: [
         {
           src: "https://identity.netlify.com/v1/netlify-identity-widget.js",
-          async: true,
-        },
-      ],
+          async: true
+        }
+      ]
     };
-  },
+  }
 };
 </script>
 

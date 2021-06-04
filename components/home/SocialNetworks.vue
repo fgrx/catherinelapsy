@@ -4,7 +4,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
       <div
         v-for="sn in socialNetworks"
-        key="sn.order"
+        :key="sn.order"
         class="text-white bg-black bg-opacity-60"
       >
         <a :href="sn.url">
@@ -34,11 +34,10 @@ export default {
   props: {
     socialNetworks: {
       type: Object,
-      default: {},
-    },
-  },
+      default: {}
+    }
+  }
 };
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
