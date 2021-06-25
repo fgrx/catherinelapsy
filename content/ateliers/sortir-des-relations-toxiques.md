@@ -1,5 +1,5 @@
 ---
-title: Comment sortir de vos relations toxiques (ou les éviter)
+title: Se protéger des relations toxiques
 description: Comment décrypter ses relations douloureuses et en sortir
   durablement avec l’Analyse Transactionnelle
 image: /images/relations-toxiques.png

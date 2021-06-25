@@ -7,7 +7,7 @@ colorBg1: indigo-700
 colorBg2: emerald-500
 ---
 
-**La Lettre Psy est un email que vous recevez toutes les semaines**. Elle contient plusieurs articles comme des analyses, des vidéos inspirantes, des propositions de lectures sur tout un tas de sujets passionnants autour de la psychologie et de la psychothérapie.
+**La Lettre Psy est un email que vous recevez deux fois par mois**. Elle contient plusieurs articles comme des analyses, des vidéos inspirantes, des propositions de lectures sur tout un tas de sujets passionnants autour de la psychologie et de la psychothérapie.
 
 Elle vous permettra aussi d'obtenir des **réductions exclusives** sur les ateliers en ligne.
 

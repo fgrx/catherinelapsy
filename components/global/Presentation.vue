@@ -22,7 +22,7 @@
             du travail de psychothérapie, ce que je fais à travers des
             propositions d'ateliers en ligne ainsi que par la vulgarisation de
             connaissances psys sur mon compte Instagram suivi par 13 000
-            personnes, et à travers une newsletter hebdomadaire, la Lettre psy.
+            personnes, et à travers une newsletter bimensuelle, la Lettre psy.
           </p>
         </div>
       </div>
