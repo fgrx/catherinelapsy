@@ -1,6 +1,6 @@
 ---
 title: S'abonner à la lettre psy
-description: Recevez chaque semaine un email pour comprendre votre psychologie et mieux vous connaitre
+description: Recevez deux fois par mois un email pour comprendre votre psychologie et mieux vous connaitre
 logo: mail.svg
 colorText: white
 colorBg1: indigo-700
