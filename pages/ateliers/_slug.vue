@@ -15,12 +15,15 @@
           v-if="doc.image"
           :alt="doc.imageAlt"
         ></nuxt-img>
-        <div class="text-center" v-if="doc.buyUrl && doc.isOpen">
+        <div
+          class="text-center"
+          v-if="doc.buyUrl && doc.isOpen && doc.buyStart"
+        >
           <BuyBtn :url="doc.buyUrl" :isClosed="!doc.isOpen"></BuyBtn>
         </div>
 
         <nuxt-content class="content" :document="doc"></nuxt-content>
-        <div class="text-center" v-if="doc.buyUrl && doc.isOpen">
+        <div class="text-center" v-if="doc.buyUrl && doc.isOpen && doc.buyEnd">
           <BuyBtn :url="doc.buyUrl" :isClosed="!doc.isOpen"></BuyBtn>
         </div>
 
@@ -36,18 +39,23 @@
                     <span class="font-semibold text-lg"
                       >Pas de panique, l'atelier ouvrira prochainement !
                     </span>
-                    <br />Pour être tenu au courant de l'actualité de l' atelier
-                    "{{ doc.title }}", saisissez ici votre adresse email. Vous
-                    ne recevrez que les informations concernant cet atelier et
-                    vous ne serez pas abonné automatiquement à
-                    <nuxt-link class="underline" to="/emails-prives"
-                      >la Lettre Psy</nuxt-link
-                    >.
+                    <span v-if="doc.codeMailingList">
+                      <br />Pour être tenu au courant de l'actualité de l'
+                      atelier "{{ doc.title }}", saisissez ici votre adresse
+                      email. Vous ne recevrez que les informations concernant
+                      cet atelier et vous ne serez pas abonné automatiquement à
+                      <nuxt-link class="underline" to="/emails-prives"
+                        >la Lettre Psy</nuxt-link
+                      >.
+                    </span>
                   </p>
                 </div>
               </div>
 
-              <div class="flex-1 md:col-span-5 lg:col-span-5">
+              <div
+                v-if="doc.codeMailingList"
+                class="flex-1 md:col-span-5 lg:col-span-5"
+              >
                 <NewsletterForm :codeList="doc.codeMailingList" />
               </div>
             </div>

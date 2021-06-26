@@ -10,6 +10,8 @@ colorBg1: teal-600
 colorBg2: purple-800
 order: 5
 isOpen: true
+buyStart: true
+buyEnd: true
 ---
 
 Il vous est peut-être déjà arrivé de **tout essayer** pour résoudre un problème que vous aviez. Et pourtant, il est toujours là.

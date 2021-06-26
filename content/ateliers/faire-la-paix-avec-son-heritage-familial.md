@@ -11,8 +11,10 @@ codeMailingList: M5k9i
 colorText: white
 colorBg1: indigo-700
 colorBg2: teal-600
-order: 0
+order: 2
 isOpen: true
+buyStart: true
+buyEnd: true
 ---
 
 <display-text display='frame'>

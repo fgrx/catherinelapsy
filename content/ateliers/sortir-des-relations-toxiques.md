@@ -11,6 +11,8 @@ colorBg2: yellow-500
 order: 1
 isOpen: true
 codeMailingList: M5klg
+buyStart: true
+buyEnd: true
 ---
 
 <display-text display='frame'>
