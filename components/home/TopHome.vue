@@ -13,7 +13,7 @@
         </div>
         <div class="flex-1">
           <nuxt-picture
-            src="home/catefab.png"
+            src="home/catefab.webp"
             height="550"
             format="webp"
             width="850"
