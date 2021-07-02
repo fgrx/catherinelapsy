@@ -92,6 +92,7 @@ Cet atelier n’est pas recommandé aux personnes présentant des troubles disso
 <expandable title="Module 5 : la boite à outils">
 
 - élaboration des diverses options de changement
+- aide et exemples pour réaliser des options de changement efficaces (ajouté en juillet 2021)
 - la relation parfois vouée à l'échec, comment faire ?
 
 </expandable>
@@ -114,13 +115,6 @@ Cet atelier n’est pas recommandé aux personnes présentant des troubles disso
 - Vos rôles dans vos jeux psychologiques
 - Exemples de jeux psychologiques fréquents
 - la règles des 10%
-
-</expandable>
-
-<expandable title= "Modules supplémentaires (à paraitre courant 2021)" >
-
-- comment construire une option réalisable
-- aide supplémentaire pour sortir de son rôle toxique
 
 </expandable>
 
