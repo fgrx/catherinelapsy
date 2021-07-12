@@ -39,6 +39,8 @@ module.exports = {
         "to-gray-700",
         "from-red-500",
         "to-red-500",
+        "from-red-600",
+        "to-red-600",
         "from-indigo-700",
         "to-indigo-700",
         "to-indigo-500",

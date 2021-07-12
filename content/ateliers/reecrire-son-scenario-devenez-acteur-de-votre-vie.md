@@ -45,6 +45,25 @@ Mais le plus souvent, ça ne change rien...
 Si nous voulons réellement régler nos problèmes, il est nécessaire de les **diagnostiquer correctement**.
 Or ça, malheureusement, on ne nous apprend pas souvent à le faire.
 
+
+## Comment travaillons-nous dans cet atelier ?
+
+### 1- Nous analysons
+
+Si vous reproduisez régulièrement un comportement qui vous pose problème, vous êtes probablement coincé dans une sorte de cercle vicieux qui vous empêche de changer et d'avancer. Pour diagnostiquer tout ça nous utilisons un puissant concept d'Analyse Transactionnelle : le Scénario. 
+
+Nous identifions ensemble très précisément vos croyances sur vous-mêmes, les autres et la vie. Puis nous décryptons comment ces croyances se manifestent dans voter vie. Enfin, nous repérons les souvenirs qui renforcent ces croyances.
+
+Un petit exemple très schématique : 
+
+* **Croyance** : je pense que je suis plus lent que les autres 
+* **Manifestation** : je travaille plus que es autres pour me sentir au même niveau qu'eux, je dors mal et je me ronge les ongles. 
+* **Souvenir** : à l'école mes professeurs se sont acharnés sur moi pour que je comprenne les mathématiques et je n'y arrivais pourtant pas 
+
+### 2- place à la dynamique de changement
+
+Pour se sortir de ces schémas nous utilisons des visualisations, mais aussi sur un autre outil fantastique de l'Analyse Transactionnelle : le Circuit de l'Autonomie qui nous permet de créer des actions concrètes à mettre en place pour **casser notre Scénario négatif** !
+
 <display-text display='frame'>
 
 **Dans cet atelier vous allez donc apprendre à** :
