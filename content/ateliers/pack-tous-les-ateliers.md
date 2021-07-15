@@ -8,7 +8,7 @@ colorText: white
 colorBg1: red-600
 colorBg2: yellow-500
 order: 0
-isOpen: true
+isOpen: false
 buyStart: false
 buyEnd: true
 ---

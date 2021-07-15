@@ -12,7 +12,7 @@ colorText: white
 colorBg1: indigo-700
 colorBg2: teal-600
 order: 2
-isOpen: true
+isOpen: false
 buyStart: true
 buyEnd: true
 ---

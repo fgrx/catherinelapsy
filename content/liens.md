@@ -17,11 +17,12 @@ colorBg2: red-500
 - [Institut Rhônalpin d'Analyse Transactionnelle](https://www.institut-rhonalpin-at.fr/)
 - [IAT Lille](https://www.iat-lille.com/)
 
-### Avec une orientation Coaching
+### Avec une orientation Coaching et consulting
 
 - [Institut du changement émérgent (Suisse)](https://www.changementemergent.ch/fr)
 - [Centre Auvergnat de Formation en Analyse Transactionnelle](https://www.cafat.fr/)
 - [REFLECT Lyon](https://reflect-lyon.org/)
+- [Neonima](https://neonima.fr)
 
 ## Annuaires pour trouver un professionnel
 

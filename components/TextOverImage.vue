@@ -33,6 +33,7 @@ h3 {
 
 .container-block {
   position: relative;
+  height: 100%;
 }
 
 .container-block-text {

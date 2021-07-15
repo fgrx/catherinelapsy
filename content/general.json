@@ -31,6 +31,14 @@
       "description": "Des sujets de psychologie pointus vulgarisés de façon décomplexé",
       "order": 1,
       "url": "https://www.youtube.com/channel/UCuocS66l-pMtFcaP3L01z5Q"
+    },
+    "podcast": {
+      "title": "Mon podcast",
+      "image": "podcast.webp",
+      "logo": "podcastlogo.svg",
+      "description": "Pour nous écouter notre contenu comme vous préférez",
+      "order": 2,
+      "url": "./podcast"
     }
   }
 }

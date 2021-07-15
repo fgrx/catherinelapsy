@@ -23,12 +23,28 @@
           >
             <nav>
               <ul
-                class="md:flex items-center justify-between text-base text-white pt-4 md:pt-0"
+                class="
+                  md:flex
+                  items-center
+                  justify-between
+                  text-base text-white
+                  pt-4
+                  md:pt-0
+                "
               >
                 <li v-for="(link, index) in links" :key="index">
                   <nuxt-link
                     :to="link.to"
-                    class="inline-block no-underline hover:text-red-500 font-medium text-lg py-2 px-4 lg:-ml-2"
+                    class="
+                      inline-block
+                      no-underline
+                      hover:text-red-500
+                      font-medium
+                      text-lg
+                      py-2
+                      px-4
+                      lg:-ml-2
+                    "
                     >{{ link.text }}</nuxt-link
                   >
                 </li>
@@ -82,7 +98,21 @@
       </div>
     </transition>
     <aside
-      class="transform text-white top-0 left-0 w-64 bg-emerald-800 fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30"
+      class="
+        transform
+        text-white
+        top-0
+        left-0
+        w-64
+        bg-emerald-800
+        fixed
+        h-full
+        overflow-auto
+        ease-in-out
+        transition-all
+        duration-300
+        z-30
+      "
       :class="isOpen ? 'translate-x-0' : '-translate-x-full'"
     >
       <div class="p-5 text-white font-medium text-lg hover:text-red-200">
@@ -128,6 +158,10 @@ export default {
         {
           text: "Vidéos",
           to: "/videos",
+        },
+        {
+          text: "Podcast",
+          to: "/podcast",
         },
         {
           text: "Qui sommes-nous ?",
