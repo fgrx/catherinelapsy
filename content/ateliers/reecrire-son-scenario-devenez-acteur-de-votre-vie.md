@@ -9,7 +9,7 @@ colorText: white
 colorBg1: teal-600
 colorBg2: purple-800
 order: 5
-isOpen: true
+isOpen: false
 buyStart: false
 buyEnd: true
 ---
