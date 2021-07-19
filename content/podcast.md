@@ -1,6 +1,6 @@
 ---
 title: le Podcast Catherine la Psy
-description: bla
+description: Notre chaîne qui vulgarise la psychologie et la psychothérapie
 logo: mic.svg
 colorText: white
 colorBg1: purple-800
