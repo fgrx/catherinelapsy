@@ -6,12 +6,12 @@
       :class="[
         Number.isInteger(index / 2)
           ? 'flex-row-reverse my-7 md:flex mb-20'
-          : 'my-7 md:flex mb-20'
+          : 'my-7 md:flex mb-20',
       ]"
     >
       <div
         :class="[
-          Number.isInteger(index / 2) ? 'md:ml-5 flex-1' : 'md:pr-5 flex-1'
+          Number.isInteger(index / 2) ? 'md:ml-5 flex-1' : 'md:pr-5 flex-1',
         ]"
       >
         <EmbedYoutube v-if="item.video">{{ item.video }}</EmbedYoutube>
@@ -42,7 +42,7 @@
           v-if="item.dir !== '/videos'"
           :to="`${item.dir}/${item.slug}`"
         >
-          <Btn class="mt-3">En Savoir plus</Btn>
+          <Btn class="mt-3">{{ textBtn }}</Btn>
         </nuxt-link>
       </div>
     </div>
@@ -54,9 +54,13 @@ export default {
   props: {
     items: {
       type: Array,
-      default: []
-    }
-  }
+      default: [],
+    },
+    textBtn: {
+      type: String,
+      default: "En Savoir plus",
+    },
+  },
 };
 </script>
 

@@ -12,6 +12,7 @@ Tous nos podcasts son accessibles sur la plateforme [Anchor](https://anchor.fm/c
 
 Vous pouvez aussi vous abonner sur les plateformes de podcast suivantes : 
 
+<podcast url="https://podcasts.apple.com/fr/podcast/catherine-la-psy/id1576203089" image="apple_podcast.png" >Apple Podcast</podcast>
 <podcast url="https://open.spotify.com/show/2IrqGCu6W3JFyaJvKNwlrB" image="spotify.png" >Spotify</podcast>
 <podcast url="https://deezer.com/show/2820522" image="deezer.png" >Deezer</podcast>
 <podcast url="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy82MzQ2ZDA5NC9wb2RjYXN0L3Jzcw==" image="google_podcasts.png" >Google Podcast</podcast>
