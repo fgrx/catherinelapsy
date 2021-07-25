@@ -32,6 +32,8 @@ export default {
       doc: {
         title: "Tous les articles",
         logo: "post.svg",
+        colorBg1: "red-900",
+        colorBg2: "red-500",
         description:
           "Vous voulez en savoir un plus sur la psychologie et la psychothérapie ? Voici quelques articles qui pourraient vous intéresser. ",
       },

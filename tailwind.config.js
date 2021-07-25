@@ -48,6 +48,8 @@ module.exports = {
         "to-indigo-500",
         "from-red-700",
         "to-red-700",
+        "from-red-900",
+        "to-red-500",
         "from-teal-700",
         "to-teal-700",
         "from-teal-500",
@@ -63,6 +65,8 @@ module.exports = {
         "to-purple-900",
         "from-purple-800",
         "to-purple-800",
+        "from-emerald-900",
+        "to-emerald-900",
         "py-24"
       ]
     }
