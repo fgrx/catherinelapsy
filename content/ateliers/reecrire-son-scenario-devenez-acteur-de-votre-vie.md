@@ -75,7 +75,7 @@ Pour se sortir de ces schémas nous utilisons des visualisations, mais aussi sur
 
 </display-text>
 
-<buy-btn url="https://ctpsy.podia.com/reecrire-son-scenario-devenez-l-acteur-principal-de-votre-vie"></buy-btn>
+<buy-btn isclosed="true" url="https://ctpsy.podia.com/reecrire-son-scenario-devenez-l-acteur-principal-de-votre-vie"></buy-btn>
 
 ## Programme
 

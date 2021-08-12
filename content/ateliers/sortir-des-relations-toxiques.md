@@ -53,7 +53,7 @@ Si vous êtes **psy ou coach**, cet atelier que vous pouvez déduire de vos char
 
 Cet atelier n’est pas recommandé aux personnes présentant des troubles dissociatifs ou des problèmes psychiatriques en raison des visualisations qu’il contient et qui nécessitent, dans ces situations, de les faire accompagnées par un thérapeute en présentiel.
 
-<buy-btn url="https://ctpsy.podia.com/sortir-des-relations-toxiques"></buy-btn>
+<buy-btn isclosed="true" url="https://ctpsy.podia.com/sortir-des-relations-toxiques"></buy-btn>
 
 ## Programme de l'atelier
 
@@ -122,7 +122,7 @@ Cet atelier n’est pas recommandé aux personnes présentant des troubles disso
 
 <presentation></presentation>
 
-<buy-btn url="https://ctpsy.podia.com/sortir-des-relations-toxiques"></buy-btn>
+<buy-btn isclosed="true" url="https://ctpsy.podia.com/sortir-des-relations-toxiques"></buy-btn>
 
 ## Témoignages
 
