@@ -7,6 +7,7 @@ module.exports = {
       current: "currentColor",
       black: colors.black,
       white: colors.white,
+      blue: colors.blue,
       gray: colors.trueGray,
       indigo: colors.indigo,
       red: colors.rose,
@@ -67,6 +68,8 @@ module.exports = {
         "to-purple-800",
         "from-emerald-900",
         "to-emerald-900",
+        "from-blue-900",
+        "to-blue-900",
         "py-24"
       ]
     }
