@@ -9,7 +9,7 @@ colorText: white
 colorBg1: teal-700
 colorBg2: yellow-500
 order: 1
-isOpen: false
+isOpen: true
 codeMailingList: M5klg
 buyStart: true
 buyEnd: true
@@ -53,7 +53,7 @@ Si vous êtes **psy ou coach**, cet atelier que vous pouvez déduire de vos char
 
 Cet atelier n’est pas recommandé aux personnes présentant des troubles dissociatifs ou des problèmes psychiatriques en raison des visualisations qu’il contient et qui nécessitent, dans ces situations, de les faire accompagnées par un thérapeute en présentiel.
 
-<buy-btn isclosed="true" url="https://ctpsy.podia.com/sortir-des-relations-toxiques"></buy-btn>
+<buy-btn isclosed="false" url="https://ctpsy.podia.com/sortir-des-relations-toxiques"></buy-btn>
 
 ## Programme de l'atelier
 
@@ -122,7 +122,7 @@ Cet atelier n’est pas recommandé aux personnes présentant des troubles disso
 
 <presentation></presentation>
 
-<buy-btn isclosed="true" url="https://ctpsy.podia.com/sortir-des-relations-toxiques"></buy-btn>
+<buy-btn isclosed="false" url="https://ctpsy.podia.com/sortir-des-relations-toxiques"></buy-btn>
 
 ## Témoignages
 
