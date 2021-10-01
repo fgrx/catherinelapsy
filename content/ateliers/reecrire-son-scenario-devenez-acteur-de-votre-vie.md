@@ -10,7 +10,7 @@ colorBg1: teal-600
 colorBg2: purple-800
 order: 5
 isOpen: true
-buyStart: false
+buyStart: true
 buyEnd: true
 ---
 
@@ -75,7 +75,7 @@ Pour se sortir de ces schémas nous utilisons des visualisations, mais aussi sur
 
 </display-text>
 
-<buy-btn isclosed="false" url="https://ctpsy.podia.com/reecrire-son-scenario-devenez-l-acteur-principal-de-votre-vie"></buy-btn>
+<buy-btn url="https://ctpsy.podia.com/reecrire-son-scenario-devenez-l-acteur-principal-de-votre-vie"></buy-btn>
 
 ## Programme
 

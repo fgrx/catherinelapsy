@@ -1,7 +1,5 @@
 <template>
-  <div class="text-center" v-if="isclosed === 'false'">
-    isclosed : {{ isclosed }}
-    <p>url : {{ url }}</p>
+  <div class="text-center" v-if="isclosed === false">
     <a :href="url">
       <Btn class="mt-5 mb-16">
         Acheter
@@ -18,12 +16,12 @@ export default {
   props: {
     url: {
       type: String,
-      default: "",
+      default: ""
     },
     isclosed: {
       type: Boolean,
-      default: false,
-    },
-  },
+      default: false
+    }
+  }
 };
 </script>

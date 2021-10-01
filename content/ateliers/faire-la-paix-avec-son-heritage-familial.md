@@ -75,7 +75,7 @@ Il est donc basé sur la **systémie familiale** et non pas sur la psychanalyse 
 
 <display-text>Cet atelier correspond à environ 6 séances en présentiel à mon cabinet</display-text>
 
-<buy-btn isclosed="false" url="https://ctpsy.podia.com/heritage-familial"></buy-btn>
+<buy-btn url="https://ctpsy.podia.com/heritage-familial"></buy-btn>
 
 ## Programme
 
@@ -164,7 +164,7 @@ Il est donc basé sur la **systémie familiale** et non pas sur la psychanalyse 
 
 <presentation></presentation>
 
-<buy-btn isclosed="false" url="https://ctpsy.podia.com/heritage-familial"></buy-btn>
+<buy-btn  url="https://ctpsy.podia.com/heritage-familial"></buy-btn>
 
 ## Témoignages
 
