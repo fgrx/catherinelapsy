@@ -8,8 +8,8 @@ colorText: white
 colorBg1: red-600
 colorBg2: yellow-500
 order: 0
-isOpen: false
-buyStart: false
+isOpen: true
+buyStart: true
 buyEnd: true
 ---
 
@@ -17,8 +17,7 @@ buyEnd: true
 
 Vous aurez accès à nos trois ateliers à un tarif préférentiel.
 
-Ce pack comprend les ateliers :
-
+Ce pack comprend les ate
 - Faire la paix avec votre héritage familial
 - Se protéger des relations toxiques
 - Réécrire son scénario
