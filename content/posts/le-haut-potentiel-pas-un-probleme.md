@@ -5,6 +5,7 @@ image: images/posts/hpi.jpg
 colorText: white
 colorBg1: blue-900
 colorBg2: red-900
+date: 2021-08-26
 ---
 
 Même si le sujet n'est pas nouveau, on voit fleurir depuis quelques années des livres, des articles, des vidéos, des blogs et même des business autour de ce sujet.

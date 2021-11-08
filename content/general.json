@@ -28,7 +28,7 @@
       "title": "Ma chaîne Youtube",
       "image": "youtube_cate.webp",
       "logo": "youtube.svg",
-      "description": "Des sujets de psychologie pointus vulgarisés de façon décomplexé",
+      "description": "Des sujets de psychologie pointus vulgarisés de façon décomplexée",
       "order": 1,
       "url": "https://www.youtube.com/channel/UCuocS66l-pMtFcaP3L01z5Q"
     },
@@ -36,7 +36,7 @@
       "title": "Mon podcast",
       "image": "podcast.webp",
       "logo": "podcastlogo.svg",
-      "description": "Pour nous écouter notre contenu comme vous préférez",
+      "description": "Pour nous écouter comme vous le préférez",
       "order": 2,
       "url": "./podcast"
     }

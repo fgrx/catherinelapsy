@@ -5,6 +5,7 @@ image: images/posts/adn.jpg
 colorText: white
 colorBg1: emerald-900
 colorBg2: blue-900
+date: 2021-04-26
 ---
 
 ## Comment nos gènes influencent notre génétique

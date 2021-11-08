@@ -5,6 +5,7 @@ image: images/posts/intelligence.jpg
 colorText: white
 colorBg1: indigo-700
 colorBg2: red-400
+date: 2021-10-21
 ---
 
 J'en ai assez de lire et entendre que tel ou tel diagnostic de santé mentale ou de psychologie signifie que les gens à qui on les fait sont condamnés à vivre des échecs, à être victimes de pervers narcissiques ou à ne pas pouvoir vivre en couple alors qu'ils le souhaiteraient.
