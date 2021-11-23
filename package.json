@@ -33,10 +33,10 @@
     "lqip-loader": "^2.2.1",
     "postcss": "7",
     "responsive-loader": "^2.3.0",
+    "sass-loader": "10.1.1",
     "sharp": "^0.27.0",
     "sqip-loader": "^1.0.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
-    "webp-loader": "^0.6.0",
-    "sass-loader": "10.1.1"
+    "webp-loader": "^0.6.0"
   }
 }
