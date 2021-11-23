@@ -3,7 +3,7 @@ title: Pack "All included""
 description: Vous souhaitez obtenir tous nos ateliers ? Nous vous proposons un tarif préférentiel.
 image: /images/tousateliers.jpg
 imageAlt: Catherine la Psy présente l'atelier.
-buyUrl: https://ctpsy.podia.com/pack-3-ateliers
+buyUrl: https://ctpsy.podia.com/pack-3-ateliers?coupon=BLACKFRIDAY50
 colorText: white
 colorBg1: red-600
 colorBg2: yellow-500
@@ -11,6 +11,9 @@ order: 0
 isOpen: true
 buyStart: true
 buyEnd: true
+discountTitle: Black Friday
+discountFrom: 399
+discountTo: 349
 ---
 
 ## Un pack qui regroupe tous nos ateliers

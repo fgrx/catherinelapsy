@@ -38,6 +38,16 @@
           {{ item.description }}
         </p>
 
+        <p v-if="item.discountTo">
+          <strong>
+            <template v-if="item.discountTitle"
+              >{{item.discountTitle}} :
+            </template>
+            <strike>{{item.discountFrom}}</strike
+            >€ {{ item.discountTo}}€</strong
+          >
+        </p>
+
         <nuxt-link
           v-if="item.dir !== '/videos'"
           :to="`${item.dir}/${item.slug}`"

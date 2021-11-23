@@ -15,6 +15,16 @@
     "price": 149,
     "promo": 99
   },
+  "message":{
+    "display":true,
+    "bgColor":"gray-700",
+    "textColor":"gray-50",
+    "title":"Black Friday",
+    "content":"Nos ateliers sont à prix réduit du 26 au 28 novembre",
+    "buttonTitle":"J'en profite",
+    "buttonUrl":"https://catherinelapsy.com/ateliers",
+    "buttonColor":""
+  },
   "socialNetworks": {
     "instagram": {
       "title": "Mon compte Instagram",

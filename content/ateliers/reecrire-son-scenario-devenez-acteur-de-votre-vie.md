@@ -3,7 +3,7 @@ title: "Réécrire son scénario"
 description: Devenez l'acteur principal de votre vie !
 image: /images/scenario.jpg
 imageAlt: Catherine la Psy présente l'atelier.
-buyUrl: https://ctpsy.podia.com/reecrire-son-scenario-devenez-l-acteur-principal-de-votre-vie
+buyUrl: https://ctpsy.podia.com/reecrire-son-scenario-devenez-l-acteur-principal-de-votre-vie?coupon=BLACKFRIDAY20
 codeMailingList: r6hUA
 colorText: white
 colorBg1: teal-600
@@ -12,6 +12,9 @@ order: 5
 isOpen: true
 buyStart: true
 buyEnd: true
+discountTitle: Black Friday
+discountFrom: 149
+discountTo: 129
 ---
 
 Il vous est peut-être déjà arrivé de **tout essayer** pour résoudre un problème que vous aviez. Et pourtant, il est toujours là.
@@ -75,7 +78,7 @@ Pour se sortir de ces schémas nous utilisons des visualisations, mais aussi sur
 
 </display-text>
 
-<buy-btn url="https://ctpsy.podia.com/reecrire-son-scenario-devenez-l-acteur-principal-de-votre-vie"></buy-btn>
+<buy-btn url="https://ctpsy.podia.com/reecrire-son-scenario-devenez-l-acteur-principal-de-votre-vie?coupon=BLACKFRIDAY20"></buy-btn>
 
 ## Programme
 

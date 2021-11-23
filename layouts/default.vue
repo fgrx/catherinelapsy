@@ -1,6 +1,7 @@
 <template>
   <div>
     <NavBar />
+    <Message />
     <Nuxt />
     <Footer />
     <CookieControl locale="fr" />

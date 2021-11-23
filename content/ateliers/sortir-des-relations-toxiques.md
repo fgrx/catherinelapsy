@@ -4,7 +4,7 @@ description: Comment décrypter ses relations douloureuses et en sortir
   durablement avec l’Analyse Transactionnelle
 image: /images/relations-toxiques.png
 imageAlt: Catherine la Psy devant les caméras.
-buyUrl: https://ctpsy.podia.com/sortir-des-relations-toxiques
+buyUrl: https://ctpsy.podia.com/sortir-des-relations-toxiques?coupon=BLACKFRIDAY20
 colorText: white
 colorBg1: teal-700
 colorBg2: yellow-500
@@ -13,6 +13,9 @@ isOpen: true
 codeMailingList: M5klg
 buyStart: true
 buyEnd: true
+discountTitle: Black Friday
+discountFrom: 149
+discountTo: 129
 ---
 
 <display-text display='frame'>
@@ -53,7 +56,7 @@ Si vous êtes **psy ou coach**, cet atelier que vous pouvez déduire de vos char
 
 Cet atelier n’est pas recommandé aux personnes présentant des troubles dissociatifs ou des problèmes psychiatriques en raison des visualisations qu’il contient et qui nécessitent, dans ces situations, de les faire accompagnées par un thérapeute en présentiel.
 
-<buy-btn  url="https://ctpsy.podia.com/sortir-des-relations-toxiques"></buy-btn>
+<buy-btn  url="https://ctpsy.podia.com/sortir-des-relations-toxiques?coupon=BLACKFRIDAY20"></buy-btn>
 
 ## Programme de l'atelier
 
@@ -122,7 +125,7 @@ Cet atelier n’est pas recommandé aux personnes présentant des troubles disso
 
 <presentation></presentation>
 
-<buy-btn  url="https://ctpsy.podia.com/sortir-des-relations-toxiques"></buy-btn>
+<buy-btn  url="https://ctpsy.podia.com/sortir-des-relations-toxiques?coupon=BLACKFRIDAY20"></buy-btn>
 
 ## Témoignages
 

@@ -19,12 +19,20 @@
           class="text-center"
           v-if="doc.buyUrl && doc.isOpen && doc.buyStart"
         >
-          <BuyBtn :url="doc.buyUrl" :isClosed="!doc.isOpen"></BuyBtn>
+          <BuyBtn
+            :url="doc.buyUrl"
+            :isClosed="!doc.isOpen"
+            :discount="discount"
+          ></BuyBtn>
         </div>
 
         <nuxt-content class="content" :document="doc"></nuxt-content>
         <div class="text-center" v-if="doc.buyUrl && doc.isOpen && doc.buyEnd">
-          <BuyBtn :url="doc.buyUrl" :isClosed="!doc.isOpen"></BuyBtn>
+          <BuyBtn
+            :url="doc.buyUrl"
+            :isClosed="!doc.isOpen"
+            :discount="discount"
+          ></BuyBtn>
         </div>
 
         <div v-if="!doc.isOpen" class="bg-rose-600 text-white py-8 px-5 mt-10">
@@ -71,6 +79,11 @@ export default {
   async asyncData({ $content, params }) {
     const doc = await $content("ateliers", params.slug || "index").fetch();
     return { doc };
+  },
+  computed: {
+    discount() {
+      return {discountTitle:this.doc.discountTitle,discountFrom:this.doc.discountFrom,discountTo:this.doc.discountTo}
+    }
   },
   head() {
     return {

@@ -24,6 +24,8 @@ module.exports = {
   purge: {
     options: {
       safelist: [
+        "bg-gray-700",
+        'text-gray-50',
         "bg-rose-600",
         "bg-gray-100",
         "bg-gray-200",
