@@ -6,7 +6,7 @@ description: Vos problèmes ne viennent pas que de vous ! Nous avons tous un
   situation.
 image: /images/paix-heritage.jpg
 imageAlt: Catherine la Psy présente l'atelier.
-buyUrl: https://ctpsy.podia.com/heritage-familial?coupon=BLACKFRIDAY30
+buyUrl: https://ctpsy.podia.com/heritage-familial
 codeMailingList: M5k9i
 colorText: white
 colorBg1: indigo-700
@@ -17,7 +17,7 @@ buyStart: true
 buyEnd: true
 discountTitle: Black Friday
 discountFrom: 179
-discountTo: 149
+discountTo: 0
 ---
 
 <display-text display='frame'>
@@ -78,7 +78,7 @@ Il est donc basé sur la **systémie familiale** et non pas sur la psychanalyse 
 
 <display-text>Cet atelier correspond à environ 6 séances en présentiel à mon cabinet</display-text>
 
-<buy-btn url="https://ctpsy.podia.com/heritage-familial?coupon=BLACKFRIDAY30"></buy-btn>
+<buy-btn url="https://ctpsy.podia.com/heritage-familial"></buy-btn>
 
 ## Programme
 
@@ -167,7 +167,7 @@ Il est donc basé sur la **systémie familiale** et non pas sur la psychanalyse 
 
 <presentation></presentation>
 
-<buy-btn  url="https://ctpsy.podia.com/heritage-familial?coupon=BLACKFRIDAY30"></buy-btn>
+<buy-btn  url="https://ctpsy.podia.com/heritage-familial"></buy-btn>
 
 ## Témoignages
 

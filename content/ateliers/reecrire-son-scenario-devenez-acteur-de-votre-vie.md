@@ -3,8 +3,7 @@ title: "Réécrire son scénario"
 description: Devenez l'acteur principal de votre vie !
 image: /images/scenario.jpg
 imageAlt: Catherine la Psy présente l'atelier.
-buyUrl: https://ctpsy.podia.com/reecrire-son-scenario-devenez-l-acteur-principal-de-votre-vie?coupon=BLACKFRIDAY20
-codeMailingList: r6hUA
+buyUrl: https://ctpsy.podia.com/reecrire-son-scenario-devenez-l-acteur-principal-de-votre-vie
 colorText: white
 colorBg1: teal-600
 colorBg2: purple-800
@@ -14,7 +13,7 @@ buyStart: true
 buyEnd: true
 discountTitle: Black Friday
 discountFrom: 149
-discountTo: 129
+discountTo: 0
 ---
 
 Il vous est peut-être déjà arrivé de **tout essayer** pour résoudre un problème que vous aviez. Et pourtant, il est toujours là.
@@ -48,20 +47,19 @@ Mais le plus souvent, ça ne change rien...
 Si nous voulons réellement régler nos problèmes, il est nécessaire de les **diagnostiquer correctement**.
 Or ça, malheureusement, on ne nous apprend pas souvent à le faire.
 
-
 ## Comment travaillons-nous dans cet atelier ?
 
 ### 1- Nous analysons
 
-Si vous reproduisez régulièrement un comportement qui vous pose problème, vous êtes probablement coincé dans une sorte de cercle vicieux qui vous empêche de changer et d'avancer. Pour diagnostiquer tout ça nous utilisons un puissant concept d'Analyse Transactionnelle : le Scénario. 
+Si vous reproduisez régulièrement un comportement qui vous pose problème, vous êtes probablement coincé dans une sorte de cercle vicieux qui vous empêche de changer et d'avancer. Pour diagnostiquer tout ça nous utilisons un puissant concept d'Analyse Transactionnelle : le Scénario.
 
 Nous identifions ensemble très précisément vos croyances sur vous-mêmes, les autres et la vie. Puis nous décryptons comment ces croyances se manifestent dans voter vie. Enfin, nous repérons les souvenirs qui renforcent ces croyances.
 
-Un petit exemple très schématique : 
+Un petit exemple très schématique :
 
-* **Croyance** : je pense que je suis plus lent que les autres 
-* **Manifestation** : je travaille plus que es autres pour me sentir au même niveau qu'eux, je dors mal et je me ronge les ongles. 
-* **Souvenir** : à l'école mes professeurs se sont acharnés sur moi pour que je comprenne les mathématiques et je n'y arrivais pourtant pas 
+- **Croyance** : je pense que je suis plus lent que les autres
+- **Manifestation** : je travaille plus que es autres pour me sentir au même niveau qu'eux, je dors mal et je me ronge les ongles.
+- **Souvenir** : à l'école mes professeurs se sont acharnés sur moi pour que je comprenne les mathématiques et je n'y arrivais pourtant pas
 
 ### 2- place à la dynamique de changement
 
@@ -78,7 +76,7 @@ Pour se sortir de ces schémas nous utilisons des visualisations, mais aussi sur
 
 </display-text>
 
-<buy-btn url="https://ctpsy.podia.com/reecrire-son-scenario-devenez-l-acteur-principal-de-votre-vie?coupon=BLACKFRIDAY20"></buy-btn>
+<buy-btn url="https://ctpsy.podia.com/reecrire-son-scenario-devenez-l-acteur-principal-de-votre-vie"></buy-btn>
 
 ## Programme
 
