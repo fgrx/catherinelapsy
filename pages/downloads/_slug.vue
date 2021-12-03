@@ -30,7 +30,7 @@
 
           <div class="text-center">
             <a download :href="file.url">
-              <Btn class="mt-5 mb-16"> Télécharger </Btn>
+              <Btn class="mt-5 mb-4"> Télécharger </Btn>
             </a>
           </div>
         </div>
