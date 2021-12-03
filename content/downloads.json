@@ -1,0 +1,16 @@
+{
+  "files": [
+    {
+      "id": "tableau-regulation-emotions",
+      "title": "Tableau de régulation des émotions",
+      "description": "Ce tableau va vous permettre de trouver et d'analyser vos émotions pour pouvoir ensuite travailler dessus.",
+      "url": "tableau-regulation-des-emotions.pdf"
+    },
+    {
+      "id": "exemples-besoins",
+      "title": "Exemples de besoins",
+      "description": "",
+      "url": "exemples-de-besoins.pdf"
+    }
+  ]
+}
