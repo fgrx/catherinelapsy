@@ -73,6 +73,7 @@ export default {
         colorBg1: "purple-900",
         colorBg2: "indigo-500",
         description: "Téléchargement de fichier",
+        robot: "noindex, nofollow",
       },
 
       file: {},
