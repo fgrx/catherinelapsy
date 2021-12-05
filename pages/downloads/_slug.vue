@@ -29,7 +29,7 @@
           </p>
 
           <div class="text-center">
-            <a download :href="file.url">
+            <a download :href="`../../ressources/${file.url}`">
               <Btn class="mt-5 mb-4"> Télécharger </Btn>
             </a>
           </div>
