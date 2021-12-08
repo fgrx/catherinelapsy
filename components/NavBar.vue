@@ -164,20 +164,8 @@ export default {
           to: "/podcast",
         },
         {
-          text: "Articles",
-          to: "/posts",
-        },
-        {
           text: "Qui sommes-nous ?",
           to: "/qui-sommes-nous",
-        },
-        {
-          text: "Liens",
-          to: "/liens",
-        },
-        {
-          text: "Contact",
-          to: "/contact",
         },
       ],
     };

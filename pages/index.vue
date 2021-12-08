@@ -12,9 +12,13 @@
       </section>
     </LazyHydrate>
 
-    <LazyHydrate when-visible>
+    <LazyHydrate
+      v-for="(product, index) in general.products"
+      :key="index"
+      when-visible
+    >
       <section>
-        <Product :product="general.product" />
+        <Product :product="product" />
       </section>
     </LazyHydrate>
 
@@ -38,7 +42,7 @@ export default {
     const general = await $content("general").fetch();
 
     return {
-      general
+      general,
     };
   },
 
@@ -47,7 +51,7 @@ export default {
     Product,
     SocialNetworks,
     Newsletter,
-    TopHome
+    TopHome,
   },
 
   head() {
@@ -55,11 +59,11 @@ export default {
       script: [
         {
           src: "https://identity.netlify.com/v1/netlify-identity-widget.js",
-          async: true
-        }
-      ]
+          async: true,
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 

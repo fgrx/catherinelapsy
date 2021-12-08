@@ -4,17 +4,19 @@
   "siteDescription": "Catherine la psy vous fait découvrir la psychologie comme vous ne l'avez jamais vue !",
   "siteTitle": "Catherine la psy",
   "siteSubtitle": "La psy comme vous ne l'avez jamais vue !",
-  "product": {
-    "titleSection": "Nouvel atelier en ligne :",
-    "title": "Réécrire son scénario : devenez l'acteur principal de votre vie",
-    "description": "",
-    "url": "/ateliers/reecrire-son-scenario-devenez-acteur-de-votre-vie",
-    "urlAllProducts": "/ateliers",
-    "image": "images/scenario.jpg",
-    "displayPrice": false,
-    "price": 149,
-    "promo": 99
-  },
+  "products": [
+    {
+      "titleSection": "Précommande :",
+      "title": "Les Cartes Psys",
+      "description": "Livraison en janvier 2022",
+      "url": "https://latelierpsy.com/",
+      "target": "blank",
+      "image": "images/cartespsy.jpg",
+      "displayPrice": false,
+      "price": 149,
+      "promo": 99
+    }
+  ],
   "message": {
     "display": false,
     "bgColor": "gray-700",

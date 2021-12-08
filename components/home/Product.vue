@@ -1,17 +1,29 @@
 <template>
-  <div class="bg-opacity-70 bg-black">
+  <div class="bg-opacity-40 bg-black">
     <TextOverImage :image="product.image">
       <div
-        class="md:h-2/3 md:w-2/3 px-5 md:px-0 container mx-auto py-28 items-center text-white"
+        class="
+          md:h-2/3 md:w-2/3
+          px-5
+          md:px-0
+          container
+          mx-auto
+          py-28
+          items-center
+          text-white
+        "
       >
-        <h2 class="text-center">{{ product.titleSection }}</h2>
-        <h3 class="text-center text-4xl md:text-5xl lg:text-7xl">
+        <h2 class="text-center text-shadow">{{ product.titleSection }}</h2>
+        <h3 class="text-center text-shadow text-4xl md:text-5xl lg:text-7xl">
           {{ product.title }}
         </h3>
-        <p class="mt-5 text-lg md:text-2xl text-center">
+        <p class="mt-5 text-lg md:text-2xl text-center text-shadow">
           {{ product.description }}
         </p>
-        <p class="text-4xl text-center my-12" v-if="product.displayPrice">
+        <p
+          class="text-4xl text-center my-12 text-shadow"
+          v-if="product.displayPrice"
+        >
           <span v-if="product.promo">Réduction : </span>
           <span
             v-if="product.promo"
@@ -25,10 +37,14 @@
           </span>
         </p>
         <div class="flex mt-12 justify-center">
-          <nuxt-link :to="product.url">
+          <a v-if="product.target" :target="product.target" :href="product.url">
+            <Btn color="rose-600">En savoir plus</Btn>
+          </a>
+          <nuxt-link v-else :to="product.url">
             <Btn color="rose-600">En savoir plus</Btn>
           </nuxt-link>
-          <nuxt-link to="/ateliers">
+
+          <nuxt-link v-if="product.urlAllProducts" to="/ateliers">
             <Btn class="ml-5" color="rose-600">Tous les ateliers</Btn>
           </nuxt-link>
         </div>
@@ -51,5 +67,8 @@ export default {
 <style lang="scss" scoped>
 h3 {
   font-family: "Lexend Deca", sans-serif;
+}
+.text-shadow {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 </style>

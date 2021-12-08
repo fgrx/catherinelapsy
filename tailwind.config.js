@@ -17,15 +17,15 @@ module.exports = {
       teal: colors.teal,
       emerald: colors.emerald,
       custom: {
-        default: "#5F7D84"
-      }
-    }
+        default: "#5F7D84",
+      },
+    },
   },
   purge: {
     options: {
       safelist: [
         "bg-gray-700",
-        'text-gray-50',
+        "text-gray-50",
         "bg-rose-600",
         "bg-gray-100",
         "bg-gray-200",
@@ -72,8 +72,12 @@ module.exports = {
         "to-emerald-900",
         "from-blue-900",
         "to-blue-900",
-        "py-24"
-      ]
-    }
-  }
+        "from-blue-700",
+        "to-blue-700",
+        "from-blue-400",
+        "to-blue-400",
+        "py-24",
+      ],
+    },
+  },
 };
