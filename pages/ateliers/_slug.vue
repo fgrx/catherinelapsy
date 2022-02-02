@@ -77,7 +77,7 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const doc = await $content("ateliers", params.slug || "index").fetch();
+    const doc = await $content("ateliers", params.slug || "index").where({isDisplayed: true}).fetch();
     return { doc };
   },
   computed: {

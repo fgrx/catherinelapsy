@@ -7,6 +7,7 @@ description: Vos problèmes ne viennent pas que de vous ! Nous avons tous un
 image: /images/paix-heritage.jpg
 imageAlt: Catherine la Psy présente l'atelier.
 buyUrl: https://ctpsy.podia.com/heritage-familial
+isDisplayed: false
 codeMailingList: M5k9i
 colorText: white
 colorBg1: indigo-700

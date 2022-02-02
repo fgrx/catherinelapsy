@@ -15,7 +15,7 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const ateliers = await $content("ateliers").sortBy("order", "desc").fetch();
+    const ateliers = await $content("ateliers").where({isDisplayed: true}).sortBy("order", "desc").fetch();
     return { ateliers };
   },
   data() {

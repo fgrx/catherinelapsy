@@ -8,6 +8,7 @@ colorText: white
 colorBg1: teal-600
 colorBg2: purple-800
 order: 5
+isDisplayed: true
 isOpen: true
 buyStart: true
 buyEnd: true

@@ -9,6 +9,7 @@ colorText: white
 colorBg1: teal-700
 colorBg2: yellow-500
 order: 1
+isDisplayed: true
 isOpen: true
 codeMailingList: M5klg
 buyStart: true
