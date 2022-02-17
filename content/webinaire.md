@@ -39,4 +39,4 @@ Dans ce webinaire, on verra :
 - en tant que psy, faut-il en parler au patient ?
 - comment le travailler en tant que psy ?
 
-**Prix : 70€**
+**Prix : 69€**
