@@ -8,7 +8,7 @@ module.exports = {
       black: colors.black,
       white: colors.white,
       blue: colors.blue,
-      gray: colors.trueGray,
+      gray: colors.gray,
       indigo: colors.indigo,
       red: colors.rose,
       yellow: colors.amber,

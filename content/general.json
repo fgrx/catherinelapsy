@@ -6,9 +6,20 @@
   "siteSubtitle": "La psy comme vous ne l'avez jamais vue !",
   "products": [
     {
-      "titleSection": "Précommande :",
+      "titleSection": "Webinaire",
+      "title": "Le transfert, un super pouvoir en thérapie ?",
+      "description": "Mardi 1er mars à 19h00. Replay disponible à volonté.",
+      "url": "./webinaire",
+      "target": "blank",
+      "image": "",
+      "displayPrice": false,
+      "price": 70,
+      "promo": 60
+    },
+    {
+      "titleSection": "",
       "title": "Les Cartes Psys",
-      "description": "Livraison en février 2022",
+      "description": "Elles sont enfin disponibles ! ",
       "url": "https://latelierpsy.com/",
       "target": "blank",
       "image": "images/cartespsy.jpg",

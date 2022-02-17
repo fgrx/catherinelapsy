@@ -1,7 +1,8 @@
 <template>
-  <div class="bg-opacity-40 bg-black">
+  <div :class="product.image ? 'bg-opacity-40 bg-black' : 'bg-gray-200'">
     <TextOverImage :image="product.image">
       <div
+        :class="product.image ? 'text-white' : 'text-black'"
         class="
           md:h-2/3 md:w-2/3
           px-5
@@ -10,7 +11,6 @@
           mx-auto
           py-28
           items-center
-          text-white
         "
       >
         <h2 class="text-center text-shadow">{{ product.titleSection }}</h2>

@@ -5,6 +5,7 @@
     </div>
 
     <nuxt-picture
+      v-if="image"
       :src="image"
       format="webp"
       quality="70"
