@@ -5,8 +5,6 @@ image: /images/webinaires/webinaire-transfert.jpg
 imageAlt: Catherine explique quelque chose
 buyUrl: https://ctpsy.podia.com/webinaire-le-transfert-un-super-pouvoir-en-therapie
 colorText: white
-colorBg1: blue-600
-colorBg2: blue-900
 order: 1
 isDisplayed: true
 isOpen: true
@@ -15,23 +13,30 @@ buyEnd: true
 discountTitle: Black Friday
 discountFrom: 149
 discountTo: 0
+price: 70
 ---
 
-On en parle régulièrement, mais est-ce qu'on sait ce qu'il signifie ?
+Dans ce premier webinaire mensuel, nous allons travailler sur ce concept parfois difficile à appréhender, le transfert. Il s'agit d'un atelier de travail à destination des psys qui souhaitent mieux le comprendre et éventuellement l'utiliser en séance mais aussi au patient(e)s en thérapie qui voudraient évaluer ce qu'il se passe pour elles et eux dans leur thérapie.
 
-Et surtout, pour moi qui m'intéresse très spécifiquement au traitement des problèmes psys, la question est de savoir : peut-on en faire quelque chose en thérapie, de ce concept ?
+Ce webinaire, comme tous les contenus de Catherine la psy, sera un peu théorique et surtout pratique et concret, alimenté d'exemples et d'exercices personnels.
 
-Ce webinaire vous permettra d'interragir avec moi et de poser vos questions. Un replay sera ensuite disponible pour revoir la session a volonté.
+**Ce webinaire se déroulera le mardi 1er mars de 19h à 20h30.**
 
-## Le programme
+Il y aura un replay pour les personnes qui n'auront pas pu être présentes et les participant(e)s qui souhaiteraient revoir le webinaire.
 
-- D'abord, c'est quoi le transfert ?
-- Comment il se manifeste en thérapie ?
-- Faut-il le provoquer ?
-- est-ce un passage obligatoire de la thérapie ou on s'en fout ?
-- à quoi ça sert, au final ?
-- est-ce que c'est normal de tomber amoureux de son psy ?
-- est-ce que les patient(e)s ont besoin de le savoir ?
-- quels sont les différents types de transfert possibles ?
-- faut-il en parler au patient(e)s quand on est psy ou accompagnant(e) ?
-- comment le travailler en thérapie si on veut s'en servir ?
+## programme
+
+Dans ce webinaire, on verra :
+
+- les définitions du transfert : ce qu'il est et ce qu'il n'est pas
+- comment il se manifeste ?
+- peut-on le provoquer ?
+- quels sont les différents types de transfert ?
+- est-ce un passage obligatoire dans la thérapie ?
+- est-ce grave de tomber amoureux ou amoureuse de son ou sa psy ?
+- est-ce vraiment utile ?
+- qu'est-ce que ça apporte au patient(e)s ?
+- en tant que psy, faut-il en parler au patient ?
+- comment le travailler en tant que psy ?
+
+**Prix : 70€**
