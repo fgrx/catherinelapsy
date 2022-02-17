@@ -77,6 +77,8 @@
 export default {
   async asyncData({ $content, params }) {
     const doc = await $content("webinaire" || "index").fetch();
+    doc.colorBg1 = "yellow-800";
+    doc.colorBg2 = "yellow-400";
     return { doc };
   },
   computed: {
