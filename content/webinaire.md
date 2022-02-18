@@ -39,4 +39,6 @@ Dans ce webinaire, on verra :
 - en tant que psy, faut-il en parler au patient ?
 - comment le travailler en tant que psy ?
 
+Pour illustrer les concepts vu pendant ce webinar, des jeux de rôles auront lieu.
+
 **Prix : 69€**
