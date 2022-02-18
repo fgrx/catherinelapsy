@@ -2,12 +2,12 @@
   <div class="text-center" v-if="isclosed === false">
     <a :href="url">
       <Btn class="mt-5 mb-16">
-        Acheter
+        <slot></slot>
 
         <template v-if="discount && discount.discountTo">
           <strong>
-            <strike>{{discount.discountFrom}}</strike
-            >€ {{ discount.discountTo}}€</strong
+            <strike>{{ discount.discountFrom }}</strike
+            >€ {{ discount.discountTo }}€</strong
           >
         </template>
         <template slot="subText"
@@ -23,16 +23,16 @@ export default {
   props: {
     url: {
       type: String,
-      default: ""
+      default: "",
     },
     isclosed: {
       type: Boolean,
-      default: false
+      default: false,
     },
-    discount:{
-      type:Object,
-      defaut:{}
-    }
-  }
+    discount: {
+      type: Object,
+      defaut: {},
+    },
+  },
 };
 </script>

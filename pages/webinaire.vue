@@ -34,11 +34,9 @@
           class="text-center mt-12"
           v-if="doc.buyUrl && doc.isOpen && doc.buyEnd"
         >
-          <BuyBtn
-            :url="doc.buyUrl"
-            :isClosed="!doc.isOpen"
-            :discount="discount"
-          ></BuyBtn>
+          <BuyBtn :url="doc.buyUrl" :isClosed="!doc.isOpen" :discount="discount"
+            >Réserver</BuyBtn
+          >
         </div>
 
         <div v-if="!doc.isOpen" class="bg-rose-600 text-white py-8 px-5 mt-10">

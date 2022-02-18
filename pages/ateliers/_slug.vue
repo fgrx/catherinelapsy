@@ -4,7 +4,19 @@
       <HeaderPage :doc="doc" />
 
       <div
-        class="container mx-auto bg-gray-100 -m-14 py-12 pb-24 px-5 md:px-12 md:w-10/12 lg:w-9/12 xl:w-7/12 content"
+        class="
+          container
+          mx-auto
+          bg-gray-100
+          -m-14
+          py-12
+          pb-24
+          px-5
+          md:px-12 md:w-10/12
+          lg:w-9/12
+          xl:w-7/12
+          content
+        "
       >
         <nuxt-img
           :src="doc.image"
@@ -23,7 +35,9 @@
             :url="doc.buyUrl"
             :isClosed="!doc.isOpen"
             :discount="discount"
-          ></BuyBtn>
+          >
+            Acheter
+          </BuyBtn>
         </div>
 
         <nuxt-content class="content" :document="doc"></nuxt-content>
@@ -32,7 +46,9 @@
             :url="doc.buyUrl"
             :isClosed="!doc.isOpen"
             :discount="discount"
-          ></BuyBtn>
+          >
+            Acheter</BuyBtn
+          >
         </div>
 
         <div v-if="!doc.isOpen" class="bg-rose-600 text-white py-8 px-5 mt-10">
@@ -77,13 +93,19 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const doc = await $content("ateliers", params.slug || "index").where({isDisplayed: true}).fetch();
+    const doc = await $content("ateliers", params.slug || "index")
+      .where({ isDisplayed: true })
+      .fetch();
     return { doc };
   },
   computed: {
     discount() {
-      return {discountTitle:this.doc.discountTitle,discountFrom:this.doc.discountFrom,discountTo:this.doc.discountTo}
-    }
+      return {
+        discountTitle: this.doc.discountTitle,
+        discountFrom: this.doc.discountFrom,
+        discountTo: this.doc.discountTo,
+      };
+    },
   },
   head() {
     return {
@@ -92,22 +114,22 @@ export default {
         {
           hid: "description",
           name: "description",
-          content: this.doc.description
+          content: this.doc.description,
         },
         { name: "og:title", content: this.doc.title },
         { name: "og:type", content: "article" },
         { name: "og:site_name", content: "catherine La Psy" },
         {
           name: "og:image",
-          content: `https://catherinelapsy.com${this.doc.image}`
+          content: `https://catherinelapsy.com${this.doc.image}`,
         },
         {
           name: "og:description",
-          content: this.doc.description
-        }
-      ]
+          content: this.doc.description,
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 
