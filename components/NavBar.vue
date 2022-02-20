@@ -152,10 +152,6 @@ export default {
           to: "/ateliers",
         },
         {
-          text: "Webinaire",
-          to: "/webinaire",
-        },
-        {
           text: "Lettre Psy",
           to: "/emails-prives",
         },

@@ -5,7 +5,7 @@ image: /images/webinaires/webinaire-transfert.jpg
 imageAlt: Catherine explique quelque chose
 buyUrl: https://ctpsy.podia.com/webinaire-le-transfert-un-super-pouvoir-en-therapie
 colorText: white
-order: 1
+order: 7
 isDisplayed: true
 isOpen: true
 buyStart: true
@@ -16,17 +16,17 @@ discountTo: 0
 price: 70
 ---
 
-Dans ce premier webinaire mensuel, nous allons travailler sur ce concept parfois difficile à appréhender, le transfert. Il s'agit d'un atelier de travail à destination des psys qui souhaitent mieux le comprendre et éventuellement l'utiliser en séance mais aussi au patient(e)s en thérapie qui voudraient évaluer ce qu'il se passe pour elles et eux dans leur thérapie.
+Dans ce premier atelier en direct sur Zoom, nous allons travailler sur ce concept parfois difficile à appréhender, le transfert. Il s'agit d'un atelier de travail à destination des psys qui souhaitent mieux le comprendre et éventuellement l'utiliser en séance mais aussi au patient(e)s en thérapie qui voudraient évaluer ce qu'il se passe pour elles et eux dans leur thérapie.
 
-Ce webinaire, comme tous les contenus de Catherine la psy, sera un peu théorique et surtout pratique et concret, alimenté d'exemples et d'exercices personnels.
+Cet atelier en live, comme tous les contenus de Catherine la psy, sera un peu théorique et surtout pratique et concret, alimenté d'exemples et d'exercices personnels.
 
-**Ce webinaire se déroulera le mardi 1er mars de 19h à 20h30.**
+**Cet atelier en live se déroulera en direct le mardi 1er mars de 19h à 20h30.**
 
-Il y aura un replay pour les personnes qui n'auront pas pu être présentes et les participant(e)s qui souhaiteraient revoir le webinaire.
+Il y aura un replay pour les personnes qui n'auront pas pu être présentes et les participant(e)s qui souhaiteraient revoir l'atelier.
 
 ## programme
 
-Dans ce webinaire, on verra :
+Nous verrons :
 
 - les définitions du transfert : ce qu'il est et ce qu'il n'est pas
 - comment il se manifeste ?
@@ -39,6 +39,6 @@ Dans ce webinaire, on verra :
 - en tant que psy, faut-il en parler au patient ?
 - comment le travailler en tant que psy ?
 
-Pour illustrer les concepts vu pendant ce webinar, des jeux de rôles auront lieu.
+Pour illustrer les concepts vu pendant cet atelier en live, des jeux de rôles auront lieu.
 
 **Prix : 69€**
