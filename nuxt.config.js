@@ -45,6 +45,7 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     "@nuxtjs/tailwindcss",
     "nuxt-compress",
+        '@nuxtjs/google-analytics'
     [
       "@nuxtjs/google-fonts",
       {
@@ -64,6 +65,8 @@ export default {
     "nuxt-cookie-control",
     "@nuxtjs/pwa",
     "@nuxtjs/sitemap",
+    
+    //"@nuxtjs/google-gtag",
     [
       "nuxt-compress",
       {
@@ -140,28 +143,28 @@ export default {
   googleAnalytics: {
     id: "G-JFDNW9JFSX",
   },
-  // cookies: {
-  //   necessary: [],
-  //   optional: [
-  //     {
-  //       name: "Google Analitycs",
-  //       identifier: "G-JFDNW9JFSX",
-  //       description:
-  //         "Nous utilisons l'outil Google Analytics à des fins statistiques afin d'améliorer nos services.",
+  cookies: {
+    necessary: [
+      {
+        name: "Google Analitycs",
+        identifier: "G-JFDNW9JFSX",
+        description:
+          "Nous utilisons l'outil Google Analytics à des fins statistiques afin d'améliorer nos services.",
 
-  //       initialState: true,
-  //       src: "https://www.googletagmanager.com/gtag/js?id=G-JFDNW9JFSX",
-  //       async: true,
-  //       cookies: ["_ga", "_gat", "_gid"],
-  //       accepted: () => {
-  //         window.dataLayer = window.dataLayer || [];
-  //         window.dataLayer.push({
-  //           "gtm.start": new Date().getTime(),
-  //           event: "gtm.js"
-  //         });
-  //       },
-  //       declined: () => {}
-  //     }
-  //   ]
-  // }
+        initialState: true,
+        src: "https://www.googletagmanager.com/gtag/js?id=G-JFDNW9JFSX",
+        async: true,
+        cookies: ["_ga", "_gat", "_gid"],
+        accepted: () => {
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push({
+            "gtm.start": new Date().getTime(),
+            event: "gtm.js",
+          });
+        },
+        declined: () => {},
+      },
+    ],
+    optional: [],
+  },
 };
