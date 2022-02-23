@@ -7,7 +7,7 @@ export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     htmlAttrs: {
-      lang: "fr"
+      lang: "fr",
     },
     title: "Catherine La Psy",
     meta: [
@@ -17,7 +17,7 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "Catherine la psy vulgarise la psychologie et propose des ateliers en ligne pour les professionnels et particuliers."
+          "Catherine la psy vulgarise la psychologie et propose des ateliers en ligne pour les professionnels et particuliers.",
       },
       { name: "theme-color", content: "#07835f" },
       { name: "og:title", content: "catherine La Psy" },
@@ -26,9 +26,9 @@ export default {
       {
         name: "og:description",
         content:
-          "Catherine la psy vulgarise la psychologie et propose des ateliers en ligne pour les professionnels et particuliers."
-      }
-    ]
+          "Catherine la psy vulgarise la psychologie et propose des ateliers en ligne pour les professionnels et particuliers.",
+      },
+    ],
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
@@ -51,10 +51,10 @@ export default {
         display: "swap",
         families: {
           "Lexend+Deca": true,
-          "Playfair+Display:ital,wght@0,700;1,700": true
-        }
-      }
-    ]
+          "Playfair+Display:ital,wght@0,700;1,700": true,
+        },
+      },
+    ],
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -68,13 +68,13 @@ export default {
       "nuxt-compress",
       {
         gzip: {
-          cache: true
+          cache: true,
         },
         brotli: {
-          threshold: 10240
-        }
-      }
-    ]
+          threshold: 10240,
+        },
+      },
+    ],
   ],
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
@@ -92,15 +92,15 @@ export default {
         removeEmptyAttributes: true,
         removeRedundantAttributes: true,
         trimCustomFragments: true,
-        useShortDoctype: true
-      }
-    }
+        useShortDoctype: true,
+      },
+    },
   },
 
   pwa: {
     meta: {
-      theme_color: "#07835f"
-    }
+      theme_color: "#07835f",
+    },
   },
 
   image: {
@@ -123,9 +123,9 @@ export default {
        **/
       sharp: {
         // Here is complete list of available options: https://github.com/lovell/sharp/blob/master/lib/constructor.js#L132
-      }
+      },
     },
-    sizes: [320, 420, 768, 1024, 1200]
+    sizes: [320, 420, 768, 1024, 1200],
   },
 
   sitemap: {
@@ -134,34 +134,34 @@ export default {
     exclude: ["/admin/**"],
     routes() {
       return getRoutes();
-    }
+    },
   },
 
   googleAnalytics: {
-    id: "G-JFDNW9JFSX"
+    id: "G-JFDNW9JFSX",
   },
-  cookies: {
-    necessary: [],
-    optional: [
-      {
-        name: "Google Analitycs",
-        identifier: "G-JFDNW9JFSX",
-        description:
-          "Nous utilisons l'outil Google Analytics à des fins statistiques afin d'améliorer nos services.",
+  // cookies: {
+  //   necessary: [],
+  //   optional: [
+  //     {
+  //       name: "Google Analitycs",
+  //       identifier: "G-JFDNW9JFSX",
+  //       description:
+  //         "Nous utilisons l'outil Google Analytics à des fins statistiques afin d'améliorer nos services.",
 
-        initialState: true,
-        src: "https://www.googletagmanager.com/gtag/js?id=G-JFDNW9JFSX",
-        async: true,
-        cookies: ["_ga", "_gat", "_gid"],
-        accepted: () => {
-          window.dataLayer = window.dataLayer || [];
-          window.dataLayer.push({
-            "gtm.start": new Date().getTime(),
-            event: "gtm.js"
-          });
-        },
-        declined: () => {}
-      }
-    ]
-  }
+  //       initialState: true,
+  //       src: "https://www.googletagmanager.com/gtag/js?id=G-JFDNW9JFSX",
+  //       async: true,
+  //       cookies: ["_ga", "_gat", "_gid"],
+  //       accepted: () => {
+  //         window.dataLayer = window.dataLayer || [];
+  //         window.dataLayer.push({
+  //           "gtm.start": new Date().getTime(),
+  //           event: "gtm.js"
+  //         });
+  //       },
+  //       declined: () => {}
+  //     }
+  //   ]
+  // }
 };
