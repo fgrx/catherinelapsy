@@ -45,7 +45,7 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     "@nuxtjs/tailwindcss",
     "nuxt-compress",
-        '@nuxtjs/google-analytics'
+    "@nuxtjs/google-analytics",
     [
       "@nuxtjs/google-fonts",
       {
@@ -65,8 +65,6 @@ export default {
     "nuxt-cookie-control",
     "@nuxtjs/pwa",
     "@nuxtjs/sitemap",
-    
-    //"@nuxtjs/google-gtag",
     [
       "nuxt-compress",
       {
@@ -144,7 +142,8 @@ export default {
     id: "G-JFDNW9JFSX",
   },
   cookies: {
-    necessary: [
+    necessary: [],
+    optional: [
       {
         name: "Google Analitycs",
         identifier: "G-JFDNW9JFSX",
@@ -165,6 +164,5 @@ export default {
         declined: () => {},
       },
     ],
-    optional: [],
   },
 };
