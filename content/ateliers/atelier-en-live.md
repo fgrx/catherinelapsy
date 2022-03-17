@@ -1,9 +1,9 @@
 ---
-title: Le transfert, un super pouvoir en thérapie ?
-description: Mardi 1er mars à 19h00 - replay disponible
-image: /images/webinaires/webinaire-transfert.jpg
-imageAlt: Catherine explique quelque chose
-buyUrl: https://ctpsy.podia.com/webinaire-le-transfert-un-super-pouvoir-en-therapie
+title: Réussir son installation en libéral
+description: Mardi 29 mars à 19h00 - replay disponible
+image: /images/webinaires/webinaire-liberal.jpg
+imageAlt: Catherine est motivée
+buyUrl: https://ctpsy.podia.com/9e3153f0-6f79-45e2-b6ee-0658b08cdd82
 colorText: white
 order: 7
 isDisplayed: true
@@ -13,32 +13,24 @@ buyEnd: true
 discountTitle: Black Friday
 discountFrom: 149
 discountTo: 0
-price: 70
+price: 69
 ---
 
-Dans ce premier atelier en direct sur Zoom, nous allons travailler sur ce concept parfois difficile à appréhender, le transfert. Il s'agit d'un atelier de travail à destination des psys qui souhaitent mieux le comprendre et éventuellement l'utiliser en séance mais aussi au patient(e)s en thérapie qui voudraient évaluer ce qu'il se passe pour elles et eux dans leur thérapie.
+Se lancer en libéral, ça en fait rêver beaucoup, mais il faut avouer que ça peut faire peur ! Catherine est passé par là et peut vous en parler. Est-ce une bonne idée de se lancer aujourd'hui ? Comment s'y prendre ? quels sont les pièges à éviter ? Catherine vous donnera les astuces qu'elle aurait aimé connaitre avant de se lancer dans cet atelier en live.
 
-Cet atelier en live, comme tous les contenus de Catherine la psy, sera un peu théorique et surtout pratique et concret, alimenté d'exemples et d'exercices personnels.
+Qu'est-ce qu'un atelier live ? C'est un atelier en direct, via zoom, qui sera ensuite accessible en replay à volonté. L'avantage de ce format en live est que vous pourrez poser toutes vos questions à Catherine et ainsi tirer le maximum d'informations utiles pour vous.
 
-**Cet atelier en live se déroulera en direct le mardi 1er mars de 19h à 20h30.**
+\*\*le programme :
 
-Il y aura un replay pour les personnes qui n'auront pas pu être présentes et les participant(e)s qui souhaiteraient revoir l'atelier.
-
-## programme
-
-Nous verrons :
-
-- les définitions du transfert : ce qu'il est et ce qu'il n'est pas
-- comment il se manifeste ?
-- peut-on le provoquer ?
-- quels sont les différents types de transfert ?
-- est-ce un passage obligatoire dans la thérapie ?
-- est-ce grave de tomber amoureux ou amoureuse de son ou sa psy ?
-- est-ce vraiment utile ?
-- qu'est-ce que ça apporte au patient(e)s ?
-- en tant que psy, faut-il en parler au patient ?
-- comment le travailler en tant que psy ?
-
-Pour illustrer les concepts vu pendant cet atelier en live, des jeux de rôles auront lieu.
+- trouver ses clients / patients
+- faire son réseau et se faire connaitre
+- les statuts
+- l'administratif
+- le local
+- la compta
+- l'organisation
+- la légitimité
+- le juridique
+- le mindset
 
 **Prix : 69€**
