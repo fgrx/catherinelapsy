@@ -7,13 +7,13 @@
   "products": [
     {
       "titleSection": "Atelier en live",
-      "title": "Le transfert, un super pouvoir en thérapie ?",
-      "description": "En direct le mardi 1er mars à 19h00. Replay disponible à volonté.",
+      "title": "Réussir son installation en libéral",
+      "description": "En direct le mardi 29 mars à 19h00. Replay disponible à volonté.",
       "url": "./ateliers/atelier-en-live",
       "target": "blank",
       "image": "",
       "displayPrice": false,
-      "price": 70,
+      "price": 69,
       "promo": 60
     },
     {
