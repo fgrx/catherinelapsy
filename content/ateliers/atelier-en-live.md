@@ -1,5 +1,5 @@
 ---
-title: Réussir son installation en libéral
+title: Vivre du libéral
 description: Mardi 29 mars à 19h00 - replay disponible
 image: /images/webinaires/webinaire-liberal.jpg
 imageAlt: Catherine est motivée
@@ -20,7 +20,7 @@ Se lancer en libéral, ça en fait rêver beaucoup, mais il faut avouer que ça 
 
 Qu'est-ce qu'un atelier live ? C'est un atelier en direct, via zoom, qui sera ensuite accessible en replay à volonté. L'avantage de ce format en live est que vous pourrez poser toutes vos questions à Catherine et ainsi tirer le maximum d'informations utiles pour vous.
 
-\*\*le programme :
+## le programme :
 
 - trouver ses clients / patients
 - faire son réseau et se faire connaitre
