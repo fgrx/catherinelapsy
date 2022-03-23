@@ -6,7 +6,7 @@
 
     <nuxt-picture
       v-if="image"
-      :src="image"
+      :src="`images/ressources-psy/${image}`"
       format="webp"
       quality="70"
       class="w-full container-block-image"
