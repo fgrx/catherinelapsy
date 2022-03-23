@@ -1,14 +1,13 @@
 <template>
   <div class="container mx-auto px-5 pt- pb-10">
-    <h2 class="mt-5 mb-3 block">Retrouvez moi sur</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
       <div
-        v-for="sn in socialNetworks"
+        v-for="sn in ressources"
         :key="sn.order"
         class="text-white bg-black bg-opacity-60"
       >
-        <a :href="sn.url">
-          <TextOverImage :image="`/home/${sn.image}`">
+        <a :href="sn.url" class="no-underline">
+          <TextOverImage :image="sn.image">
             <div class="py-10 px-6">
               <img
                 :src="require(`@/assets/${sn.logo}`)"
@@ -18,7 +17,7 @@
                 height="40"
               />
               <div class="">
-                <h3 class="text-2xl">{{ sn.title }}</h3>
+                <h3 class="text-2xl text-center">{{ sn.title }}</h3>
                 <p class="font-medium">{{ sn.description }}</p>
               </div>
             </div>
@@ -31,11 +30,15 @@
 
 <script>
 export default {
-  props: {
-    socialNetworks: {
-      type: Object,
-      default: {},
-    },
+  data() {
+    return {
+      ressources: {},
+    };
+  },
+
+  async fetch() {
+    const general = await this.$content("general", { deep: true }).fetch();
+    this.ressources = general.ressources;
   },
 };
 </script>

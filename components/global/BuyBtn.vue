@@ -4,12 +4,15 @@
       <Btn class="mt-5 mb-16">
         <slot></slot>
 
-        <template v-if="discount && discount.discountTo">
+        <template v-if="discount.hasDiscount">
           <strong>
-            <strike>{{ discount.discountFrom }}</strike
+            <strike>{{ price }}</strike
             >€ {{ discount.discountTo }}€</strong
           >
         </template>
+
+        <template v-else> {{ price }}€ </template>
+
         <template slot="subText"
           ><div>Vous serez redirigé sur podia.com</div></template
         >
@@ -29,6 +32,7 @@ export default {
       type: Boolean,
       default: false,
     },
+    price: { type: Number, default: 0 },
     discount: {
       type: Object,
       defaut: {},

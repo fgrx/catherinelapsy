@@ -38,13 +38,13 @@
           {{ item.description }}
         </p>
 
-        <p v-if="item.discountTo">
+        <p v-if="item.hasDiscount">
           <strong>
             <template v-if="item.discountTitle"
-              >{{item.discountTitle}} :
+              >{{ item.discountTitle }} :
             </template>
-            <strike>{{item.discountFrom}}</strike
-            >€ {{ item.discountTo}}€</strong
+            <strike>{{ item.price }}</strike
+            >€ {{ item.discountTo }}€</strong
           >
         </p>
 

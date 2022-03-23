@@ -15,6 +15,25 @@
       <form v-if="!isSent" name="contact" method="POST" data-netlify="true">
         <p>
           <label class="block"
+            >Objet de votre message :
+            <select
+              v-model="object"
+              type="text"
+              name="object"
+              :class="`${cssFormLayout}`"
+              required
+            >
+              <option value="renseignement_atelier">
+                Renseignement sur les ateliers
+              </option>
+              <option value="aide_commande">Aide sur une commande</option>
+              <option value="autre">Autre</option>
+            </select></label
+          >
+        </p>
+
+        <p>
+          <label class="block"
             >Votre nom :
             <input
               v-model="name"
@@ -69,17 +88,19 @@ export default {
   data() {
     return {
       color: "rose-600",
-      cssFormLayout: `block w-full py-3 px-1 mt-2 text-gray-800 appearance-none rounded  focus:${this.color}`,
+      cssFormLayout: `block w-full py-3 px-1 mt-2 text-gray-800  rounded  focus:${this.color}`,
       isSent: false,
       name: "",
       email: "",
       message: "",
+      object: "renseignement_atelier",
       error: false,
     };
   },
   computed: {
     isFormCompleted() {
       if (
+        this.object &&
         this.name.length > 3 &&
         this.message.length > 5 &&
         this.isValidEmail(this.email)
@@ -117,12 +138,12 @@ export default {
       }
     },
     isValidEmail(email) {
-      const re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      const re =
+        /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
       return re.test(email);
     },
   },
 };
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

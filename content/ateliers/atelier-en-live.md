@@ -11,9 +11,9 @@ isOpen: true
 buyStart: true
 buyEnd: true
 discountTitle: Black Friday
-discountFrom: 149
-discountTo: 0
+discountTo: 55
 price: 69
+hasDiscount: false
 ---
 
 Se lancer en libéral, ça en fait rêver beaucoup, mais il faut avouer que ça peut faire peur ! Catherine est passé par là et peut vous en parler. Est-ce une bonne idée de se lancer aujourd'hui ? Comment s'y prendre ? quels sont les pièges à éviter ? Catherine vous donnera les astuces qu'elle aurait aimé connaitre avant de se lancer dans cet atelier en live.
