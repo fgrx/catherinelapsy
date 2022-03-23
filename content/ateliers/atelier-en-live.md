@@ -1,5 +1,5 @@
 ---
-title: Réussir son installation en libéral
+title: Vivre du libéral
 description: Mardi 29 mars à 19h00 - replay disponible
 image: /images/webinaires/webinaire-liberal.jpg
 imageAlt: Catherine est motivée
