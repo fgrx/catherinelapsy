@@ -13,8 +13,9 @@ isOpen: true
 buyStart: true
 buyEnd: true
 discountTitle: Black Friday
-discountFrom: 149
+price: 149
 discountTo: 0
+hasDiscount: false
 ---
 
 Il vous est peut-être déjà arrivé de **tout essayer** pour résoudre un problème que vous aviez. Et pourtant, il est toujours là.

@@ -15,8 +15,9 @@ codeMailingList: M5klg
 buyStart: true
 buyEnd: true
 discountTitle: Black Friday
-discountFrom: 149
+price: 149
 discountTo: 0
+hasDiscount: false
 ---
 
 <display-text display='frame'>

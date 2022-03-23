@@ -1,6 +1,6 @@
 <template>
   <div class="overflow-hidden bg-gradient-to-r from-emerald-700 to-emerald-500">
-    <div class="container md:mx-auto mt-8 md:mt-0 px-5">
+    <div class="container text-center md:text-left mx-auto mt-8 md:mt-0 px-5">
       <div class="md:flex items-center">
         <div class="flex-1">
           <h1 class="text-white">
@@ -9,9 +9,11 @@
               <div class="title_site_1 inline-block">la</div>
               <div class="title_site_2 inline-block">Psy</div>
             </div>
-            <div class="mt-10 text-white subtitle max-w-md">
-              <h1>{{ subtitle }}</h1>
-              <p class="-mt-2">{{ explanation }}</p>
+            <div class="mt-10 text-white subtitle md:max-w-lg">
+              <h1 class="text-3xl md:text-5xl">
+                {{ subtitle }}
+                <p class="text-lg md:text-2xl">{{ explanation }}</p>
+              </h1>
             </div>
           </h1>
         </div>
@@ -54,25 +56,18 @@ img {
 }
 
 .title_site_1 {
-  font-size: 4.5em;
+  font-size: 5em;
   line-height: 0.5em;
   font-family: "Playfair Display", sans-serif;
   font-style: italic;
   transform: rotate(-5deg);
 }
 .title_site_2 {
-  font-size: 10em;
+  font-size: 11em;
   line-height: 1.1em;
   font-family: "Playfair Display", sans-serif;
   font-style: italic;
   transform: rotate(-7deg);
-}
-
-.subtitle {
-  // transform: rotate(-5deg);
-  h1 {
-    font-size: 2.6em;
-  }
 }
 
 @media screen and (max-width: 640px) {

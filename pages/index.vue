@@ -2,6 +2,12 @@
   <div>
     <LazyHydrate when-visible>
       <section>
+        <Message />
+      </section>
+    </LazyHydrate>
+
+    <LazyHydrate when-visible>
+      <section>
         <TopHome
           :subtitle="general.siteSubtitle"
           :explanation="general.explanation"
@@ -38,6 +44,7 @@
 <script>
 import LazyHydrate from "vue-lazy-hydration";
 import TopHome from "@/components/home/TopHome";
+import Message from "@/components/Message.vue";
 import Newsletter from "@/components/home/Newsletter";
 import Product from "@/components/home/Product";
 import Ressources from "@/components/Ressources";
@@ -57,6 +64,7 @@ export default {
     Ressources,
     Newsletter,
     TopHome,
+    Message,
   },
 
   head() {

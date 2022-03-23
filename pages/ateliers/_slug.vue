@@ -4,19 +4,7 @@
       <HeaderPage :doc="doc" />
 
       <div
-        class="
-          container
-          mx-auto
-          bg-gray-100
-          -m-14
-          py-12
-          pb-24
-          px-5
-          md:px-12 md:w-10/12
-          lg:w-9/12
-          xl:w-7/12
-          content
-        "
+        class="container mx-auto bg-gray-100 -m-14 py-12 pb-24 px-5 md:px-12 md:w-10/12 lg:w-9/12 xl:w-7/12 content"
       >
         <nuxt-img
           :src="doc.image"
@@ -35,6 +23,7 @@
             :url="doc.buyUrl"
             :isClosed="!doc.isOpen"
             :discount="discount"
+            :price="price"
           >
             Acheter
           </BuyBtn>
@@ -46,6 +35,7 @@
             :url="doc.buyUrl"
             :isClosed="!doc.isOpen"
             :discount="discount"
+            :price="price"
           >
             Acheter</BuyBtn
           >
@@ -102,9 +92,12 @@ export default {
     discount() {
       return {
         discountTitle: this.doc.discountTitle,
-        discountFrom: this.doc.discountFrom,
         discountTo: this.doc.discountTo,
+        hasDiscount: this.doc.hasDiscount,
       };
+    },
+    price() {
+      return this.doc.price;
     },
   },
   head() {

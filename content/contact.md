@@ -7,7 +7,8 @@ colorBg1: red-500
 colorBg2: yellow-500
 ---
 
-## Contactez-moi par email
-N'hésitez pas à me contacter en utilisant le formulaire suivant :
+## Contactez nous par email
+
+N'hésitez pas à nous contacter en utilisant le formulaire suivant :
 
 <contact-form></contact-form>

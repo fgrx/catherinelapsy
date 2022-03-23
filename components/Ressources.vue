@@ -6,7 +6,7 @@
         :key="sn.order"
         class="text-white bg-black bg-opacity-60"
       >
-        <a :href="sn.url">
+        <a :href="sn.url" class="no-underline">
           <TextOverImage :image="sn.image">
             <div class="py-10 px-6">
               <img
@@ -17,7 +17,7 @@
                 height="40"
               />
               <div class="">
-                <h3 class="text-2xl">{{ sn.title }}</h3>
+                <h3 class="text-2xl text-center">{{ sn.title }}</h3>
                 <p class="font-medium">{{ sn.description }}</p>
               </div>
             </div>
@@ -29,8 +29,6 @@
 </template>
 
 <script>
-import { green } from "tailwindcss/colors";
-
 export default {
   data() {
     return {

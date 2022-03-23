@@ -1,7 +1,6 @@
 <template>
   <div>
     <NavBar />
-    <Message />
     <Nuxt />
     <Footer />
     <CookieControl locale="fr" />
@@ -52,7 +51,6 @@ h1 {
 
 .nuxt-content a {
   font-weight: bold;
-  text-decoration: underline;
 }
 
 article {
