@@ -4,9 +4,9 @@
       <slot></slot>
     </div>
 
-    <nuxt-img
+    <nuxt-picture
       v-if="image"
-      :src="imageURL"
+      :src="image"
       format="webp"
       quality="70"
       class="w-full container-block-image"
@@ -22,11 +22,6 @@ export default {
     image: {
       type: String,
       default: "",
-    },
-  },
-  computed: {
-    imageURL() {
-      return `images/ressources-psy/${this.image}`;
     },
   },
 };

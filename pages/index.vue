@@ -2,16 +2,7 @@
   <div>
     <LazyHydrate when-visible>
       <section>
-        <Message />
-      </section>
-    </LazyHydrate>
-
-    <LazyHydrate when-visible>
-      <section>
-        <TopHome
-          :subtitle="general.siteSubtitle"
-          :explanation="general.explanation"
-        />
+        <TopHome />
       </section>
     </LazyHydrate>
 
@@ -21,7 +12,7 @@
       </section>
     </LazyHydrate>
 
-    <!-- <LazyHydrate
+    <LazyHydrate
       v-for="(product, index) in general.products"
       :key="index"
       when-visible
@@ -29,13 +20,11 @@
       <section>
         <Product :product="product" />
       </section>
-    </LazyHydrate> -->
+    </LazyHydrate>
 
     <LazyHydrate when-visible>
       <section>
-        <div class="pt-10">
-          <Ressources />
-        </div>
+        <SocialNetworks :socialNetworks="general.socialNetworks" />
       </section>
     </LazyHydrate>
   </div>
@@ -44,10 +33,9 @@
 <script>
 import LazyHydrate from "vue-lazy-hydration";
 import TopHome from "@/components/home/TopHome";
-import Message from "@/components/Message.vue";
 import Newsletter from "@/components/home/Newsletter";
 import Product from "@/components/home/Product";
-import Ressources from "@/components/Ressources";
+import SocialNetworks from "@/components/home/SocialNetworks";
 
 export default {
   async asyncData({ $content }) {
@@ -61,10 +49,9 @@ export default {
   components: {
     LazyHydrate,
     Product,
-    Ressources,
+    SocialNetworks,
     Newsletter,
     TopHome,
-    Message,
   },
 
   head() {

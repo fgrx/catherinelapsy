@@ -17,9 +17,8 @@ isOpen: true
 buyStart: true
 buyEnd: true
 discountTitle: Black Friday
-price: 179
+discountFrom: 179
 discountTo: 0
-hasDiscount: false
 ---
 
 <display-text display='frame'>

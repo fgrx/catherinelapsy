@@ -27,27 +27,15 @@
           v-if="doc.image"
           :alt="doc.imageAlt"
         ></nuxt-img>
-        <div
-          class="text-center"
-          v-if="doc.buyUrl && doc.isOpen && doc.buyStart"
-        >
-          <BuyBtn
-            :url="doc.buyUrl"
-            :isClosed="!doc.isOpen"
-            :discount="discount"
-          >
-            Acheter
-          </BuyBtn>
-        </div>
 
         <nuxt-content class="content" :document="doc"></nuxt-content>
-        <div class="text-center" v-if="doc.buyUrl && doc.isOpen && doc.buyEnd">
-          <BuyBtn
-            :url="doc.buyUrl"
-            :isClosed="!doc.isOpen"
-            :discount="discount"
-          >
-            Acheter</BuyBtn
+
+        <div
+          class="text-center mt-12"
+          v-if="doc.buyUrl && doc.isOpen && doc.buyEnd"
+        >
+          <BuyBtn :url="doc.buyUrl" :isClosed="!doc.isOpen" :discount="discount"
+            >Réserver</BuyBtn
           >
         </div>
 
@@ -75,13 +63,6 @@
                   </p>
                 </div>
               </div>
-
-              <div
-                v-if="doc.codeMailingList"
-                class="flex-1 md:col-span-5 lg:col-span-5"
-              >
-                <NewsletterForm :codeList="doc.codeMailingList" />
-              </div>
             </div>
           </div>
         </div>
@@ -93,9 +74,9 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const doc = await $content("ateliers", params.slug || "index")
-      .where({ isDisplayed: true })
-      .fetch();
+    const doc = await $content("webinaire" || "index").fetch();
+    doc.colorBg1 = "yellow-800";
+    doc.colorBg2 = "yellow-400";
     return { doc };
   },
   computed: {

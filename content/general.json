@@ -1,10 +1,9 @@
 {
   "siteName": "Catherine la psy",
   "siteUrl": "https://catherine-la-psy.com",
-  "siteDescription": "Ateliers et ressources de psychologie en ligne pour démocratiser la psychothérapie et commencer le travail chez vous, sans contraintes.",
+  "siteDescription": "Catherine la psy vous fait découvrir la psychologie comme vous ne l'avez jamais vue !",
   "siteTitle": "Catherine la psy",
-  "siteSubtitle": "Ateliers psy en ligne",
-  "explanation": "pour démocratiser la psychothérapie et commencer le travail chez vous, sans contraintes.",
+  "siteSubtitle": "La psy comme vous ne l'avez jamais vue !",
   "products": [
     {
       "titleSection": "Atelier en live",
@@ -30,64 +29,39 @@
     }
   ],
   "message": {
-    "display": true,
+    "display": false,
     "bgColor": "gray-700",
     "textColor": "gray-50",
-    "title": "Atelier live : Réussir son installation en libéral",
-    "content": "Un atelier en direct qui vous donnera toutes les clefs pour vous lancer dans votre activité en libéral.",
-    "buttonTitle": "Découvrir",
-    "buttonUrl": "./ateliers/atelier-en-live",
+    "title": "Black Friday",
+    "content": "Nos ateliers sont à prix réduit du 26 au 28 novembre",
+    "buttonTitle": "J'en profite",
+    "buttonUrl": "https://catherinelapsy.com/ateliers",
     "buttonColor": ""
   },
-  "ressources": {
-    "ateliers": {
-      "title": "Nos ateliers en ligne",
-      "description": "Les Ateliers en ligne de CatherineLaPsy n’ont pas pour vocation de remplacer une psycho-thérapie physique. Ils sont là pour vous accompagner sur des sujets précis à votre rythme, chez vous, avec toutes les ressources nécessaires pour effectuer vous-même un premier travail",
-      "image": "genogramme.webp",
-      "logo": "ateliers.svg",
-      "order": 0,
-      "url": "./ateliers"
-    },
+  "socialNetworks": {
     "instagram": {
-      "title": "Instagram",
-      "description": "Plus de 24 000 personnes nous suivent chaque jour. Nous vous partageons des histoires de patients, des ressources et toute l’actualité de référence sur la psycho-thérapie",
+      "title": "Mon compte Instagram",
+      "description": "Tous les jours de l'actualité pour mieux comprendre le monde psy",
       "image": "insta_small.webp",
       "logo": "instagram.svg",
-      "order": 1,
+      "order": 0,
       "url": "https://www.instagram.com/catherine_la_psy/"
     },
     "youtube": {
-      "title": "Youtube",
-      "description": "Des vidéos psy sur des thèmes précis pour vous aider dans votre travail personnel. Sortir des émotions, gérer son hypersensibilité, nous sommes à vos côtés.",
+      "title": "Ma chaîne Youtube",
       "image": "youtube_cate.webp",
       "logo": "youtube.svg",
-      "order": 2,
+      "description": "Des sujets de psychologie pointus vulgarisés de façon décomplexée",
+      "order": 1,
       "url": "https://www.youtube.com/channel/UCuocS66l-pMtFcaP3L01z5Q"
     },
     "podcast": {
-      "title": "Podcast",
+      "title": "Mon podcast",
       "image": "podcast.webp",
       "logo": "podcastlogo.svg",
-      "description": "Sous forme de discussion ouverte, le podcast vous permet d’explorer certains sujets de façon plus poussée quand et où vous le souhaitez !",
-      "order": 3,
+      "description": "Pour nous écouter comme vous le préférez",
+      "order": 2,
       "url": "./podcast"
-    },
-    "lettrePsy": {
-      "title": "Lettre Psy",
-      "image": "lettrepsy.png",
-      "logo": "letter.svg",
-      "description": "Une newsletter gratuite pour découvrir le monde de la psychologie et la psychothérapie",
-      "order": 4,
-      "url": "./emails-prives"
-    },
-    "cartesPsy": {
-      "title": "Les Cartes Psys",
-      "description": "Des cartes pour se découvrir et réfléchir sur soi.",
-      "image": "cartespsy.jpg",
-      "logo": "cards.svg",
-      "order": 5,
-      "url": "https://latelierpsy.com/",
-      "blank": true
     }
   }
 }

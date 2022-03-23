@@ -13,9 +13,8 @@ isDisplayed: false
 buyStart: true
 buyEnd: true
 discountTitle: Black Friday
-price: 399
+discountFrom: 399
 discountTo: 0
-hasDiscount: false
 ---
 
 ## Un pack qui regroupe tous nos ateliers
