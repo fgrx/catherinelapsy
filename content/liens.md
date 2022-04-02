@@ -31,6 +31,11 @@ colorBg2: red-500
 - [ASSOBAT (Belgique)](https://www.assobat.be/)
 - [Association Suisse d'Analyse Transactionnelle Suisse Romande](https://asat-sr.ch/)
 
+## Se former en psychotraumatologie
+
+- [IRPT](https://www.irpt.ch) (Institut Roman de PsychoTraumatologie)
+- [CEFTI](https://www.cefti.fr/) (formation à la Thérapie des Schémas orienté psychotraumatologie)
+
 ## Conseils de lecture
 
 - [L’Analyse transactionnelle en pratique : 13 études de cas](https://www.inpress.fr/livre/lanalyse-transactionnelle-en-pratique/) - Catherine Tardella & Lionel Souche

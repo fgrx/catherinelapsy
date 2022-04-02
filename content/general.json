@@ -30,7 +30,7 @@
     }
   ],
   "message": {
-    "display": true,
+    "display": false,
     "bgColor": "gray-700",
     "textColor": "gray-50",
     "title": "Atelier live : Réussir son installation en libéral",

@@ -7,7 +7,7 @@ buyUrl: https://ctpsy.podia.com/9e3153f0-6f79-45e2-b6ee-0658b08cdd82
 colorText: white
 order: 7
 isDisplayed: true
-isOpen: true
+isOpen: false
 buyStart: true
 buyEnd: true
 discountTitle: Black Friday

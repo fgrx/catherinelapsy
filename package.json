@@ -14,6 +14,7 @@
     "@nuxtjs/sitemap": "^2.4.0",
     "core-js": "^3.6.5",
     "lighthouse": "^7.0.0",
+    "moment": "^2.29.1",
     "nuxt": "^2.14.6",
     "nuxt-compress": "^4.1.0",
     "nuxt-cookie-control": "^1.9.6",
