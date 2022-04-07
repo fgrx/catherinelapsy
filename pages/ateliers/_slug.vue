@@ -93,7 +93,7 @@ export default {
       return {
         discountTitle: this.doc.discountTitle,
         discountTo: this.doc.discountTo,
-        hasDiscount: this.doc.hasDiscount,
+        hasDiscount: this.doc.hasDiscount || false,
       };
     },
     price() {

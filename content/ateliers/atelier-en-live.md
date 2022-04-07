@@ -6,7 +6,7 @@ imageAlt: Catherine est motivée
 buyUrl: https://ctpsy.podia.com/9e3153f0-6f79-45e2-b6ee-0658b08cdd82
 colorText: white
 order: 7
-isDisplayed: true
+isDisplayed: false
 isOpen: false
 buyStart: true
 buyEnd: true

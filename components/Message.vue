@@ -41,9 +41,10 @@ export default {
       general: {},
     };
   },
-  async created() {
+  async fetch() {
     this.general = await this.$content("general").fetch();
   },
+  fetchOnServer: true,
 };
 </script>
 

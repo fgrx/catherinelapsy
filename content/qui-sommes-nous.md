@@ -7,9 +7,12 @@ colorBg1: teal-700
 colorBg2: emerald-400
 ---
 
+<div class="mb-14 ">
 Catherine la Psy est parti d’un constat simple : La Psychothérapie est encore connotée négativement, en France notamment et a besoin d'être démocratisée. Pour des personnes en situation d’urgence mais également pour tout le monde.
 La Psychologie et la psychothérapie sont un peu la fitness de l’esprit : il est toujours bon d’entretenir son cerveau et de l’aider à surmonter ses difficultés pour vivre une vie épanouie et en bonne santée.  
 Catherine et Fabien ont donc créer Catherine la Psy, qui propose des Ateliers en ligne accessible dans un format qui permet à chacun de commencer le travail sur soi en toute indépendance.
+</div>
+
 
 <person image="cate_portrait.jpg">
 

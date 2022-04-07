@@ -9,7 +9,7 @@
 
         <p>
           Les Ateliers psy de Catherine La Psy n’ont pas pour vocation de
-          remplacer une psycho-thérapie physique. Ils sont là pour vous
+          remplacer une psychothérapie en face à face. Ils sont là pour vous
           accompagner sur des sujets précis à votre rythme, chez vous, avec
           toutes les ressources nécessaires pour effectuer vous-même un premier
           travail
