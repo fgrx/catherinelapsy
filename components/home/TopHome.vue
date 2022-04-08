@@ -1,6 +1,6 @@
 <template>
   <div
-    class="overflow-hidden bg-gradient-to-r from-emerald-700 to-emerald-500 pt-10"
+    class="overflow-hidden bg-gradient-to-r from-emerald-700 to-emerald-500 pt-6"
   >
     <div class="container text-center md:text-left mx-auto mt-8 md:mt-0 px-5">
       <div class="md:flex items-center">
