@@ -40,8 +40,10 @@
 
                     <SubNav
                       :isDisplayed="linkToDisplay"
-                      :links="link.children"
-                      v-if="link.children"
+                      :menu="link"
+                      :toggle="true"
+                      :links="link.children || ateliersMenus"
+                      v-if="link.meta.subMenu"
                     />
                   </li>
                 </ul>
@@ -113,10 +115,18 @@
           <li
             v-for="(link, index) in links"
             :key="index"
-            class="font-medium text-lg py-2 hover:text-red-200"
+            class="font-medium text-xl py-2 hover:text-red-200"
             @click="isOpen = false"
           >
             <nuxt-link :to="link.to">{{ link.text }}</nuxt-link>
+            <SubNav
+              :isDisplayed="linkToDisplay"
+              :menu="link"
+              :toggle="false"
+              :isRaw="true"
+              :links="link.children || ateliersMenus"
+              v-if="link.meta.subMenu"
+            />
           </li>
         </ul>
 
@@ -141,7 +151,11 @@ export default {
       .fetch();
 
     const menus = ateliers.map((atelier) => {
-      const menu = { title: atelier.title, to: atelier.slug, image: "" };
+      const menu = {
+        title: atelier.title,
+        to: `/ateliers/${atelier.slug}`,
+        image: "",
+      };
       return menu;
     });
 
@@ -156,13 +170,16 @@ export default {
       linkToDisplay: {},
       links: [
         {
+          id: "atelier",
           text: "Ateliers Psy",
           to: "/ateliers",
-          children: this.ateliersMenus,
+          meta: { subMenu: true },
         },
         {
+          id: "ressources",
           text: "Ressources Psy",
           to: "/ressources-psy",
+          meta: { subMenu: true },
           children: [
             {
               title: "Podcast",
@@ -203,15 +220,24 @@ export default {
           ],
         },
         {
+          id: "a-propos",
           text: "A propos",
           to: "/qui-sommes-nous",
+          meta: { subMenu: false },
         },
         {
+          id: "contact",
           text: "Contact",
           to: "/contact",
+          meta: { subMenu: false },
         },
       ],
     };
+  },
+  computed: {
+    ateliersMenusComputed() {
+      return this.ateliersMenus;
+    },
   },
   methods: {
     drawer() {

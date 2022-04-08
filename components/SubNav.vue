@@ -1,7 +1,15 @@
 <template>
-  <nav v-show="isVisible" class="absolute bg-gray-900 p-2 z-20">
-    <ul class="divide-y divide-gray-800">
-      <li class="p-4" v-for="link in links" :key="link.title">
+  <nav
+    v-show="isVisible"
+    :class="!isRaw ? 'absolute bg-gray-900 p-2 z-20 rounded-md' : ''"
+  >
+    <ul :class="!isRaw ? 'divide-y divide-gray-800' : ''">
+      <li
+        :class="!isRaw ? 'p-4' : 'p-2'"
+        class="text-sm"
+        v-for="link in links"
+        :key="link.title"
+      >
         <a
           v-if="link.href"
           :href="link.href"
@@ -20,18 +28,35 @@
 <script>
 export default {
   props: {
+    menu: {
+      type: Object,
+      default: {},
+    },
     links: {
       type: Array,
-      default: {},
+      default: [],
+    },
+    toggle: {
+      type: Boolean,
+      default: false,
     },
     isDisplayed: {
       type: Object,
       default: false,
     },
+    isRaw: {
+      type: Boolean,
+      default: false,
+    },
   },
+
   computed: {
     isVisible() {
-      return this.isDisplayed.children === this.links ? true : false;
+      if (this.toggle) {
+        return this.isDisplayed.id === this.menu.id ? true : false;
+      } else {
+        return true;
+      }
     },
   },
 };
