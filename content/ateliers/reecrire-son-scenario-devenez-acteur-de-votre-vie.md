@@ -21,6 +21,17 @@ hasDiscount: false
 
 <pictos-atelier></pictos-atelier>
 
+<display-text display='frame'>
+
+**Dans cet atelier vous allez donc apprendre à** :
+
+- diagnostiquer votre fonctionnement psychologique
+- identifier vos réels problèmes sans vous tromper ni passer à côté
+- utiliser votre plasticité cérébrale pour arrêter de vous auto-saboter
+- manipuler le puissant concept de scenario pour changer ce qui vous gêne en vous
+
+</display-text>
+
 Il vous est peut-être déjà arrivé de **tout essayer** pour résoudre un problème que vous aviez. Et pourtant, il est toujours là.
 
 Et vous vous voyez agir exactement **comme vous ne voudriez pas le faire** :
@@ -69,17 +80,6 @@ Un petit exemple très schématique :
 ### 2- place à la dynamique de changement
 
 Pour se sortir de ces schémas nous utilisons des visualisations, mais aussi sur un autre outil fantastique de l'Analyse Transactionnelle : le Circuit de l'Autonomie qui nous permet de créer des actions concrètes à mettre en place pour **casser notre Scénario négatif** !
-
-<display-text display='frame'>
-
-**Dans cet atelier vous allez donc apprendre à** :
-
-- diagnostiquer votre fonctionnement psychologique
-- identifier vos réels problèmes sans vous tromper ni passer à côté
-- utiliser votre plasticité cérébrale pour arrêter de vous auto-saboter
-- manipuler le puissant concept de scenario pour changer ce qui vous gêne en vous
-
-</display-text>
 
 ## Programme
 
@@ -147,7 +147,3 @@ Pour se sortir de ces schémas nous utilisons des visualisations, mais aussi sur
 - de nombreux exemples pour bien comprendre tous les concepts
 
 </expandable>
-
-
-
-<presentation></presentation>
