@@ -19,6 +19,7 @@ price: 149
 discountTo: 0
 hasDiscount: false
 ---
+<pictos-atelier></pictos-atelier>
 
 <display-text display='frame'>
 Dans cet atelier vous allez apprendre à :
@@ -121,9 +122,6 @@ Cet atelier n’est pas recommandé aux personnes présentant des troubles disso
 
 </expandable>
 
-<pictos-atelier></pictos-atelier>
-
-<presentation></presentation>
 
 ## Témoignages
 

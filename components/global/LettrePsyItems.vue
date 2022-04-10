@@ -14,6 +14,7 @@
             class="float-left mr-2"
           />{{ lettrePsy.title }}
         </h3>
+        <p>Sommaire</p>
         <ul class="flex-1">
           <li
             class="list-decimal"
@@ -23,13 +24,20 @@
             {{ item }}
           </li>
         </ul>
+
+        <Btn color="white" text-color="black">Lire la Lettre Psy</Btn>
       </a>
     </div>
   </div>
 </template>
 
 <script>
+import Btn from "@/components/Btn.vue";
+
 export default {
+  components: {
+    Btn,
+  },
   data() {
     return {
       lettresPsys: [

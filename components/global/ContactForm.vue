@@ -14,7 +14,7 @@
     <transition name="slide">
       <form v-if="!isSent" name="contact" method="POST" data-netlify="true">
         <p>
-          <label class="block"
+          <label class="block font-semibold"
             >Objet de votre message :
             <select
               v-model="object"
@@ -32,8 +32,8 @@
           >
         </p>
 
-        <p>
-          <label class="block"
+        <p class="mt-5">
+          <label class="block font-semibold"
             >Votre nom :
             <input
               v-model="name"
@@ -44,7 +44,7 @@
           /></label>
         </p>
         <p class="mt-5">
-          <label class="block"
+          <label class="block font-semibold"
             >Votre adresse email :
             <input
               v-model="email"
@@ -54,7 +54,7 @@
           /></label>
         </p>
         <p class="mt-5">
-          <label class="block"
+          <label class="block font-semibold"
             >Votre message :
             <textarea
               v-model="message"

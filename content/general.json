@@ -42,7 +42,7 @@
   "ressources": {
     "ateliers": {
       "title": "Nos ateliers en ligne",
-      "description": "Les Ateliers en ligne de CatherineLaPsy n’ont pas pour vocation de remplacer une psycho-thérapie physique. Ils sont là pour vous accompagner sur des sujets précis à votre rythme, chez vous, avec toutes les ressources nécessaires pour effectuer vous-même un premier travail",
+      "description": "Les Ateliers en ligne de CatherineLaPsy n’ont pas pour vocation de remplacer une psycho-thérapie physique. Ils sont là pour vous accompagner sur des sujets précis à votre rythme, chez vous, avec toutes les ressources nécessaires pour effectuer vous-même un premier travail.",
       "image": "genogramme.webp",
       "logo": "ateliers.svg",
       "order": 0,

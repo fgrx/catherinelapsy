@@ -1,6 +1,7 @@
 ---
 title: "Réécrire son scénario"
-description: Devenez l'acteur principal de votre vie !
+description: Vous voulez changer, mais n’y parvenez pas. Vos habitudes reprennent le dessus et vous font agir à l’opposé de vos objectifs. C’est envoyer ce SMS de trop quand vous savez qu’il faudrait poser votre portable et passer à autre chose. Nous allons ensemble réécrire votre scénario, diagnostiquer et étudier ces comportements pour vous permettre de redevenir l’acteur principal de votre vie.
+
 image: /images/scenario.jpg
 imageAlt: Catherine la Psy présente l'atelier.
 buyUrl: https://ctpsy.podia.com/reecrire-son-scenario-devenez-l-acteur-principal-de-votre-vie
@@ -17,6 +18,8 @@ price: 149
 discountTo: 0
 hasDiscount: false
 ---
+
+<pictos-atelier></pictos-atelier>
 
 Il vous est peut-être déjà arrivé de **tout essayer** pour résoudre un problème que vous aviez. Et pourtant, il est toujours là.
 
@@ -145,6 +148,6 @@ Pour se sortir de ces schémas nous utilisons des visualisations, mais aussi sur
 
 </expandable>
 
-<pictos-atelier></pictos-atelier>
+
 
 <presentation></presentation>
