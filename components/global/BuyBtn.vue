@@ -1,7 +1,7 @@
 <template>
   <div class="text-center" v-if="isclosed === false">
     <a :href="url">
-      <Btn class="mt-5 mb-16">
+      <Btn class="">
         <slot></slot>
 
         <template v-if="discount.hasDiscount">

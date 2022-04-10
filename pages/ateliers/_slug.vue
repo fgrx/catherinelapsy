@@ -19,31 +19,33 @@
           class="text-center"
           v-if="doc.buyUrl && doc.isOpen && doc.buyStart"
         >
-          <div class="flex justify-center">
+          <div class="md:flex justify-center">
             <BuyBtn
               :url="doc.buyUrl"
               :isClosed="!doc.isOpen"
               :discount="discount"
               :price="price"
+              class="my-7 md:mt-4"
             >
               Acheter
             </BuyBtn>
-            <ContactButton></ContactButton>
+            <ContactButton class="md:ml-4 md:mt-4"></ContactButton>
           </div>
         </div>
 
         <nuxt-content class="content" :document="doc"></nuxt-content>
         <div class="text-center" v-if="doc.buyUrl && doc.isOpen && doc.buyEnd">
-          <div class="flex justify-center">
+          <div class="md:flex justify-center">
             <BuyBtn
               :url="doc.buyUrl"
               :isClosed="!doc.isOpen"
               :discount="discount"
               :price="price"
+              class="my-7 md:mt-4"
             >
               Acheter
             </BuyBtn>
-            <ContactButton></ContactButton>
+            <ContactButton class="md:ml-4 md:mt-4"></ContactButton>
           </div>
         </div>
 

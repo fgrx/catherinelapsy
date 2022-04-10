@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-5 ml-4 mb-16">
+  <div class="md:ml-4">
     <btn color="gray-200" textColor="red-600" v-on:click="toggleModal()">
       <span class="uppercase">Une question ?</span>
       <span class="text-xs"><div>Nous contacter</div></span>
@@ -7,7 +7,7 @@
 
     <div
       v-if="showModal"
-      class="overflow-x-hidden overflow-y-auto fixed inset-0 z-50"
+      class="overflow-x-hidden overflow-y-auto mx-4 fixed inset-0 z-50"
     >
       <div class="relative w-auto my-6 mx-auto max-w-3xl">
         <!--content-->

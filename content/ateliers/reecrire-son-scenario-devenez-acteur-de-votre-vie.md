@@ -53,10 +53,6 @@ Régulièrement, cela vient du fait que vous n'avez **pas bien cerné votre prob
 Vous ne l'avez pas bien diagnostiqué et donc, les actions que vous mettez en place ne fonctionnent pas.
 Elles tombent à côté.
 
-<display-text>
-J'ai vécu ça moi aussi tant de fois.
-</display-text>
-
 Agir sans savoir précisément de quoi est constitué notre problème nous fait "agir au hasard". Et sur un malentendu, ça va fonctionner.
 Mais le plus souvent, ça ne change rien...
 
