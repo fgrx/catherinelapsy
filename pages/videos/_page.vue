@@ -6,17 +6,18 @@
         <div
           class="container mx-auto py-5 px-5 md:w-10/12 lg:w-10/12 xl:w-10/12 content"
         >
-          <h2>Mes vidéos psy</h2>
+          <h2>Nos vidéos sur la psychologie</h2>
           <p>
-            Vous pouvez retrouver toutes mes vidéos ci-dessous. Vous pouvez
-            aussi vous abonner à ma chaîne en allant sur
+            Nous publions des vidéos sur le thème de la psychologie sur Youtube.
+            Vous pouvez vous abonner à ma chaîne en allant sur
             <a
               class="underline text-rose-700 font-semibold"
               href="https://www.youtube.com/channel/UCuocS66l-pMtFcaP3L01z5Q"
               >ma chaîne Youtube</a
             >.
           </p>
-          <ListAlternate :items="items"> </ListAlternate>
+          <ListAlternate :items="items" textBtn="Voir sur Youtube">
+          </ListAlternate>
         </div>
       </article>
       <Pagination :pagination="pagination" />
@@ -48,6 +49,10 @@ export default {
       .skip(startAt())
       .fetch();
 
+    itemsToDisplay.map(
+      (item) => (item.url = `https://www.youtube.com/watch?v=${item.video}`)
+    );
+
     const nextPage = currentPage < nbPages ? currentPage + 1 : null;
     const previousPage = currentPage - 1 > 0 ? currentPage - 1 : null;
 
@@ -72,7 +77,7 @@ export default {
         title: "Mes vidéos",
         logo: "video.svg",
         description:
-          "Je réalise des vidéos de vulgarisation psy destinées essentiellement aux non spécialistes. Je vous explique simplement des concepts de psychologie parfois complexes afin de mieux comprendre cet univers qui me passionne.",
+          "Nous produisons des vidéos sur la psychologie pour vous faire découvrir le monde de la psychothérapie. Nous nous efforçons d'expliquer simplement des concepts parfois complexes afin de vous aider à mieux vous comprendre.",
         colorBg1: "red-700",
         colorBg2: "gray-700",
       },

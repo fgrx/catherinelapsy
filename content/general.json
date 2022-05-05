@@ -46,7 +46,7 @@
       "image": "genogramme.webp",
       "logo": "ateliers.svg",
       "order": 0,
-      "url": "./ateliers"
+      "url": "/ateliers"
     },
     "instagram": {
       "title": "Instagram",
@@ -62,7 +62,7 @@
       "image": "youtube_cate.webp",
       "logo": "youtube.svg",
       "order": 2,
-      "url": "https://www.youtube.com/channel/UCuocS66l-pMtFcaP3L01z5Q"
+      "url": "/videos"
     },
     "podcast": {
       "title": "Podcast",
@@ -70,7 +70,7 @@
       "logo": "podcastlogo.svg",
       "description": "Sous forme de discussion ouverte, le podcast vous permet d’explorer certains sujets de façon plus poussée quand et où vous le souhaitez !",
       "order": 3,
-      "url": "./podcast"
+      "url": "/podcast"
     },
     "lettrePsy": {
       "title": "Lettre Psy",
@@ -78,7 +78,7 @@
       "logo": "letter.svg",
       "description": "Une newsletter gratuite pour découvrir le monde de la psychologie et la psychothérapie",
       "order": 4,
-      "url": "./emails-prives"
+      "url": "/emails-prives"
     },
     "cartesPsy": {
       "title": "Les Cartes Psys",
@@ -86,7 +86,7 @@
       "image": "cartespsy.jpg",
       "logo": "cards.svg",
       "order": 5,
-      "url": "https://latelierpsy.com/",
+      "url": "/latelierpsy",
       "blank": true
     }
   }

@@ -208,14 +208,14 @@ export default {
             {
               title: "Vidéos Youtube",
               to: null,
-              href: "https://www.youtube.com/channel/UCuocS66l-pMtFcaP3L01z5Q",
+              href: "/videos",
               image: "",
             },
             {
               title: "Cartes Psy",
-              to: null,
+              to: "/latelierpsy",
               image: "",
-              href: "https://latelierpsy.com/",
+              href: null,
             },
           ],
         },
