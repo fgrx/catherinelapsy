@@ -207,8 +207,8 @@ export default {
             },
             {
               title: "Vidéos Youtube",
-              to: null,
-              href: "/videos",
+              href: null,
+              to: "/videos",
               image: "",
             },
             {
