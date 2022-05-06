@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="flex flex-wrap justify-center">
+  <div class="testimonial my-4">
+    <div class="center">
       <img
         :src="require(`@/static/logos/${image}.webp`)"
         alt=""
@@ -10,10 +10,8 @@
       />
     </div>
     <blockquote>
-      <p class="italic">
-        <slot></slot>
-      </p>
-      <cite class="not-italic">{{ author }}</cite>
+      <p class="italic">"<slot></slot>"</p>
+      <cite class="not-italic font-semibold">{{ author }}</cite>
     </blockquote>
   </div>
 </template>
@@ -33,5 +31,17 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+.testimonial {
+  width: 60%;
+  border: 1px solid rgb(213, 213, 213);
+  background-color: rgb(236, 236, 236);
+  padding: 2em;
+  margin-right: 2em;
+
+  img {
+    text-align: center;
+    margin: auto;
+  }
+}
 </style>

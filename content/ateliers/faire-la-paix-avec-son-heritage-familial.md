@@ -169,23 +169,32 @@ Il est donc basé sur la **systémie familiale** et non pas sur la psychanalyse 
 
 ## Témoignages
 
-<testimonials>
+<Vue-Horizontal>
+<section>
 <testimonial author="Sonia" image="woman1">
   C'est vraiment très bien expliqué pas à pas, c'est bienveillant et il y a de nombreux exemples compréhensibles pour une personne qui n’a jamais été voir un psy ! J’ai des pistes de réflexion, là concrètement dessinées sous les yeux.
 </testimonial>
+</section>
 
+<section>
 <testimonial author="Anne-Lise" image="woman2">
 Ca m'a permis de comprendre certains traits de caractère de ma propre personnalité, de comprendre aussi d’autres gens de ma famille plus objectivement en dézoomant de moi et je me suis rendue compte que dans l’ensemble je connais plutôt mal ma famille alors que je pensais le contraire !
 </testimonial>
+</section>
 
+<section>
 <testimonial author="Cédric" image="man1">
 Ca m'a permis de découvrir une méthode de résolution pour lesdites questions qui semble facile et rapide à mettre en oeuvre.
 </testimonial>
+</section>
 
+<section>
 <testimonial author="Clément" image="man2">
 La visualisation c’est top, je ne savais pas trop à quoi m’attendre voir un peu sceptique et finalement c’est très instructif.
 </testimonial>
-</testimonials>
+</section>
+
+</Vue-Horizontal>
 
 <embed-youtube>5V_kes52H-M</embed-youtube>
 
