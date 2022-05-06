@@ -1,5 +1,5 @@
 <template>
-  <div class="testimonial my-4">
+  <div class="testimonial mt-4 mb-8">
     <div class="center">
       <img
         :src="require(`@/static/logos/${image}.webp`)"
@@ -33,7 +33,7 @@ export default {
 
 <style lang="scss" scoped>
 .testimonial {
-  width: 60%;
+  width: 70%;
   border: 1px solid rgb(213, 213, 213);
   background-color: rgb(236, 236, 236);
   padding: 2em;

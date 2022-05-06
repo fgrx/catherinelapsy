@@ -127,20 +127,20 @@ Cet atelier n’est pas recommandé aux personnes présentant des troubles disso
 
 <vue-horizontal >
 
-<testimonial author="Jeanne" image="woman1" class="item-slider">
-Cet atelier a été vraiment une belle découverte. Dynamique et pédagogique, il m’a permis de mieux comprendre la nature des jeux et enjeux relationnels que je mettais en place et de me réapproprier ma posture dans le lien à l’autre. Au delà de ça j’ai pu approfondir mon travail sur moi et relancer mes réflexions introspectives. Un outil indispensable pour mieux se situer dans le lien à l’autre et se dégager des liens toxiques. La bienveillance de Cathy tout au long de ce cheminement permet de questionner nos jeux psychologiques en toute sécurité et sans culpabilité.
+<testimonial author="Jeanne" image="woman1">
+Cet atelier a été vraiment une belle découverte. Dynamique et pédagogique, il m’a permis de mieux comprendre la nature des jeux et enjeux relationnels que je mettais en place et de me réapproprier ma posture dans le lien à l’autre. Un outil indispensable pour mieux se situer dans le lien à l’autre et se dégager des liens toxiques. 
 </testimonial>
 
-<testimonial author="Léo" image="man1" class="item-slider">
+<testimonial author="Léo" image="man1" >
 J'ai apprécié analyser mes relations de façon méthodique, presque scientifique. La méthode est carrée et permet de prendre du recul sur le fonctionnement des autres et de moi-même. J'ai bien vu ma part dans les échecs de mes relations et je pense que je vais pouvoir m'améliorer !
 </testimonial>
 
-<testimonial author="Livia" image="woman2" class="item-slider">
+<testimonial author="Livia" image="woman2">
 Cet atelier m'a permis de bien différencier les 3 rôles de Persécuteur, Sauveur et Victime.
 J'ai ainsi pu mieux analyser ce qui se joue dans mes relations et mes besoins sous-jacents.
 </testimonial>
 
-<testimonial author="Jean Michel" image="man2" class="item-slider">
+<testimonial author="Jean Michel" image="man2">
 Atelier très intéressant. Il permet de mettre des noms sur des comportements du quotidien souvent sources de problèmes. Permet de prendre du recul sur ces situations et de se poser les bonnes questions. 
 </testimonial>
 </vue-horizontal>
