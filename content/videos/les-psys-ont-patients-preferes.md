@@ -2,6 +2,7 @@
 title: Les psys ont-ils des patients préférés ?
 video: 7Qup7e-TJG0
 order: 2
+image: patients-preferes.jpeg
 description: "Avant d'être psychologue je me demandais souvent si je faisais partie des patients préférés de mes psys.
 
 Maintenant, je suis de l'autre côté de la barrière et je connais la réponse ! 
