@@ -7,7 +7,7 @@ buyUrl: https://ctpsy.podia.com/9e3153f0-6f79-45e2-b6ee-0658b08cdd82
 colorText: white
 order: 7
 isDisplayed: false
-isOpen: false
+isOpen: true
 buyStart: true
 buyEnd: true
 discountTitle: Black Friday
@@ -17,6 +17,8 @@ hasDiscount: false
 ---
 
 Se lancer en libéral, ça en fait rêver beaucoup, mais il faut avouer que ça peut faire peur ! Catherine est passé par là et peut vous en parler. Est-ce une bonne idée de se lancer aujourd'hui ? Comment s'y prendre ? quels sont les pièges à éviter ? Catherine vous donnera les astuces qu'elle aurait aimé connaitre avant de se lancer dans cet atelier en live.
+
+<Countdown deadline="2022-12-25 00:00:00">L'atelier live commencera dans</Countdown>
 
 Qu'est-ce qu'un atelier live ? C'est un atelier en direct, via zoom, qui sera ensuite accessible en replay à volonté. L'avantage de ce format en live est que vous pourrez poser toutes vos questions à Catherine et ainsi tirer le maximum d'informations utiles pour vous.
 
@@ -32,5 +34,3 @@ Qu'est-ce qu'un atelier live ? C'est un atelier en direct, via zoom, qui sera en
 - la légitimité
 - le juridique
 - le mindset
-
-**Prix : 69€**

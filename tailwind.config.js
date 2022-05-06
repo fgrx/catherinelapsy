@@ -20,6 +20,16 @@ module.exports = {
         default: "#5F7D84",
       },
     },
+    extend: {
+      colors: {
+        primary: "#177e84",
+        secondary: "#fdea43",
+        tertiary: "#592a17",
+        quaternary: "#a4a4a3",
+        dark: "#2f2d2e",
+        light: "#fff",
+      },
+    },
   },
   purge: {
     options: {

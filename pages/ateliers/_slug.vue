@@ -90,10 +90,12 @@
 
 <script>
 import ContactButton from "@/components/ContactButton.vue";
+import Countdown from "@/components/Countdown.vue";
 
 export default {
   components: {
     ContactButton,
+    Countdown,
   },
   async asyncData({ $content, params }) {
     const doc = await $content("ateliers", params.slug || "index")
