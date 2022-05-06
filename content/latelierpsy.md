@@ -10,11 +10,13 @@ colorBg2: emerald-500
 
 Les Cartes Psy sont des cartes qui vous permettront de partir à l'exploration de votre fonctionnement psychologique de manière ludique.
 
-En tirant une ou plusieurs cartes vous serez questionné sur des questions psy. Pour cela vous serez aidé des magnifiques dessins d'Audrey du compte Instagram Psy_image et d'un livret d'aide avec les textes de Catherine.
+En tirant une ou plusieurs cartes vous serez questionné sur des questions psy qui vous amèneront une meilleur compréhension de vous même et des autres. Pour cela vous serez aidé des magnifiques dessins d'Audrey du compte Instagram Psy_image et d'un livret d'aide avec les textes de Catherine.
 
-## Qu'est-ce que l'Atelier Psy ?
+Vous pouvez vous procurer les cartes psy en allant sur le site de leur projet "L'Atelier Psy".
 
-L'atelier Psy vous propose des produits originaux autour de la psychologie. Audrey apporte ses talents de dessinatrice et de psy et Catherine ses talents d'écriture et de vulgarisation de la psychologie.
+## Qu'est-ce que "l'Atelier Psy" ?
+
+L'atelier Psy c'est la rencontre de deux psychologues aux talents complémentaires pour vous proposer des produits originaux autour de la psychologie. Audrey apporte ses talents de dessinatrice et de psy et Catherine ses talents d'écriture et de vulgarisation de la psychologie.
 
 Vous pourrez y trouver :
 
