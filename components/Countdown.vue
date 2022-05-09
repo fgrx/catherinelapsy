@@ -4,24 +4,30 @@
 
     <div class="flex text-center justify-center">
       <div class="days countdown-element">
-        <div class="countdown-number bg-secondary">
+        <div class="countdown-number bg-dark text-secondary">
           {{ displayDays }}
         </div>
         <div class="countdown-text">Jours</div>
       </div>
       <div class="countdown-dots">:</div>
       <div class="hours countdown-element">
-        <div class="countdown-number bg-secondary">{{ displayHours }}</div>
+        <div class="countdown-number bg-dark text-secondary">
+          {{ displayHours }}
+        </div>
         <div class="countdown-text">Heures</div>
       </div>
       <div class="countdown-dots">:</div>
       <div class="minutes countdown-element">
-        <div class="countdown-number bg-secondary">{{ displayMinutes }}</div>
+        <div class="countdown-number bg-dark text-secondary">
+          {{ displayMinutes }}
+        </div>
         <div class="countdown-text">Minutes</div>
       </div>
       <div class="countdown-dots"></div>
       <div class="seconds countdown-element">
-        <div class="countdown-number bg-secondary">{{ displaySeconds }}</div>
+        <div class="countdown-number bg-dark text-secondary">
+          {{ displaySeconds }}
+        </div>
         <div class="countdown-text">Secondes</div>
       </div>
     </div>
