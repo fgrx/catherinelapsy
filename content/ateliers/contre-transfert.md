@@ -64,7 +64,7 @@ Vous allez apprendre à utiliser votre ressenti comme un outil puissant pour aid
 
 ## Avis sur nos autres ateliers
 
-<Vue-Horizontal>
+<testimonials>
 
 <testimonial author="Sonia" image="woman1">
   C'est vraiment très bien expliqué pas à pas, c'est bienveillant et il y a de nombreux exemples compréhensibles (...)
@@ -83,7 +83,7 @@ Ca m'a permis de découvrir une méthode de résolution pour lesdites questions 
 
 </section>
 
-</Vue-Horizontal>
+</testimonials>
 
 <gallery :images='["images/ateliers/contre-transfert/gal1.jpg","images/ateliers/contre-transfert/gal2.jpg","images/ateliers/contre-transfert/gal3.jpg"]'></gallery>
 

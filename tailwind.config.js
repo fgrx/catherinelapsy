@@ -36,6 +36,10 @@ module.exports = {
   purge: {
     options: {
       safelist: [
+        "from-primary",
+        "to-primary",
+        "from-primaryDark",
+        "to-primaryDark",
         "bg-gray-700",
         "text-gray-50",
         "bg-rose-600",
