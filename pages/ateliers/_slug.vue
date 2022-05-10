@@ -144,4 +144,10 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style lang="scss">
+.content {
+  h3 {
+    color: #177e84 !important;
+  }
+}
+</style>

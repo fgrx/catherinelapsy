@@ -27,6 +27,7 @@
           >
             {{ doc.title }}
           </h1>
+          <h2 class="text-secondary" v-if="doc.subtitle">{{ doc.subtitle }}</h2>
           <p
             :class="`text-left text-xl text-${doc.colorText || 'white'}`"
             v-if="doc.description"

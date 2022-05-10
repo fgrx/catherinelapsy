@@ -1,5 +1,5 @@
 ---
-title: "Utiliser mon ressenti pour aider mes patients et clients au quotidien."
+title: "Utiliser son ressenti pour aider ses patient(e)s et client(e)s au quotidien."
 subtitle: "Le contre-transfert : de la théorie à sa puissante utilisation pratique."
 description:
 image:
@@ -87,6 +87,8 @@ Ca m'a permis de découvrir une méthode de résolution pour lesdites questions 
 
 <gallery :images='["images/ateliers/contre-transfert/gal1.jpg","images/ateliers/contre-transfert/gal2.jpg","images/ateliers/contre-transfert/gal3.jpg"]'></gallery>
 
+## Résumé de l'atelier
+
 Le protocole d'analyse de contre-transfert proposé par Catherine dans cet atelier va vous permettre d'analyser finement vos ressentis pour les utiliser pour aller plus loin dans vos accompagnements. Dit comme cela, ça parait facile, mais en réalité, on est loin de simples impressions et intuitions.
 
 Comment analyser ce qui vient de nous ou de l'autre ? Que pouvons nous en faire ensuite en fonction de la diversité des problèmes et des personnalités des personnes que vous accompagnez ? Comment s'entrainer pour utiliser le contre-transfert de manière fluide ?
@@ -165,11 +167,10 @@ Forcément, comme il s'agit d'un sujet qui passionne Catherine et qui est au cen
 
 </expandable>
 
-<expandable title="S'entrainer">
+<expandable title="Partager son contre-transfert">
 
-- S'entrainer à utiliser son contre-transfert
-- Prévoir la séance suivante
-- Les opérations berniennes
+- Partager son contre-transfert
+- Précisions sur certains troubles psy
 
 </expandable>
 
