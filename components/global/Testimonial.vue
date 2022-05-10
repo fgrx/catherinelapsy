@@ -9,7 +9,7 @@
         class="object-center"
       />
     </div>
-    <blockquote>
+    <blockquote class="text-center">
       <p class="italic">"<slot></slot>"</p>
       <cite class="not-italic font-semibold">{{ author }}</cite>
     </blockquote>
@@ -33,7 +33,7 @@ export default {
 
 <style lang="scss" scoped>
 .testimonial {
-  width: 70%;
+  width: 60%;
   border: 1px solid rgb(213, 213, 213);
   background-color: rgb(236, 236, 236);
   padding: 2em;
