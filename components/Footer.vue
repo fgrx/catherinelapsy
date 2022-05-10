@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-900 text-gray-200">
+  <div class="bg-dark text-gray-200">
     <div class="container mx-auto text-center text-sm py-14">
       <div class="grid grid-cols-4">
         <div class="col-span-4 md:col-span-1 mb-8">
@@ -15,7 +15,7 @@
           <nav>
             <ul class="grid grid-cols-2 md:grid-cols-3 gap-2">
               <li v-for="(link, index) in links" :key="index">
-                <nuxt-link :to="link.to" class="hover:text-red-500">{{
+                <nuxt-link :to="link.to" class="hover:text-secondary">{{
                   link.text
                 }}</nuxt-link>
               </li>
@@ -29,7 +29,7 @@
           © 2021
           <a
             href="https://developpeurfullstack.fr"
-            class="hover:text-red-500 underline"
+            class="hover:text-secondary underline"
             >Fabien Grignoux</a
           >
           - Tous droits réservés

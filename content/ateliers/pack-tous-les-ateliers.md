@@ -4,9 +4,6 @@ description: Vous souhaitez obtenir tous nos ateliers ? Nous vous proposons un t
 image: /images/tousateliers.jpg
 imageAlt: Catherine la Psy présente l'atelier.
 buyUrl: https://ctpsy.podia.com/pack-3-ateliers
-colorText: white
-colorBg1: red-600
-colorBg2: yellow-500
 order: 0
 isOpen: true
 isDisplayed: false

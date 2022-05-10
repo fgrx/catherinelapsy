@@ -5,9 +5,6 @@ description: Vous voulez changer, mais n’y parvenez pas. Vos habitudes reprenn
 image: /images/scenario.jpg
 imageAlt: Catherine la Psy présente l'atelier.
 buyUrl: https://ctpsy.podia.com/reecrire-son-scenario-devenez-l-acteur-principal-de-votre-vie
-colorText: white
-colorBg1: teal-600
-colorBg2: purple-800
 order: 5
 isDisplayed: true
 isOpen: true

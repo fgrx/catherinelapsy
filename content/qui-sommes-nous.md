@@ -2,9 +2,6 @@
 title: L'équipe de Catherine la Psy
 description: Pour produire tout le contenu gratuit et vous proposer des Ateliers de Psychologie de qualité en ligne, l’équipe de Catherine la Psy travaille sans relâche par spécialisation.
 logo: about.svg
-colorText: white
-colorBg1: teal-700
-colorBg2: emerald-400
 ---
 
 <div class="mb-14 ">
@@ -12,7 +9,6 @@ Catherine la Psy est parti d’un constat simple : La Psychothérapie est encore
 La Psychologie fait partit de l'hygiène de vie au même titre que l'alimentation ou l'exercice physique. Prendre soin de son cerveau et l’aider à surmonter ses difficultés permet une vie épanouie mais aussi une bonne santé.  
 Catherine et Fabien ont donc créer Catherine la Psy, qui propose des Ateliers en ligne accessible dans un format qui permet à chacun de commencer un travail sur soi en toute indépendance.
 </div>
-
 
 <person image="cate_portrait.jpg">
 

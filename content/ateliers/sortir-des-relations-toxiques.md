@@ -5,9 +5,6 @@ description: Comment décrypter ses relations douloureuses et en sortir
 image: /images/relations-toxiques.png
 imageAlt: Catherine la Psy devant les caméras.
 buyUrl: https://ctpsy.podia.com/sortir-des-relations-toxiques
-colorText: white
-colorBg1: teal-700
-colorBg2: yellow-500
 order: 1
 isDisplayed: true
 isOpen: true

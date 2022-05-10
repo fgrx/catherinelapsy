@@ -2,9 +2,6 @@
 title: Liens & ressources utiles
 description: Envie d'en savoir un peu plus sur la psychologie, l'Analyse Transactionnelle et la psychotraumatologie ? Voici quelques liens et ressources qui pourraient vous aider.
 logo: chain.svg
-colorText: white
-colorBg1: yellow-600
-colorBg2: red-500
 ---
 
 ## Où se former en Analyse Transactionnelle ?

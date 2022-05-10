@@ -1,9 +1,7 @@
 ---
 title: Ressources
 description: Toutes les ressources de psychologie en ligne par l’équipe de Catherine la Psy
-
 logo: about.svg
-colorText: white
 ---
 
 Vidéos sur des thèmes de la psychologie, podcast et réseaux sociaux,
@@ -13,7 +11,7 @@ bienfaits que vous pouvez en tirer.
 
 ## La Lettre Psy
 
-Notre Newsletter que vous recevrez gratuitement toutes les deux semaines. Au programme, plusieurs articles sur la psychologie et la psychothérapie. Vous trouverez aussi nos promotions exclusives sur nos ateliers en ligne. 
+Notre Newsletter que vous recevrez gratuitement toutes les deux semaines. Au programme, plusieurs articles sur la psychologie et la psychothérapie. Vous trouverez aussi nos promotions exclusives sur nos ateliers en ligne.
 
 <Link-Btn to="emails-prives">La Lettre Psy</Link-BTN>
 
@@ -43,6 +41,6 @@ Notre compte Instagram est là ou tout a commencé. Catherine a d'abord lancé s
 
 ## Les Cartes Psy
 
-Un jeu de carte pour apprendre à mieux se connaitre et à réfléchir sur soi ? Catherine, en collaboration avec Audrey du compte Instagram Psy_Image l'ont fait ! Découvrez le projet en cliquant sur le bouton ci-dessous. 
+Un jeu de carte pour apprendre à mieux se connaitre et à réfléchir sur soi ? Catherine, en collaboration avec Audrey du compte Instagram Psy_Image l'ont fait ! Découvrez le projet en cliquant sur le bouton ci-dessous.
 
 <Link-Btn to="latelierpsy">Les Cartes Psy</Link-BTN>

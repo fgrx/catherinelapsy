@@ -9,9 +9,6 @@ imageAlt: Catherine la Psy présente l'atelier.
 buyUrl: https://ctpsy.podia.com/heritage-familial
 isDisplayed: false
 codeMailingList: M5k9i
-colorText: white
-colorBg1: indigo-700
-colorBg2: teal-600
 order: 2
 isOpen: true
 buyStart: true

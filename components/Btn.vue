@@ -78,13 +78,14 @@ button {
     left: 0;
     width: 0%;
     height: 100%;
-    background-color: #b42751;
+    background-color: #2f2d2e;
+    color: "#fdea43";
 
     transition: all 0.3s;
     z-index: -1;
   }
   &:hover {
-    color: #fff;
+    color: "#fdea43";
     &:before {
       width: 100%;
     }

@@ -1,9 +1,9 @@
 <template>
   <div>
-    <nav class="w-full bg-gray-900 py-1 mb-70 shadow-lg">
+    <nav class="w-full bg-dark py-1 mb-70 shadow-lg">
       <div class="container mx-auto flex justify-between">
         <div class="items-center px-5 py-2 mt-0">
-          <div class="text-white font-medium text-lg hover:text-red-500">
+          <div class="text-white font-medium text-lg hover:text-secondary">
             <nuxt-link to="/">
               <div class="title_site_1">Catherine</div>
               <div class="space-x-2">
@@ -34,7 +34,7 @@
                   >
                     <nuxt-link
                       :to="link.to"
-                      class="inline-block no-underline hover:text-red-500 font-medium text-lg py-2 px-4 lg:-ml-2"
+                      class="inline-block no-underline hover:text-secondary font-medium text-lg py-2 px-4 lg:-ml-2"
                       >{{ link.text }}</nuxt-link
                     >
 
@@ -98,7 +98,7 @@
         </div>
       </transition>
       <aside
-        class="transform text-white top-0 left-0 w-64 bg-emerald-800 fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30"
+        class="transform text-white top-0 left-0 w-64 bg-primary fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30"
         :class="isOpen ? 'translate-x-0' : '-translate-x-full'"
       >
         <div class="p-5 text-white font-medium text-lg hover:text-red-200">
@@ -115,7 +115,7 @@
           <li
             v-for="(link, index) in links"
             :key="index"
-            class="font-medium text-xl py-2 hover:text-red-200"
+            class="font-medium text-xl py-2 hover:text-secondary"
             @click="isOpen = false"
           >
             <nuxt-link :to="link.to">{{ link.text }}</nuxt-link>
@@ -288,6 +288,6 @@ li {
 }
 
 li .nuxt-link-active {
-  color: #f87171;
+  color: #fdea43;
 }
 </style>

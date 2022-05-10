@@ -2,15 +2,13 @@
 title: le Podcast Catherine la Psy
 description: Notre chaîne qui vulgarise la psychologie et la psychothérapie
 logo: mic.svg
-colorText: white
-colorBg1: purple-800
-colorBg2: red-400
 ---
+
 Notre podcast dédié à la psychologie et à la psychothérapie se déroule sous la forme d'une discussion à partir d'un thème précis. Ce format, plus long que sur Youtube ou Instagram, nous permet de développer des sujets en profondeur.
 
 Tous nos podcasts son accessibles sur la plateforme [Anchor](https://anchor.fm/catherine-la-psy).
 
-Vous pouvez aussi vous abonner sur les plateformes de podcast suivantes : 
+Vous pouvez aussi vous abonner sur les plateformes de podcast suivantes :
 
 <div class="grid  sm:grid-cols-2 md:grid-cols-3 gap-4">
 <podcast url="https://podcasts.apple.com/fr/podcast/catherine-la-psy/id1576203089" image="apple_podcast.png" >Apple Podcast</podcast>
@@ -22,5 +20,3 @@ Vous pouvez aussi vous abonner sur les plateformes de podcast suivantes :
 <podcast url="https://radiopublic.com/catherine-la-psy-GZm7OJ" image="radiopublic.png" >Radio Public</podcast>
 <podcast url="https://anchor.fm/s/6346d094/podcast/rss" image="rss.png" >Fil RSS</podcast>
 </div>
-
-

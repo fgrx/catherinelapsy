@@ -1,9 +1,6 @@
 ---
 title: Les Cartes Psy
 description: Catherine la Psy s'est associée à Audrey du compte Instagram Psy_image pour vous proposer des produits originaux autour de la psychologie
-colorText: white
-colorBg1: indigo-700
-colorBg2: emerald-500
 ---
 
 ## Qu'est-ce que les Cartes Psy

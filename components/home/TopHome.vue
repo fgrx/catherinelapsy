@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="overflow-hidden bg-gradient-to-r from-emerald-700 to-emerald-500 pt-6"
-  >
+  <div class="overflow-hidden bg-gradient-to-r from-primaryDark to-primary">
     <div class="container text-center md:text-left mx-auto mt-8 md:mt-0 px-5">
       <div class="md:flex items-center">
         <div class="flex-1">
@@ -21,13 +19,13 @@
         </div>
         <div class="flex-1">
           <nuxt-picture
-            src="images/catefab.webp"
-            height="550"
+            src="images/catefab-photo.png"
+            height="730"
             format="webp"
             width="850"
             size=""
-            class="mt-10"
             quality="70"
+            fit="fill"
             alt="Portraits de Catherine et Fabien"
           />
         </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-rose-600 text-white py-8 px-5">
+  <div class="bg-secondary text-tertiary py-8 px-5">
     <div class="container mx-auto">
       <div class="grid grid-cols-1 md:grid-cols-12 gap-5 items-center">
         <div class="flex md:col-span-7 lg:col-span-8 items-center">

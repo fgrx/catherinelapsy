@@ -1,7 +1,7 @@
 <template>
   <nav
     v-show="isVisible"
-    :class="!isRaw ? 'absolute bg-gray-900 p-2 z-20 rounded-md' : ''"
+    :class="!isRaw ? 'absolute bg-dark p-2 z-20 rounded-md' : ''"
   >
     <ul :class="!isRaw ? 'divide-y divide-gray-800' : ''">
       <li
@@ -14,10 +14,10 @@
           v-if="link.href"
           :href="link.href"
           target="blank"
-          class="hover:text-red-500"
+          class="hover:text-secondary"
           >{{ link.title }}</a
         >
-        <nuxt-link class="hover:text-red-500" v-if="link.to" :to="link.to">{{
+        <nuxt-link class="hover:text-secondary" v-if="link.to" :to="link.to">{{
           link.title
         }}</nuxt-link>
       </li>
@@ -64,6 +64,6 @@ export default {
 
 <style lang="scss" scoped>
 li .nuxt-link-active {
-  color: #f87171;
+  color: #fdea43;
 }
 </style>

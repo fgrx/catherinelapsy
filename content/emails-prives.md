@@ -2,9 +2,6 @@
 title: La Lettre Psy
 description: Recevez deux fois par mois un email pour comprendre votre psychologie et la psychothérapie
 logo: mail.svg
-colorText: white
-colorBg1: indigo-700
-colorBg2: emerald-500
 ---
 
 ## Qu'est-ce que la Lettre Psy ?
