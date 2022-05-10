@@ -1,31 +1,31 @@
 <template>
-  <div class="my-6 text-dark" v-if="!over && loaded">
-    <h3 class="text-3xl mb-2 text-center"><slot></slot></h3>
+  <div class="my-8 text-dark" v-if="!over && loaded">
+    <h3 class="text-2xl md:text-3xl mb-4 text-center"><slot></slot></h3>
 
     <div class="flex text-center justify-center">
       <div class="days countdown-element">
-        <div class="countdown-number bg-dark text-secondary">
+        <div class="p-2 md:p-6 countdown-number bg-dark text-secondary">
           {{ displayDays }}
         </div>
         <div class="countdown-text">Jours</div>
       </div>
-      <div class="countdown-dots">:</div>
+      <div class="countdown-dots mt-2 md:mt-5 text-4xl mx-2">:</div>
       <div class="hours countdown-element">
-        <div class="countdown-number bg-dark text-secondary">
+        <div class="p-2 md:p-6 countdown-number bg-dark text-secondary">
           {{ displayHours }}
         </div>
         <div class="countdown-text">Heures</div>
       </div>
-      <div class="countdown-dots">:</div>
+      <div class="countdown-dots mt-2 md:mt-5 text-4xl mx-2">:</div>
       <div class="minutes countdown-element">
-        <div class="countdown-number bg-dark text-secondary">
+        <div class="p-2 md:p-6 countdown-number bg-dark text-secondary">
           {{ displayMinutes }}
         </div>
         <div class="countdown-text">Minutes</div>
       </div>
-      <div class="countdown-dots"></div>
+      <div class="countdown-dots text-4xl mx-3"></div>
       <div class="seconds countdown-element">
-        <div class="countdown-number bg-dark text-secondary">
+        <div class="p-2 md:p-6 countdown-number bg-dark text-secondary">
           {{ displaySeconds }}
         </div>
         <div class="countdown-text">Secondes</div>
@@ -108,21 +108,12 @@ export default {
 }
 
 .countdown-number {
-  padding: 1em;
   font-size: 2em;
-
   border-radius: 20px;
 }
 
 .countdown-element {
   text-align: center;
-}
-
-.countdown-dots {
-  font-size: 2em;
-  margin-right: 0.3em;
-  margin-left: 0.3em;
-  margin-top: 1em;
 }
 
 .countdown-text {

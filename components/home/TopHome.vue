@@ -19,10 +19,10 @@
         </div>
         <div class="flex-1">
           <nuxt-picture
-            src="images/catefab-photo.png"
-            height="730"
+            src="images/catefab-photo-small.webp"
+            height="650"
             format="webp"
-            width="850"
+            width="650"
             size=""
             quality="70"
             fit="fill"
