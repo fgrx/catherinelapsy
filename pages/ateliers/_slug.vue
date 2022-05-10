@@ -49,7 +49,10 @@
           </div>
         </div>
 
-        <div v-if="!doc.isOpen" class="bg-rose-600 text-white py-8 px-5 mt-10">
+        <div
+          v-if="!doc.isOpen"
+          class="bg-dark text-secondary py-8 px-5 mt-10 rounded-md"
+        >
           <div class="container mx-auto">
             <h2 class="mb-5">
               Les inscriptions à cet atelier sont actuellement fermées

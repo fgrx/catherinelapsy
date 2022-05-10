@@ -1,6 +1,6 @@
 <template>
   <div class="md:flex flex-wrap md:justify-arround mb-8">
-    <div class="md:w-1/3 mt-10 md:mt-5 px-5 text-center">
+    <div class="md:w-1/4 mt-10 md:mt-5 px-5 text-center">
       <img
         class="mx-auto"
         src="@/assets/update.svg"
@@ -9,7 +9,7 @@
         height="100"
       />
       <p>
-        <span class="text-lg font-semibold text-teal-700"
+        <span class="text-lg font-semibold text-primary"
           >Mises à jour gratuites</span
         >
         <br />
@@ -24,7 +24,7 @@
       <p>Accédez à votre atelier d'où vous voulez, quand vous voulez.</p>
     </div> -->
 
-    <div class="md:w-1/3 mt-5 px-5 text-center">
+    <div class="md:w-1/4 mt-5 px-5 text-center">
       <img
         class="mx-auto"
         src="@/assets/infinite.svg"
@@ -33,16 +33,16 @@
         height="100"
       />
       <p>
-        <span class="text-lg font-semibold text-teal-700">Accès illimité</span>
+        <span class="text-lg font-semibold text-primary">Accès illimité</span>
         <br />
         Prenez votre temps, vous avez accès à l'atelier autant de temps que vous
         le souhaitez
       </p>
     </div>
 
-    <div class="md:w-1/3 mt-5 px-5 text-center container">
+    <div class="md:w-1/4 mt-5 px-5 text-center container">
       <img
-        src="@/assets/facebook.svg"
+        src="@/assets/document.svg"
         class="mx-auto"
         alt=""
         width="100"
@@ -50,19 +50,41 @@
       />
 
       <p>
-        <span class="text-lg font-semibold text-teal-700">
-          Groupe Facebook de soutien
+        <span class="text-lg font-semibold text-primary">
+          Des documents supports </span
+        ><br />
+        pour vous accompagner
+      </p>
+    </div>
+
+    <div v-if="duration" class="md:w-1/4 mt-5 px-5 text-center container">
+      <img
+        src="@/assets/clock.svg"
+        class="mx-auto"
+        alt=""
+        width="100"
+        height="100"
+      />
+
+      <p>
+        <span class="text-lg font-semibold text-primary">
+          {{ duration }} <br />
         </span>
-        <br />
-        Ne restez pas bloqué(e)s et posez vos questions sur un groupe Facebook
-        dédié
+        de formation en vidéo
       </p>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    duration: {
+      type: String,
+      default: "",
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped></style>

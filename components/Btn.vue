@@ -19,7 +19,7 @@ export default {
   props: {
     color: {
       type: String,
-      default: "rose-600",
+      default: "primary",
     },
     textColor: {
       type: String,
