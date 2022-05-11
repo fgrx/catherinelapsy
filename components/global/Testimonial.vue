@@ -11,6 +11,7 @@
     </div>
     <blockquote class="text-center">
       <p class="italic">"<slot></slot>"</p>
+      <p v-if="atelier">{{ atelier }}</p>
       <cite class="not-italic font-semibold">{{ author }}</cite>
     </blockquote>
   </div>
@@ -27,13 +28,17 @@ export default {
       type: String,
       default: "",
     },
+    atelier: {
+      type: String,
+      default: "",
+    },
   },
 };
 </script>
 
 <style lang="scss" scoped>
 .testimonial {
-  width: 60%;
+  width: 40%;
   border: 1px solid rgb(213, 213, 213);
   background-color: rgb(236, 236, 236);
   padding: 2em;

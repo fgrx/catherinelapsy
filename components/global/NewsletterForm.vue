@@ -20,7 +20,7 @@
           type="submit"
           value="s'inscrire"
           id="mc-embedded-subscribe"
-          class="flex font-bold bg-tertiary hover:bg-primary px-5 py-3 cursor-pointer text-white text-bold"
+          class="flex font-bold bg-dark text-secondary hover:bg-secondary px-5 py-3 cursor-pointer hover:text-dark text-bold"
         />
         <input type="hidden" name="campaign_token" :value="codeList" />
         <input type="hidden" name="start_day" value="0" />

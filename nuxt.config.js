@@ -62,7 +62,7 @@ export default {
   modules: [
     "@nuxt/content",
     "@nuxt/image",
-    //"nuxt-cookie-control",
+    "nuxt-cookie-control",
     "@nuxtjs/pwa",
     "@nuxtjs/sitemap",
     [

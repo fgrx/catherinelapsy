@@ -74,7 +74,12 @@ export default {
     showRemaining() {
       const timer = setInterval(() => {
         const now = new Date();
-        const end = new Date(this.deadline);
+
+        const t = this.deadline.split(/[- :]/);
+        const d = new Date(t[0], t[1] - 1, t[2], t[3], t[4], t[5]);
+        const deadlineForIos = new Date(d);
+
+        const end = new Date(deadlineForIos);
         const distance = end.getTime() - now.getTime();
 
         if (distance < 0) {

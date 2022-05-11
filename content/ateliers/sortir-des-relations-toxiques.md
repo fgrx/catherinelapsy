@@ -2,7 +2,7 @@
 title: Se protéger des relations toxiques
 description: Comment décrypter ses relations douloureuses et en sortir
   durablement avec l’Analyse Transactionnelle
-image: /images/relations-toxiques.png
+image: /images/ateliers/relations-toxiques.png
 imageAlt: Catherine la Psy devant les caméras.
 buyUrl: https://ctpsy.podia.com/sortir-des-relations-toxiques
 order: 1
@@ -17,7 +17,7 @@ discountTo: 0
 hasDiscount: false
 ---
 
-<pictos-atelier></pictos-atelier>
+<pictos-atelier titleclock="6 modules" subtitleclock="14 vidéos"></pictos-atelier>
 
 <display-text display='frame'>
 Dans cet atelier vous allez apprendre à :

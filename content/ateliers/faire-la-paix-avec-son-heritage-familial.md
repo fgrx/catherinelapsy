@@ -4,7 +4,7 @@ description: Vos problèmes ne viennent pas que de vous ! Nous avons tous un
   héritage psychologique de notre famille et il est parfois encombrant.
   Ensemble, nous découvrirons ce qui ne vous appartient pas pour débloquer votre
   situation.
-image: /images/paix-heritage.jpg
+image: /images/ateliers/paix-heritage.jpg
 imageAlt: Catherine la Psy présente l'atelier.
 buyUrl: https://ctpsy.podia.com/heritage-familial
 isDisplayed: false

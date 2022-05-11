@@ -1,7 +1,7 @@
 ---
 title: Pack "All included""
 description: Vous souhaitez obtenir tous nos ateliers ? Nous vous proposons un tarif préférentiel.
-image: /images/tousateliers.jpg
+image: /images/ateliers/tousateliers.jpg
 imageAlt: Catherine la Psy présente l'atelier.
 buyUrl: https://ctpsy.podia.com/pack-3-ateliers
 order: 0
