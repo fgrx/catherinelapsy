@@ -1,14 +1,14 @@
 ---
 title: "La puissance du Contre-transfert"
 subtitle: "De la théorie à l'utilisation pratique."
-description:
+description: "Si vous vous êtes déjà senti(e) en colère, inquièt(e) face à vos patient(e)s et client(e)s sans savoir qu'en faire ou encore désemparé(e) avec les ressentis parfois intenses de votre métier, cet atelier va vous aider."
 image: /images/ateliers/contre-transfert.png
-imageAlt: Catherine la Psy vous attend pour son atelier sur le Contre-Transfert.
+imageAlt: Catherine la Psy vous attend pour participer à son atelier sur le Contre-Transfert.
 buyUrl: https://ctpsy.podia.com/utiliser-son-contre-transfert
 colorText: white
 order: 8
 isDisplayed: true
-isOpen: true
+isOpen: false
 buyStart: true
 buyEnd: true
 discountTitle: Black Friday
@@ -16,8 +16,6 @@ price: 279
 discountTo: 0
 hasDiscount: false
 ---
-
-**Si vous vous êtes déjà senti(e) en colère, inquièt(e) face à vos patient(e)s et client(e)s sans savoir qu'en faire ou encore désemparé(e) avec les ressentis parfois intenses de votre métier, cet atelier va vous aider.**
 
 Nous ressentons en effet de nombreuses émotions dans nos métiers de la relation et il est souvent difficile de savoir qu'en faire dans le travail d'accomagnement.
 Doit-on les faire taire ?  

@@ -16,15 +16,6 @@
       >
         <!-- <EmbedYoutube v-if="item.video">{{ item.video }}</EmbedYoutube> -->
 
-        <nuxt-img
-          :src="`images/videos-vignettes/${item.image}`"
-          :alt="`miniature de la vidéo ${item.title}`"
-          sizes="sm:500px"
-          format="webp"
-          height="400"
-        >
-        </nuxt-img>
-
         <nuxt-link :to="`${item.dir}/${item.slug}`">
           <nuxt-img
             :src="item.image"
