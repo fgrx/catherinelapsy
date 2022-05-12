@@ -12,7 +12,7 @@ isOpen: false
 buyStart: true
 buyEnd: true
 discountTitle: Black Friday
-price: 249
+price: 279
 discountTo: 0
 hasDiscount: false
 ---
@@ -20,8 +20,8 @@ hasDiscount: false
 **Si vous vous êtes déjà senti(e) en colère, inquièt(e) face à vos patient(e)s et client(e)s sans savoir qu'en faire ou encore désemparé(e) avec les ressentis parfois intenses de votre métier, cet atelier va vous aider.**
 
 Nous ressentons en effet de nombreuses émotions dans nos métiers de la relation et il est souvent difficile de savoir qu'en faire dans le travail d'accomagnement.
-Doit-on les faire taire ?
-Les comuniquer ?
+Doit-on les faire taire ?  
+Les comuniquer ?  
 En culpabiliser ?
 
 Apprendre à utiliser votre contre-transfert vous permet de répndre à ces questions et de savoir que faire de vos émotions avec chacune des personnes que vous accompagnez. Car ce concept parfois sous-estimé, amène de la puissance dans vos pratiques thérapeutiques si vous savez l'utiliser.
