@@ -1,7 +1,7 @@
 <template>
   <div class="md:grid md:grid-cols-3 md:gap-10">
     <div
-      class="col-span-1 mb-10 flex flex-col text-white bg-gradient-to-r from-emerald-700 via-emerald-600 to-emerald-700 p-5 rounded-md transition-all transform ease-in-out duration-300 hover:scale-105 hover:bg-emerald-700"
+      class="col-span-1 mb-10 flex flex-col text-white bg-gradient-to-r bg-primary p-5 rounded-md transition-all transform ease-in-out duration-300 hover:scale-105"
       v-for="lettrePsy in lettresPsys"
       :key="lettrePsy.id"
     >
@@ -25,7 +25,7 @@
           </li>
         </ul>
 
-        <Btn color="white" text-color="black">Lire la Lettre Psy</Btn>
+        <Btn color="dark" text-color="white">Lire la Lettre Psy</Btn>
       </a>
     </div>
   </div>

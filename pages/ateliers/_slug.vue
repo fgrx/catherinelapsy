@@ -19,17 +19,17 @@
           class="text-center"
           v-if="doc.buyUrl && doc.isOpen && doc.buyStart"
         >
-          <div class="md:flex justify-center">
+          <div class="md:flex justify-center my-7">
             <BuyBtn
               :url="doc.buyUrl"
               :isClosed="!doc.isOpen"
               :discount="discount"
               :price="price"
-              class="my-7 md:mt-4"
+              class="my-4 md:my-0"
             >
               Acheter
             </BuyBtn>
-            <ContactButton class="md:ml-4 md:mt-4"></ContactButton>
+            <ContactButton></ContactButton>
           </div>
         </div>
 

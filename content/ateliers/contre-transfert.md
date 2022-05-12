@@ -8,7 +8,7 @@ buyUrl: https://ctpsy.podia.com/utiliser-son-contre-transfert
 colorText: white
 order: 8
 isDisplayed: true
-isOpen: false
+isOpen: true
 buyStart: true
 buyEnd: true
 discountTitle: Black Friday

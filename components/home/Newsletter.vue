@@ -15,8 +15,8 @@
           <div class="">
             <h2 class="text-secondary">S'abonner à la Lettre Psy</h2>
             <p>
-              Un email bimensuel pour comprendre sa psychologie et mieux se
-              connaitre
+              Un email bimensuel gratuit pour comprendre sa psychologie et mieux
+              se connaitre.
             </p>
           </div>
         </div>

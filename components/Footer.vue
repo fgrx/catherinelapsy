@@ -108,6 +108,6 @@ li {
 }
 
 li .nuxt-link-active {
-  color: #f87171;
+  color: #fdea43;
 }
 </style>

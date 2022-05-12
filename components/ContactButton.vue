@@ -1,6 +1,6 @@
 <template>
   <div class="md:ml-4">
-    <btn color="gray-200" textColor="red-600" v-on:click="toggleModal()">
+    <btn color="gray-200" textColor="primary" v-on:click="toggleModal()">
       <span class="uppercase">Une question ?</span>
       <span class="text-xs"><div>Nous contacter</div></span>
     </btn>
