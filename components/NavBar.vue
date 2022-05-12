@@ -98,7 +98,7 @@
         </div>
       </transition>
       <aside
-        class="transform text-white top-0 left-0 w-64 bg-primary fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30"
+        class="transform text-white top-0 left-0 w-64 bg-primaryDark fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30"
         :class="isOpen ? 'translate-x-0' : '-translate-x-full'"
       >
         <div class="p-5 text-white font-medium text-lg hover:text-red-200">
@@ -115,10 +115,12 @@
           <li
             v-for="(link, index) in links"
             :key="index"
-            class="font-medium text-xl py-2 hover:text-secondary"
+            class="font-medium text-xl py-2"
             @click="isOpen = false"
           >
-            <nuxt-link :to="link.to">{{ link.text }}</nuxt-link>
+            <nuxt-link class="hover:text-secondary" :to="link.to">{{
+              link.text
+            }}</nuxt-link>
             <SubNav
               :isDisplayed="linkToDisplay"
               :menu="link"

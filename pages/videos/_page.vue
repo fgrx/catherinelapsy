@@ -78,8 +78,6 @@ export default {
         logo: "video.svg",
         description:
           "Nous produisons des vidéos sur la psychologie pour vous faire découvrir le monde de la psychothérapie. Nous nous efforçons d'expliquer simplement des concepts parfois complexes afin de vous aider à mieux vous comprendre.",
-        colorBg1: "red-700",
-        colorBg2: "gray-700",
       },
     };
   },
