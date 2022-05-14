@@ -8,7 +8,7 @@ buyUrl: https://ctpsy.podia.com/utiliser-son-contre-transfert
 colorText: white
 order: 8
 isDisplayed: true
-isOpen: false
+isOpen: true
 buyStart: true
 buyEnd: true
 discountTitle: Black Friday
@@ -27,8 +27,6 @@ Apprendre à utiliser votre contre-transfert vous permet de répndre à ces ques
 Dans cet atelier, Catherine vous apprend à mettre votre ressenti au service du suivi thérapeutique pour débloquer les situations difficiles et approfondir et intensifier le travail. Comme à notre habitude, nous vous proposons ici un atelier de travail très concret et pas seulement théorique.
 
 Bienvenue dans l'Atelier destiné aux professionel(le)s : "La puissance du contre-transfert" par l’équipe de CatherineLaPsy.
-
-<Countdown deadline="2022-05-15 00:00:00">L'atelier ouvrira dans</Countdown>
 
 <pictos-atelier titleclock="8 modules" subtitleclock="44 vidéos pour utiliser le contre-transfert"></pictos-atelier>
 
