@@ -17,9 +17,9 @@ discountTo: 0
 hasDiscount: false
 ---
 
-Nous ressentons en effet de nombreuses émotions dans nos métiers de la relation et il est souvent difficile de savoir qu'en faire dans le travail d'accomagnement.
+Nous ressentons en effet de nombreuses émotions dans nos métiers de la relation et il est souvent difficile de savoir qu'en faire dans le travail d'accompagnement.
 Doit-on les faire taire ?  
-Les comuniquer ?  
+Les communiquer ?  
 En culpabiliser ?
 
 Apprendre à utiliser votre contre-transfert vous permet de répndre à ces questions et de savoir que faire de vos émotions avec chacune des personnes que vous accompagnez. Car ce concept parfois sous-estimé, amène de la puissance dans vos pratiques thérapeutiques si vous savez l'utiliser.
@@ -57,7 +57,7 @@ Vous apprendrez à identifier finement puis manier votre ressenti comme un puiss
 **Dans cet atelier vous allez apprendre par étape, à** :
 
 - Diagnostiquer et clarifier votre pratique
-- Etablir un cadre thérapeutique/d'accommagnement solide
+- Etablir un cadre thérapeutique/d'accompagnement solide
 - Penser et structurer votre posture d'accompagnant(e)
 - Utiliser votre ressenti au quotidien
 - Différencier votre ressenti de celui de de votre patient(e)/client(e)
@@ -92,7 +92,7 @@ Ca m'a permis de découvrir une méthode de résolution pour lesdites questions 
 
 ## Résumé de l'atelier
 
-Le protocole d'analyse de contre-transfert proposé par Catherine dans cet atelier vous permet d'analyser finement vos ressentis pour les utiliser et aller plus loin dans vos accompagnements. Dit comme cela, ça parait facile, mais en réalité, on est loin de simples impressions et intuitions. cela necessite des analyses spécifiques et des pré-requis importants.
+Le protocole d'analyse de contre-transfert proposé par Catherine dans cet atelier vous permet d'analyser finement vos ressentis pour les utiliser et aller plus loin dans vos accompagnements. Dit comme cela, ça parait facile, mais en réalité, on est loin de simples impressions et intuitions. cela nécessite des analyses spécifiques et des pré-requis importants.
 
 Comment identifier ce qui vient de nous ou de l'autre ? Que pouvons-nous en faire ensuite en fonction de la diversité des problèmes et des personnalités des personnes que vous accompagnez ? Comment s'exercer pour utiliser le contre-transfert de manière fluide ?
 
