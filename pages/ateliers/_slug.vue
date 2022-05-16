@@ -119,6 +119,8 @@ export default {
     },
   },
   head() {
+    const ogImage = this.doc.imageOG || this.doc.image;
+
     return {
       title: this.doc.title,
       meta: [
@@ -132,7 +134,11 @@ export default {
         { name: "og:site_name", content: "catherine La Psy" },
         {
           name: "og:image",
-          content: `https://catherinelapsy.com${this.doc.image}`,
+          content: `https://catherinelapsy.com${ogImage}`,
+        },
+        {
+          name: "og:image:alt",
+          content: `Vignette de présentation de l'atelier`,
         },
         {
           name: "og:description",
