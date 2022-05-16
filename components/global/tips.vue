@@ -7,8 +7,8 @@
       :src="require('@/assets/tips.png')"
       alt="Idée intéressante"
     />
-    <div>
-      <slot class="font-semibold"></slot>
+    <div class="font-semibold">
+      <slot></slot>
     </div>
   </div>
 </template>

@@ -103,6 +103,12 @@ Nous vous offrons ici donc la compilation de formations, de supervisions et de l
 
 Forcément, comme il s'agit d'un sujet qui passionne Catherine et qui est au centre de sa pratique clinique, le résultat est impressionnant : 8 modules d'ateliers qui comprend de la théorie et surtout, beaucoup d'exercices et d'exemples pour pouvoir, vous aussi, apprivoiser ce concept complexe mais remarquable pour l'accompagnement.
 
+<Link-Btn class="mt-8" url="https://ctpsy.podia.com/utiliser-son-contre-transfert" >
+    Voir un apperçu
+    <template slot="subText"
+      ><div>découvrez les deux premières vidéos</div></template
+></Link-Btn>
+
 ## Programme
 
 <expandable title="Introduction">
