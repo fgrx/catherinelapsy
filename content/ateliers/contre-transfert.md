@@ -29,6 +29,10 @@ Dans cet atelier, Catherine vous apprend à mettre votre ressenti au service du 
 
 Bienvenue dans l'Atelier destiné aux professionel(le)s : "La puissance du contre-transfert" par l’équipe de CatherineLaPsy.
 
+<embed-youtube>
+FaFTVgcZ4qs
+</embed-youtube>
+
 <pictos-atelier titleclock="8 modules" subtitleclock="44 vidéos pour utiliser le contre-transfert"></pictos-atelier>
 
 <nuxt-img 
