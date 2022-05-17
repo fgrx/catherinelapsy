@@ -105,8 +105,8 @@ Forcément, comme il s'agit d'un sujet qui passionne Catherine et qui est au cen
 
 <Link-Btn class="mt-8" url="https://ctpsy.podia.com/utiliser-son-contre-transfert" >
     Voir un apperçu
-    <template slot="subText"
-      ><div>découvrez les deux premières vidéos</div></template
+    <template name="subText"
+      ><div class="text-xs">découvrez les deux premières vidéos</div></template
 ></Link-Btn>
 
 ## Programme

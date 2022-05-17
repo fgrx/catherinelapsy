@@ -1,13 +1,13 @@
 <template>
   <div :class="position">
     <a v-if="url" :href="url" :target="target">
-      <Btn>
+      <Btn :color="color" :textColor="textColor">
         <slot></slot>
       </Btn>
     </a>
 
     <nuxt-link v-if="to" :to="url">
-      <Btn>
+      <Btn :color="color" :textColor="textColor">
         <slot></slot>
       </Btn>
     </nuxt-link>
@@ -15,13 +15,19 @@
 </template>
 
 <script>
-import { stringify } from "querystring";
-
 export default {
   props: {
     url: {
       type: String,
       default: "",
+    },
+    color: {
+      type: String,
+      default: "gray-200",
+    },
+    textColor: {
+      type: String,
+      default: "primary",
     },
     to: { type: String, default: "" },
     target: {
