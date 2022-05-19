@@ -5,20 +5,7 @@
         <HeaderPage :doc="doc" />
 
         <div
-          class="
-            container
-            mx-auto
-            bg-gray-100
-            -m-14
-            py-12
-            pb-24
-            px-5
-            md:px-12
-            md:w-10/12
-            lg:w-9/12
-            xl:w-7/12
-            content
-          "
+          class="container mx-auto bg-gray-100 -m-14 py-12 pb-24 px-5 md:px-12 md:w-10/12 lg:w-9/12 xl:w-7/12 content"
         >
           <nuxt-img
             :src="doc.image"
@@ -35,20 +22,9 @@
       </div>
     </article>
     <div
-      class="
-        container
-        mx-auto
-        bg-gray-100
-        -m-14
-        pb-14
-        md:w-10/12
-        lg:w-9/12
-        xl:w-7/12
-        content
-      "
-    >
-      <Newsletter />
-    </div>
+      class="container mx-auto bg-gray-100 -m-14 pb-14 md:w-10/12 lg:w-9/12 xl:w-7/12 content"
+    ></div>
+    <Newsletter title="Envie d'en savoir plus ? Abonnez-vous à la Lettre Psy" />
   </div>
 </template>
 
@@ -90,4 +66,10 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style lang="scss">
+.content {
+  h3 {
+    color: #177e84 !important;
+  }
+}
+</style>

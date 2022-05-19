@@ -70,6 +70,12 @@ Vous apprendrez à identifier finement puis manier votre ressenti comme un puiss
 
 </display-text>
 
+<Link-Btn class="mt-8" url="https://ctpsy.podia.com/utiliser-son-contre-transfert" >
+    Voir un apperçu
+    <template name="subText"
+      ><div class="text-xs">découvrez les deux premières vidéos</div></template
+></Link-Btn>
+
 ## Avis sur nos autres ateliers
 
 <testimonials>
@@ -106,12 +112,6 @@ Cet atelier offre un cadre structuré et une méthodologie claire pour cerner au
 Nous vous offrons ici donc la compilation de formations, de supervisions et de la lecture de dizaines de livres et d'articles sur le sujet, ainsi que de l'expérience de Catherine avec des centaines de patients. Un atelier unique qui vous ouvrira de nouvelles portes de travail avec vos patient(e)s et client(e)s.
 
 Forcément, comme il s'agit d'un sujet qui passionne Catherine et qui est au centre de sa pratique clinique, le résultat est impressionnant : 8 modules d'ateliers qui comprend de la théorie et surtout, beaucoup d'exercices et d'exemples pour pouvoir, vous aussi, apprivoiser ce concept complexe mais remarquable pour l'accompagnement.
-
-<Link-Btn class="mt-8" url="https://ctpsy.podia.com/utiliser-son-contre-transfert" >
-    Voir un apperçu
-    <template name="subText"
-      ><div class="text-xs">découvrez les deux premières vidéos</div></template
-></Link-Btn>
 
 ## Programme
 

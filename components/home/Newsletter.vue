@@ -13,10 +13,10 @@
             height="100"
           />
           <div class="">
-            <h2 class="text-secondary">S'abonner à la Lettre Psy</h2>
+            <h2 class="text-secondary">{{ title }}</h2>
             <p>
-              Un email bimensuel gratuit pour comprendre sa psychologie et mieux
-              se connaitre.
+              Abonnez-vous gratuitement à notre email bimensuel pour comprendre
+              sa psychologie et mieux se connaitre.
             </p>
           </div>
         </div>
@@ -30,7 +30,14 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    title: {
+      type: String,
+      default: "S'abonner à la Lettre Psy",
+    },
+  },
+};
 </script>
 
 <style scoped>
