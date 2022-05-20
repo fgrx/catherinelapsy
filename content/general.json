@@ -30,11 +30,11 @@
     }
   ],
   "message": {
-    "display": false,
+    "display": true,
     "bgColor": "secondary",
     "textColor": "dark",
     "title": "Nouvel atelier Contre-Transfert",
-    "content": "Un atelier pour les pros pour utiliser son ressenti et aller plus loin en séance et débloquer des situations complexes.",
+    "content": "Un atelier pour les pros pour aller plus loin en séance et débloquer des situations complexes en utilisant son ressenti",
     "buttonTitle": "Découvrir l'atelier",
     "buttonUrl": "./ateliers/contre-transfert",
     "buttonColor": "dark"

@@ -69,7 +69,6 @@
             @click="sendMessage"
             typeButton="button"
             class="mt-5"
-            :color="color"
             :disabled="!isFormCompleted"
             >Envoyer</Btn
           >

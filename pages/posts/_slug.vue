@@ -70,6 +70,7 @@ export default {
 .content {
   h3 {
     color: #177e84 !important;
+    font-size: 1.4em;
   }
 }
 </style>

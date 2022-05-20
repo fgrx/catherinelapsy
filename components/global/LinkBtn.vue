@@ -1,13 +1,13 @@
 <template>
   <div :class="position">
     <a v-if="url" :href="url" :target="target">
-      <Btn :color="color" :textColor="textColor">
+      <Btn :color="color" :textColor="text">
         <slot></slot>
       </Btn>
     </a>
 
     <nuxt-link v-if="to" :to="url">
-      <Btn :color="color" :textColor="textColor">
+      <Btn :color="color" :textColor="text">
         <slot></slot>
       </Btn>
     </nuxt-link>
@@ -25,7 +25,7 @@ export default {
       type: String,
       default: "gray-200",
     },
-    textColor: {
+    text: {
       type: String,
       default: "primary",
     },
