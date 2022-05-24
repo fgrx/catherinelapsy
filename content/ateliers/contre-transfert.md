@@ -1,7 +1,7 @@
 ---
 title: "La puissance du Contre-transfert"
 subtitle: "De la théorie à l'utilisation pratique."
-description: "Si vous vous êtes déjà senti(e) en colère, inquièt(e) face à vos patient(e)s et client(e)s sans savoir qu'en faire ou encore désemparé(e) avec les ressentis parfois intenses de votre métier, cet atelier va vous aider."
+description: "Si vous vous êtes déjà senti(e) en colère, inquièt(e) face à vos patient(e)s et client(e)s sans savoir qu'en faire ou encore désemparé(e) avec les émotions parfois intenses de votre métier, cet atelier va vous aider."
 image: /images/ateliers/contre-transfert/contre-transfert.png
 imageOG: /images/ateliers/contre-transfert/og-contre-transfert-fb.png
 imageAlt: Catherine la Psy vous attend pour participer à son atelier sur le Contre-Transfert.
@@ -64,7 +64,7 @@ Vous apprendrez à identifier finement puis manier votre ressenti comme un puiss
 - Diagnostiquer et clarifier votre pratique
 - Etablir un cadre thérapeutique/d'accompagnement solide
 - Penser et structurer votre posture d'accompagnant(e)
-- Utiliser votre ressenti au quotidien
+- Utiliser vos émotions au quotidien
 - Différencier votre ressenti de celui de de votre patient(e)/client(e)
 - Vous exercer et perfectionner dans l'utilisation du contre-transfert
 
@@ -80,8 +80,8 @@ Vous apprendrez à identifier finement puis manier votre ressenti comme un puiss
 
 <testimonials>
 
-<testimonial author="Sonia" image="woman1" atelier='Atelier "Faire la paix avec son héritage familial"'>
-  C'est vraiment très bien expliqué pas à pas, c'est bienveillant et il y a de nombreux exemples compréhensibles (...)
+<testimonial author="Adélaïde" image="woman1" atelier='Atelier "La puissance du Contre-Transfert"'>
+ je suis plus que ravie d'avoir participé à l'atelier Contre-Transfert. J'ai rarement participé à un atelier aussi COM-PLET! Toutes les questions sur le sujet sont abordées! C'est un réel outil indispensable pour les accompagnant.es mais pas seulement... Bref, pour la faire courte, je conseille VI-VE-MENT cet atelier! 
 </testimonial>
 
 <testimonial author="Jeanne" image="woman2" atelier='Atelier "Sortir des relations toxiques"'>
@@ -103,7 +103,7 @@ Ca m'a permis de découvrir une méthode de résolution pour lesdites questions 
 
 ## Résumé de l'atelier
 
-Le protocole d'analyse de contre-transfert proposé par Catherine dans cet atelier vous permet d'analyser finement vos ressentis pour les utiliser et aller plus loin dans vos accompagnements. Dit comme cela, ça parait facile, mais en réalité, on est loin de simples impressions et intuitions. cela nécessite des analyses spécifiques et des pré-requis importants.
+Le protocole d'analyse de contre-transfert proposé par Catherine dans cet atelier vous permet d'analyser finement vos émotions pour les utiliser et aller plus loin dans vos accompagnements. Dit comme cela, ça parait facile, mais en réalité, on est loin de simples impressions et intuitions. cela nécessite des analyses spécifiques et des pré-requis importants.
 
 Comment identifier ce qui vient de nous ou de l'autre ? Que pouvons-nous en faire ensuite en fonction de la diversité des problèmes et des personnalités des personnes que vous accompagnez ? Comment s'exercer pour utiliser le contre-transfert de manière fluide ?
 
@@ -169,7 +169,7 @@ Forcément, comme il s'agit d'un sujet qui passionne Catherine et qui est au cen
 - Ce qui se dit
 - Différencier son ressenti de celui du patient
 - Les types de contre-transfert
-- Ce que je fais de mon ressenti
+- Ce que je fais de mes émotions et comment je peux les utiliser en séance
 
 </expandable>
 
