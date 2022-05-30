@@ -84,8 +84,8 @@ Vous apprendrez à identifier finement puis manier votre ressenti comme un puiss
  je suis plus que ravie d'avoir participé à l'atelier Contre-Transfert. J'ai rarement participé à un atelier aussi COM-PLET! Toutes les questions sur le sujet sont abordées! C'est un réel outil indispensable pour les accompagnant.es mais pas seulement... Bref, pour la faire courte, je conseille VI-VE-MENT cet atelier! 
 </testimonial>
 
-<testimonial author="Jeanne" image="woman2" atelier='Atelier "Sortir des relations toxiques"'>
-Cet atelier a été vraiment une belle découverte. Dynamique et pédagogique (...)
+<testimonial author="Sophie" image="woman2" atelier='Atelier "La puissance du Contre-Transfert"'>
+Ravie de la formation sur le contre transfert… je sens que je vais l’avaler rapidement ; le format des micro-videos est topissime! Bravo encore !
 </testimonial>
 
 <testimonial author="Cédric" image="man1" atelier='Atelier "Faire la paix avec son héritage familial"'>
