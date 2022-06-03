@@ -7,7 +7,7 @@ description: Vos problèmes ne viennent pas que de vous ! Nous avons tous un
 image: /images/ateliers/paix-heritage.jpg
 imageAlt: Catherine la Psy présente l'atelier.
 buyUrl: https://ctpsy.podia.com/heritage-familial
-isDisplayed: false
+isDisplayed: true
 codeMailingList: M5k9i
 order: 2
 isOpen: true
@@ -160,9 +160,7 @@ Il est donc basé sur la **systémie familiale** et non pas sur la psychanalyse 
 
 </expandable>
 
-<pictos-atelier></pictos-atelier>
-
-<presentation></presentation>
+<pictos-atelier titleclock="10 modules" subtitleclock="16 vidéos"></pictos-atelier>
 
 ## Témoignages
 

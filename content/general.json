@@ -30,7 +30,7 @@
     }
   ],
   "message": {
-    "display": true,
+    "display": false,
     "bgColor": "secondary",
     "textColor": "dark",
     "title": "Nouvel atelier Contre-Transfert",

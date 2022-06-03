@@ -4,7 +4,7 @@
       <Btn class="">
         <slot></slot>
 
-        <template v-if="discount.hasDiscount">
+        <template v-if="discount && discount.hasDiscount">
           <strong>
             <strike>{{ price }}</strike
             >€ {{ discount.discountTo }}€</strong
