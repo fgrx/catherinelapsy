@@ -28,7 +28,7 @@ Ce pack comprend les ateliers suivants :
 <buy-btn url="https://ctpsy.podia.com/pack-3-ateliers" :price="477" :discount="{hasDiscount:true,discountTo:399}">Acheter le pack 3 ateliers
 </buy-btn>
 
-<hr class="b my-14" />
+<hr class="my-14" />
 
 ## Pack 4 ateliers
 

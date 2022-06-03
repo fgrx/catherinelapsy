@@ -38,6 +38,7 @@ module.exports = {
       safelist: [
         "from-primary",
         "to-primary",
+        "my-14",
         "from-primaryDark",
         "to-primaryDark",
         "bg-gray-700",
