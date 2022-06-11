@@ -9,7 +9,7 @@ imageAlt: Catherine la Psy présente l'atelier.
 buyUrl: https://ctpsy.podia.com/heritage-familial
 isDisplayed: true
 codeMailingList: M5k9i
-order: 2
+order: 1
 isOpen: true
 buyStart: true
 buyEnd: true
@@ -178,8 +178,8 @@ Ca m'a permis de comprendre certains traits de caractère de ma propre personnal
 Ca m'a permis de découvrir une méthode de résolution pour lesdites questions qui semble facile et rapide à mettre en oeuvre.
 </testimonial>
 
-<testimonial author="Clément" image="man2">
-La visualisation c’est top, je ne savais pas trop à quoi m’attendre voir un peu sceptique et finalement c’est très instructif.
+<testimonial author="Marianne" image="man2">
+Juste un petit mot pour vous dire que j'ai terminé votre formation sur l'héritage familial, et j'ai adoré ! Elle est ludique, riche et très claire. Merci beaucoup !
 </testimonial>
 </section>
 
