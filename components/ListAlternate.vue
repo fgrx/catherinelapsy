@@ -16,7 +16,7 @@
       >
         <!-- <EmbedYoutube v-if="item.video">{{ item.video }}</EmbedYoutube> -->
 
-        <nuxt-link :to="`${item.dir}/${item.slug}`">
+        <nuxt-link v-if="item.image" :to="`${item.dir}/${item.slug}`">
           <nuxt-img
             :src="item.image"
             sizes="sm:400px"

@@ -2,7 +2,7 @@
 title: Avez-vous des traumas que vous ne soupçonnez pas ?
 order: 4
 video: qqrV01rv2Ek
-image: traumas-insoupconnes.jpeg
+image: /images/videos-vignettes/traumas-insoupconnes.jpeg
 description: "Il existe différents types de traumas : ceux qui sont clairement définis et identifiables ... et les autres.
 
 On les appelles les traumatismes complexes et ils sont difficiles à identifier, souvent sous estimés.

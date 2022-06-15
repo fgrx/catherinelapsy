@@ -8,8 +8,8 @@
   "products": [
     {
       "titleSection": "Atelier en live",
-      "title": "Vivre du libéral",
-      "description": "En direct le mardi 29 mars à 19h00. Replay disponible à volonté.",
+      "title": "Dépasser sa culpabilité pour être libre",
+      "description": "En direct le mercredi 29 mars à 19h30. Replay disponible à volonté.",
       "url": "./ateliers/atelier-en-live",
       "target": "blank",
       "image": "",
@@ -30,13 +30,13 @@
     }
   ],
   "message": {
-    "display": false,
+    "display": true,
     "bgColor": "secondary",
     "textColor": "dark",
-    "title": "Nouvel atelier Contre-Transfert",
-    "content": "Un atelier pour les pros pour aller plus loin en séance et débloquer des situations complexes en utilisant son ressenti",
+    "title": "Atelier en Live : Dépasser sa culpabilité pour être libre",
+    "content": "En direct le mercredi 29 mars à 19h30. Replay disponible à volonté.",
     "buttonTitle": "Découvrir l'atelier",
-    "buttonUrl": "./ateliers/contre-transfert",
+    "buttonUrl": "./ateliers/atelier-live-depasser-culpabilite",
     "buttonColor": "dark"
   },
   "ressources": {
