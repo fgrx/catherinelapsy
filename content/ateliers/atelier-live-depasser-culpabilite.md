@@ -17,9 +17,9 @@ hasDiscount: false
 ---
 
 La culpabilité n'est pas une émotion agréable à ressentir et elle peut même pourrir la vie de certain(e)s.
-Mais vu que nous sommes si nombreux à la ressentir, elle doit bien servir à quelque chose ! Quel est son utilité ? Comment mieux la comprendre et mieux la vivre ? Ces questions essentielles vous permettront de la ressentir plus sereinement et d'en décoder ses messages.
+Mais vu que nous sommes si nombreux à la ressentir, elle doit bien servir à quelque chose ! Quelle est son utilité ? Comment mieux la comprendre et mieux la vivre ? Ces questions essentielles vous permettront de la ressentir plus sereinement et d'en décoder ses messages.
 
-L'atelier aura lieu de **mercredi 29 juin à 19h30 en visio** et comportera une partie théorique mais aussi des exercices pratiques. Vous explorerez votre relation avec votre culpabilité pour comprendre comment elle se déclenche, les messages qu'elle souhaite vous délivrer et comment mieux vivre avec.
+L'atelier aura lieu de **mercredi 29 juin à 19h30 en visio** et comportera une partie théorique, mais aussi des exercices pratiques. Vous explorerez votre relation avec votre culpabilité pour comprendre comment elle se déclenche, les messages qu'elle souhaite vous délivrer et comment mieux vivre avec.
 
 <Countdown deadline="2022-06-29 19:30:00">L'atelier live commencera dans</Countdown>
 
