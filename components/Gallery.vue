@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="grid md:grid-cols-3 gap-2 my-4">
+    <div :class="`grid md:grid-cols-${images.length} gap-2 my-4`">
       <div class="" v-for="image in images" :key="image">
         <nuxt-img
           :src="`${image}`"

@@ -27,7 +27,8 @@
               :price="price"
               class="my-4 md:my-0"
             >
-              Acheter
+              <template v-if="doc.isLive"> Réserver </template>
+              <template v-else> Acheter </template>
             </BuyBtn>
             <ContactButton></ContactButton>
           </div>
@@ -43,7 +44,8 @@
               :price="price"
               class="my-7 md:mt-4"
             >
-              Acheter
+              <template v-if="doc.isLive"> Réserver </template>
+              <template v-else> Acheter </template>
             </BuyBtn>
             <ContactButton class="md:ml-4 md:mt-4"></ContactButton>
           </div>

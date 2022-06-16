@@ -88,11 +88,8 @@ Vous apprendrez à identifier finement puis manier votre ressenti comme un puiss
 Ravie de la formation sur le contre transfert… je sens que je vais l’avaler rapidement ; le format des micro-videos est topissime! Bravo encore !
 </testimonial>
 
-<testimonial author="Cédric" image="man1" atelier='Atelier "Faire la paix avec son héritage familial"'>
-Ca m'a permis de découvrir une méthode de résolution pour lesdites questions qui semble facile et rapide à mettre en oeuvre (...)
-</testimonial>
-
-<testimonial author="Jean-Michel" image="man2" atelier='Atelier "Sortir des relations toxiques"'>Permet de prendre du recul sur ces situations et de se poser les bonnes questions.
+<testimonial author="Anonyme" image="man1" atelier='Atelier "La puissance du Contre-Transfert"'>
+Merci pour tout : c’est clair, tres bien fait (montage, son, etc) du coup c’est motivant et encourageant pour une mise en œuvre pertinente
 </testimonial>
 
 </section>

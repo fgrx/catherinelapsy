@@ -155,6 +155,7 @@ export default {
     const menus = ateliers.map((atelier) => {
       const menu = {
         title: atelier.title,
+        isLive: atelier.isLive || false,
         to: `/ateliers/${atelier.slug}`,
         image: "",
       };

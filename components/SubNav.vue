@@ -15,11 +15,14 @@
           :href="link.href"
           target="blank"
           class="hover:text-secondary"
-          >{{ link.title }}</a
         >
-        <nuxt-link class="hover:text-secondary" v-if="link.to" :to="link.to">{{
-          link.title
-        }}</nuxt-link>
+          <span v-if="link.isLive">Atelier en live</span>
+          {{ link.title }}</a
+        >
+        <nuxt-link class="hover:text-secondary" v-if="link.to" :to="link.to">
+          <span v-if="link.isLive"> Atelier en live : </span
+          >{{ link.title }}</nuxt-link
+        >
       </li>
     </ul>
   </nav>

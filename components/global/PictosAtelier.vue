@@ -1,6 +1,6 @@
 <template>
   <div class="md:flex flex-wrap md:justify-arround mb-8">
-    <div v-if="titleclock" class="md:w-1/4 mt-5 px-5 text-center container">
+    <div v-if="displayclock" class="md:flex-1 mt-5 px-5 text-center container">
       <img
         src="@/assets/pictos-ateliers/clock.png"
         class="mx-auto"
@@ -17,7 +17,7 @@
       </p>
     </div>
 
-    <div class="md:w-1/4 mt-10 md:mt-5 px-5 text-center">
+    <div v-if="displayupdate" class="md:flex-1 mt-10 md:mt-5 px-5 text-center">
       <img
         class="mx-auto"
         src="@/assets/pictos-ateliers/update.png"
@@ -41,7 +41,7 @@
       <p>Accédez à votre atelier d'où vous voulez, quand vous voulez.</p>
     </div> -->
 
-    <div class="md:w-1/4 mt-5 px-5 text-center">
+    <div v-if="displayloop" class="md:flex-1 mt-5 px-5 text-center">
       <img
         class="mx-auto"
         src="@/assets/pictos-ateliers/infinite.png"
@@ -50,14 +50,13 @@
         height="80"
       />
       <p class="mt-3">
-        <span class="text-lg font-semibold text-primary">Accès illimité</span>
+        <span class="text-lg font-semibold text-primary">{{ titleloop }}</span>
         <br />
-        Prenez votre temps, vous avez accès à l'atelier autant de temps que vous
-        le souhaitez
+        {{ subtitleloop }}
       </p>
     </div>
 
-    <div class="md:w-1/4 mt-5 px-5 text-center container">
+    <div v-if="displayfolder" class="md:flex-1 mt-5 px-5 text-center container">
       <img
         src="@/assets/pictos-ateliers/folder.png"
         class="mx-auto"
@@ -68,17 +67,23 @@
 
       <p class="mt-3">
         <span class="text-lg font-semibold text-primary">
-          Des documents de travail </span
+          {{ titlefolder }}</span
         ><br />
-        pour vous accompagner
+        {{ subtitlefolder }}
       </p>
     </div>
   </div>
 </template>
 
 <script>
+import { stringify } from "querystring";
+
 export default {
   props: {
+    displayclock: {
+      type: Boolean,
+      default: true,
+    },
     titleclock: {
       type: String,
       default: "",
@@ -86,6 +91,35 @@ export default {
     subtitleclock: {
       type: String,
       default: "",
+    },
+    displayloop: {
+      type: Boolean,
+      default: true,
+    },
+    titleloop: {
+      type: String,
+      default: "Accès illimité",
+    },
+    subtitleloop: {
+      type: String,
+      default:
+        "Prenez votre temps, vous avez accès à l'atelier autant de temps que vous le souhaitez",
+    },
+    displayupdate: {
+      type: Boolean,
+      default: true,
+    },
+    displayfolder: {
+      type: Boolean,
+      default: true,
+    },
+    titlefolder: {
+      type: String,
+      default: "Des documents de travail ",
+    },
+    subtitlefolder: {
+      type: String,
+      default: "pour vous accompagner",
     },
   },
 };
