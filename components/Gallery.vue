@@ -5,10 +5,10 @@
         <nuxt-img
           :src="`${image}`"
           alt=""
-          sizes="sm:300px"
+          sizes="sm:400px"
           format="webp"
-          width="200"
-          height="150"
+          width="400"
+          height="300"
           fit="cover"
         >
         </nuxt-img>

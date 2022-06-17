@@ -88,7 +88,7 @@ Vous apprendrez à identifier finement puis manier votre ressenti comme un puiss
 Ravie de la formation sur le contre transfert… je sens que je vais l’avaler rapidement ; le format des micro-videos est topissime! Bravo encore !
 </testimonial>
 
-<testimonial author="Anonyme" image="man1" atelier='Atelier "La puissance du Contre-Transfert"'>
+<testimonial author="Marc" image="man1" atelier='Atelier "La puissance du Contre-Transfert"'>
 Merci pour tout : c’est clair, tres bien fait (montage, son, etc) du coup c’est motivant et encourageant pour une mise en œuvre pertinente
 </testimonial>
 
