@@ -1,6 +1,6 @@
 ---
 title: La culpabilité
-subtitle: La comprendre pour s'en libérer
+subtitle: Apprendre à la dépasser pour s'en libérer
 description: Mercredi 29 juin à 19h30 - replay disponible
 image: /images/webinaires/culpabilite/webinaire-culpabilite.png
 imageAlt: Catherine est motivée
