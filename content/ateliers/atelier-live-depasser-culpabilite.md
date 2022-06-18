@@ -33,15 +33,23 @@ Qu'est-ce qu'un atelier live ? C'est un atelier en direct, via zoom, qui sera en
 
 ## Programme :
 
+**Partie 1 : La culpabilité en théorie, mieux la comprendre pour mieux la travailler**
+
 - A quoi servent nos émotions et la culpabilité en particulier
-- Différencier la culpabilité et la honte
-- Le paradoxe social de la culpabilité
-- Se donner des permissions de ne pas culpabiliser (grâce à l'Analyse Transactionnelle)
-- L'origine de votre culpabilité
-- Analyse des conséquences de la culpabilité dans votre vie
+- Différencier la culpabilité de la honte et leurs fonctions différentes
+- Le paradoxe social de la culpabilité : une émotion "bien vue" et pourtant pesante
+- Apprivoiser le concept de Permissions en Analyse Transactionnelle (approche de thérapie)
+
+**Partie 2 : Découvrir son origine et ses conséquences concrêtes dans votre histoire personnelle**
+
+- L'origine de votre culpabilité : d'où vient la votre et comment elle se manifeste ?
+- Analyse des conséquences de votre culpabilité dans votre vie personnelle
+
+**Partie 3 : Pratique : se libérer du trop plein de culpabilité**
+
 - Détecter quand votre culpabilité s'active
-- Agir pour désamorcer votre culpabilité
-- Oser exprimer vos besoins
+- Désamorcer l'activation
+- Oser s'exprimer
 
 ### Bonus
 
