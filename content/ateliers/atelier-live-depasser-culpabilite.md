@@ -53,7 +53,7 @@ Qu'est-ce qu'un atelier live ? C'est un atelier en direct, via zoom, qui sera en
 - Le paradoxe social de la culpabilité : une émotion "bien vue" et pourtant pesante
 - Apprivoiser le concept de Permissions en Analyse Transactionnelle (approche de thérapie)
 
-**Partie 2 : Découvrir son origine et ses conséquences concrêtes dans votre histoire personnelle**
+**Partie 2 : Découvrir son origine et ses conséquences concrètes dans votre histoire personnelle**
 
 - L'origine de votre culpabilité : d'où vient la votre et comment elle se manifeste ?
 - Analyse des conséquences de votre culpabilité dans votre vie personnelle
