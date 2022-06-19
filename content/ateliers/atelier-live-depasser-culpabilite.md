@@ -49,7 +49,7 @@ Qu'est-ce qu'un atelier live ? C'est un atelier en direct, via zoom, qui sera en
 
 - Détecter quand votre culpabilité s'active
 - Désamorcer l'activation
-- Oser s'exprimer
+- Oser dire non
 
 ### Bonus
 
