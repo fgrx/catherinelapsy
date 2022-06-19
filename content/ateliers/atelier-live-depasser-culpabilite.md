@@ -1,5 +1,5 @@
 ---
-title: Se débarasser du trop plein de culpabilité
+title: Se débarrasser du trop plein de culpabilité
 subtitle: Apprendre à la dépasser pour s'en libérer
 description: Mercredi 29 juin à 19h30 - replay disponible
 image: /images/webinaires/culpabilite/webinaire-culpabilite.jpg
