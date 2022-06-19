@@ -1,8 +1,8 @@
 ---
-title: La culpabilité
+title: Se débarasser du trop plein de culpabilité
 subtitle: Apprendre à la dépasser pour s'en libérer
 description: Mercredi 29 juin à 19h30 - replay disponible
-image: /images/webinaires/culpabilite/webinaire-culpabilite.png
+image: /images/webinaires/culpabilite/webinaire-culpabilite.jpg
 imageAlt: Catherine est motivée
 buyUrl: https://ctpsy.podia.com/atelier-live-depasser-sa-culpabilite-pour-se-liberer
 colorText: white
@@ -18,10 +18,23 @@ hasDiscount: false
 isLive: true
 ---
 
-<Countdown deadline="2022-06-29 19:30:00">L'atelier live commencera dans</Countdown>
+<Countdown :showbeforedays=5 deadline="2022-06-29 19:30:00">L'atelier live commencera dans</Countdown>
 
 La culpabilité n'est pas une émotion agréable à ressentir et elle peut même pourrir la vie de certain(e)s.
 Mais vu que nous sommes si nombreux à la ressentir, elle doit bien servir à quelque chose ! Quelle est son utilité ? Comment mieux la comprendre et mieux la vivre ? Ces questions essentielles vous permettront de la ressentir plus sereinement et d'en décoder ses messages.
+
+**Cet atelier vous permettra :**
+
+- d'identifier les moments où vous culpabilisez de façon adaptée et non adaptée
+- de comprendre comment s'est construit votre **circuit de la culpabilité** dans votre histoire et comment il se met en oeuvre
+- de modifier ce circuit pour **ne plus culpabiliser sans cesse** et alléger votre charge mentale
+
+**A qui est destiné cet atelier ?**
+
+- aux personnes qui ont une **charge mentale** importante
+- aux personnes qui souhaitent faire de la **prévention au burn out** (pour elles-mêmes ou leurs patient(e)s ou client(e)s)
+- aux personnes qui souhaitent **être elles-mêmes** sans avoir peur de "mal faire"
+- **aux psys et coachs** qui ont besoin d'outils pour travailler la culpabilité de leurs patient(e)s et client(e)s en séances
 
 L'atelier aura lieu de **mercredi 29 juin à 19h30 en visio** et comportera une partie théorique, mais aussi des exercices pratiques. Vous explorerez votre relation avec votre culpabilité pour comprendre comment elle se déclenche, les messages qu'elle souhaite vous délivrer et comment mieux vivre avec.
 
@@ -51,6 +64,6 @@ Qu'est-ce qu'un atelier live ? C'est un atelier en direct, via zoom, qui sera en
 - Désamorcer l'activation
 - Oser dire non
 
-### Bonus
+**Séance d'hypnose**
 
-Fabien proposera une séance d'hypnose qui vous permettra, grâce à une visualisation, de vous autoriser à faire les choses que vous n'osez pas faire à cause d'une culpabilité trop envahissante. Cette séance sera disponible le lendemain avec le replay du live.
+Fabien proposera une séance d'hypnose préenregistrée qui vous permettra, grâce à une visualisation, de vous autoriser à faire les choses que vous n'osez pas faire à cause d'une culpabilité trop envahissante. Cette séance sera disponible le lendemain avec le replay du live.

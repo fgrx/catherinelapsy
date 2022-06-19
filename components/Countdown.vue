@@ -1,5 +1,5 @@
 <template>
-  <div class="my-8 text-dark" v-if="!over && loaded">
+  <div class="my-8 text-dark" v-if="isShown && !over && loaded">
     <h3 class="text-2xl md:text-3xl mb-4 text-center"><slot></slot></h3>
 
     <div class="flex text-center justify-center">
@@ -41,6 +41,10 @@ export default {
       type: String,
       default: "",
     },
+    showbeforedays: {
+      type: Number,
+      default: 0,
+    },
   },
   data() {
     return {
@@ -65,6 +69,19 @@ export default {
     _days() {
       return this._hours * 24;
     },
+    isShown() {
+      const now = new Date();
+      const dateToDisplayCountdown = new Date(this.deadlineForIos);
+      dateToDisplayCountdown.setDate(
+        dateToDisplayCountdown.getDate() - this.showbeforedays
+      );
+      return now >= dateToDisplayCountdown;
+    },
+    deadlineForIos() {
+      const t = this.deadline.split(/[- :]/);
+      const d = new Date(t[0], t[1] - 1, t[2], t[3], t[4], t[5]);
+      return new Date(d);
+    },
   },
   mounted() {
     this.showRemaining();
@@ -75,11 +92,7 @@ export default {
       const timer = setInterval(() => {
         const now = new Date();
 
-        const t = this.deadline.split(/[- :]/);
-        const d = new Date(t[0], t[1] - 1, t[2], t[3], t[4], t[5]);
-        const deadlineForIos = new Date(d);
-
-        const end = new Date(deadlineForIos);
+        const end = new Date(this.deadlineForIos);
         const distance = end.getTime() - now.getTime();
 
         if (distance < 0) {
