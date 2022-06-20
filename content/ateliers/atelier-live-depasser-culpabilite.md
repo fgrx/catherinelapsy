@@ -18,18 +18,22 @@ hasDiscount: false
 isLive: true
 ---
 
+<!-- <citation author="Catherine">
+Chaque jour je reçois des patients qui, depuis des années, ressentent une culpabilité grandissante. Envers leur famille notamment, ce qu’ils auraient dû, devraient ou devront faire. Ce sentiment s’inscrit peu à peu dans leur façon d’ être et dicte leurs actions au quotidien. Les emprisonne.</div>
+</citation> -->
+
 <Countdown :showbeforedays=5 deadline="2022-06-29 19:30:00">L'atelier live commencera dans</Countdown>
 
 La culpabilité n'est pas une émotion agréable à ressentir et elle peut même pourrir la vie de certain(e)s.
 Mais vu que nous sommes si nombreux à la ressentir, elle doit bien servir à quelque chose ! Quelle est son utilité ? Comment mieux la comprendre et mieux la vivre ? Ces questions essentielles vous permettront de la ressentir plus sereinement et d'en décoder ses messages.
 
-**Cet atelier vous permettra :**
+<div class="uppercase text-primary font-bold">Cet atelier vous permettra :</div>
 
 - d'identifier les moments où vous culpabilisez de façon adaptée et non adaptée
 - de comprendre comment s'est construit votre **circuit de la culpabilité** dans votre histoire et comment il se met en oeuvre
 - de modifier ce circuit pour **ne plus culpabiliser sans cesse** et alléger votre charge mentale
 
-**A qui est destiné cet atelier ?**
+<div class="uppercase text-primary font-bold">A qui est destiné cet atelier ?</div>
 
 - aux personnes qui ont une **charge mentale** importante
 - aux personnes qui souhaitent faire de la **prévention au burn out** (pour elles-mêmes ou leurs patient(e)s ou client(e)s)
@@ -46,24 +50,24 @@ Qu'est-ce qu'un atelier live ? C'est un atelier en direct, via zoom, qui sera en
 
 ## Programme :
 
-**Partie 1 : La culpabilité en théorie, mieux la comprendre pour mieux la travailler**
+<div class=" text-primary font-bold mt-4">Partie 1 : La culpabilité en théorie, mieux la comprendre pour mieux la travailler</div>
 
 - A quoi servent nos émotions et la culpabilité en particulier
 - Différencier la culpabilité de la honte et leurs fonctions différentes
 - Le paradoxe social de la culpabilité : une émotion "bien vue" et pourtant pesante
 - Apprivoiser le concept de Permissions en Analyse Transactionnelle (approche de thérapie)
 
-**Partie 2 : Découvrir son origine et ses conséquences concrètes dans votre histoire personnelle**
+<div class="text-primary font-bold mt-4">Partie 2 : Découvrir son origine et ses conséquences concrètes dans votre histoire personnelle</div>
 
 - L'origine de votre culpabilité : d'où vient la votre et comment elle se manifeste ?
 - Analyse des conséquences de votre culpabilité dans votre vie personnelle
 
-**Partie 3 : Pratique : se libérer du trop plein de culpabilité**
+<div class=" text-primary font-bold mt-4">Partie 3 : Pratique : se libérer du trop plein de culpabilité</div>
 
 - Détecter quand votre culpabilité s'active
 - Désamorcer l'activation
 - Oser dire non
 
-**Séance d'hypnose**
+<div class=" text-primary font-bold mt-4">Séance d'hypnose</div>
 
 Fabien proposera une séance d'hypnose préenregistrée qui vous permettra, grâce à une visualisation, de vous autoriser à faire les choses que vous n'osez pas faire à cause d'une culpabilité trop envahissante. Cette séance sera disponible le lendemain avec le replay du live.
