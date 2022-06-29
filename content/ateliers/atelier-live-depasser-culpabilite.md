@@ -8,7 +8,7 @@ buyUrl: https://ctpsy.podia.com/atelier-live-depasser-sa-culpabilite-pour-se-lib
 colorText: white
 order: 9
 isDisplayed: true
-isOpen: true
+isOpen: false
 buyStart: true
 buyEnd: true
 discountTitle: Black Friday
