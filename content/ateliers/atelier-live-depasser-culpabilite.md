@@ -7,7 +7,7 @@ imageAlt: Catherine est motivée
 buyUrl: https://ctpsy.podia.com/atelier-live-depasser-sa-culpabilite-pour-se-liberer
 colorText: white
 order: 9
-isDisplayed: true
+isDisplayed: false
 isOpen: false
 buyStart: true
 buyEnd: true
