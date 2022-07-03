@@ -29,7 +29,7 @@
                   <li
                     @mouseenter="displaySubMenu(link)"
                     @mouseleave="displaySubMenu({})"
-                    v-for="(link, index) in links"
+                    v-for="(link, index) in linksWithSubMenu"
                     :key="index"
                   >
                     <nuxt-link
@@ -42,7 +42,7 @@
                       :isDisplayed="linkToDisplay"
                       :menu="link"
                       :toggle="true"
-                      :links="link.children || ateliersMenus"
+                      :links="link.children"
                       v-if="link.meta.subMenu"
                     />
                   </li>
@@ -113,7 +113,7 @@
 
         <ul class="ml-5 mt-12">
           <li
-            v-for="(link, index) in links"
+            v-for="(link, index) in linksWithSubMenu"
             :key="index"
             class="font-medium text-xl py-2"
             @click="isOpen = false"
@@ -126,7 +126,7 @@
               :menu="link"
               :toggle="false"
               :isRaw="true"
-              :links="link.children || ateliersMenus"
+              :links="link.children"
               v-if="link.meta.subMenu"
             />
           </li>
@@ -152,7 +152,7 @@ export default {
       .sortBy("order", "desc")
       .fetch();
 
-    const menus = ateliers.map((atelier) => {
+    const menuAteliers = ateliers.map((atelier) => {
       const menu = {
         title: atelier.title,
         isLive: atelier.isLive || false,
@@ -162,20 +162,44 @@ export default {
       return menu;
     });
 
-    this.ateliersMenus = menus;
+    this.ateliersMenus = menuAteliers;
+
+    const sejours = await this.$content("sejours")
+      .where({ isDisplayed: true })
+      .sortBy("order", "desc")
+      .fetch();
+
+    const menusSejours = sejours.map((sejour) => {
+      const menu = {
+        title: sejour.title,
+        islive: false,
+        to: `/sejours/${sejour.slug}`,
+        image: "",
+      };
+      return menu;
+    });
+
+    this.sejoursMenus = menusSejours;
   },
   fetchOnServer: true,
   data() {
     return {
       ateliers: [],
       ateliersMenus: [],
+      sejoursMenus: [],
       isOpen: false,
       linkToDisplay: {},
       links: [
         {
-          id: "atelier",
+          id: "ateliers",
           text: "Ateliers Psy",
           to: "/ateliers",
+          meta: { subMenu: true },
+        },
+        {
+          id: "sejours",
+          text: "Séjours",
+          to: "/sejours",
           meta: { subMenu: true },
         },
         {
@@ -238,8 +262,20 @@ export default {
     };
   },
   computed: {
-    ateliersMenusComputed() {
-      return this.ateliersMenus;
+    linksWithSubMenu() {
+      return this.links.map((link) => {
+        switch (link.id) {
+          case "ateliers":
+            link.children = this.ateliersMenus;
+            break;
+          case "sejours":
+            link.children = this.sejoursMenus;
+            break;
+          default:
+            break;
+        }
+        return link;
+      });
     },
   },
   methods: {
