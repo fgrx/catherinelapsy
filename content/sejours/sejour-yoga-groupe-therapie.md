@@ -4,7 +4,7 @@ subtitle: Séjour yoga et groupe de thérapie avec Sophia anti diet-culture et C
 description: Du jeudi 12 octobre au dimanche 16 octobre à la maison d'hôtes La Minute Papillon (proche de St Etienne)
 image: /images/sejours/yoga-groupe-therapie.jpeg
 imageAlt: Catherine et Sophia devant leur gîte
-buyUrl: https://ctpsy.podia.com/atelier-live-depasser-sa-culpabilite-pour-se-liberer
+buyUrl: https://ctpsy.podia.com/sejour-yoga-groupe-de-therapie
 colorText: white
 order: 2
 isDisplayed: true
@@ -23,6 +23,13 @@ Ce séjour est construit en 3 étapes pour vous permettre :
 - commencer à opérer un changement
 - apprendre à utiliser de nouveaux outils concrets pour continuer le
   travail chez vous
+
+<div class="my-10">
+
+**Photos du gîte La Minute Papillon**
+<gallery  :images='["images/sejours/2022-yoga/1.webp","images/sejours/2022-yoga/2.webp","images/sejours/2022-yoga/3.webp"]'></gallery>
+
+</div>
 
 ## A propos de nous
 
@@ -49,37 +56,9 @@ Troubles bipolaires non médicamentés
 Schizophrénie non médicamentés  
 Ce séjour est ouvert à tous les niveaux de yoga mais implique une activité physique à intensité modérée.
 
-## Programme
+## Programme :
 
 Éventuellement la veille 20h-21h30 : inclusion sur le thème du séjour/prise de contact
-
-<Countdown :showbeforedays=5 deadline="2022-06-29 19:30:00">Fin du prix "early birds"</Countdown>
-
-La culpabilité n'est pas une émotion agréable à ressentir et elle peut même pourrir la vie de certain(e)s.
-Mais vu que nous sommes si nombreux à la ressentir, elle doit bien servir à quelque chose ! Quelle est son utilité ? Comment mieux la comprendre et mieux la vivre ? Ces questions essentielles vous permettront de la ressentir plus sereinement et d'en décoder ses messages.
-
-<div class="uppercase text-primary font-bold">Cet atelier vous permettra :</div>
-
-- d'identifier les moments où vous culpabilisez de façon adaptée et non adaptée
-- de comprendre comment s'est construit votre **circuit de la culpabilité** dans votre histoire et comment il se met en oeuvre
-- de modifier ce circuit pour **ne plus culpabiliser sans cesse** et alléger votre charge mentale
-
-<div class="uppercase text-primary font-bold">A qui est destiné cet atelier ?</div>
-
-- aux personnes qui ont une **charge mentale** importante
-- aux personnes qui souhaitent faire de la **prévention au burn out** (pour elles-mêmes ou leurs patient(e)s ou client(e)s)
-- aux personnes qui souhaitent **être elles-mêmes** sans avoir peur de "mal faire"
-- **aux psys et coachs** qui ont besoin d'outils pour travailler la culpabilité de leurs patient(e)s et client(e)s en séances
-
-L'atelier aura lieu de **mercredi 29 juin à 19h30 en visio** et comportera une partie théorique, mais aussi des exercices pratiques. Vous explorerez votre relation avec votre culpabilité pour comprendre comment elle se déclenche, les messages qu'elle souhaite vous délivrer et comment mieux vivre avec.
-
-<gallery class="my-10" :images='["images/webinaires/culpabilite/explications.jpg","images/webinaires/culpabilite/ordinateur.jpg"]'></gallery>
-
-Qu'est-ce qu'un atelier live ? C'est un atelier en direct, via zoom, qui sera ensuite accessible en replay à volonté uniquement pour les personnes inscrites. L'avantage de ce format en live est que vous pourrez poser toutes vos questions à Catherine et ainsi tirer le maximum d'informations utiles pour vous.
-
-<pictos-atelier class="my-10" :displayupdate=false titleclock="2 heures d’Atelier en Live avec l’équipe de Catherine La Psy " subtitleclock="le 29 juin à 19h30" titlefolder="Une partie théorique, des exercices pratiques et des échanges autour de la culpabilité" subtitlefolder="" titleloop="Accès à la visio puis accès en replay en illimité" subtitleloop=""></pictos-atelier>
-
-## Programme :
 
 <expandable title="Jour 1 : Se découvrir">
 
@@ -117,16 +96,33 @@ Repas du soir
 
 ## Prix
 
+<Countdown :showbeforedays=500 deadline="2022-09-15 23:59:00">Fin des prix "early birds"</Countdown>
+
 750€ avant le 15 septembre 2022 790€ après le 15 septembre 2022
 Le règlement se fait en 2 temps :
 
 - 459€ (paiement possible en 3 fois sans frais) au moment de l’inscription
 - 291€ à l'arrivée à La Minute Papillon (espèces ou CB) pour l’hébergement et les repas (chambres partagées avec linge de maison inclus (draps et serviettes) + 3 Repas végétariens par jour + collations et boissons chaudes en libre service. En cas d'intolérances alimentaires ou si vous n'aimez pas certains aliments, n'hésitez pas à contacter Élodie, la propriétaire de la maison d'hôtes.
 
-La Minute Papillon
-35 chemin du gué
-Lieu-dit La Fabrique
-42660 Jonzieux
+<BuyBtn
+              url="https://ctpsy.podia.com/sejour-yoga-groupe-de-therapie"
+              :isClosed="false"
+              class="my-7 md:mt-4"
+            >
+S'inscrire pour 459 euros.<br/>
+
+</BuyBtn>
+
+<div class="text-center -mt-6">
+⚠️ Il restera 291 euros à verser au gîte à votre arrivée
+</div>
+
+## Le gîte
+
+[La Minute Papillon](https://www.la-minute-papillon.com/)  
+35 chemin du gué  
+Lieu-dit La Fabrique  
+42660 Jonzieux  
 Tèl. 06.15.49.13.81 elodie@la-minute-papillon.com
 
 ## Pour venir :

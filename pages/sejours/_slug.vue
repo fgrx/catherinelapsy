@@ -15,37 +15,15 @@
           v-if="doc.image"
           :alt="doc.imageAlt"
         ></nuxt-img>
-        <div
-          class="text-center"
-          v-if="doc.buyUrl && doc.isOpen && doc.buyStart"
-        >
+        <div class="text-center" v-if="doc.buyUrl && doc.isOpen">
           <div class="md:flex justify-center my-7">
-            <BuyBtn
-              :url="doc.buyUrl"
-              :isClosed="!doc.isOpen"
-              :discount="discount"
-              :price="price"
-              class="my-4 md:my-0"
-            >
-              <template v-if="doc.isLive"> S'inscrire </template>
-              <template v-else> Acheter </template>
-            </BuyBtn>
             <ContactButton></ContactButton>
           </div>
         </div>
 
         <nuxt-content class="content" :document="doc"></nuxt-content>
-        <div class="text-center" v-if="doc.buyUrl && doc.isOpen && doc.buyEnd">
+        <div class="text-center" v-if="doc.buyUrl && doc.isOpen">
           <div class="md:flex justify-center">
-            <BuyBtn
-              :url="doc.buyUrl"
-              :isClosed="!doc.isOpen"
-              :discount="discount"
-              :price="price"
-              class="my-7 md:mt-4"
-            >
-              S'inscrire
-            </BuyBtn>
             <ContactButton class="md:ml-4 md:mt-4"></ContactButton>
           </div>
         </div>
