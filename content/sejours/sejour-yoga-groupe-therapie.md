@@ -1,8 +1,8 @@
 ---
 title: Séjour Estime de soi et rapport au corps
 subtitle: Séjour yoga et groupe de thérapie avec Sophia anti diet-culture et Catherine la Psy
-description: Du jeudi 12 octobre au dimanche 16 octobre à la maison d'hôtes La Minute Papillon (proche de St Etienne)
-image: /images/sejours/yoga-groupe-therapie.jpeg
+description: Du jeudi 12 octobre au dimanche 16 octobre à la maison d'hôtes La Minute Papillon (proche de St Etienne). Nombre de places limitées à 14 personnes.
+image: /images/sejours/2022-yoga/banniere.jpg
 imageAlt: Catherine et Sophia devant leur gîte
 buyUrl: https://ctpsy.podia.com/sejour-yoga-groupe-de-therapie
 colorText: white
