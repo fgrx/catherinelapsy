@@ -79,4 +79,23 @@ article {
   transform: translateX(100px);
   opacity: 0;
 } */
+
+table {
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border: 1px solid rgb(208, 208, 208);
+}
+
+td,
+th {
+  padding: 1em;
+  border-left: 1px solid rgb(208, 208, 208);
+  border-right: 1px solid rgb(208, 208, 208);
+}
+
+thead,
+tr:nth-child(even) {
+  background-color: rgb(231, 231, 231);
+}
 </style>

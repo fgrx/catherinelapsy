@@ -128,7 +128,7 @@ Comprend :
 - Le repas du soir
 - 2 pause snacks par jour
 
-| Chambre / prestation                                  | Arrivée le jeudi | <> Arrivée le vendredi |
+| Chambre / prestation                                  | Arrivée le jeudi | Arrivée le vendredi |
 | :---------------------------------------------------- | :--------------: | ---------------------: |
 | Chambre individuelle sanitaires privatifs             |       375        |                    288 |
 | Chambre double sanitaires privatifs                   |       276        |                    222 |

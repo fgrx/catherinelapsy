@@ -130,7 +130,8 @@ Ce séjour est ouvert à tous les niveaux de yoga mais implique une activité ph
 35 chemin du gué  
 Lieu-dit La Fabrique  
 42660 Jonzieux  
-Tèl. 06.15.49.13.81 elodie@la-minute-papillon.com
+Tèl. 06.15.49.13.81  
+elodie@la-minute-papillon.com
 
 ## Pour venir :
 
