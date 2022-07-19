@@ -43,7 +43,7 @@
                       :menu="link"
                       :toggle="true"
                       :links="link.children"
-                      v-if="link.meta.subMenu"
+                      v-if="link.meta?.subMenu"
                     />
                   </li>
                 </ul>
@@ -127,7 +127,7 @@
               :toggle="false"
               :isRaw="true"
               :links="link.children"
-              v-if="link.meta.subMenu"
+              v-if="link.meta?.subMenu"
             />
           </li>
         </ul>
