@@ -14,9 +14,9 @@
           Number.isInteger(index / 2) ? 'md:ml-5 flex-1' : 'md:pr-5 flex-1',
         ]"
       >
-        <EmbedYoutube v-if="item.video">{{ item.video }}</EmbedYoutube>
+        <!-- <EmbedYoutube v-if="item.video">{{ item.video }}</EmbedYoutube> -->
 
-        <nuxt-link :to="`${item.dir}/${item.slug}`">
+        <nuxt-link v-if="item.image" :to="`${item.dir}/${item.slug}`">
           <nuxt-img
             :src="item.image"
             sizes="sm:400px"
@@ -30,7 +30,7 @@
       </div>
 
       <div class="flex-1">
-        <h3 class="text-2xl mb-2 pt-2 md:pt-0 md:mt-5">
+        <h3 class="text-2xl mb-2 mt-0 pt-0">
           {{ item.title }}
         </h3>
 
@@ -54,6 +54,10 @@
         >
           <Btn class="mt-3">{{ textBtn }}</Btn>
         </nuxt-link>
+
+        <a v-if="item.dir === '/videos'" :href="item.url" target="blank">
+          <Btn class="mt-3">{{ textBtn }}</Btn>
+        </a>
       </div>
     </div>
   </div>

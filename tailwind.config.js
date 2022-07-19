@@ -20,10 +20,32 @@ module.exports = {
         default: "#5F7D84",
       },
     },
+    extend: {
+      colors: {
+        primary: "#177e84",
+        primaryDark: "#0a5a5e",
+        primaryLight: "#249fa6",
+        secondary: "#fdea43",
+        tertiary: "#592a17",
+        quaternary: "#a4a4a3",
+        dark: "#2f2d2e",
+        light: "#fff",
+      },
+    },
   },
   purge: {
     options: {
       safelist: [
+        "from-primary",
+        "to-primary",
+        "my-14",
+        "md:grid-cols-1",
+        "md:grid-cols-2",
+        "md:grid-cols-3",
+        "md:grid-cols-4",
+        "md:grid-cols-5",
+        "from-primaryDark",
+        "to-primaryDark",
         "bg-gray-700",
         "text-gray-50",
         "bg-rose-600",

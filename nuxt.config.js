@@ -35,7 +35,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [],
+  plugins: ["@/plugins/slider.js"],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
@@ -62,7 +62,7 @@ export default {
   modules: [
     "@nuxt/content",
     "@nuxt/image",
-    //"nuxt-cookie-control",
+    "nuxt-cookie-control",
     "@nuxtjs/pwa",
     "@nuxtjs/sitemap",
     [

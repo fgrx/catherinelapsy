@@ -2,7 +2,7 @@
   <div class="mb-3">
     <div
       @click="isExpanded = !isExpanded"
-      class="flex justify-between bg-teal-600 font-semibold text-white p-5 cursor-pointer"
+      class="flex justify-between bg-primary rounded-sm font-semibold text-white p-5 cursor-pointer"
     >
       <div>{{ title }}</div>
 
@@ -44,5 +44,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

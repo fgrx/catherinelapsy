@@ -7,8 +7,8 @@
   "products": [
     {
       "titleSection": "Atelier en live",
-      "title": "Vivre du libéral",
-      "description": "En direct le mardi 29 mars à 19h00. Replay disponible à volonté.",
+      "title": "Dépasser sa culpabilité pour être libre",
+      "description": "En direct le mercredi 29 mars à 19h30. Replay disponible pour les inscrits.",
       "url": "./ateliers/atelier-en-live",
       "target": "blank",
       "image": "",
@@ -30,15 +30,23 @@
   ],
   "message": {
     "display": false,
-    "bgColor": "gray-700",
-    "textColor": "gray-50",
-    "title": "Black Friday",
-    "content": "Nos ateliers sont à prix réduit du 26 au 28 novembre",
-    "buttonTitle": "J'en profite",
-    "buttonUrl": "https://catherinelapsy.com/ateliers",
-    "buttonColor": ""
+    "bgColor": "secondary",
+    "textColor": "dark",
+    "title": "Atelier en Live : Se débarrasser du trop plein culpabilité",
+    "content": "En direct le mercredi 29 juin à 19h30. Replay disponible pour les inscrits.",
+    "buttonTitle": "Découvrir l'atelier",
+    "buttonUrl": "./ateliers/atelier-live-depasser-culpabilite",
+    "buttonColor": "dark"
   },
-  "socialNetworks": {
+  "ressources": {
+    "ateliers": {
+      "title": "Nos ateliers en ligne",
+      "description": "Les Ateliers en ligne de CatherineLaPsy n’ont pas pour vocation de remplacer une psycho-thérapie physique. Ils sont là pour vous accompagner sur des sujets précis à votre rythme, chez vous, avec toutes les ressources nécessaires pour effectuer vous-même un premier travail.",
+      "image": "genogramme.webp",
+      "logo": "ateliers.svg",
+      "order": 0,
+      "url": "/ateliers"
+    },
     "instagram": {
       "title": "Mon compte Instagram",
       "description": "Tous les jours de l'actualité pour mieux comprendre le monde psy",
@@ -51,17 +59,33 @@
       "title": "Ma chaîne Youtube",
       "image": "youtube_cate.webp",
       "logo": "youtube.svg",
-      "description": "Des sujets de psychologie pointus vulgarisés de façon décomplexée",
-      "order": 1,
-      "url": "https://www.youtube.com/channel/UCuocS66l-pMtFcaP3L01z5Q"
+      "order": 2,
+      "url": "/videos"
     },
     "podcast": {
       "title": "Mon podcast",
       "image": "podcast.webp",
       "logo": "podcastlogo.svg",
-      "description": "Pour nous écouter comme vous le préférez",
-      "order": 2,
-      "url": "./podcast"
+      "description": "Sous forme de discussion ouverte, le podcast vous permet d’explorer certains sujets de façon plus poussée quand et où vous le souhaitez !",
+      "order": 3,
+      "url": "/podcast"
+    },
+    "lettrePsy": {
+      "title": "Lettre Psy",
+      "image": "lettrepsy.png",
+      "logo": "letter.svg",
+      "description": "Une newsletter gratuite pour découvrir le monde de la psychologie et la psychothérapie",
+      "order": 4,
+      "url": "/emails-prives"
+    },
+    "cartesPsy": {
+      "title": "Les Cartes Psys",
+      "description": "Des cartes pour se découvrir et réfléchir sur soi.",
+      "image": "cartespsy.jpg",
+      "logo": "cards.svg",
+      "order": 5,
+      "url": "/latelierpsy",
+      "blank": true
     }
   }
 }

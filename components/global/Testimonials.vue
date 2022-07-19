@@ -1,12 +1,17 @@
 <template>
-  <div class="grid md:grid-cols-2 gap-14 my-8">
-    <slot></slot>
+  <div class="w-full">
+    <Vue-Horizontal ref="myVueHorizontal" class="full">
+      <slot></slot>
+    </Vue-Horizontal>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  mounted() {
+    this.$refs.myVueHorizontal.refresh();
+  },
+};
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

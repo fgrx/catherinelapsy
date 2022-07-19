@@ -4,7 +4,7 @@
       @click="clickAction"
       :type="typeButton"
       :disabled="disabled"
-      :class="`inline-block pulse px-6 py-3 text-md font-medium leading-6 text-center text-white  transition bg-${bgColor}  hover:border-white hover:border-1 rounded shadow ripple hover:shadow-lg focus:outline-none `"
+      :class="`inline-block pulse px-6 py-3 text-md font-medium leading-6 text-center text-${textColor}  transition bg-${bgColor} hover:text-secondary  hover:border-white hover:border-1 rounded shadow ripple hover:shadow-lg focus:outline-none `"
     >
       <span class="uppercase">
         <slot></slot>
@@ -19,7 +19,11 @@ export default {
   props: {
     color: {
       type: String,
-      default: "rose-600",
+      default: "primary",
+    },
+    textColor: {
+      type: String,
+      default: "white",
     },
     typeButton: {
       type: String,
@@ -74,13 +78,14 @@ button {
     left: 0;
     width: 0%;
     height: 100%;
-    background-color: #b42751;
+    background-color: #2f2d2e;
+    color: "#fdea43";
 
     transition: all 0.3s;
     z-index: -1;
   }
   &:hover {
-    color: #fff;
+    color: "#fdea43";
     &:before {
       width: 100%;
     }

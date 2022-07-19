@@ -2,13 +2,10 @@
 title: Se protéger des relations toxiques
 description: Comment décrypter ses relations douloureuses et en sortir
   durablement avec l’Analyse Transactionnelle
-image: /images/relations-toxiques.png
+image: /images/ateliers/relations-toxiques.png
 imageAlt: Catherine la Psy devant les caméras.
 buyUrl: https://ctpsy.podia.com/sortir-des-relations-toxiques
-colorText: white
-colorBg1: teal-700
-colorBg2: yellow-500
-order: 1
+order: 3
 isDisplayed: true
 isOpen: true
 codeMailingList: M5klg
@@ -18,6 +15,8 @@ discountTitle: Black Friday
 discountFrom: 149
 discountTo: 0
 ---
+
+<pictos-atelier titleclock="6 modules" subtitleclock="14 vidéos"></pictos-atelier>
 
 <display-text display='frame'>
 Dans cet atelier vous allez apprendre à :
@@ -56,8 +55,6 @@ Vous aurez également accès à un **groupe Facebook** qui regroupe les partic
 Si vous êtes **psy ou coach**, cet atelier que vous pouvez déduire de vos charges professionnelles, vous permettra d'utiliser les jeux psychologiques de façon très concrête et résolutoire avec vos patients et clients.
 
 Cet atelier n’est pas recommandé aux personnes présentant des troubles dissociatifs ou des problèmes psychiatriques en raison des visualisations qu’il contient et qui nécessitent, dans ces situations, de les faire accompagnées par un thérapeute en présentiel.
-
-<buy-btn  url="https://ctpsy.podia.com/sortir-des-relations-toxiques">Acheter</buy-btn>
 
 ## Programme de l'atelier
 
@@ -122,20 +119,15 @@ Cet atelier n’est pas recommandé aux personnes présentant des troubles disso
 
 </expandable>
 
-<pictos-atelier></pictos-atelier>
-
-<presentation></presentation>
-
-<buy-btn  url="https://ctpsy.podia.com/sortir-des-relations-toxiques">Acheter</buy-btn>
-
 ## Témoignages
 
-<testimonials>
-<testimonial author="Marie" image="woman1">
-Cet atelier a été vraiment une belle découverte. Dynamique et pédagogique, il m’a permis de mieux comprendre la nature des jeux et enjeux relationnels que je mettais en place et de me réapproprier ma posture dans le lien à l’autre. Au delà de ça j’ai pu approfondir mon travail sur moi et relancer mes réflexions introspectives. Un outil indispensable pour mieux se situer dans le lien à l’autre et se dégager des liens toxiques. La bienveillance de Cathy tout au long de ce cheminement permet de questionner nos jeux psychologiques en toute sécurité et sans culpabilité.
+<vue-horizontal >
+
+<testimonial author="Jeanne" image="woman1">
+Cet atelier a été vraiment une belle découverte. Dynamique et pédagogique, il m’a permis de mieux comprendre la nature des jeux et enjeux relationnels que je mettais en place et de me réapproprier ma posture dans le lien à l’autre. Un outil indispensable pour mieux se situer dans le lien à l’autre et se dégager des liens toxiques. 
 </testimonial>
 
-<testimonial author="Léo" image="man1">
+<testimonial author="Léo" image="man1" >
 J'ai apprécié analyser mes relations de façon méthodique, presque scientifique. La méthode est carrée et permet de prendre du recul sur le fonctionnement des autres et de moi-même. J'ai bien vu ma part dans les échecs de mes relations et je pense que je vais pouvoir m'améliorer !
 </testimonial>
 
@@ -147,5 +139,4 @@ J'ai ainsi pu mieux analyser ce qui se joue dans mes relations et mes besoins so
 <testimonial author="Jean Michel" image="man2">
 Atelier très intéressant. Il permet de mettre des noms sur des comportements du quotidien souvent sources de problèmes. Permet de prendre du recul sur ces situations et de se poser les bonnes questions. 
 </testimonial>
-
-</testimonials>
+</vue-horizontal>

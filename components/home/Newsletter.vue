@@ -1,18 +1,22 @@
 <template>
-  <div class="bg-rose-600 text-white py-8 px-5">
+  <div
+    class="bg-gradient-to-r from-primaryDark to-primary text-white py-8 px-5"
+  >
     <div class="container mx-auto">
       <div class="grid grid-cols-1 md:grid-cols-12 gap-5 items-center">
         <div class="flex md:col-span-7 lg:col-span-8 items-center">
           <img
             class="icon md:mr-10 hidden md:block"
-            src="@/assets/email1.svg"
+            src="@/assets/mail.png"
             alt=""
+            width="200"
+            height="100"
           />
           <div class="">
-            <h2>S'abonner à la Lettre Psy</h2>
+            <h2 class="text-secondary">{{ title }}</h2>
             <p>
-              Un email bimensuel pour comprendre sa psychologie et mieux se
-              connaitre
+              Abonnez-vous gratuitement à notre email bimensuel pour comprendre
+              sa psychologie et mieux se connaitre.
             </p>
           </div>
         </div>
@@ -26,7 +30,14 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    title: {
+      type: String,
+      default: "S'abonner à la Lettre Psy",
+    },
+  },
+};
 </script>
 
 <style scoped>

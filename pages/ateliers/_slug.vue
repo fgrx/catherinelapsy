@@ -31,27 +31,42 @@
           class="text-center"
           v-if="doc.buyUrl && doc.isOpen && doc.buyStart"
         >
-          <BuyBtn
-            :url="doc.buyUrl"
-            :isClosed="!doc.isOpen"
-            :discount="discount"
-          >
-            Acheter
-          </BuyBtn>
+          <div class="md:flex justify-center my-7">
+            <BuyBtn
+              :url="doc.buyUrl"
+              :isClosed="!doc.isOpen"
+              :discount="discount"
+              :price="price"
+              class="my-4 md:my-0"
+            >
+              <template v-if="doc.isLive"> S'inscrire </template>
+              <template v-else> Acheter </template>
+            </BuyBtn>
+            <ContactButton></ContactButton>
+          </div>
         </div>
 
         <nuxt-content class="content" :document="doc"></nuxt-content>
         <div class="text-center" v-if="doc.buyUrl && doc.isOpen && doc.buyEnd">
-          <BuyBtn
-            :url="doc.buyUrl"
-            :isClosed="!doc.isOpen"
-            :discount="discount"
-          >
-            Acheter</BuyBtn
-          >
+          <div class="md:flex justify-center">
+            <BuyBtn
+              :url="doc.buyUrl"
+              :isClosed="!doc.isOpen"
+              :discount="discount"
+              :price="price"
+              class="my-7 md:mt-4"
+            >
+              <template v-if="doc.isLive"> S'inscrire </template>
+              <template v-else> Acheter </template>
+            </BuyBtn>
+            <ContactButton class="md:ml-4 md:mt-4"></ContactButton>
+          </div>
         </div>
 
-        <div v-if="!doc.isOpen" class="bg-rose-600 text-white py-8 px-5 mt-10">
+        <div
+          v-if="!doc.isOpen"
+          class="bg-dark text-secondary py-8 px-5 mt-10 rounded-md"
+        >
           <div class="container mx-auto">
             <h2 class="mb-5">
               Les inscriptions à cet atelier sont actuellement fermées
@@ -91,7 +106,14 @@
 </template>
 
 <script>
+import ContactButton from "@/components/ContactButton.vue";
+import Countdown from "@/components/Countdown.vue";
+
 export default {
+  components: {
+    ContactButton,
+    Countdown,
+  },
   async asyncData({ $content, params }) {
     const doc = await $content("ateliers", params.slug || "index")
       .where({ isDisplayed: true })
@@ -104,10 +126,13 @@ export default {
         discountTitle: this.doc.discountTitle,
         discountFrom: this.doc.discountFrom,
         discountTo: this.doc.discountTo,
+        hasDiscount: this.doc.hasDiscount || false,
       };
     },
   },
   head() {
+    const ogImage = this.doc.imageOG || this.doc.image;
+
     return {
       title: this.doc.title,
       meta: [
@@ -121,7 +146,11 @@ export default {
         { name: "og:site_name", content: "catherine La Psy" },
         {
           name: "og:image",
-          content: `https://catherinelapsy.com${this.doc.image}`,
+          content: `https://catherinelapsy.com${ogImage}`,
+        },
+        {
+          name: "og:image:alt",
+          content: `Vignette de présentation de l'atelier`,
         },
         {
           name: "og:description",
@@ -133,4 +162,10 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style lang="scss">
+.content {
+  h3 {
+    color: #177e84 !important;
+  }
+}
+</style>

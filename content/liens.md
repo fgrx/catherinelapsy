@@ -2,9 +2,6 @@
 title: Liens & ressources utiles
 description: Envie d'en savoir un peu plus sur la psychologie, l'Analyse Transactionnelle et la psychotraumatologie ? Voici quelques liens et ressources qui pourraient vous aider.
 logo: chain.svg
-colorText: white
-colorBg1: yellow-600
-colorBg2: red-500
 ---
 
 ## Où se former en Analyse Transactionnelle ?
@@ -30,6 +27,11 @@ colorBg2: red-500
 - [Institut Français d'Analyse Transactionnelle France](https://www.ifat-asso.org/)
 - [ASSOBAT (Belgique)](https://www.assobat.be/)
 - [Association Suisse d'Analyse Transactionnelle Suisse Romande](https://asat-sr.ch/)
+
+## Se former en psychotraumatologie
+
+- [IRPT](https://www.irpt.ch) (Institut Roman de PsychoTraumatologie)
+- [CEFTI](https://www.cefti.fr/) (formation à la Thérapie des Schémas orienté psychotraumatologie)
 
 ## Conseils de lecture
 

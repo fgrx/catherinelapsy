@@ -4,15 +4,12 @@ description: Vos problèmes ne viennent pas que de vous ! Nous avons tous un
   héritage psychologique de notre famille et il est parfois encombrant.
   Ensemble, nous découvrirons ce qui ne vous appartient pas pour débloquer votre
   situation.
-image: /images/paix-heritage.jpg
+image: /images/ateliers/paix-heritage.jpg
 imageAlt: Catherine la Psy présente l'atelier.
 buyUrl: https://ctpsy.podia.com/heritage-familial
-isDisplayed: false
+isDisplayed: true
 codeMailingList: M5k9i
-colorText: white
-colorBg1: indigo-700
-colorBg2: teal-600
-order: 2
+order: 1
 isOpen: true
 buyStart: true
 buyEnd: true
@@ -78,8 +75,6 @@ Il est donc basé sur la **systémie familiale** et non pas sur la psychanalyse 
 - enfin, on ne considère pas que les traumatismes se transmettent à l'identique mais à travers les liens d'attachement
 
 <display-text>Cet atelier correspond à environ 6 séances en présentiel à mon cabinet</display-text>
-
-<buy-btn url="https://ctpsy.podia.com/heritage-familial"></buy-btn>
 
 ## Programme
 
@@ -164,15 +159,12 @@ Il est donc basé sur la **systémie familiale** et non pas sur la psychanalyse 
 
 </expandable>
 
-<pictos-atelier></pictos-atelier>
-
-<presentation></presentation>
-
-<buy-btn  url="https://ctpsy.podia.com/heritage-familial"></buy-btn>
+<pictos-atelier titleclock="10 modules" subtitleclock="16 vidéos"></pictos-atelier>
 
 ## Témoignages
 
-<testimonials>
+<Vue-Horizontal>
+
 <testimonial author="Sonia" image="woman1">
   C'est vraiment très bien expliqué pas à pas, c'est bienveillant et il y a de nombreux exemples compréhensibles pour une personne qui n’a jamais été voir un psy ! J’ai des pistes de réflexion, là concrètement dessinées sous les yeux.
 </testimonial>
@@ -185,10 +177,12 @@ Ca m'a permis de comprendre certains traits de caractère de ma propre personnal
 Ca m'a permis de découvrir une méthode de résolution pour lesdites questions qui semble facile et rapide à mettre en oeuvre.
 </testimonial>
 
-<testimonial author="Clément" image="man2">
-La visualisation c’est top, je ne savais pas trop à quoi m’attendre voir un peu sceptique et finalement c’est très instructif.
+<testimonial author="Marianne" image="man2">
+Juste un petit mot pour vous dire que j'ai terminé votre formation sur l'héritage familial, et j'ai adoré ! Elle est ludique, riche et très claire. Merci beaucoup !
 </testimonial>
-</testimonials>
+</section>
+
+</Vue-Horizontal>
 
 <embed-youtube>5V_kes52H-M</embed-youtube>
 

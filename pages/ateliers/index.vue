@@ -5,7 +5,15 @@
       <div
         class="container mx-auto py-5 px-5 md:w-10/12 lg:w-9/12 xl:w-7/12 content"
       >
-        <h2>Tous les ateliers de psychologie</h2>
+        <h2>Tous nos Ateliers Psy</h2>
+
+        <p>
+          Les Ateliers psy de Catherine La Psy n’ont pas pour vocation de
+          remplacer une psychothérapie en face à face. Ils sont là pour vous
+          accompagner sur des sujets précis à votre rythme, chez vous, avec
+          toutes les ressources nécessaires pour effectuer vous-même un premier
+          travail
+        </p>
         <ListAlternate :items="ateliers"> </ListAlternate>
       </div>
     </div>
@@ -15,7 +23,10 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const ateliers = await $content("ateliers").where({isDisplayed: true}).sortBy("order", "desc").fetch();
+    const ateliers = await $content("ateliers")
+      .where({ isDisplayed: true })
+      .sortBy("order", "desc")
+      .fetch();
     return { ateliers };
   },
   data() {
@@ -24,7 +35,7 @@ export default {
         title: "Tous les ateliers",
         logo: "computer.svg",
         description:
-          "Je vous propose des ateliers de psychologie en ligne à destination des particuliers et des professionnels.",
+          "Des ateliers de psychothérapie à destination des particuliers et professionnels.",
       },
     };
   },

@@ -1,6 +1,6 @@
 <template>
-  <div class="overflow-hidden bg-gradient-to-r from-emerald-700 to-emerald-500">
-    <div class="container md:mx-auto mt-8 md:mt-0 px-5">
+  <div class="overflow-hidden bg-gradient-to-r from-primaryDark to-primary">
+    <div class="container text-center md:text-left mx-auto mt-8 md:mt-0 px-5">
       <div class="md:flex items-center">
         <div class="text-center flex-1">
           <h1 class="text-white">
@@ -9,17 +9,23 @@
               <div class="title_site_1 inline-block">la</div>
               <div class="title_site_2 inline-block">Psy</div>
             </div>
+            <div class="mt-10 text-white subtitle md:max-w-lg">
+              <h1 class="text-3xl md:text-4xl">
+                {{ subtitle }}
+                <p class="text-lg md:text-xl">{{ explanation }}</p>
+              </h1>
+            </div>
           </h1>
         </div>
         <div class="flex-1">
           <nuxt-picture
-            src="home/catefab.webp"
-            height="550"
+            src="images/catefab-photo-small.webp"
+            height="650"
             format="webp"
-            width="850"
+            width="650"
             size=""
-            class="mt-10"
             quality="70"
+            fit="fill"
             alt="Portraits de Catherine et Fabien"
           />
         </div>

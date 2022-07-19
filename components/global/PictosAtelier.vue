@@ -1,15 +1,32 @@
 <template>
   <div class="md:flex flex-wrap md:justify-arround mb-8">
-    <div class="md:w-1/3 mt-10 md:mt-5 px-5 text-center">
+    <div v-if="displayclock" class="md:flex-1 mt-5 px-5 text-center container">
+      <img
+        src="@/assets/pictos-ateliers/clock.png"
+        class="mx-auto"
+        alt=""
+        width="80"
+        height="80"
+      />
+
+      <p class="mt-3">
+        <span class="text-lg font-semibold text-primary">
+          {{ titleclock }} <br />
+        </span>
+        {{ subtitleclock }}
+      </p>
+    </div>
+
+    <div v-if="displayupdate" class="md:flex-1 mt-10 md:mt-5 px-5 text-center">
       <img
         class="mx-auto"
-        src="@/assets/update.svg"
+        src="@/assets/pictos-ateliers/update.png"
         alt=""
-        width="100"
-        height="100"
+        width="80"
+        height="80"
       />
-      <p>
-        <span class="text-lg font-semibold text-teal-700"
+      <p class="mt-3">
+        <span class="text-lg font-semibold text-primary"
           >Mises à jour gratuites</span
         >
         <br />
@@ -24,45 +41,88 @@
       <p>Accédez à votre atelier d'où vous voulez, quand vous voulez.</p>
     </div> -->
 
-    <div class="md:w-1/3 mt-5 px-5 text-center">
+    <div v-if="displayloop" class="md:flex-1 mt-5 px-5 text-center">
       <img
         class="mx-auto"
-        src="@/assets/infinite.svg"
+        src="@/assets/pictos-ateliers/infinite.png"
         alt=""
-        width="100"
-        height="100"
+        width="80"
+        height="80"
       />
-      <p>
-        <span class="text-lg font-semibold text-teal-700">Accès illimité</span>
+      <p class="mt-3">
+        <span class="text-lg font-semibold text-primary">{{ titleloop }}</span>
         <br />
-        Prenez votre temps, vous avez accès à l'atelier autant de temps que vous
-        le souhaitez
+        {{ subtitleloop }}
       </p>
     </div>
 
-    <div class="md:w-1/3 mt-5 px-5 text-center container">
+    <div v-if="displayfolder" class="md:flex-1 mt-5 px-5 text-center container">
       <img
-        src="@/assets/facebook.svg"
+        src="@/assets/pictos-ateliers/folder.png"
         class="mx-auto"
         alt=""
-        width="100"
-        height="100"
+        width="80"
+        height="80"
       />
 
-      <p>
-        <span class="text-lg font-semibold text-teal-700">
-          Groupe Facebook de soutien
-        </span>
-        <br />
-        Ne restez pas bloqué(e)s et posez vos questions sur un groupe Facebook
-        dédié
+      <p class="mt-3">
+        <span class="text-lg font-semibold text-primary">
+          {{ titlefolder }}</span
+        ><br />
+        {{ subtitlefolder }}
       </p>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+import { stringify } from "querystring";
+
+export default {
+  props: {
+    displayclock: {
+      type: Boolean,
+      default: true,
+    },
+    titleclock: {
+      type: String,
+      default: "",
+    },
+    subtitleclock: {
+      type: String,
+      default: "",
+    },
+    displayloop: {
+      type: Boolean,
+      default: true,
+    },
+    titleloop: {
+      type: String,
+      default: "Accès illimité",
+    },
+    subtitleloop: {
+      type: String,
+      default:
+        "Prenez votre temps, vous avez accès à l'atelier autant de temps que vous le souhaitez",
+    },
+    displayupdate: {
+      type: Boolean,
+      default: true,
+    },
+    displayfolder: {
+      type: Boolean,
+      default: true,
+    },
+    titlefolder: {
+      type: String,
+      default: "Des documents de travail ",
+    },
+    subtitlefolder: {
+      type: String,
+      default: "pour vous accompagner",
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped></style>
