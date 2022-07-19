@@ -3,14 +3,7 @@
     <div class="shadow-2xl">
       <div class="container mx-auto py-5 px-5">
         <div class="md:flex items-center">
-          <div class="hidden md:block flex-initial">
-            <img
-              :src="require('@/assets/chevron.svg')"
-              width="128px"
-              height="128px"
-              alt=""
-            />
-          </div>
+          <div class="hidden md:block flex-initial"></div>
           <div class="md:flex-grow">
             <h2>{{ message.title }}</h2>
             <p>{{ message.content }}</p>
