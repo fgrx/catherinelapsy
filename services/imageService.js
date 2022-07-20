@@ -1,6 +1,7 @@
 export default {
   formatImage: function (dataObject, format) {
-    const { url, width, height } = dataObject.data.attributes.formats[format];
+    const { url, width, height } = this.getImageFormat(dataObject, format);
+
     const { name, caption, alternativeText } = dataObject.data.attributes;
     const image = {
       url,
@@ -12,5 +13,17 @@ export default {
     };
 
     return image;
+  },
+
+  getImageFormat(dataObject, format) {
+    const formats = dataObject.data.attributes.formats;
+
+    if (formats && formats[format]) {
+      const { url, width, height } = formats[format];
+      return { url, width, height };
+    } else {
+      const { url, width, height } = dataObject.data.attributes;
+      return { url, width, height };
+    }
   },
 };
