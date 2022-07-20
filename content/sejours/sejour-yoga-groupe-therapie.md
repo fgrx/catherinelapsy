@@ -87,7 +87,7 @@ Repas du soir
 
 <Countdown :showbeforedays=10 deadline="2022-08-15 23:59:00">Fin des prix "early birds"</Countdown>
 
-750€ avant le 15 septembre 2022 790€ après le 15 aout 2022
+750€ avant le 15 aout 2022, 790 ensuite
 
 <u>Le règlement se fait en 2 temps</u> :
 

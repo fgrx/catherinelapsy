@@ -9,7 +9,7 @@
 
         <p>
           Des séjours de plusieurs jours pour travailler sur soi de manière
-          intensive dans des cadres buccoliques.
+          intensive dans des cadres bucoliques.
         </p>
 
         <ListAlternate :items="sejours"> </ListAlternate>
