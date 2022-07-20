@@ -8,16 +8,19 @@
           class="container mx-auto bg-gray-100 -m-14 py-12 pb-24 px-5 md:px-12 md:w-10/12 lg:w-9/12 xl:w-7/12 content"
         >
           <nuxt-img
-            :src="doc.image"
+            :src="doc.image.url"
             format="webp"
             sizes="850px"
             fit="inside"
             class="mb-7"
-            v-if="doc.image"
-            :alt="doc.imageAlt"
+            v-if="doc.image.url"
+            :alt="doc.image.alt"
           ></nuxt-img>
 
-          <nuxt-content class="content" :document="doc"></nuxt-content>
+          <nuxt-content
+            class="content"
+            :document="contentInMarkdown"
+          ></nuxt-content>
         </div>
       </div>
     </article>
@@ -30,11 +33,21 @@
 
 <script>
 import Newsletter from "@/components/home/Newsletter";
+import imageService from "~/services/imageService";
+import { parseMarkdown } from "@/utils/parseMarkdown";
 
 export default {
-  async asyncData({ $content, params }) {
-    const doc = await $content("posts", params.slug || "index").fetch();
-    return { doc };
+  async asyncData({ $config: { serverAPI }, params }) {
+    const { data } = await fetch(
+      `${serverAPI}/posts/?filters[slug]=${params.slug}&populate=*`
+    ).then((res) => res.json());
+
+    const doc = data[0].attributes;
+    doc.image = imageService.formatImage(doc.image, "large");
+
+    const contentInMarkdown = await parseMarkdown(doc.content);
+
+    return { doc, contentInMarkdown };
   },
   head() {
     return {
