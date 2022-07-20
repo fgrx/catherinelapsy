@@ -13,9 +13,21 @@
 </template>
 
 <script>
+import imageService from "@/services/imageService";
+
 export default {
-  async asyncData({ $content, params }) {
-    const posts = await $content("posts").sortBy("date", "desc").fetch();
+  async asyncData({ $config: { serverAPI }, $content, params }) {
+    const { data } = await fetch(
+      `${serverAPI}/posts?sort=date:desc&pagination[limit]=10000&fields=title,description,slug&populate=image`
+    ).then((res) => res.json());
+
+    const posts = data.map((element) => {
+      const post = element.attributes;
+      post.dir = "posts";
+      post.image = imageService.formatImage(element.attributes.image, "small");
+      return post;
+    });
+
     return { posts };
   },
   data() {
@@ -28,6 +40,7 @@ export default {
       },
     };
   },
+
   head() {
     return {
       title: this.doc.title,

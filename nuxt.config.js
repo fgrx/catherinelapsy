@@ -3,12 +3,18 @@ import getRoutes from "./utils/getRoutes";
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: "static",
-
+  publicRuntimeConfig: {
+    serverAPI: process.env.SERVER_API || "http://localhost:1337/api",
+  },
+  privateRuntimeConfig: {
+    serverAPI: process.env.SERVER_API || "http://localhost:1337/api",
+  },
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     htmlAttrs: {
       lang: "fr",
     },
+
     title: "Catherine La Psy",
     meta: [
       { charset: "utf-8" },

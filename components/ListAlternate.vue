@@ -16,16 +16,13 @@
       >
         <!-- <EmbedYoutube v-if="item.video">{{ item.video }}</EmbedYoutube> -->
 
-        <nuxt-link v-if="item.image" :to="`${item.dir}/${item.slug}`">
-          <nuxt-img
-            :src="item.image"
-            sizes="sm:400px"
-            format="webp"
-            height="300"
+        <nuxt-link v-if="item.image.url" :to="`${item.dir}/${item.slug}`">
+          <img
+            :src="item.image.url"
+            :width="item.image.width"
             class="mb-7"
-            v-if="item.image"
-            :alt="item.imageAlt"
-          ></nuxt-img>
+            :alt="item.image.alt"
+          />
         </nuxt-link>
       </div>
 
