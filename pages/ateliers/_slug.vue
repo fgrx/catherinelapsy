@@ -7,38 +7,42 @@
         class="container mx-auto bg-gray-100 -m-14 py-12 pb-24 px-5 md:px-12 md:w-10/12 lg:w-9/12 xl:w-7/12 content"
       >
         <nuxt-img
-          :src="doc.image"
+          :src="doc.image.url"
           format="webp"
           sizes="850px"
           fit="inside"
           class="mb-7"
-          v-if="doc.image"
-          :alt="doc.imageAlt"
+          v-if="doc.image.url"
+          :alt="doc.image.alt"
         ></nuxt-img>
-        <div
-          class="text-center"
-          v-if="doc.buyUrl && doc.isOpen && doc.buyStart"
-        >
+
+        <div class="text-center" v-if="doc.purchaseURL && doc.isOpen">
           <div class="md:flex justify-center my-7">
             <BuyBtn
-              :url="doc.buyUrl"
+              :url="doc.purchaseURL"
               :isClosed="!doc.isOpen"
               :discount="discount"
               :price="price"
               class="my-4 md:my-0"
             >
-              <template v-if="doc.isLive"> S'inscrire </template>
+              <template v-if="doc.type === 'Atelier en live'">
+                S'inscrire
+              </template>
               <template v-else> Acheter </template>
             </BuyBtn>
             <ContactButton></ContactButton>
           </div>
         </div>
 
-        <nuxt-content class="content" :document="doc"></nuxt-content>
-        <div class="text-center" v-if="doc.buyUrl && doc.isOpen && doc.buyEnd">
+        <nuxt-content
+          class="content"
+          :document="contentInMarkdown"
+        ></nuxt-content>
+
+        <div class="text-center" v-if="doc.purchaseURL && doc.isOpen">
           <div class="md:flex justify-center">
             <BuyBtn
-              :url="doc.buyUrl"
+              :url="doc.purchaseURL"
               :isClosed="!doc.isOpen"
               :discount="discount"
               :price="price"
@@ -51,7 +55,7 @@
           </div>
         </div>
 
-        <div
+        <!-- <div
           v-if="!doc.isOpen"
           class="bg-dark text-secondary py-8 px-5 mt-10 rounded-md"
         >
@@ -87,13 +91,16 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </article>
 </template>
 
 <script>
+import imageService from "@/services/imageService";
+import { parseMarkdown } from "@/utils/parseMarkdown";
+
 import ContactButton from "@/components/ContactButton.vue";
 import Countdown from "@/components/Countdown.vue";
 
@@ -102,17 +109,23 @@ export default {
     ContactButton,
     Countdown,
   },
-  async asyncData({ $content, params }) {
-    const doc = await $content("ateliers", params.slug || "index")
-      .where({ isDisplayed: true })
-      .fetch();
-    return { doc };
+  async asyncData({ $config: { serverAPI }, params }) {
+    const { data } = await fetch(
+      `${serverAPI}/products/?filters[slug]=${params.slug}&populate=*`
+    ).then((res) => res.json());
+
+    const doc = data[0].attributes;
+    doc.image = imageService.formatImage(doc.image, "large");
+
+    const contentInMarkdown = await parseMarkdown(doc.content);
+
+    return { doc, contentInMarkdown };
   },
   computed: {
     discount() {
       return {
-        discountTitle: this.doc.discountTitle,
-        discountTo: this.doc.discountTo,
+        discountTitle: "Réduction",
+        discountTo: this.doc.discountPrice,
         hasDiscount: this.doc.hasDiscount || false,
       };
     },

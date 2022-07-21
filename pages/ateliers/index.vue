@@ -21,12 +21,24 @@
 </template>
 
 <script>
+import imageService from "@/services/imageService";
+
 export default {
-  async asyncData({ $content, params }) {
-    const ateliers = await $content("ateliers")
-      .where({ isDisplayed: true })
-      .sortBy("order", "desc")
-      .fetch();
+  async asyncData({ $config: { serverAPI }, $content, params }) {
+    const { data } = await fetch(
+      `${serverAPI}/products/?sort=order:desc&filters[isOpen]=true&filters[isDisplayed]=true&filters[type][$contains]=Atelier&populate=*`
+    ).then((res) => res.json());
+
+    const ateliers = data.map((element) => {
+      const atelier = element.attributes;
+      atelier.dir = "ateliers";
+      atelier.image = imageService.formatImage(
+        element.attributes.image,
+        "small"
+      );
+      return atelier;
+    });
+
     return { ateliers };
   },
   data() {

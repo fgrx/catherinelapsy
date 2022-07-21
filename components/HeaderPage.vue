@@ -1,7 +1,6 @@
 <template>
   <div
     :class="`header
-
       pb-14
       md:py-10
       mb-5
@@ -10,13 +9,9 @@
       to-${doc.colorBg2 || 'primaryDark'}`"
   >
     <div class="container mx-auto py-5 px-5 md:w-10/12 lg:w-9/12 xl:w-7/12">
-      <div class="flex items-center">
-        <div class="hidden md:block flex-initial mr-10" v-if="doc.logo">
-          <img
-            :src="require(`@/static/logos/${doc.logo}`)"
-            alt=""
-            class="logo-header"
-          />
+      <div class="flex">
+        <div class="hidden align-top md:block flex-initial mr-10" v-if="logo">
+          <img :src="logo" alt="" class="logo-header" />
         </div>
         <div class="flex-initial">
           <h1
@@ -27,15 +22,15 @@
           >
             {{ doc.title }}
           </h1>
-          <h2 class="text-secondary" v-if="doc.subtitle">{{ doc.subtitle }}</h2>
-          <p
-            :class="`text-left text-xl text-${doc.colorText || 'white'}`"
-            v-if="doc.description"
-          >
-            {{ doc.description }}
-          </p>
         </div>
       </div>
+      <h2 class="text-secondary" v-if="doc.subtitle">{{ doc.subtitle }}</h2>
+      <p
+        :class="`text-left text-xl text-${doc.colorText || 'white'}`"
+        v-if="doc.description"
+      >
+        {{ doc.description }}
+      </p>
     </div>
   </div>
 </template>
@@ -48,12 +43,17 @@ export default {
       default: {},
     },
   },
+  computed: {
+    logo() {
+      return this.doc.logo?.data?.attributes?.url;
+    },
+  },
 };
 </script>
 
 <style scoped>
 .logo-header {
-  height: 180px;
+  height: 130px;
   width: auto;
   transform: rotate(0deg);
 }

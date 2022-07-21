@@ -71,6 +71,7 @@ export default {
     "nuxt-cookie-control",
     "@nuxtjs/pwa",
     "@nuxtjs/sitemap",
+    "@nuxtjs/markdownit",
     [
       "nuxt-compress",
       {
@@ -83,6 +84,16 @@ export default {
       },
     ],
   ],
+
+  markdownit: {
+    preset: "default",
+    linkify: true,
+    breaks: true,
+    use: ["markdown-it-div", "markdown-it-attrs"],
+  },
+  markdownit: {
+    runtime: true, // Support `$md()`
+  },
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
   content: {},
