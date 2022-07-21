@@ -11,17 +11,20 @@
         :key="link.title"
       >
         <a
-          v-if="link.href"
-          :href="link.href"
-          target="blank"
+          v-if="link.target === '_blank'"
+          :href="link.to"
+          target="link.target"
           class="hover:text-secondary"
         >
           <span v-if="link.isLive">Atelier en live</span>
           {{ link.title }}</a
         >
-        <nuxt-link class="hover:text-secondary" v-if="link.to" :to="link.to">
-          <span v-if="link.isLive"> Atelier en live : </span
-          >{{ link.title }}</nuxt-link
+        <nuxt-link
+          class="hover:text-secondary"
+          v-if="link.target !== '_blank'"
+          :to="link.to"
+        >
+          {{ link.title }}</nuxt-link
         >
       </li>
     </ul>

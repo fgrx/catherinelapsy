@@ -147,45 +147,118 @@ export default {
   },
 
   async fetch() {
-    const { menu } = await fetch(
-      `${this.$config.serverAPI}/menus/menu-principal?nested`
-    ).then((res) => res.json());
+    const ateliers = await this.$content("ateliers")
+      .where({ isDisplayed: true })
+      .sortBy("order", "desc")
+      .fetch();
 
-    const links = menu.items.map((item) => {
-      const formatChildrensMenu = () => {
-        if (item.children.length) {
-          return item.children.map((child) => {
-            return {
-              title: child.title,
-              to: child.url,
-              target: child.target,
-              image: "",
-            };
-          });
-        } else {
-          return null;
-        }
+    const menuAteliers = ateliers.map((atelier) => {
+      const menu = {
+        title: atelier.title,
+        isLive: atelier.isLive || false,
+        to: `/ateliers/${atelier.slug}`,
+        image: "",
       };
-
-      return {
-        id: item.id,
-        text: item.title,
-        to: item.url,
-        meta: { subMenu: item.children.length },
-        children: formatChildrensMenu(),
-      };
+      return menu;
     });
 
-    this.links = links;
-    return { links };
+    this.ateliersMenus = menuAteliers;
+
+    const sejours = await this.$content("sejours")
+      .where({ isDisplayed: true })
+      .sortBy("order", "desc")
+      .fetch();
+
+    const menusSejours = sejours.map((sejour) => {
+      const menu = {
+        title: sejour.title,
+        islive: false,
+        to: `/sejours/${sejour.slug}`,
+        image: "",
+      };
+      return menu;
+    });
+
+    this.sejoursMenus = menusSejours;
   },
   fetchOnServer: true,
-
   data() {
     return {
+      ateliers: [],
+      ateliersMenus: [],
+      sejoursMenus: [],
       isOpen: false,
-      links: [],
       linkToDisplay: {},
+      links: [
+        {
+          id: "ateliers",
+          text: "Ateliers Psy",
+          to: "/ateliers",
+          meta: { subMenu: true },
+        },
+        {
+          id: "sejours",
+          text: "Séjours",
+          to: "/sejours",
+          meta: { subMenu: true },
+        },
+        {
+          id: "ressources",
+          text: "Ressources Psy",
+          to: "/ressources-psy",
+          meta: { subMenu: true },
+          children: [
+            {
+              title: "Podcast",
+              to: "/podcast",
+              href: null,
+              image: "",
+            },
+            {
+              title: "Lettre Psy",
+              to: "/emails-prives",
+              href: null,
+              image: "",
+            },
+            {
+              title: "Articles",
+              to: "/posts",
+              href: null,
+              image: "",
+            },
+            {
+              title: "Instagram",
+              to: null,
+              href: "https://www.instagram.com/catherine_la_psy/",
+              image: "",
+            },
+            {
+              title: "Vidéos Youtube",
+              href: null,
+              to: "/videos",
+              image: "",
+            },
+            {
+              title: "Cartes Psy",
+              to: "/latelierpsy",
+              image: "",
+              href: null,
+            },
+          ],
+        },
+        {
+          id: "a-propos",
+          text: "A propos",
+          to: "/qui-sommes-nous",
+          meta: { subMenu: false },
+        },
+        {
+          id: "contact",
+          text: "Contact",
+          to: "/contact",
+          meta: { subMenu: false },
+        },
+      ],
     };
   },
   computed: {
@@ -205,7 +278,6 @@ export default {
       });
     },
   },
-
   methods: {
     drawer() {
       this.isOpen = !this.isOpen;

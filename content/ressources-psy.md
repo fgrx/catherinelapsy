@@ -43,4 +43,4 @@ Notre compte Instagram est là ou tout a commencé. Catherine a d'abord lancé s
 
 Un jeu de carte pour apprendre à mieux se connaitre et à réfléchir sur soi ? Catherine, en collaboration avec Audrey du compte Instagram Psy_Image l'ont fait ! Découvrez le projet en cliquant sur le bouton ci-dessous.
 
-<Link-Btn to="latelierpsy">Les Cartes Psy</Link-BTN>
+<Link-Btn to="latelierpsy">Les Cartes Psy</Link-Btn>
