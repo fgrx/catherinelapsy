@@ -6,7 +6,7 @@
       </Btn>
     </a>
 
-    <nuxt-link v-if="to" :to="url">
+    <nuxt-link v-if="to" :to="to">
       <Btn :color="color" :textColor="text">
         <slot></slot>
       </Btn>

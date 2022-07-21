@@ -13,13 +13,13 @@ bienfaits que vous pouvez en tirer.
 
 Notre Newsletter que vous recevrez gratuitement toutes les deux semaines. Au programme, plusieurs articles sur la psychologie et la psychothérapie. Vous trouverez aussi nos promotions exclusives sur nos ateliers en ligne.
 
-<Link-Btn to="emails-prives">La Lettre Psy</Link-BTN>
+<Link-Btn to="emails-prives">La Lettre Psy</Link-Btn>
 
 ## Articles sur la psychologie et la psychothérapie
 
 Catherine et Fabien écrivent des articles sur la psychologie et la psychothérapie chacun à leur façon. Catherine aborde des sujets techniques et professionnels tandis que Fabien proposera des thèmes plus légers.
 
-<Link-Btn to="posts">Les articles</Link-BTN>
+<Link-Btn to="posts">Les articles</Link-Btn>
 
 ## Notre podcast psy
 
