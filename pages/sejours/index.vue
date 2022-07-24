@@ -28,7 +28,7 @@ export default {
 
     const ateliers = data.map((element) => {
       const atelier = element.attributes;
-      atelier.dir = "ateliers";
+      atelier.dir = "/ateliers";
       atelier.image = imageService.formatImage(
         element.attributes.image,
         "small"
