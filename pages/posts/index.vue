@@ -23,7 +23,7 @@ export default {
 
     const posts = data.map((element) => {
       const post = element.attributes;
-      post.dir = "posts";
+      post.dir = "/posts";
       post.image = imageService.formatImage(element.attributes.image, "small");
       return post;
     });

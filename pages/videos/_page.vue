@@ -50,10 +50,9 @@ export default {
 
     const itemsToDisplay = data.map((element) => {
       const video = element.attributes;
-      video.dir = "videos";
-      console.log(video.image);
+      video.dir = "/videos";
       video.image = imageService.formatImage(video.image, "medium");
-
+      video.url = `https://www.youtube.com/watch?v=${video.url}`;
       return video;
     });
 
